@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<stations>
+	<station Motifentretien="Visite de contrôle (nettoyage baie, entretien site)" alimentation="Armoire BT" code="ABJF" entretien="2022-02-03" latitude="45.573975" longitude="0.760999" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Entretien, Débroussaillage" alimentation="Chargeur de batterie" code="ATE" entretien="2020-10-09" latitude="43.085900" longitude="-0.700700" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Entretien" alimentation="Chargeur de batterie" code="CARF" entretien="2020-10-09" latitude="42.714900" longitude="2.104600" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="Armoire BT" code="CLAF" entretien="2021-09-01" latitude="43.135000" longitude="3.090000" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Contrôle des installations" alimentation="Armoire BT" code="CRAS" entretien="2021-11-04" latitude="43.721000" longitude="0.729200" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Entretien exterieur de la station et du PDL (sous les ronces)." alimentation="Armoire BT" code="DUNF" entretien="2020-09-11" latitude="43.025000" longitude="1.809000" transmission="Routeur/modem 2G/3G/4G"/>
+	<station Motifentretien="" alimentation="Chargeur de batterie" code="FILF" entretien="2020-01-12" latitude="42.560200" longitude="2.417100" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Debroussailler la station,protéger les equipements dans une armoire et refaire l'éléctricité" alimentation="Chargeur de batterie" code="FNEB" entretien="2019-11-10" latitude="42.900000" longitude="2.110000" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="Armoire BT" code="GENF" entretien="2021-05-18" latitude="42.823300" longitude="1.572300" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="entretien" alimentation="Armoire BT" code="IRAF" entretien="2020-09-13" latitude="43.033533" longitude="-1.037053" transmission="Routeur/modem 2G/3G/4G"/>
+	<station Motifentretien="Sécuriser la connexion du câble d'alimentation 220V." alimentation="Armoire BT" code="LABF" entretien="2020-04-30" latitude="43.045900" longitude="0.072700" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="entretien" alimentation="Armoire BT" code="LEUC" entretien="2020-12-09" latitude="44.760550" longitude="2.554120" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="solaire" code="LRDF" entretien="2020-09-12" latitude="42.939000" longitude="2.534000" transmission="modem 56k"/>
+	<station Motifentretien="" alimentation="Chargeur de batterie" code="LRVF" entretien="2020-10-12" latitude="44.950000" longitude="-0.310000" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="- Le gond inférieur de la porte en bois est cassé : changer le gond ou refaire la soudure.&lt;br&gt; - Réaliser la protection contre la condensation.&lt;br&gt;" alimentation="Armoire BT" code="MELF" entretien="2020-06-29" latitude="42.871700" longitude="0.757493" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Débroussaillage, Entretien" alimentation="Chargeur de batterie" code="MLS" entretien="2020-03-03" latitude="42.957800" longitude="1.094700" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="Armoire BT solaire" code="MLZA" entretien="2020-12-12" latitude="43.828328" longitude="-0.127342" transmission="Routeur/modem 2G/3G/4G"/>
+	<station Motifentretien="" alimentation="Chargeur de batterie" code="MONQ" entretien="2021-01-12" latitude="44.370000" longitude="1.200000" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Entretien, Débroussaillage" alimentation="Armoire BT" code="ORDF" entretien="2020-06-04" latitude="43.211910" longitude="-0.937069" transmission="Routeur/modem 2G/3G/4G"/>
+	<station Motifentretien="Entretien, débroussaillage" alimentation="Armoire BT" code="OSSF" entretien="2020-04-01" latitude="43.255800" longitude="-1.261500" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="solaire" code="PAND" entretien="2021-04-12" latitude="42.523700" longitude="1.546100" transmission="Routeur/modem 2G/3G/4G"/>
+	<station Motifentretien="entretien" alimentation="Chargeur de batterie" code="PYAD" entretien="2020-11-05" latitude="43.096700" longitude="-0.428050" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Débroussaillage" alimentation="Chargeur de batterie" code="PYBB" entretien="2020-05-04" latitude="43.058600" longitude="0.148890" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Changement du GPS. Cela nécéssite 20m de rallonge GPS/Numériseur" alimentation="Chargeur de batterie" code="PYHE" entretien="2020-01-01" latitude="43.377500" longitude="-1.749500" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Entretien" alimentation="Chargeur de batterie" code="PYLO" entretien="2021-01-29" latitude="43.096764" longitude="-0.049414" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="Chargeur de batterie" code="PYLU" entretien="2020-11-04" latitude="42.789200" longitude="0.600200" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="entretien baie" alimentation="Chargeur de batterie" code="PYPC" entretien="2020-11-04" latitude="43.295301" longitude="-0.375503" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="Chargeur de batterie" code="PYPD" entretien="2019-07-12" latitude="42.614200" longitude="2.415300" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Changement Modem et entretien" alimentation="Chargeur de batterie" code="PYPP" entretien="2021-12-09" latitude="43.162200" longitude="-1.233610" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="débroussaillage" alimentation="Chargeur de batterie" code="PYPU" entretien="2019-06-12" latitude="43.315000" longitude="-0.365280" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="Chargeur de batterie" code="PYTB" entretien="2020-11-04" latitude="43.225800" longitude="0.048330" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Entretien" alimentation="Armoire BT" code="RESF" entretien="2020-10-09" latitude="42.807000" longitude="0.337900" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="OFF de la fonction redémarrage sur perte de connexion.." alimentation="Armoire BT solaire" code="REYF" entretien="2020-05-01" latitude="43.068300" longitude="-0.393300" transmission="Routeur/modem 2G/3G/4G"/>
+	<station Motifentretien="Nettoyage baie et contrôle des installations." alimentation="Chargeur de batterie" code="SALF" entretien="2020-11-04" latitude="42.759000" longitude="1.188300" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="Chargeur de batterie" code="SJAF" entretien="2021-10-05" latitude="42.483500" longitude="2.876200" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Placer des grilles fines sur les aérations pour empêcher le passage de mouches." alimentation="Armoire BT" code="SLVF" entretien="2021-02-07" latitude="44.191200" longitude="2.164200" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Entretien, débrouissallage" alimentation="Armoire BT" code="TERF" entretien="2020-05-05" latitude="43.678743" longitude="-1.113118" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="" alimentation="Chargeur de batterie" code="URDF" entretien="2019-07-12" latitude="43.438300" longitude="-0.593000" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Contrôle des installations" alimentation="Armoire BT" code="VALC" entretien="2021-11-04" latitude="42.388000" longitude="2.041000" transmission="Routeur/modem ADSL"/>
+	<station Motifentretien="Entretien" alimentation="Chargeur de batterie" code="VIEF" entretien="2020-12-19" latitude="42.882500" longitude="0.022900" transmission="Routeur/modem ADSL"/>
+</stations>

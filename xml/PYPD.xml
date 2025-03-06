@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<!-- fichier PYPD.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYPD</nom>
+	<identifiant>fti/wa229ty</identifiant>
+	<pwd>fd3fzdg</pwd>
+	<ip>80.14.207.199</ip>
+	<tel>04 68 96 25 54</tel>
+	<materielDivers>Chargeur</materielDivers>
+	<lienModem>http://80.14.207.199</lienModem>
+	<lienNumeriseur>http://80.14.207.199:8020</lienNumeriseur>
+	<divers>Avant une intervention, prévenir la mairie (04 68 05 41 00) et l'employé municipal.</divers>
+	<gissmo n="401"/>
+        <entretien date="2019.07.12"/>
+	<historique>
+		<evenement date="2015.02.26" idEvt="150303.144523">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>150303.144523</idEvt>
+			<description>Impossible de dialoguer avec la station Mykérinos</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.02.26</debut>
+			<stationID>PYPD</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.03.19</fin>
+		</evenement>
+		<evenement date="2015.03.20" idEvt="150323.114102">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.03.20</debut>
+			<description>pb de récupération des données </description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150323.114102</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPD</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.04.08</fin>
+		</evenement>
+		<evenement date="2015.03.30" idEvt="150409.092804">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.03.30</debut>
+			<description>Modem HS</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150409.092804</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPD</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.04.10</fin>
+		</evenement>
+		<evenement date="2015.04.10" idEvt="150410.165423">
+			<etat>HS</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>150410.165423</idEvt>
+			<description>La station Mykernios reboot sans s’arrêter.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.04.10</debut>
+			<stationID>PYPD</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.04.25</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2015.04.08">
+			<intervenant>SB</intervenant>
+			<commentaires>La synchro avec le télécode est difficile</commentaires>
+			<evt idEvt="150409.092804"/>
+			<evt idEvt="150323.114102">
+				<commentaire>L'heure de la station Titan3 était décallée d'1H.</commentaire>
+				<fin>2015.04.08</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.04.10">
+			<intervenant>Franck</intervenant>
+			<commentaire>Le signal n'est pas revenu avant le 25 avril.</commentaire>
+			<evt idEvt="150409.092804">
+				<commentaire>Echange du modem</commentaire>
+				<fin>2015.04.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.04.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai donc installé la Centaur à Prades mais impossible de dialoguer via le modem ou directement par le 192.168.1.2 ...
+Finalement par 169.254.33.33 c'est ok mais en local, le paramètres sont pourtant bon ... bizarre.
+En changeant les paramètres DHCP et en faisant &quot;apply&quot; et &quot;submit&quot; la station est visible de l'extérieur ... mais je me demande si la Centaur reboote cela fonctionnera toujours ...eh bien non .... donc il y a un vrai soucis ....
+Je laisse comme ça on verra .... au prochain reboot
+Après avoir observé le signal dans l'après midi, pour Sébastien et Marie, il semble aussi qu'il y ait un soucis, je repasse à Prades pour récupérer Episensor et Centaur et je fais remonter à Toulouse pour nouveaux tests
+			</commentaires>
+		</intervention>
+		<intervention date="2016.04.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai donc changé la Mykérinos par la Centaur ....
+Problème pour dialoguer par 192.168.1.2 en direct ou via le modem mais ça passe avec 169.254.33.33
+Nous suspectons que la Centaur n'apprécie pas le reboot, pourtant les paramètres sont ok .... bizarre.
+Nous tentons de changer le mode TCip par DHCP puis de revenir en TCip, &quot;apply&quot; &quot;submit&quot; ..... et tout refonctionne même depuis Toulouse ....
+Et donc nous rebootons la Centaur et ? ça ne fonctionne plus .... nous refaisons la manip: changer le mode TCip par DHCP puis de revenir en TCip, &quot;apply&quot; &quot;submit&quot; et ça remarche.
+On laisse ainsi tout le reste fonctionne il faut souhaiter qu'elle ne reboote pas.
+L'antenne GPS est installée sur le mur &quot;est&quot; de la mairie, le cable cour le long du trottoir dans une rainure. je mets trois photos pour visualiser.
+Rebondissement dans l'après midi, Sébastien m'informe que le signal n'est pas top ... et que le mieux serait de rapatrier la Centaur mais aussi le capteur et son câble .... je repasse donc par Prades et vous fait passer le matos ce vendredi à l'acceuil Belin.
+			</commentaires>
+		</intervention>
+		<intervention date="2016.06.09">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Installation de la Centaur S/N 00491 (C'est celle qui a eu des problèmes à Arudy, elle est revenue... en bonne état de marche).
+Installation de l'episcensor S/N 2389. Je n'ai pas trouvé facile d'orienter ce capteur avec le trait N/S (Cf photo).
+Le signal est correct.
+			</commentaires>
+		</intervention>
+	</interventions>
+</station>

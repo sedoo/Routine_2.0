@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!-- fichier PYAT.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYAT</nom>
+        <entretien date="2021.07.12"/>
+	<historique>
+		<evenement date="2013.10.20" idEvt="140408.144941">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140408.144941</idEvt>
+			<description>Les signal de la voie Z part dans tous les sens.</description>
+			<battCharg>OK</battCharg>
+			<debut>2013.10.20</debut>
+			<stationID>PYAT</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>HS</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.12.23</fin>
+		</evenement>
+		<evenement date="2015.12.23" idEvt="150116.095431">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>150116.095431</idEvt>
+			<description>La station à été déplacée sur le site d'ATE</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.12.23</debut>
+			<stationID>PYAT</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>HS</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.12.23</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.12.23">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La station a été déplacée sur le site d'ATE</commentaires>
+		</intervention>
+	</interventions>
+</station>

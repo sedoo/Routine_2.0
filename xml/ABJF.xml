@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<!-- fichier ABJF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>ABJF</nom>
+	<identifiant>fti/4hf2utu</identifiant>
+	<pwd>ttz49ud</pwd>
+	<ip>80.11.220.115</ip>
+	<tel>05 53 56 41 38</tel>
+        
+	<lienNumeriseur>http://80.11.220.115</lienNumeriseur>
+	<entretien date="2022.02.03" motif="Visite de contrôle (nettoyage baie, entretien site)"/>
+        
+	<divers> </divers>
+	<historique>
+		<evenement date="2019.10.01" idEvt="191001.085735">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.10.01</debut>
+			<description>Depuis le 15 août 2019, on observe de nombreux glitchs sur les voies horizontales qui perturbent le signal à BF. Intervention nécessaire pour vérifier la tension du câble, le niveau de sable et au pire ré-installer la capteur.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191001.085735</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ABJF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.02.03</fin>
+		</evenement>
+		<evenement date="2019.10.30" idEvt="191031.095813">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.10.30</debut>
+			<description>Perte secteur le 30/10/19 vers 4h00TU</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>191031.095813</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ABJF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.15</fin>
+		</evenement>
+		<evenement date="2019.11.14" idEvt="191115.164326">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.14</debut>
+			<description>Batterie déchargée, plus aucun signe de vie de la station depuis le 14/11.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191115.164326</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ABJF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.15</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2019.07.12">
+			<intervenant>Hélène et Frank</intervenant>
+			<commentaires>
+				INSTALLATION MATÉRIEL SCIENTIFIQUE &lt;br&gt;
+A notre arrivée, la station était sous les ronces.&lt;br&gt;
+RDV Orange pour mise en service ADSL.&lt;br&gt;
+Installation des armoires ABAC (cf photo). Le ventilateur est branché et réglé sur 45°C &lt;br&gt;
+Installation du capteur en fond de puits (pas de sable au fond). La lampe torche est tombée en panne, nous avons installé le capteur &quot;à l'aveugle&quot; et fait la mesure d'orientation avec un capteur en surface (cf photo).&lt;br&gt;
+Le capteur est orienté à -12°N.&lt;br&gt;
+Le lendemain, nous avons ensablé le capteur après un contrôle visuel pour s&quot;assurer que celui-ci n'est pas en contact avec les parois du tube.&lt;br&gt;
+Pose du couvercle de la tête de puits et du bouchon en polystyrène (cf photo).&lt;br&gt;
+Nous avons laissé une clé à la mairie et il ne faut pas hésiter à les contacter pour une intervention ponctuelle type réarmement du PDL.&lt;br&gt;
+Tél mairie :  05 53 56 81 08 &lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.07.17">
+			<intervenant>Hélène</intervenant>
+			<commentaires>La liaison ADSL ne fonctionne pas. Un technicien est passé sur site. Il y'a un défaut après la prise DTI de notre côté. Je lui ai demandé de shunter le parafoudre mais le modem ne se synchronise pas. Il faut donc prévoir un déplacement sur site avec un modem de rechange. Je prévois de passer sur site soit en me rendant à mon stage de Tai-chi, soit en août.</commentaires>
+		</intervention>
+		<intervention date="2019.08.07">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Perte de communication le 11/07/2019 à 19h00, le jour même de l'installation, 7h00 après notre départ du site.&lt;br&gt;
+A mon arrivée la led &quot;on&quot; du modem est rouge. Il s'éteint et revient sur la led rouge régulièrement.&lt;br&gt;
+A partir de l'IHM du TBOX, j'ai fait un off/on sur l'alimentation qui a stoppé ce pb. J'ai pour l'instant supprimé la fonction redémarrage sur perte de connexion sachant que un reboot automatique du modem est programmé toutes les nuits à 1h00. J'ai également branché la deuxième alim du modem sur l'alimentation scientifique 4.&lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.10.31">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel mairie : un technicien va essayer de se rendre sur site cet après-midi pour remonter le disjoncteur.</commentaires>
+			<evt idEvt="191031.095813">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="191001.085735">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.04">
+			<intervenant>Hélène</intervenant>
+			<evt idEvt="191031.095813">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="191001.085735">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.28">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Le disjoncteur qui alimente la platine TBT est en bas. Quand je le remonte, il saute instantanément. J'ai débranché A13 sur la carte CGE et le disjoncteur ne saute plus ==&gt; XP-power HS.
+Les batteries sont à 20V et tout est éteint (y compris la Centaur).
+J'ai laissé un module de chauffage dans la baie.
+J'ai cassé la clé dans la serrure de la fermeture de la baie. J'ai du démonter le système de fermeture pour sortir le bout de clé. La baie est bien fermée à clé mais le système de fermeture est fragile.
+J'ai collé le panneau RESIF sur la baie.
+			</commentaires>
+			<evt idEvt="191115.164326">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="191031.095813">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="191001.085735">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.15">
+			<intervenant>Sébastien et Hélène</intervenant>
+			<commentaires>On a également mis 2 sondes de température et réparé la serrure de la porte de la baie.</commentaires>
+			<evt idEvt="191115.164326">
+				<commentaire>
+				</commentaire>
+				<fin>2020.01.15</fin>
+			</evt>
+			<evt idEvt="191031.095813">
+				<commentaire>Changement du XP-Power. En place S/N K15040161</commentaire>
+				<fin>2020.01.15</fin>
+			</evt>
+			<evt idEvt="191001.085735">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.03">
+			<intervenant>Hélène</intervenant>
+			<commentaires>PSD (pièces jointes) depuis la remise en service le 16/01/2020. Le signal est correct.</commentaires>
+			<evt idEvt="191001.085735">
+				<commentaire>
+				</commentaire>
+				<fin>2020.02.03</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

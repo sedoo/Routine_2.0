@@ -1,0 +1,443 @@
+<?xml version="1.0" ?>
+<!-- fichier ORDF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>ORDF</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>omp-ordf.dyndns.info</ip>
+	<tel>05 59 28 38 15</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>http://omp-ordf.dyndns.info:8080</lienModem>
+	<lienNumeriseur>http://omp-ordf.dyndns.info</lienNumeriseur>
+	<divers>Tauzin Bernard 06.84.59.93.27</divers>
+        
+	<entretien date="2020.06.04" motif="Entretien, Débroussaillage"/>
+	<historique>
+		<evenement date="2014.06.16" idEvt="140616.093821">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140616.093821</idEvt>
+			<description>Le signal n'est pas amorti (rajouter les résistances d'amortissement)</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.06.16</debut>
+			<stationID>ORDF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.05</fin>
+		</evenement>
+		<evenement date="2014.12.01" idEvt="141201.095608">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>141201.095608</idEvt>
+			<description>De nombreuses impulsions apparaissent sur le signal.</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.12.01</debut>
+			<stationID>ORDF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.05</fin>
+		</evenement>
+		<evenement date="2015.02.05" idEvt="150205.191703">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>150205.191703</idEvt>
+			<description>Batterie de type gel déchargée</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.02.05</debut>
+			<stationID>ORDF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.05</fin>
+		</evenement>
+		<evenement date="2015.02.21" idEvt="150303.144852">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>150303.144852</idEvt>
+			<description>Friture sur la ligne appel Orange, rien à faire de concret à part faire déplacer un technicien .... Le Modem était tout de même planté, après un on/off tout est ok</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.02.21</debut>
+			<stationID>ORDF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.05</fin>
+		</evenement>
+		<evenement date="2015.03.05" idEvt="150305.185406">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>150305.185406</idEvt>
+			<description>Friture sur la ligne appel Orange, rien à faire de concret à part faire déplacer un technicien .... Le Modem était tout de même planté, après un on/off tout est ok</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.03.05</debut>
+			<stationID>ORDF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.05</fin>
+		</evenement>
+		<evenement date="2015.03.06" idEvt="150306.090412">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.03.06</debut>
+			<description>Le problème est toujours présent et la station est de nouveau injoignable.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150306.090412</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.03.10</fin>
+		</evenement>
+		<evenement date="2015.03.12" idEvt="150312.083447">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>150312.083447</idEvt>
+			<description>Le superviseur et la station fonctionnent bien, mais impossible de faire dialoguer les 2 ensemble. Pb du à la batterie qui était à plat mais que les panneaux alimentaient suffisement pour que cela fonctionne mais pas assez pour le dialogue.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.03.12</debut>
+			<stationID>ORDF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.10</fin>
+		</evenement>
+		<evenement date="2016.01.07" idEvt="160107.090517">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.01.07</debut>
+			<description>Le signal est filtré sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160107.090517</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.10.13</fin>
+		</evenement>
+		<evenement date="2017.06.08" idEvt="170608.093838">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.06.08</debut>
+			<description>Les voies Z et E sont plates : il semblerait que le sismo soit débullé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170608.093838</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.06.13</fin>
+		</evenement>
+		<evenement date="2017.06.29" idEvt="170629.085414">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.06.29</debut>
+			<description>De nombreux parasites apparaissent sur les trois voies.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170629.085414</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.01.11</fin>
+		</evenement>
+		<evenement date="2018.01.12" idEvt="180112.085316">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.01.12</debut>
+			<description>filtre sur les voies horizontales.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180112.085316</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.01.18</fin>
+		</evenement>
+		<evenement date="2018.05.01" idEvt="180529.084149">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.05.01</debut>
+			<description>Des impulsions apparaissent sur les trois voies.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180529.084149</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.27</fin>
+		</evenement>
+		<evenement date="2018.06.22" idEvt="180625.084617">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.06.22</debut>
+			<description>La tension baisse depuis le 22/6.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>180625.084617</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.27</fin>
+		</evenement>
+		<evenement date="2018.09.06" idEvt="180906.084949">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.09.06</debut>
+			<description>Voie E HS.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180906.084949</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.02.14</fin>
+		</evenement>
+		<evenement date="2019.05.07" idEvt="190507.144332">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.05.07</debut>
+			<description>Pas de liaison avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190507.144332</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.05.09</fin>
+		</evenement>
+		<evenement date="2019.09.06" idEvt="190909.104231">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.06</debut>
+			<description>Une mauvaise configuration de l'armoire entraîne des rebots en continu du modem GSM.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190909.104231</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.12</fin>
+		</evenement>
+		<evenement date="2019.12.20" idEvt="191220.084656">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.20</debut>
+			<description>Perte d'alimentation.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191220.084656</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ORDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.20</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2015.02.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Pb de dialogue avec la station, le superviseur pose problème, je l'ai changé et mis une alimentation séparée pour la Titan</commentaires>
+			<evt idEvt="141201.095608"/>
+			<evt idEvt="140616.093821"/>
+		</intervention>
+		<intervention date="2015.02.05">
+			<intervenant>Frank</intervenant>
+			<commentaires>Friture sur la ligne appel Orange, rien a faire de concret à part faire déplacer un technicien .... Le Modem était tout de même planté, après un on/off tout est ok</commentaires>
+		</intervention>
+		<intervention date="2015.03.10">
+			<intervenant>Frank</intervenant>
+			<commentaires>Le superviseur et la station fonctionnent bien, mais impossible de faire dialoguer les 2 ensemble. Pb du à la batterie qui était à plat mais que les panneaux alimentaient suffisement pour que cela fonctionne mais pas assez pour le dialogue</commentaires>
+			<evt idEvt="150306.090412">
+				<commentaire>batterie changée.</commentaire>
+				<fin>2015.03.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.10.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La capteur avait effectivement bougé. A noter également que la connectique (bague) sur le capteur ne fait plus le serrage, l'oxydation l'a complètement usée.</commentaires>
+			<evt idEvt="160107.090517">
+				<commentaire>Capteur re-bullé</commentaire>
+				<fin>2016.10.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.06.13">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="170608.093838">
+				<commentaire>capteur rebullé</commentaire>
+				<fin>2017.06.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.01.11">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				La connectique capteur et la connectique câble sont usées et rongées par l'acide de la terre, la connection ne se faisait plus, car la bague de serrage ne serrait plus ...
+Cable et capteur changés, ainsi que la Minititan 3 NT RI0260010 par la RI0260001
+			</commentaires>
+			<evt idEvt="170629.085414">
+				<commentaire>Chaine complète changée</commentaire>
+				<fin>2018.01.11</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.01.18">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>j'ai mis une dalle granit sous le capteur et creusé un peu plus profond le trou éxistant</commentaires>
+			<evt idEvt="180112.085316">
+				<commentaire>capteur ré-installé</commentaire>
+				<fin>2018.01.18</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.27">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>la batterie était à 10,80v non alimentée, j'ai changé le régulateur et la batterie car le panneau est ok.</commentaires>
+			<evt idEvt="180625.084617">
+				<commentaire>Batterie changée</commentaire>
+				<fin>2018.06.27</fin>
+			</evt>
+			<evt idEvt="180529.084149">
+				<commentaire>
+				</commentaire>
+				<fin>2018.06.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.24">
+			<intervenant>Frank et Helene</intervenant>
+			<commentaires>
+				Installation de la station LB : capteur T120PH à 6m; Centaur et armoire ABAC. La station communique via un modem 3G. &lt;br&gt;
+Le capteur a été placé avec les tiges et il est parfaitement orienté.
+On a fait une mesure d'orientation en plaçant le capteur dans la buse intermédiaire mais il n'y avait pas de marque au gyrocompas.
+La différence d'orientation entre le capteur surface et le capteur fond de puits est de -5°.&lt;br&gt;
+Étant donné l'incertitude d'orientation du capteur surface, je décide de privilégier le calage à vue du capteur fond de puits, orientation au nord parfaite.&lt;br&gt;
+Si une mesure d'orientation doit être refaite, il faut avoir un gyrocompas.&lt;br&gt;
+			</commentaires>
+			<evt idEvt="180906.084949">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.02.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Bonjour, 
+la station RSSP a été entièrement démontée, la batterie et le panneau solaire ont été récupérées par Bernard Tauzin qui peut être notre interlocuteur sur place en cas de soucis avec la station RESIF. Son numéro de portable : 06.84.59.93.27
+J'ai profité de cette visite pour regarder la nouvelle installation et aucun soucis à signaler, armoire très propre à l'intérieur.
+			</commentaires>
+			<evt idEvt="180906.084949">
+				<commentaire>capteur retiré</commentaire>
+				<fin>2019.02.14</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.07">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190507.144332">
+				<commentaire>Appel FT: Un problème a été identifié au niveau de notre materiel.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.09">
+			<intervenant>Hélène</intervenant>
+			<evt idEvt="190507.144332">
+				<commentaire>La liaison est revenue le 7/05/2019 à 16h00 TU</commentaire>
+				<fin>2019.05.09</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.26">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>passage à Ordiarp pour entretien et donner à Enedis la référence du disjoncteur sur le PDL car il se pouvait que ce disjoncteur pose problème. Au final notre disjoncteur ne pose pas de soucis.</commentaires>
+		</intervention>
+		<intervention date="2019.09.12">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>OFF de la fonction redémarrage sur perte de connexion.., aspirateur et rotofil. La végétation n'attendra pas un an ...</commentaires>
+			<evt idEvt="190909.104231">
+				<commentaire>OFF de la fonction redémarrage sur perte de connexion..</commentaire>
+				<fin>2019.09.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.12">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>modif paramètres reboot Modem</commentaires>
+		</intervention>
+		<intervention date="2019.12.20">
+			<intervenant>---</intervenant>
+			<evt idEvt="191220.084656">
+				<commentaire>Le courant semble rétabli.</commentaire>
+				<fin>2019.12.20</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supervision>
+    <probleme station="ATE" probleme="glitchs" debut="2019.05.06" />
+    <probleme station="URDF" probleme="bruit" debut="2019.04.06" />
+</supervision>

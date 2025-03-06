@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<station code="PYAD">
+	<Code>PYAD</Code>
+	<Name>Arudy</Name>
+	<Latitude>43.096700</Latitude>
+	<Longitude>-0.428050</Longitude>
+	<Elevation>450.0</Elevation>
+	<Equipement>
+		<equipement>
+			<name>Nanometrics Centaur</name>
+			<type>Datalogger</type>
+			<serial_number>708</serial_number>
+			<manufacturer>Nanometrics</manufacturer>
+			<station>https://gissmo.unistra.fr/api/v1/sites/384/</station>
+			<status>Running</status>
+		</equipement>
+		<equipement>
+			<name>Kinemetrics ES-T </name>
+			<type>Accelerometer</type>
+			<serial_number>4133</serial_number>
+			<manufacturer>Kinemetrics</manufacturer>
+			<station>https://gissmo.unistra.fr/api/v1/sites/384/</station>
+			<status>Running</status>
+		</equipement>
+		<equipement>
+			<name>MuLogic RSA-1120</name>
+			<type>Routeur/modem ADSL</type>
+			<serial_number>00:24:55:07:64:A4</serial_number>
+			<manufacturer>MuLogic</manufacturer>
+			<station>https://gissmo.unistra.fr/api/v1/sites/384/</station>
+			<status>Running</status>
+		</equipement>
+	</Equipement>
+</station>

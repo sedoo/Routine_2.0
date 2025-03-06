@@ -1,0 +1,365 @@
+<?xml version="1.0" ?>
+<!-- fichier CRAS.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>CRAS</nom>
+	<identifiant>fti/zv6g32b</identifiant>
+	<pwd>zqkyxrd</pwd>
+	<ip>82.127.41.213</ip>
+	<tel>05 62 07 00 56</tel>
+	<lienModem>http://82.127.41.213:8080</lienModem>
+	<lienNumeriseur>http://82.127.41.213</lienNumeriseur>
+	<divers>Tel. personnel du maire (Mr Gissot en 2018) 06 42 77 17 61. Tel mairie 09 79 72 17 71.</divers>
+        
+	<entretien date="2021.11.04" motif="Contrôle des installations"/>
+	<historique>
+		<evenement date="2019.03.11" idEvt="190311.092324">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.03.11</debut>
+			<description>Pas de connexion avec la station depuis le 11/03. De plus, un problème de baisse de tension semble apparaître sur synapse lors des dernières info.</description>
+			<battCharg>???</battCharg>
+			<signal>???</signal>
+			<idEvt>190311.092324</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>CRAS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.03.12</fin>
+		</evenement>
+		<evenement date="2019.04.08" idEvt="190409.084923">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.04.08</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190409.084923</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>CRAS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.04.10</fin>
+		</evenement>
+		<evenement date="2019.08.16" idEvt="190816.094131">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.08.16</debut>
+			<description>Un technicien d'Orange est déjà dans le secteur car plusieurs lignes sont concernées. Le pb doit être rétabli avant ce soir 18h00.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190816.094131</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>CRAS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.16</fin>
+		</evenement>
+		<evenement date="2019.09.09" idEvt="190909.103858">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.09</debut>
+			<description>Pb Orange: un technicien doit intervenir.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190909.103858</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>CRAS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.10</fin>
+		</evenement>
+		<evenement date="2019.10.03" idEvt="191003.170211">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.10.03</debut>
+			<description>Coupures fréquentes de la connexion avec la station. Le signal arrive quand même à être récupéré.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191003.170211</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>CRAS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.10.30</fin>
+		</evenement>
+		<evenement date="2020.01.01" idEvt="200108.101707">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2020.01.01</debut>
+			<description>L'état des communication est très mauvais et n'a pas l'air d'aller en s'arrangeant.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200108.101707</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>CRAS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.20</fin>
+		</evenement>
+		<evenement date="2020.02.03" idEvt="200203.085401">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2020.02.03</debut>
+			<description>Retour des problèmes de communication : la connexion est souvent coupée sur des durées de plusieurs heures.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200203.085401</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>CRAS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.03.02</fin>
+		</evenement>
+		<evenement date="2020.02.19" idEvt="200219.142511">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.02.19</debut>
+			<description>Perte de connexion.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200219.142511</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>CRAS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.03.02</fin>
+		</evenement>
+		<evenement date="2020.03.14" idEvt="200316.105305">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.03.14</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200316.105305</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>CRAS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.03.18</fin>
+		</evenement>
+		<evenement date="2020.03.19" idEvt="200319.084747">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>200319.084747</idEvt>
+			<description>Depuis le 18 la ligne a été rétablie, mais des coupures intempestives sont réapparues. Aucunes nouvelles d'Orange, c'est possible que les travaux sur la ligne ne soient pas terminés.</description>
+			<battCharg>OK</battCharg>
+			<debut>2020.03.19</debut>
+			<stationID>CRAS</stationID>
+			<connStation>Pb</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2019.03.12">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190311.092324">
+				<commentaire>Appel FT: un problème a bien été constaté sur la ligne, un technicien doit intervenir dans les prochaines 24H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.12">
+			<intervenant>Technicien</intervenant>
+			<evt idEvt="190311.092324">
+				<commentaire>Le technicien n'a pas pût se rendre sur place. Prendre RDV au 05 62 11 78 02 (vendredi ou lundi ?).</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.12">
+			<intervenant>FT</intervenant>
+			<commentaires>La ligne est rétablie mais n'est pas stable.</commentaires>
+			<evt idEvt="190311.092324">
+				<commentaire>Il semble que ce soit le test FT qui a rétabli la ligne. Le problème de la baisse de tension n'était qu'une mauvaise alerte.</commentaire>
+				<fin>2019.03.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.09">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190409.084923">
+				<commentaire>Appel FT: un problème a bien été identifié sur la ligne. Un RDV sera nécessaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.10">
+			<intervenant>???</intervenant>
+			<evt idEvt="190409.084923">
+				<commentaire>La communication est revenue pour une raison inconnue.</commentaire>
+				<fin>2019.04.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.16">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="190816.094131">
+				<commentaire>Station en ligne le 16/08/19 à 12h30(local)</commentaire>
+				<fin>2019.08.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.10">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				- Changement du cable parafoudre/prise DTI
+- Baie nettoyée
+Le site est entretenu par la mairie donc pas de nécessité de passer pour entretien extérieur.
+			</commentaires>
+			<evt idEvt="190909.103858">
+				<commentaire>OFF de la fonction redémarrage sur perte de connexion</commentaire>
+				<fin>2019.09.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.17">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Test de Ligne : PB de banchement. RDV sur site vendredi 18 octobre.</commentaires>
+			<evt idEvt="191003.170211">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.18">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				RDV avec technicien orange : PB sur la partie enterrée de la ligne (de l'école à la station). Il va lancer l'intervention d'une équipe, délais 15jours.&lt;br&gt;
+Le n° du technicien qui est intervenu : 06 37 39 95 68
+			</commentaires>
+			<evt idEvt="191003.170211">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.24">
+			<intervenant>Technicien Telecom</intervenant>
+			<commentaires>Un technicien (06 74 20 82 26) est passé sur site pour réparer la partie souterraine de la ligne. Il a testé dans le regard à l'entrée de la station de lagunage et il n'a pas de défaut. Il souhaite refaire un test dans la baie. J'ai envoyé les clés de la baie par courrier à Midicom - 1301 chemin de Brugues- 82370 Nohic. Il doit repasser sur site semaine 44.A noter que depuis son passage les coupures sont beaucoup moins fréquentes. A suivre.</commentaires>
+			<evt idEvt="191003.170211">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.30">
+			<intervenant>Technicien Telecom</intervenant>
+			<commentaires>
+				Le technicien a laissé la clé sur site (cf photo).&lt;br&gt;
+Voici son retour :&lt;br&gt;
+Bonjour. Comme convenu je vous envoie la photo avec l' emplacement de la clé. Par contre j'ai réalisé plusieurs tests sur la ligne. Je suis parfait à l'arrivée de câble Telecom. Mais en passant par l'installation et le parafoudre ça me génère une instabilité de la ligne et un débit qui descend. Donc si jamais il y a des coupures il faudra remplacer dans un premier temps les câbles et le parafoudre. Merci.
+			</commentaires>
+			<evt idEvt="191003.170211">
+				<commentaire>Intervention sur connectique cable dans regard</commentaire>
+				<fin>2019.10.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200108.101707">
+				<commentaire>Appel Orange: Un incident sur les services internet est détécté depuis le 19/12/2019. Les réparations sont tjours en cours. L'incident était sensé se cloturer 26/12/2019 mais l'intervention du 26 n'a pas permis la réparation complète.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.20">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="200108.101707">
+				<commentaire>Le problème semble résolu.</commentaire>
+				<fin>2020.01.20</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.03">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200203.085401">
+				<commentaire>Appel Orange: Un defaut a bien été constaté sur la ligne. Une intervention est programmée dans les 24H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.03">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="200203.085401">
+				<commentaire>La ligne semble rétablie. Un problème était bien présent à leur niveau.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.04">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Vérification branchement para-surtenseur Telecom : le branchement est correct - pas de modif.&lt;br&gt;
+J'ai collé une affiche sur la baie.&lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2020.02.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200203.085401">
+				<commentaire>Appel Orange: Un téchnicien devrait se rendre sur place demain matin. Un RDV téléphonique est prévu quand il sera sur place.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.10">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel Orange : Le problème est sur la partie enterrée de la ligne. Une société de génie civil doit intervenir ==&gt; Délais de 1 mois.</commentaires>
+			<evt idEvt="200203.085401">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.02">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="200219.142511">
+				<commentaire>Il semblerait que l'intervention ait bien eût lieu, la ligne est stable depuis plusieurs jours.</commentaire>
+				<fin>2020.03.02</fin>
+			</evt>
+			<evt idEvt="200203.085401">
+				<commentaire>
+				</commentaire>
+				<fin>2020.03.02</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200316.105305">
+				<commentaire>Appel Orange: Pas de pb sur la ligne, un problème a été identifié mais un RDV est nécéssaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.18">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="200316.105305">
+				<commentaire>Un test Orange a confirmé que la ligne fonctionne maintenant correctement.</commentaire>
+				<fin>2020.03.18</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.19">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200319.084747">
+				<commentaire>Appel Orange: Le technicien m'a informé que l'intervention du 10/2 n'était pas encore finie, ce qui pourrait justifier cette instabilité de ligne.</commentaire>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

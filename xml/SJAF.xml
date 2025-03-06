@@ -1,0 +1,265 @@
+<?xml version="1.0" ?>
+<!-- fichier SJAF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>SJAF</nom>
+	<identifiant>fti/kdvcpyq</identifiant>
+	<pwd>69da3xy</pwd>
+	<ip>193.253.179.137</ip>
+	<tel>05 59 88 95 39</tel>
+	<materielDivers>RelaiPanneau/Chargeur</materielDivers>
+	<lienModem>http://193.253.179.137</lienModem>
+	<lienNumeriseur>http://193.253.179.137:8020</lienNumeriseur>
+	<divers>
+	</divers>
+        
+	<entretien date="2021.10.05" motif=""/>
+	<gissmo n="38"/>
+	<historique>
+		<evenement date="2015.10.06" idEvt="151006.123302">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.10.06</debut>
+			<description>La tension diminue depuis 2 jours   Les panneaux ne font plus effet.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>151006.123302</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>SJAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.10.16</fin>
+		</evenement>
+		<evenement date="2015.11.03" idEvt="151103.094648">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.11.03</debut>
+			<description>Appel avec FT : problème sur la ligne necessitant une prise de RDV.Modem endommagé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151103.094648</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>SJAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.11.13</fin>
+		</evenement>
+		<evenement date="2015.11.13" idEvt="151113.160813">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>151113.160813</idEvt>
+			<description>Modem Bewan HS</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.11.13</debut>
+			<stationID>SJAF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.11.13</fin>
+		</evenement>
+		<evenement date="2016.08.16" idEvt="160831.080848">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.08.16</debut>
+			<description>Plus de réception GPS</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160831.080848</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>SJAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2016.08.31</fin>
+		</evenement>
+		<evenement date="2016.11.28" idEvt="161121.092641">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.11.28</debut>
+			<description>L’électricité est coupée depuis mercredi.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>161121.092641</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>SJAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.12.02</fin>
+		</evenement>
+		<evenement date="2019.06.26" idEvt="190626.131301">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.06.26</debut>
+			<description>Pas de contact avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190626.131301</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>SJAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.06.27</fin>
+		</evenement>
+		<evenement date="2019.11.22" idEvt="191125.093058">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.22</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191125.093058</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>SJAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.25</fin>
+		</evenement>
+		<evenement date="2020.01.21" idEvt="200122.145952">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.01.21</debut>
+			<description>Pas de contact avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200122.145952</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>SJAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.02.03</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.07.09">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La cabane en bois a été démontée et remplacée par deux coffrets métalliques. Je joins les photos par mail. </commentaires>
+		</intervention>
+		<intervention date="2015.10.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Pas de surprise le chargeur était HS et le disjoncteur avait sauté. J'ai tout remis en marche.
+Reste à savoir si les panneaux sont suffisants pour alimenter la batterie avec la station et le modem branchés dessus, car le branchement sur le TSA était correct
+			</commentaires>
+			<evt idEvt="151006.123302">
+				<commentaire>Chargeur changé + Disjoncteur réarmé</commentaire>
+				<fin>2015.10.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.11.04">
+			<intervenant>Franck</intervenant>
+			<evt idEvt="151103.094648">
+				<commentaire>Réparation de la ligne mais le modem semble aussi endommagé.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.11.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le modem Bewan était HS, une fois changé tout est ok</commentaires>
+			<evt idEvt="151103.094648">
+				<commentaire>Modem changé</commentaire>
+				<fin>2015.11.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.08.31">
+			<intervenant>Helene</intervenant>
+			<commentaires>A suivre.</commentaires>
+			<evt idEvt="160831.080848">
+				<commentaire>Reboot station</commentaire>
+				<fin>2016.08.31</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.12.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="161121.092641">
+				<commentaire>Le chargeur a été changé (fusible grillé). Le TSA semble aussi endommagé, il a donc été enlevé.</commentaire>
+				<fin>2016.12.02</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.08.30">
+			<intervenant>Helene</intervenant>
+			<commentaires>La station ne recevait plus de signal GPS depuis le 26/08/2017. Action à distance: Switch OFF du GPS power state. La station reçoit de nouveau le signal GPS. A surveiller.</commentaires>
+		</intervention>
+		<intervention date="2019.06.27">
+			<intervenant>Seb</intervenant>
+			<commentaires>La conseillère FT a constaté un nombre très important de micro coupures sur la ligne. Un défaut datant de plusieurs mois est présent et pourrait justifier une intervention d'un technicien.</commentaires>
+			<evt idEvt="190626.131301">
+				<commentaire>Appel FT: Un problème a été constaté au niveau de la synchro (ligne ou modem). Un intervention est programmée avec RDV pour l'instant le 2 juillet avec possibilité de la repousser.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.27">
+			<intervenant>???</intervenant>
+			<commentaires>Après réflexion, je me demande si la conseillère FT, dans ses remarques de perte de connexion intempestives, ne faisait pas allusion aux reboots journaliers programmés sur ce modem. Je me charge d'annuler le RDV.</commentaires>
+			<evt idEvt="190626.131301">
+				<commentaire>Retour de la connexion avec la station.</commentaire>
+				<fin>2019.06.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.27">
+			<intervenant>Seb</intervenant>
+			<commentaires>Un problème est toujours visible pendant les tests. L'intervention n'est pas annulée mais un RDV n'est plus nécessaire.</commentaires>
+		</intervention>
+		<intervention date="2019.11.25">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191125.093058">
+				<commentaire>Appel FT: Notre service internet est affecté par un incident local. Le service doit être rétabli aujourd'hui.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.25">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="191125.093058">
+				<commentaire>La liaison est rétablie.</commentaire>
+				<fin>2019.11.25</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200122.145952">
+				<commentaire>Appel Orange: Un problème a déjà été identifié sur la ligne. Les travaux sont en cours, la liaison devrait être rétablie pour le 28/1.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200122.145952">
+				<commentaire>Test Orange: Le pb est toujours présent sur la ligne. La cloture de l'incident est prévue pour le 3/2/2020.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.03">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="200122.145952">
+				<commentaire>La ligne a été réparée.</commentaire>
+				<fin>2020.02.03</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

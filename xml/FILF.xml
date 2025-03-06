@@ -1,0 +1,361 @@
+<?xml version="1.0" ?>
+<!-- fichier FILF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>FILF</nom>
+	<identifiant>fti/u3pyy6y</identifiant>
+	<pwd>7t64fqw</pwd>
+	<ip>80.11.251.26</ip>
+	<tel>04 68 05 77 08</tel>
+	<materielDivers>TSA (juste pour le courant)</materielDivers>
+	<lienModem>http://80.11.251.26</lienModem>
+	<lienNumeriseur>http://80.11.251.26:8020</lienNumeriseur>
+	<divers>Monsieur Villalongue (Camping les Sauterelles). 04 68 96 54 43 toute l'année (domicile, Taurinya), 04 68 05 63 72 l'été (camping).Les ports 9000,9021 et 9020 sont utilisé pour l'adresse 192.168.1.4 (reseau GPS). </divers>
+	<gissmo n="79"/>
+        <entretien date="2020.01.12"/>
+	<historique>
+		<evenement date="2014.06.26" idEvt="140624.084354">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.06.26</debut>
+			<description>Dialogue impossible avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140624.084354</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>FILF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.16</fin>
+		</evenement>
+		<evenement date="2015.07.11" idEvt="150709.092138">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.07.11</debut>
+			<description>Le dialogue avec le numériseur est régulièrement coupé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150709.092138</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>FILF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>29/07/2015</fin>
+		</evenement>
+		<evenement date="2015.08.18" idEvt="150818.082830">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.08.18</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150818.082830</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>???</connStation>
+			<stationID>FILF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.19</fin>
+		</evenement>
+		<evenement date="2015.12.17" idEvt="151217.091338">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.12.17</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151217.091338</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FILF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.01.11</fin>
+		</evenement>
+		<evenement date="2016.06.10" idEvt="160613.104200">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.06.10</debut>
+			<description>Pas de dialogue avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160613.104200</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FILF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.06.28</fin>
+		</evenement>
+		<evenement date="2017.05.07" idEvt="170505.084523">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.05.07</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170505.084523</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>FILF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.05.17</fin>
+		</evenement>
+		<evenement date="2017.09.05" idEvt="170906.085027">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.09.05</debut>
+			<description>Pas de connexion.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170906.085027</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FILF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.09.13</fin>
+		</evenement>
+		<evenement date="2018.03.02" idEvt="180312.101538">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.03.02</debut>
+			<description>Depuis le 2 mars, on observe des impulsions sur les 3 voies (0 à 5 fois /jour). Depuis le 11 mars, le signal est très bruité à BF.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180312.101538</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FILF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.03.15</fin>
+		</evenement>
+		<evenement date="2018.07.03" idEvt="180703.092057">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>180703.092057</idEvt>
+			<description>De grosses impulsions sont visibles sur le signal. Ces impulsions ne sont pas continues.</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.07.03</debut>
+			<stationID>FILF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>HS</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.07.15</fin>
+		</evenement>
+		<evenement date="2019.07.04" idEvt="190704.091828">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.07.04</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190704.091828</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>FILF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.07.05</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.06.26">
+			<intervenant>Seb</intervenant>
+			<commentaires>Penser à prendre un modem de rechange à la prochaine intervention (semaine 28).</commentaires>
+			<evt idEvt="140624.084354">
+				<commentaire>Intervenion de France Télécom : le modem est HS</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2014.07.08">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				Le modem semble HS et le numériseur est défectueux : malgré un enregistrement des données, il est impossible de dialoguer avec lui (http, telnet, oclient...).
+Le modem ainsi que le numériseur sont retournés à Toulouse.
+			</commentaires>
+			<evt idEvt="140624.084354"/>
+		</intervention>
+		<intervention date="2014.07.16">
+			<intervenant>Helene</intervenant>
+			<commentaires>Ajout d'isolation avec des sacs de sable.</commentaires>
+			<evt idEvt="140624.084354">
+				<commentaire>Echange de modem et de superviseur (0770006 &lt;=&gt; 0770001)</commentaire>
+				<fin>2014.07.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.07.29">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>
+				Le cordon ethernet jaune de liaison entre le numériseur Ki et le routeur Zyxel était probablement mal clipsé.
+Aucune donnée n'a été perdue.
+			</commentaires>
+			<evt idEvt="150709.092138">
+				<commentaire>remise en place du cordon ethernet</commentaire>
+				<fin>29/07/2015</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.08.19">
+			<intervenant>Frank</intervenant>
+			<commentaires>Modem Zyxel - pas de RD-DIN</commentaires>
+			<evt idEvt="150818.082830">
+				<commentaire>Relancer la connexion ADSL</commentaire>
+				<fin>2015.08.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.12.18">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="151217.091338">
+				<commentaire>Appel à FT : ils confirment une intervention sur la ligne hier. Maintenant tout semble OK de leur côté. Ils préconnisent un ON/OFF du modem.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.12.23">
+			<intervenant>Helene</intervenant>
+			<commentaires>Pendant les vacances en allant visiter le monastère de Saint-Martin du Canigou (magnifique même si les moines sont bien perchés), je suis passée à 6km de Fillols, j'ai fait le détour pour rebooter le modem sans succès. C'est un modem Zyxel, la led DSL ne s'allume pas. Sinon tout avait l'air de fonctionner. Je suis passée les mains dans les poches donc je n'ai fait que vérifier les voyants.</commentaires>
+			<evt idEvt="151217.091338">
+				<commentaire>Reboot modem</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.01.04">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="151217.091338">
+				<commentaire>Appel à FT : Ils confirment un problème sur la ligne, une intervention est programmée pour aujourd'hui ou demain.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.01.07">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="151217.091338">
+				<commentaire>Appel à FT : le technicien est bien passé, le problème aurait été localisé au niveau de l'installation (peut être le modem). Un RDV est nécessaire pour aller plus loin.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.01.11">
+			<intervenant>---</intervenant>
+			<evt idEvt="151217.091338">
+				<fin>2016.01.11</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.06.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160613.104200">
+				<commentaire>Appel FT : la ligne est OK. Plusieurs cas de foudroyage ont été signalés aux environs.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.06.28">
+			<intervenant>Helene et Seb</intervenant>
+			<commentaires>
+				A notre arrivée, la batterie était à 5V. La LED du chargeur était orange mais rien n'en sortait : pas de fusible.
+Après remplacement du chargeur, la tension de la batterie a augmentée progressivement et, arrivée à +/-7V elle a rallumé le TSA qui s'est mis en conflit avec le chargeur (tension &gt; 7V =&gt; TSA rallumé, coupure du 220V donc du chargeur =&gt; tension &lt; 7V =&gt; TSA éteint, retour du 220V et allumage du chargeur =&gt; augmentation de la tension de batterie jusqu'à 7V...). Le TSA a donc été enlevé.
+Enfin, les cosses créaient un faux contact (elles étaient serties sur le plastiques).
+			</commentaires>
+			<evt idEvt="160613.104200">
+				<commentaire>Suppression du TSA, remplacement du chargeur et cosses de l'alim du numeriseur refaites.</commentaire>
+				<fin>2016.06.28</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.10">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170505.084523">
+				<commentaire>Appel FT : un problème a été identifié sur la ligne, une intervention est programmée.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.11">
+			<intervenant>France Télécom</intervenant>
+			<evt idEvt="170505.084523">
+				<commentaire>La ligne a été testée sur place : tout semble correcte. Il semblerait que cela provienne de notre materiel.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170505.084523">
+				<commentaire>Changement de modem.</commentaire>
+				<fin>2017.05.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.09.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170906.085027">
+				<commentaire>Appel FT : la ligne est OK</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.09.13">
+			<intervenant>Helene</intervenant>
+			<commentaires>J'ai refait la connectique d'alimentation du modem et du switch.</commentaires>
+			<evt idEvt="170906.085027">
+				<commentaire>Le modem était en configuration usine. J'ai configuré le modem</commentaire>
+				<fin>2017.09.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.03.15">
+			<intervenant>Sebastien &amp; Helene</intervenant>
+			<commentaires>
+				Bien que le puits soit propre et sec (hormis la condensation),la connectique du capteur en place était corrodée. On a nettoyé la prise femelle (côté câble). Le capteur a été ramené à Toulouse pour nettoyer la prise mâle et tests.
+Le câble en place et rongé jusqu'au blindage à un endroit et il est très écrasé par la plaque qui vient fermer le puits.
+Des travaux de rénovation sont à prévoir sur ce site :
+- Remplacer la cabane par une baie (taille de la dalle actuelle : 110x75cm).
+- Installer une gaine entre l'intérieur du puits et l'armoire ou améliorer le passage de câble existant et juste enterrer le câble.
+			</commentaires>
+			<evt idEvt="180312.101538">
+				<commentaire>Changement temporaire du T120PA S/N1655 par le T120PA S/N 1295</commentaire>
+				<fin>2018.03.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.03">
+			<intervenant>Héléne et Seb</intervenant>
+			<commentaires>Après nettoyage du contact et tests à l'OMP, l'ancien capteur (T120-1655) est remis en place.</commentaires>
+		</intervention>
+		<intervention date="2019.07.04">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190704.091828">
+				<commentaire>Test FT: Un incident local a été identifié. La ligne devrait être rétablie au plus tard le 8 juillet à 14:30.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.05">
+			<intervenant>Hélène et Frank</intervenant>
+			<commentaires>
+				La mise à jour de Kephren-I 077-0006-1011 pour corriger la perte du flux seedlink n'a pas fonctionné : reboot intempestif du numériseur.&lt;br&gt;
+Numériseur remplacé par la STANEO-D6BBDIN S/N 0500. Le nouveau flux a commencé à 12h00TU le 05/07/2019.&lt;br&gt;
+A prévoir : remplacer la cabane par une baie outdoor.&lt;br&gt;
+			</commentaires>
+			<evt idEvt="190704.091828">
+				<commentaire>La comm est rétablie - Intervention Orange sur le réseau</commentaire>
+				<fin>2019.07.05</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

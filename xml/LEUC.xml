@@ -1,0 +1,491 @@
+<?xml version="1.0" ?>
+<!-- fichier TOTO.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>LEUC</nom>
+	<ip>193.251.62.146</ip>
+	<tel>04 71 48 52 34</tel>
+	<identifiant>fti/t49k99k</identifiant>
+	<pwd>vkrrzxp</pwd>
+        <divers> </divers>        
+	<entretien date="2020.12.09" motif="entretien"/>
+	<historique>
+		<evenement date="2018.10.08" idEvt="181008.092459">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.10.08</debut>
+			<description>Impossible de se connecter au numériseur et au module ABAC. La connexion au modem ne pose pas de pb.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181008.092459</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.11.22</fin>
+		</evenement>
+		<evenement date="2019.02.15" idEvt="190215.111818">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.02.15</debut>
+			<description>Le chargeur n'est plus alimenté, la tension baisse doucement.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190215.111818</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.02.15</fin>
+		</evenement>
+		<evenement date="2019.03.08" idEvt="190308.151059">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.03.08</debut>
+			<description>Depuis le 6 mars 22:00, l'armoire n'est plus alimentée par le secteur. Le modem fonctionne 1h toutes les 5h.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190308.151059</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.03.12</fin>
+		</evenement>
+		<evenement date="2019.07.02" idEvt="190703.141632">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.02</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190703.141632</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.13</fin>
+		</evenement>
+		<evenement date="2019.08.19" idEvt="190819.090035">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.08.19</debut>
+			<description>Perte du secteur le 19/08/2019 à 00:30. Disjoncteur PDL à remonter.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>190819.090035</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.20</fin>
+		</evenement>
+		<evenement date="2019.09.06" idEvt="190909.103942">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.06</debut>
+			<description>Pb Orange: un technicien doit intervenir.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190909.103942</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.12</fin>
+		</evenement>
+		<evenement date="2019.10.02" idEvt="191002.091202">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.10.02</debut>
+			<description>Pas d'alimentation.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191002.091202</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.10.03</fin>
+		</evenement>
+		<evenement date="2019.10.15" idEvt="191015.104416">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.10.15</debut>
+			<description>Plus de tension.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191015.104416</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.10.18</fin>
+		</evenement>
+		<evenement date="2019.11.26" idEvt="191127.084501">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.26</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191127.084501</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.11</fin>
+		</evenement>
+		<evenement date="2019.12.16" idEvt="191217.122312">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.12.16</debut>
+			<description>Perte d'alimentation.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>191217.122312</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.17</fin>
+		</evenement>
+		<evenement date="2019.12.19" idEvt="191220.084550">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.19</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191220.084550</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LEUC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.16</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2018.10.15">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Plus de connexion au modem depuis 6j.
+Appel 3901 : Pb constaté sur la ligne - Intervention d'un technicien sur site aujourd'hui.
+			</commentaires>
+			<evt idEvt="181008.092459">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.22">
+			<intervenant>Sebastien &amp; Helene</intervenant>
+			<commentaires>
+				A notre arrivée, le disjoncteur qui alimente l'armoire TBT était off et tous les éléments (Centaur, Tbox, modem) était éteint.&lt;br&gt;
+Le seuil batterie était OK. En fait le fusible batterie n'était pas correctement clipsé et les batteries n'ont pas pris le relais lors de la perte secteur. Ce qui explique également que le disjoncteur n'a pas été remonté automatiquement&lt;br&gt;
+Le disjoncteur qui alimente l'armoire TBT a sauté car la prise du cordon qui relie l'armoire BT à l'armoire TBT était mal enfoncée côté TBT.&lt;br&gt;
+On a donc une perte de données entre le 20181009:06h00 et notre passage le 20181122.&lt;br&gt;
+Durant cette période, le ligne téléphonique a également été interrompues, elle a été rétablie le matin de notre arrivée. Il parait intéressant d'étudier la possibilité de mettre une connexion mobile (SMS) en cas de coupure de ligne pour connaître l'état de la station. Le site est uniquement couvert par Bouygues.&lt;br&gt;
+			</commentaires>
+			<evt idEvt="181008.092459">
+				<commentaire>changement du cable ethernet entre le modem et le switch</commentaire>
+				<fin>2018.11.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.02.15">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				Rien ne semblait anormal au niveau de la page ES/Alimentation. Le disjoncteur était affiché fermé alors qu'il était ouvert. Aucun réarmement automatique.
+Sur la page chronologie, les 0/1 semblent correspondre aux commandes activées manuellement ou automatiquement.
+La commande LOCAL CGE 0/1 =&gt; Auto/Manu sur la page WEB, Cmd_DJ_CGE 0/1 =&gt; Fermeture OFF/ON et Rearm_CGE 1/0 =&gt; réarmement OFF/ON/OFF. Seule la commande Cmd_DJ_CGE semble avoir permit le retour du courant.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.02.15">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				Rien ne semblait anormal au niveau de la page ES/Alimentation. Le disjoncteur était affiché fermé alors qu'il était ouvert. Aucun réarmement automatique.
+Sur la page chronologie, les 0/1 semblent correspondre aux commandes activées manuellement ou automatiquement.
+La commande LOCAL CGE 0/1 =&gt; Auto/Manu sur la page WEB, Cmd_DJ_CGE 0/1 =&gt; Fermeture OFF/ON et Rearm_CGE 1/0 =&gt; réarmement OFF/ON/OFF. Seule la commande Cmd_DJ_CGE semble avoir permit le retour du courant.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.02.15">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				Rien ne semblait anormal au niveau de la page ES/Alimentation. Le disjoncteur était affiché fermé alors qu'il était ouvert. Aucun réarmement automatique.
+Sur la page chronologie, les 0/1 semblent correspondre aux commandes activées manuellement ou automatiquement.
+La commande LOCAL CGE 0/1 =&gt; Auto/Manu sur la page WEB, Cmd_DJ_CGE 0/1 =&gt; Fermeture OFF/ON et Rearm_CGE 1/0 =&gt; réarmement OFF/ON/OFF. Seule la commande Cmd_DJ_CGE semble avoir permit le retour du courant.
+			</commentaires>
+			<evt idEvt="190215.111818">
+				<commentaire>Sur l'interface WEB de l'armoire: Disjoncteur général=&gt;Fermeture OFF/ON/OFF en laissant quelques secondes entre les differentes manip.</commentaire>
+				<fin>2019.02.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.08">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Cette panne est différente de la précédente car il y'a un défaut parafoudre (cf image jointe).&lt;br&gt;
+Sur l'amoire au labo, on retrouve ce défaut quand l'alimentation secteur est coupée. Ce qui voudrait dire que le courant est coupé au niveau du PDL.&lt;br&gt;
+Lundi la société ABAC doit mettre à jour cette armoire au cas où...
+			</commentaires>
+			<evt idEvt="190308.151059">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.12">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Suite à un violent orage, le disjoncteur du PDL avait sauté. Celui-ci a été réarmé par M. Perrier, conseiller municipal, qui est descendu spécialement sur le site pour cela. Voici ces coordonnées téléphonique 06 31 88 77 39.</commentaires>
+			<evt idEvt="190308.151059">
+				<commentaire>Le disjoncteur du PDL a été réarmé.</commentaire>
+				<fin>2019.03.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.03">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190703.141632">
+				<commentaire>Appel FT: un problème est mentionné sur la ligne, elle devrait être rétablie au plus tard le 8 juillet à 18h .</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.08">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190703.141632">
+				<commentaire>Appel FT: un problème est mentionné sur la ligne, elle devrait être rétablie au plus tard le 12 juillet à 18h .</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.10">
+			<intervenant>FT</intervenant>
+			<evt idEvt="190703.141632">
+				<commentaire>Un message de FT m'a informé que la ligne est maintenant réparée. Toujours aucun contact avec la station.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.11">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190703.141632">
+				<commentaire>Appel FT: La ligne présente un problème. Un technicien doit intervenir.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.15">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190703.141632">
+				<commentaire>Appel FT: La ligne présente un problème. Un technicien doit intervenir au plus tard le 17/07 à 16:00</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.18">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190703.141632">
+				<commentaire>Appel FT: La ligne présente un problème. Un technicien doit intervenir au plus tard je sais plus quand...</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.22">
+			<intervenant>Seb</intervenant>
+			<commentaires>Je me demande si je me suis pas trompé de médicaments ce matin.</commentaires>
+			<evt idEvt="190703.141632">
+				<commentaire>Appel FT: La ligne présente un problème. Dans bien longtemps, dans une galaxie très lointaine...LA GUERRE DES STATIONS.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.25">
+			<intervenant>Seb</intervenant>
+			<commentaires>Un technicien Orange devrait appeler Hélène le 8/8 pour faire un point de la situation.</commentaires>
+			<evt idEvt="190703.141632">
+				<commentaire>Appel FT: La ligne présente un problème. Problème sensé être résolu le 29/7.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.26">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="190703.141632">
+				<commentaire>Un technicien est intervenue sur la ligne (je l'ai eût au téléphone) : la ligne a été réparée et tout semble fonctionner jusqu'à la station. Comme la com n'est toujours pas rétablie, il semble aussi y avoir un problème de notre coté.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.05">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Le disjoncteur PDL a été réarmé par Mr Perrier.</commentaires>
+			<evt idEvt="190703.141632">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.13">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Le modem en place ne voyait pas la ligne DSL. &lt;br&gt;
+j'ai désactivé le reboot sur perte de connexion au niveau du TBOX. Le modem est programmé pour rebooté tous les jours à 1:00.&lt;br&gt;
+J'ai remplacé le câble parafoudre-dti et installé la prise de terre du modem.&lt;br&gt;
+			</commentaires>
+			<evt idEvt="190703.141632">
+				<commentaire>Changement du modem Etic IPL-A-400 180008600 par le 180008630 </commentaire>
+				<fin>2019.08.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.20">
+			<intervenant>Mr Perrier</intervenant>
+			<evt idEvt="190819.090035">
+				<commentaire>Mr Perrier est passé remonter le disjoncteur du PDL</commentaire>
+				<fin>2019.08.20</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.12">
+			<intervenant>Hélène</intervenant>
+			<commentaires>J'ai shunté le parafoudre de la ligne téléphonique car le test de ligne orange était en défaut avec le parafoudre même si le modem était synchronisé.</commentaires>
+			<evt idEvt="190909.103942">
+				<commentaire>OFF de la fonction redémarrage sur perte de connexion</commentaire>
+				<fin>2019.09.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.03">
+			<intervenant>Hélène</intervenant>
+			<evt idEvt="191002.091202">
+				<commentaire>Disjoncteur réarmé par M. Perrier</commentaire>
+				<fin>2019.10.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.18">
+			<intervenant>M. PERRIER</intervenant>
+			<evt idEvt="191015.104416">
+				<commentaire>Réarmement du disjonteur du PDL qui avait sauté suite à un orage.</commentaire>
+				<fin>2019.10.18</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.27">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel Orange : un technicien doit passer cet AM pour vérifier la ligne et appeler si il doit accéder à l'armoire.</commentaires>
+			<evt idEvt="191127.084501">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.27">
+			<intervenant>Technicien</intervenant>
+			<commentaires>
+				Le technicien a testé la ligne jusqu'en bas : pas de pb.
+Déplacement sur site programmé pour le vendredi 6 décembre pour vérifier nos installations.
+			</commentaires>
+			<evt idEvt="191127.084501">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.06">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				A mon arrivée, j'ai constaté que le câble Telecom était cassé au début du chemin qui descend vers la station. J'ai contacté le technicien qui a relancé sa société. Ils m'ont dit qu'ils allaient passer l'AM ou le samedi matin mais rien.&lt;/br&gt;
+J'ai collé le panneau RESIF et laissé la ligne ADSL en direct (sans passer par le parafoudre).&lt;/br&gt;
+			</commentaires>
+			<evt idEvt="191127.084501">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.09">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Relance Orange : une nouvelle intervention est programmée pour cet AM.</commentaires>
+			<evt idEvt="191127.084501">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.11">
+			<intervenant>Technicien</intervenant>
+			<evt idEvt="191127.084501">
+				<commentaire>un technicien Telecom a réparé provisoirement la ligne. Il n'avait pas le matériel nécessaire. Une réparation définitive doit être réalisée d'ici deux à trois semaines.</commentaire>
+				<fin>2019.12.11</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.17">
+			<intervenant>???</intervenant>
+			<evt idEvt="191217.122312">
+				<commentaire>Le courant a été rétabli.</commentaire>
+				<fin>2019.12.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.20">
+			<intervenant>Hélène</intervenant>
+			<commentaires>L'intervention d'un technicien est prévue cet AM.</commentaires>
+			<evt idEvt="191220.084550">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.07">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Lors de la précédente intervention, le technicien m'a appelé et comme je n'étais pas sur site et que c'était un vendredi AM, je pense qu'il n'est pas venu et l'intervention a été clôturée sur le motif de personne absente.&lt;br&gt;
+Appel Orange : une intervention est programmée cet AM.
+			</commentaires>
+			<evt idEvt="191220.084550">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.07">
+			<intervenant>Technicien</intervenant>
+			<commentaires>Un technicien est intervenu sur la ligne et a réparé la réparation provisoire qui était cassée. Il n'a pas voulu descendre sur la piste avec sa nacelle. La communication n'est pas revenue.</commentaires>
+			<evt idEvt="191220.084550">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.10">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel Orange : Pb sur la ligne RDV le 16 janvier entre 8h00 et 13h00. J'ai prévu d'être sur place.</commentaires>
+			<evt idEvt="191220.084550">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.16">
+			<intervenant>Sébastien et Hélène</intervenant>
+			<commentaires>
+				On a fait la navette avec le Partner pour les techniciens Telecom qui étaient en camion nacelle et ne pouvaient pas accéder au site.&lt;/br&gt;
+Mise à jour du TBOX en V12.
+			</commentaires>
+			<evt idEvt="191220.084550">
+				<commentaire>Modification du branchement réalisé par le technicien Telecom lors de la réparation du 7 janvier (inversion cables).</commentaire>
+				<fin>2020.01.16</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

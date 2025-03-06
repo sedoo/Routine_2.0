@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<!-- fichier CLAF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>CLAF</nom>
+	<identifiant>fti/ctk4e2b</identifiant>
+	<pwd>346avbz</pwd>
+	<ip>193.248.192.91</ip>
+	<tel>04 68 12 23 46</tel>
+	<lienModem>http://193.248.192.91:8080</lienModem>
+	<lienNumeriseur>http://193.248.192.91</lienNumeriseur>
+        <divers> </divers>
+	<entretien date="2021.09.01" motif=""/>
+        <gissmo n="374"/>
+	<historique>
+		<evenement date="2018.05.07" idEvt="180507.091016">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>180507.091016</idEvt>
+			<description>TEST</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.05.07</debut>
+			<stationID>CLAF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.05.03</fin>
+		</evenement>
+		<evenement date="2019.07.19" idEvt="190718.121433">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.19</debut>
+			<description>Pas de dialogue avec la Centaur.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190718.121433</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>CLAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.13</fin>
+		</evenement>
+		<evenement date="2019.09.08" idEvt="190909.102551">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.08</debut>
+			<description>Probleme Orange: un technicien doit intervenir.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190909.102551</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>CLAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.11</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2018.03.21">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				Après débloquage de leur firewall, le signal a pût arriver indirectement sur sosis (CLAF &lt;-&gt; tasmanie &lt;-&gt; sosis).
+Un reboot de la station a permit la visualisation du signal de mon PC, de mon portable, mais toujours pas de sosis (tests avec SeisGram).
+Après arrêt de seiscomp3, le signal apparaissait sur le SeisGram de sosis.
+Enfin la suppression des fichiers pid et seq du répertoire /home/sysop/seiscomp3/var/run/seedlink a permit le déblocage complet du flux SeedLink au travers de seiscomp3.
+			</commentaires>
+		</intervention>
+		<intervention date="2018.05.03">
+			<intervenant>Sebastien &amp; Helene</intervenant>
+			<commentaires>Installation du capteur en fond de puits. T120PH S/N 0676; Centaur6 S/N 92776. Le capteur a été descendu et positionné sans difficulté. Il y a du sable sous et sur le capteur. A noter qu'il n'y a pas de marque de Gyrocompas sur ce site. Le matériel AlpArray est encore en place afin de valider les données du capteur fond de puits.</commentaires>
+		</intervention>
+		<intervention date="2019.07.23">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190718.121433">
+				<commentaire>Tout semble fonctionner au niveau de l'armoire. Un ON/OFF au niveau du disjoncteur n'a rien donné.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.23">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190718.121433">
+				<commentaire>Une surconsomation est constatée au niveau de la Centaur. Un ON/OFF au niveau de l'équipement scientifique n'a rien donné.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.24">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				reboot de la station =&gt; idem. Il semblerait que la Centaur reboot périodiquement. Peut être n'arrive-t-elle pas à rebooter complètement (puissance nécessaire trop importante?). reboot API armoire =&gt; idem.
+Ouverture d'un ticket chez Nanonmetric avec un des logs en piece jointes.
+			</commentaires>
+			<evt idEvt="190718.121433">
+				<commentaire>Connexion à la station par ssh.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.13">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				J'ai également : &lt;br&gt;
+ - supprimé des redirections de ports qui empêchait l’accès à distance sur le modem.&lt;br&gt;
+ - installé le cordon de terre du modem et fait passer le cable DSL par le parafoudre.&lt;br&gt;
+ - branché la ventilation, le thermostat est sur 45°.&lt;br&gt;
+			</commentaires>
+			<evt idEvt="190718.121433">
+				<commentaire>Remplacement de la Centaur3-6s S/N 2776 par la Centaur4-6s S/N 5204</commentaire>
+				<fin>2019.08.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.11">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Passage en même temps que le technicien Orange : la ligne présente un défaut à cause du parafoudre. On a supprimé le parafoudre.</commentaires>
+			<evt idEvt="190909.102551">
+				<commentaire>OFF de la fonction redémarrage sur perte de connexion.</commentaire>
+				<fin>2019.09.11</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

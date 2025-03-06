@@ -1,0 +1,265 @@
+<?xml version="1.0" ?>
+<!-- fichier VIEF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>VIEF</nom>
+	<identifiant>fti/cafzycq</identifiant>
+	<pwd>6drhqhe</pwd>
+	<ip>193.253.52.98</ip>
+	<tel>05 62 92 96 59</tel>
+	<materielDivers>Chargeur</materielDivers>
+	<lienModem>http://193.253.52.98</lienModem>
+	<lienNumeriseur>http://193.253.52.98:8020</lienNumeriseur>
+	<divers>Mairie 05 62 92 92 95</divers>
+	<gissmo n="123"/>
+        
+	<entretien date="2020.12.19" motif="Entretien"/>
+	<historique>
+		<evenement date="2014.04.23" idEvt="140428.091636">
+			<etat>HS</etat>
+			<typeEvt>GPSTemps</typeEvt>
+			<idEvt>140428.091636</idEvt>
+			<description>Facture impayée</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.23</debut>
+			<stationID>VIEF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.05.19</fin>
+		</evenement>
+		<evenement date="2015.06.30" idEvt="150703.130900">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.06.30</debut>
+			<description>Pas de dialogue avec le numériseur</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150703.130900</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>VIEF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.07.08</fin>
+		</evenement>
+		<evenement date="2017.02.06" idEvt="170206.092413">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.02.06</debut>
+			<description>Pas de ping avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170206.092413</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VIEF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.02.08</fin>
+		</evenement>
+		<evenement date="2018.06.20" idEvt="180621.153620">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>180621.153620</idEvt>
+			<description>Pas de liaison avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.06.20</debut>
+			<stationID>VIEF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.23</fin>
+		</evenement>
+		<evenement date="2018.08.31" idEvt="180831.112918">
+			<etat>Pb</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>180831.112918</idEvt>
+			<description>Perte de connexion le 30/08/2018 à 23:00</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.08.31</debut>
+			<stationID>VIEF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.09.03</fin>
+		</evenement>
+		<evenement date="2018.09.03" idEvt="180903.073615">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>180903.073615</idEvt>
+			<battCharg>OK</battCharg>
+			<debut>2018.09.03</debut>
+			<stationID>VIEF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.09.03</fin>
+		</evenement>
+		<evenement date="2018.10.27" idEvt="181030.075653">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.10.27</debut>
+			<description>Perte de connexion le 27/10/2018 à 14:00</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181030.075653</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VIEF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.11.07</fin>
+		</evenement>
+		<evenement date="2019.12.13" idEvt="191216.095450">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.13</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191216.095450</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VIEF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.19</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="19/06/15">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Modification du câblage T120PA/Kephren-I : Inversion des cables +/- des voies N,Z,E.
+Marquage de l'orientation N/S sur la dalle (Gyrocompas).
+Vérification de l'étanchéité du puits : le sable est humide mais pas d'eau dans le puits.
+NB: petit point de rouille sur l'intérieur de la bague de serrage.
+Photos dans mail du 22/06/15
+			</commentaires>
+		</intervention>
+		<intervention date="2015.07.08">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Seule la led correspondant au &quot;sism&quot;o était allumée et impossible d'entrer en dialogue avec la Kefren_I, reboot manuel en retirant l'alimentation et tout est ok. Test depuis Toulouse ok.</commentaires>
+			<evt idEvt="150703.130900">
+				<fin>2015.07.08</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.11.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Afin de vérifier pourquoi le signal était perturbé je suis allé voir sur place. Rien de marquant à l'extérieur : terrain et installation propre. Seul la connectique du capteur coté Ki était un peu dénudé (avant la brochage), j'ai voulu mettre un tour de scotch et en retirant la fiche il y a eu un court circuit, le fusible de la Ki à grillé .... une fois changé impossible de la redémarrer. Elle est bien alimentée car 2 leds s'allument, mais pas le power ... Je la ramène pour tests à Toulouse.</commentaires>
+		</intervention>
+		<intervention date="2016.11.25">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Changement de numériseur: D6BB-DIN S/N 0503
+ - Modification du cablage KephrenI ==&gt; D6BB-DIN
+NB: Pas de défauts clairement visible sur la prise de la Kephren-I.
+Câblage sur site relativement long car pince à dénuder et pince à sertir HS, pas de chance! Heureusement le soleil était au RDV et la vue sur les sommets enneigés de toute beauté.
+ - La D6BB-DIN est installée dans un boîtier étanche (Cf photo)
+ 
+			</commentaires>
+		</intervention>
+		<intervention date="2017.02.08">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170206.092413">
+				<commentaire>Appel FT : perte des identifiants de connexion.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.02.08">
+			<intervenant>Helene</intervenant>
+			<commentaires>La ligne sonnait occupée. J'ai appelé le 1015 pour faire un test de ligne. Un problème a été identifié sur la ligne et une intervention prévue dans les 48h00. La ligne est revenue suite à cet appel.</commentaires>
+			<evt idEvt="170206.092413">
+				<commentaire>Appel au 1015</commentaire>
+				<fin>2017.02.08</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180621.153620">
+				<commentaire>Appel FT: pas de pb sur la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.08.31">
+			<intervenant>Helene</intervenant>
+			<commentaires>Appel 3901 : réponse automatique, problème identifiée, le rétablissement de la ligne est annoncé pour ce soir à 20:30.</commentaires>
+			<evt idEvt="180831.112918">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.30">
+			<intervenant>Helene</intervenant>
+			<commentaires>Appel 3901 : Le modem sur site est incompatible avec le nouveau protocole de communication mis en place par Orange. Il faut soit reconfigurer le modem, soit changer le modem. Je prépare un modem au labo et on pourra faire un saut à VIEF pendant les journées du RAP.</commentaires>
+			<evt idEvt="181030.075653">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.07">
+			<intervenant>Matthieu et Helene</intervenant>
+			<commentaires>
+				Le modem ZyXEL P-660HN : b0:b2:dc:7e:82:f8 a été remplacé par le modem MuLogic RSA-1120D : 00:24:55:07:1C:27. Le modem Zyxel n'était plus alimenté, il est HS.
+A noter que le modem est derrière un RDIN et alimenté directement sur la batterie.
+La gaine rouge du cable capteur est abîmée par le soleil.
+			</commentaires>
+			<evt idEvt="181030.075653">
+				<commentaire>changement de modem</commentaire>
+				<fin>2018.11.07</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.28">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La gaine rouge du câble capteur, s'est abimée avec le soleil et quelques trous sont visibles. Nous avons mis une goulotte alu pour la protéger. (longueur 2 mètres)</commentaires>
+		</intervention>
+		<intervention date="2019.08.16">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+		<intervention date="2019.12.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191216.095450">
+				<commentaire>Un RDV avec Orange est nécessaire. Lors de l'appel, énoncer le numéro de dossier 265823621.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				RDV avec un technicien Orange, qui a constaté un défaut électrique sur la ligne qui venait parasiter l'ADSL ...
+en effet le Modem sur place n'arrivait pas à trouver une synchronisation, je l'ai changé et le second faisait pareil.
+J'ai demandé au technicien de tester le débit et pour lui tout était bon, il est donc parti.
+J'ai appelé Sébastien et il a repéré que cela pouvait venir du TSA, bingo .... une fois désactivé (je l'ai carrement retiré ...) l'ADSL est revenu 10mn ....
+j'ai refait la liaison modem -&gt; arrivée Orange, puisqu'elle passait par le TSA, idem pour le 220 v .. le chargeur est maintenant directement branché sur le coffret électrique, j'ai changé le filtre ADSL et tout est ok.
+Il faut noter que du coup il n'y a pas de protection parafoudre.
+			</commentaires>
+			<evt idEvt="191216.095450">
+				<commentaire>TSA retiré</commentaire>
+				<fin>2019.12.19</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

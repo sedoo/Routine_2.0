@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<!-- fichier LPEF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>LPEF</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>***</ip>
+	<tel>05 61 03 84 95</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>modem 56k</lienModem>
+	<lienNumeriseur>modem 56k</lienNumeriseur>
+	<divers>
+	</divers>
+        <entretien date="2020.08.12"/>
+	<historique>
+		<evenement date="2014.09.29" idEvt="140929.104915">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.09.29</debut>
+			<description>La batterie peine à se recharger.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>140929.104915</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LPEF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.12.04</fin>
+		</evenement>
+		<evenement date="2014.12.01" idEvt="141201.095436">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.12.01</debut>
+			<description>Comme prévu, le modem ne répond pas.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>141201.095436</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LPEF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.12.04</fin>
+		</evenement>
+		<evenement date="2015.10.20" idEvt="151020.104624">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.10.20</debut>
+			<description>LPEF est entrée dans sa periode d'hibernation annuelle.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>151020.104624</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LPEF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.12.15</fin>
+		</evenement>
+		<evenement date="2016.01.11" idEvt="160107.111951">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.01.11</debut>
+			<description>Toujours le même problème : la station n'est pas assez ensoleillée pour pouvoir recharger la batterie.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>160107.111951</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LPEF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.05.19</fin>
+		</evenement>
+		<evenement date="2017.05.18" idEvt="170522.101218">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.05.18</debut>
+			<description>Dialogues ponctuels.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170522.101218</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LPEF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.06.30</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.12.04">
+			<intervenant>Helene</intervenant>
+			<evt idEvt="141201.095436">
+				<fin>2014.12.04</fin>
+			</evt>
+			<evt idEvt="140929.104915">
+				<commentaire>Changement de batterie</commentaire>
+				<fin>2014.12.04</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.02.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Batterie à 11.20 v avait répondu ce matin grace au soleil d'hier, mais j'ai changé la batterie.</commentaires>
+		</intervention>
+		<intervention date="2015.12.15">
+			<intervenant>MS</intervenant>
+			<commentaires>
+				Le fusible du superviseur était cramé. Je l'ai changé, et ai remis le superviseur en place.
+J'en ai profité pour tester le superviseur 015-0143, qui fonctionne. Le prendre en priorité pour une intervention ultérieure.
+			</commentaires>
+			<evt idEvt="151020.104624">
+				<commentaire>changement batterie (9.5V)</commentaire>
+				<fin>2015.12.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.02.24">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				La tension des panneaux est très faible (1.5V). La mesure a été faite à 10:30, ciel bleu mais le soleil est encore sur l'autre coté de la vallée. Vu l'age des panneaux et de l'installation, un examen plus attentif ne serait pas injustifié. On pourrait aussi en profiter pour déporter un troisième panneau sur la falaise...en espérant que les voleurs ne nous embêtent plus.
+Pour la prochaine manip, prévoir aussi un télécode de rechange, la fiabilité de l'actuel est douteuse.
+			</commentaires>
+			<evt idEvt="160107.111951">
+				<commentaire>Changement de la batterie</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.05.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Batterie changée et panneau rajouté assez haut et orienté ouest</commentaires>
+			<evt idEvt="160107.111951">
+				<commentaire>
+				</commentaire>
+				<fin>2016.05.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.11.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Batterie faible (11.10 v) changée. Peinture Cabane effectué.</commentaires>
+		</intervention>
+		<intervention date="2016.11.18">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Batterie changée et peinture cabane</commentaires>
+		</intervention>
+		<intervention date="2017.06.30">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Nous avons ce jour démonté la station définitivement.
+Le matériel est ramené à Tarbes
+			</commentaires>
+			<evt idEvt="170522.101218">
+				<commentaire>
+				</commentaire>
+				<fin>2017.06.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.01">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Nous avons ce jour démonté définitivement la station.
+Le matériel est ramené à Tarbes.
+			</commentaires>
+		</intervention>
+	</interventions>
+</station>

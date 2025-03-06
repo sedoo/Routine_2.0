@@ -1,0 +1,634 @@
+<?xml version="1.0" ?>
+<!-- fichier PYLO.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYLO</nom>
+	<identifiant>fti/ghtrq7e</identifiant>
+	<pwd>zhy3ep6</pwd>
+	<ip>82.127.68.162</ip>
+	<tel>05 62 46 35 93</tel>
+	<materielDivers>Chargeur</materielDivers>
+	<lienModem>http://82.127.68.162</lienModem>
+	<lienNumeriseur>http://82.127.68.162:8020</lienNumeriseur>
+	<divers>Conservateur: 05 62 42 37 42</divers>
+	<gissmo n="32"/>
+        
+	<entretien date="2021.01.29" motif="Entretien"/>
+	<historique>
+		<evenement date="???" idEvt="140414.095205">
+			<etat>Pb</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>140414.095205</idEvt>
+			<description>Le signal seedlink est coupé très fréquemment. La liaison avec le modem est discontinue.</description>
+			<battCharg>OK</battCharg>
+			<debut>???</debut>
+			<stationID>PYLO</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>Pb</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.04.23</fin>
+		</evenement>
+		<evenement date="2014.05.12" idEvt="140523.092232">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.05.12</debut>
+			<description>Les données ftp n'arrivent plus.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140523.092232</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.05.23</fin>
+		</evenement>
+		<evenement date="2015.05.26" idEvt="150526.094958">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>150526.094958</idEvt>
+			<description>Pas de données Titan, bad blocks</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.05.26</debut>
+			<stationID>PYLO</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.05.26</fin>
+		</evenement>
+		<evenement date="2016.06.27" idEvt="160627.085359">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.06.27</debut>
+			<description>Le modem est OK, mais le numériseur ne répond pas.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160627.085359</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.07.12</fin>
+		</evenement>
+		<evenement date="2017.01.12" idEvt="170113.093401">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.01.12</debut>
+			<description>Pas de ping avec le modem</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170113.093401</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.01.13</fin>
+		</evenement>
+		<evenement date="2018.04.20" idEvt="180423.085110">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.04.20</debut>
+			<description>Perte de connexion avec le modem</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180423.085110</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.05.11</fin>
+		</evenement>
+		<evenement date="2018.06.01" idEvt="180531.161048">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.06.01</debut>
+			<description>La liaison est très lente.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180531.161048</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.01</fin>
+		</evenement>
+		<evenement date="2018.06.01" idEvt="180601.150213">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.06.01</debut>
+			<description>Le signal est mauvais, la voie est flottante.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180601.150213</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.01.22</fin>
+		</evenement>
+		<evenement date="2019.01.15" idEvt="190107.093723">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.01.15</debut>
+			<description>Les voies horizontales restent plates.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190107.093723</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.01.17</fin>
+		</evenement>
+		<evenement date="2019.03.14" idEvt="190314.123754">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.03.14</debut>
+			<description>La position des masses reste nulle. Je commence à douter de la qualité (ou l'état) du branchement.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190314.123754</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.03.19</fin>
+		</evenement>
+		<evenement date="2019.11.25" idEvt="191127.084637">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.25</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191127.084637</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.07</fin>
+		</evenement>
+		<evenement date="2020.01.21" idEvt="200122.084540">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2020.01.21</debut>
+			<description>Le GPS ne voit plus aucun satellite.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200122.084540</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2020.01.29</fin>
+		</evenement>
+		<evenement date="2020.01.23" idEvt="200124.091101">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.01.23</debut>
+			<description>Perte de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200124.091101</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2020.01.27</fin>
+		</evenement>
+		<evenement date="2020.02.04" idEvt="200203.165357">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.02.04</debut>
+			<description>Suite à une intervention d'un technicien d'Orange (coupure pour test), la communication avec la station n'a pas pût être rétablie malgré le rétablissement de la ligne.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200203.165357</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLO</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.02.05</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.05.23">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>
+				manip à distance pour rétablir le fonctionnement de la station Kephreni6 de Lourdes.
+Symptôme : OK seedlink, NOK données titan - message &quot;bad blocks&quot;, suspicion de pb sur le disque
+- sous oclient : fsck puis reboot -&gt; vérification du système de fichiers
+- toujours sous oclient : manip périlleuse d'effacement complet des secteurs de la flash sur lesquels résident les données titan et miniseed les plus récentes
+Après la seconde manip, la station a mis du temps à redevenir accessible (appel téléphonique de façon à faire un on/off sur le numériseur via le TSA).
+			</commentaires>
+			<evt idEvt="140523.092232">
+				<commentaire>fsck du disque</commentaire>
+				<fin>2014.05.23</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.05.26">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150526.094958">
+				<commentaire>fsck</commentaire>
+				<fin>2015.05.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.15">
+			<intervenant>Frank</intervenant>
+			<commentaires>
+				Changement du câble Kephren-I T120PA (pour supprimer câble avec rallonge)
+Modification alimentation Kephren-I : installation batterie + chargeur pour alimenter Kephren qui était sur le secteur.
+Démontage de la station test qui a montré que la &quot;mauvaise&quot; qualité du signal est lié au site et non à la chaîne d'acquisition.
+Gyrocompas OK.
+			</commentaires>
+		</intervention>
+		<intervention date="2015.09.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Je suis juste passé pour voir si le câble n'était pas pincé ou tordu et vérifier la connectique.
+Rien d'anormal à part la connectique coté Kefren qui n'est pas complètement étanche, une partie du scotch qui fait office de joint est sortie sous le poids du cable. J'ai dévissé et remis tout proprement dans le cache. A suivre ...
+			</commentaires>
+		</intervention>
+		<intervention date="2016.07.12">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				Le modem était aussi endommagé : internet OK, wifi OK mais pas de connexion Ethernet.
+Échange de modem.
+			</commentaires>
+			<evt idEvt="160627.085359">
+				<commentaire>Echange de numeriseur (D6BB-DIN)</commentaire>
+				<fin>2016.07.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.01.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170113.093401">
+				<commentaire>Appel FT : un problème a été constaté sur la ligne. L'intervention d'un technicien a été programée pour aujourd'hui. Franck devrait recevoir des SMS l'informant du début et de la fin de cette intervention.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.01.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170113.093401">
+				<commentaire>Appel de FT : le problème a été résolu.</commentaire>
+				<fin>2017.01.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.09.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Dialogue difficile avec la station à distance, signal perturbé.
+Mise à jour de la D6BB et reboot de celle-ci.
+Tout est revenu à la normale
+			</commentaires>
+		</intervention>
+		<intervention date="2018.01.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Problème de signal
+J'ai ouvert le &quot;coffre&quot; ou il y a le capteur dans sa marmitte, rien a signaler de spécial et pourtant le capteur est un peu débullé.
+Je le remets comme il faut.
+La connectique est hyper propre, la laine de roche sèche, je remets tout comme c'était.
+A noter que des gros travaux ont été fait sur le rocher sous le chateau à droite de notre station pour intaller du gros maillage anti chutes de Pierres. 
+			</commentaires>
+		</intervention>
+		<intervention date="2018.03.09">
+			<intervenant>frank &amp; Helene</intervenant>
+			<commentaires>Ci-joint le CR de la visite sur site pour envisager des solutions afin d'ameliorer le niveau de bruit BF du signal de la station LB.&lt;br /&gt;&lt;a href=&quot;http://rssp.irap.omp.eu/Routine/Photos/PYLO/20180309_PYLO_CR_visite_20180309.pdf&quot;&gt;fichier joint en pdf&lt;/a&gt;</commentaires>
+		</intervention>
+		<intervention date="2018.04.23">
+			<intervenant>Helene</intervenant>
+			<commentaires>Appel 3901 : Un pb a été identifié entre le dernier poteau et la station. RDV sur site avec présence obligatoire le mardi 24 de 14h à 16h. Frank, est-ce que tu peux te rendre sur place?</commentaires>
+			<evt idEvt="180423.085110">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.04.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Première intervention sans possibilité de réparer pour Orange (société sous-traitante), intervention de niveau supérieur prévue dans les 72 heures</commentaires>
+			<evt idEvt="180423.085110">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.04.30">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180423.085110">
+				<commentaire>Appel FT : Une intervention a bien eût lieu le 27/4, le technicien a modifié la ligne. Une intervention avec RDV est necessaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.11">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="180423.085110">
+				<commentaire>Suite aux travaux sur la ligne téléphonique. Le TP-LINK cherchait une syncro ADSL après re-boot de celui ci tout est ok</commentaire>
+				<fin>2018.05.11</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.01">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180531.161048">
+				<commentaire>Appel FT: Le problème a été constaté, un technicien doit se rendre sur place cet après-midi.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.01">
+			<intervenant>FT</intervenant>
+			<evt idEvt="180531.161048">
+				<commentaire>Le technicien FT s'est rendu au central, a changé une pièce et depuis la liaison s'est grandement améliorée.</commentaire>
+				<fin>2018.06.01</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.12">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>posé ce jour une station test : T120 sous cloche - Centaur reliée au Modem - Tests de liaison ok avec Toulouse</commentaires>
+			<evt idEvt="180601.150213">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.11">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>j'ai interverti les câbles des 2 capteurs ce matin 8h50 pour vérifier si le soucis est lié au câble.</commentaires>
+			<evt idEvt="180601.150213">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190107.093723">
+				<commentaire>Aucune réaction suite au recentrage. La position des masses est indiquée nulle.</commentaire>
+			</evt>
+			<evt idEvt="180601.150213">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.16">
+			<intervenant>Seb</intervenant>
+			<commentaires>Pas de pb au niveau de la Centaur. Recentrage OK.</commentaires>
+			<evt idEvt="190107.093723">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="180601.150213">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.16">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				Juste pour signaler que la D6BB-DIN est maintenant à la version soft v20181231: Je me suis emmêlé entre la D6BB-DIN de PYLO et la D3BB-MOB connectée à TLSE sur laquelle je voulais tester cette nouvelle version.
+Il est maintenant possible de visualiser les voies directement sur l'interface web en cliquant sur le lien &quot;sensor line&quot;. Aucun plugin n'est nécessaire.
+			</commentaires>
+			<evt idEvt="190107.093723">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="180601.150213">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.17">
+			<intervenant>Franck</intervenant>
+			<commentaires>Pour résumer actuellement vue de sosis les voies FR:PYLO.00::H(H|B|L)(Z|N|E) viennent de la centaur par le port 180001. Les voies  FR:PYLO.00::HN(Z|N|E) viennent de la D6BB-DIN par le port 18000 mais ne sont pas stockées sur sosis. Les voies XX:PYLO.00::H(H|B|L)(Z|N|E) viennent aussi de la D6BB-DIN par le port 18000.</commentaires>
+			<evt idEvt="190107.093723">
+				<commentaire>Inversion des cables au niveau des capteurs.</commentaire>
+				<fin>2019.01.17</fin>
+			</evt>
+			<evt idEvt="180601.150213">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.22">
+			<intervenant>Seb</intervenant>
+			<commentaires>L'échange d'un T120P par un T120Q a nécéssité un recablage au niveau de la D6BB (Rx/Tx =&gt; masspos(1|2|3)/Centrage). Actuellement, le T120Q et l'accelero sont sur la D6BB-DIN configurée en FR et le T120P sur la Centaur configurée en XX.</commentaires>
+			<evt idEvt="180601.150213">
+				<commentaire>Changement du capteur.</commentaire>
+				<fin>2019.01.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.19">
+			<intervenant>Matthieu et Helene</intervenant>
+			<commentaires>
+				Visite sur site avec Olivier Sebe pour mesurer l'orientation du capteur de rotation et des capteurs LB.
+Le capteur FR est parfaitement orienté au nord.
+Le capteur XX et le capteur de rotation sont parfaitement orientés entre eux.
+NB: A notre arrivée la plaque métallique qui referme l'emplacement du capteur était ouverte.
+			</commentaires>
+			<evt idEvt="190314.123754">
+				<commentaire>Si on débulle légèrement le capteur, la position des masses varie.</commentaire>
+				<fin>2019.03.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>sur place à Lourdes juste pour faire un on/off du capteur de rotations </commentaires>
+		</intervention>
+		<intervention date="2019.01.15">
+			<intervenant>Hélène et Frank</intervenant>
+			<commentaires>
+				NB: ceci est une ancienne intervention qui n'avait pas fait l'objet d'un CR sur l'outil routine.....&lt;br&gt;
+- Remplacement du T120PA S/N 0780 (Pb bruit BF) par le T120QA S/N 2754. La chaîne FR est donc composée du capteur S/N 2754 et de la D6BBDIN 0502. &lt;br&gt;
+- Installation du capteur de rotation.&lt;br&gt;
+- Installation de la chaîne XX à proximité du capteur de rotation : T12OPA S/N 0780 et Centaur3-6S S/N 2910.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.09.20">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Désinstallation T12OPA S/N 0780 et Centaur3-6S S/N 2910 (FR.PYLO.01).&lt;br&gt;
+Désinstallation du capteur de rotation.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.11.27">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel Orange : PB détecté sur la ligne. Un technicien intervient cet après-midi.</commentaires>
+			<evt idEvt="191127.084637">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.27">
+			<intervenant>Technicien Telecom</intervenant>
+			<commentaires>PB sur la ligne confirmée, nos installations sont OK. Une intervention sur le réseau Orange doit être programmée demain jeudi 28 novembre.</commentaires>
+			<evt idEvt="191127.084637">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.09">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Relance Orange : une intervention est prévue cet AM.</commentaires>
+			<evt idEvt="191127.084637">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.11">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Relance Orange : une intervention de réparation de la ligne extérieure est prévue le 17/12/2019...</commentaires>
+			<evt idEvt="191127.084637">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.18">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel Orange : l'intervention prévue hier a bien eu lieu. Ils ont changé certains éléments de la ligne mais il reste un câble défectueux sous la voirie. Il faut une autorisation de la ville de Lourdes pour intervenir. Prochaine intervention prévue le 21 décembre.</commentaires>
+			<evt idEvt="191127.084637">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.06">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel Orange : L'opérateur n'a pas su me dire si les travaux avaient été réalisés mais il a fait un test complémentaire et il ne voit pas de défaut sur la ligne. Je pense qu'il faut aller sur site rebooter le modem (TP-Link) et/ou le changer et si le pb persiste contacter Orange en étant sur site.</commentaires>
+			<evt idEvt="191127.084637">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.07">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel Orange : Le dossier précédent a été clôturé. Un nouveau rdv est prévu ce mardi 7 janvier à 15h00, présence obligatoire.</commentaires>
+			<evt idEvt="191127.084637">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Outre le problème télécom qui a été résolu
+le disjoncteur qui alimente notre matériel avait sauté et donc la station n'enregistrait pas sûrement depuis le feu d'artifice ...de la nouvelle année
+			</commentaires>
+			<evt idEvt="191127.084637">
+				<commentaire>Intervention Orange</commentaire>
+				<fin>2020.01.07</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le disjoncteur du chateau a sauté à nouveau après mon départ. Le technicien du chateau est passé le réarmer mais nous n'avons plus de liaison avec le modem pour le moment</commentaires>
+		</intervention>
+		<intervention date="2020.01.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				j'ai eu à nouveau le technicien du chateau, le disjoncteur avait une nouvelle fois sauté.
+De notre coté les différentiels n'ont pas bougé
+Il propse de faire intervenir les électriciens de la mairie, car il y a de l'eau dans ce coffret et surement aussi dans un coffret intermédiaire.
+Je dois le rappeler demain à 16h
+			</commentaires>
+		</intervention>
+		<intervention date="2020.01.09">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Je suis passé à PYLO puisque après avoir demandé, hier, au Technicien du chateau de disjoncter notre tableau électrique, leur disjoncteur ne disjonctait plus ... et donc ...  le soucis venait du chargeur Mascott qui pourtant semblait fonctionner ...
+Je l'ai donc changé par un Enag et tout est ok à nouveau, pas de soucis pour le Modem
+Je demande à Sébastien de regarder l'image jointe car des pinoches du branchement sur la D6 sont libres ..; normal ?
+			</commentaires>
+		</intervention>
+		<intervention date="2020.01.27">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200124.091101">
+				<commentaire>Appel Orange: un pb a été identifié sur la ligne, une intervention est programmée dans la soirée.</commentaire>
+			</evt>
+			<evt idEvt="200122.084540">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.27">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="200124.091101">
+				<commentaire>La ligne a été rétablie, mais un petit defaut reste présent. Celui-ci n'a aucune incidence sur notre liaison mais l'intervention prochaine d'un technicien Orange risque d'entrainer une coupure lors de l'intervention.</commentaire>
+				<fin>2020.01.27</fin>
+			</evt>
+			<evt idEvt="200122.084540">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.29">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Installation ce jour du capteur Blueseis.&lt;br&gt;
+Changement du modem TPlink en place par un modem Mulogic S/N 00:24:55:06:BD:52 et 2 switch Kyland S/N 652 et S/N 655.  
+			</commentaires>
+			<evt idEvt="200122.084540">
+				<commentaire>Redémarrage du numériseur. A noter que ce numériseur a un comportement bizarre car j'ai modifié la configuration réseau et cette modification n'a été prise en compte qu'après un redémarrage (on/off alim), ce qui n'est pas le fonctionnement nominal.  </commentaire>
+				<fin>2020.01.29</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.04">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200203.165357">
+				<commentaire>Appel Orange: Les tests sont positifs, la ligne semble fonctionner normalement.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.05">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="200203.165357">
+				<commentaire>reboot du Modem Mulogic</commentaire>
+				<fin>2020.02.05</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

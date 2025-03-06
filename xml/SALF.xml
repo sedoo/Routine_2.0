@@ -1,0 +1,171 @@
+<?xml version="1.0" ?>
+<!-- fichier SALF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>SALF</nom>
+	<identifiant>fti/vcqxqfh</identifiant>
+	<pwd>9dkkf6k</pwd>
+	<ip>80.15.131.2</ip>
+	<tel>05 61 66 02 32</tel>
+	<materielDivers/>
+	<lienModem>http://80.15.131.2</lienModem>
+	<lienNumeriseur>http://80.15.131.2:8020</lienNumeriseur>
+	<divers>Mr Richl 05 61 66 85 69, sa fille 05 61 03 00 79</divers>
+	<gissmo n="116"/>
+        
+	<entretien date="2020.11.04" motif="Nettoyage baie et contrôle des installations."/>
+	<historique>
+		<evenement date="2015.06.15" idEvt="150615.094235">
+			<etat>Pb</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>150615.094235</idEvt>
+			<description>Pas de synchro entre le modem et le numériseur.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.06.15</debut>
+			<stationID>SALF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.06.16</fin>
+		</evenement>
+		<evenement date="2016.05.23" idEvt="160526.102930">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>160526.102930</idEvt>
+			<description>Le modem ne décroche pas.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.05.23</debut>
+			<stationID>SALF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.06.05</fin>
+		</evenement>
+		<evenement date="2016.08.29" idEvt="160901.102859">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.08.29</debut>
+			<description>Pas de réponse du modem</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160901.102859</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>SALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.09.05</fin>
+		</evenement>
+		<evenement date="2018.10.03" idEvt="181005.090158">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.10.03</debut>
+			<description>Pertes de connexion journalières.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181005.090158</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>SALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.12.26</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2016.09.01">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160901.102859">
+				<commentaire>Appel FT : un problème sur la ligne a été constaté, une intervention est prévue dans les 48H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.05">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le chargeur était HS et la batterie aussi ....
+Nous n'avions pas de chargeur donc nous avons changé la batterie et nous avons branché les panneaux solaires dessus.
+Hélène doit repasser pour récupérer des données test sur la D6BB elle portera un chargeur à ce moment là.
+Une intervention Orange avait été déclanchée car il semblait y avoir un problème sur la ligne (selon Orange), nous avons annulé cette intervention mais le Technicien est quand même passé dans l'après midi et nous a confirmé qu'il n'y avait pas de problème depuis Couflens ...
+			</commentaires>
+			<evt idEvt="160901.102859">
+				<commentaire>
+				</commentaire>
+				<fin>2016.09.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.08">
+			<intervenant>Helene</intervenant>
+			<commentaires>Mise en place d'un nouveau chargeur de batterie Mascot 12V/10A</commentaires>
+		</intervention>
+		<intervention date="2016.10.12">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Suite à l'installation du 5/09/16 du numériseur D6BB-DIN S/N 0501 et du capteur T120QA S/N 23800, je suis venue installer ce jour un modem/routeur Mulogic ADSL2401. Pas de signal ADSL. Après appel chez Orange, j'apprends que j'aurais du recevoir un sms m'informant que le passage à l'ADSL nécessite l'intervention d'un technicien (pour ce site) et cette intervention est prévue le 17/10/16. Orange n'avait noté aucun n° de téléphone sur le dossier.... . J'ai laissé le modem en place avec les bons identifiants et une reconnexion automatique toute les nuits vers 2h00 du matin. La D6BB-DIN est également connectée.
+Au niveau du signal, c'est parfait à HF, par contre l'isolation thermique n'est pas encore au point et il faudra remplacer la laine de bois par du sable (pour éviter les circulations d'air). Il faut également remplacer le cable numériseur/capteur par un cable plus long (12m minimum) et fixer la D6BB-DIN sur un rail.
+La station CP est toujours en place et la communication fonctionne derrière le filtre ADSL.
+			</commentaires>
+		</intervention>
+		<intervention date="2016.11.17">
+			<intervenant>Helene &amp; Sebastien</intervenant>
+			<commentaires>
+				 - Changement du câble capteur (longueur 15m).
+ - Mise en place de sable autour du capteur (à la place de la laine de bois).
+ - Démontage de la chaîne d'acquisition CP.
+Panneau solaire connecté sur la batterie.
+			</commentaires>
+		</intervention>
+		<intervention date="2018.10.08">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181005.090158">
+				<commentaire>Appel FT: Un pb a été constaté, prendre RDV.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.08">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Appel au 3901 pour prendre RDV, après test de la ligne physique l'opératrice me dit qu'il n'y a pas de soucis sur le câble.
+Les problèmes viennent sûrement des travaux qui sont effecués dans le secteur pour jouvence des lignes téléphoniques et passage à la fibre optique. Il faut laisser s'écouler une dizaine de jours pour vérifier à nouveau.
+			</commentaires>
+			<evt idEvt="181005.090158">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.19">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181005.090158">
+				<commentaire>Appel FT: Une intervention du technicien doit avoir lieu demain.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.23">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181005.090158">
+				<commentaire>Appel FT: De gros travaux sont en cours sur la ligne. Date de fin prévue pour le 31/12/18.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.26">
+			<intervenant>???</intervenant>
+			<commentaires>a</commentaires>
+			<evt idEvt="181005.090158">
+				<commentaire>La dernière coupure date du 26/12.</commentaire>
+				<fin>2018.12.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.04">
+			<intervenant>Hélène</intervenant>
+		</intervention>
+	</interventions>
+</station>

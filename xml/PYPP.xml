@@ -1,0 +1,342 @@
+<?xml version="1.0" ?>
+<!-- fichier PYPP.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYPP</nom>
+	<identifiant>fti/fccyry2</identifiant>
+	<pwd>4uzv9k9</pwd>
+	<ip>82.127.51.194</ip>
+	<tel>05 59 49 18 84</tel>
+	<materielDivers>Chargeur</materielDivers>
+	<lienModem>http://82.127.51.194</lienModem>
+	<lienNumeriseur>http://82.127.51.194:8020</lienNumeriseur>
+	<divers>Technicien Yves 06 03 95 90 49</divers>
+	<gissmo n="387"/>
+        
+        
+	<entretien date="2021.12.09" motif="Changement Modem et entretien"/>
+	<historique>
+		<evenement date="???" idEvt="140408.145134">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>???</debut>
+			<description>Le télécode ne reçoit pas de signal radio</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140408.145134</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPP</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2015.03.20</fin>
+		</evenement>
+		<evenement date="2014.10.16" idEvt="141117.100027">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.10.16</debut>
+			<description>Pas de données miniseed.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>141117.100027</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>PYPP</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2015.03.20</fin>
+		</evenement>
+		<evenement date="2015.08.31" idEvt="150901.141914">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.08.31</debut>
+			<description>Pas de dialogue avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150901.141914</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPP</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.10.07</fin>
+		</evenement>
+		<evenement date="2016.09.25" idEvt="160929.085747">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.09.25</debut>
+			<description>Plus de connexion modem depuis le 25/09/2016 08:00TU</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160929.085747</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPP</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.09.30</fin>
+		</evenement>
+		<evenement date="2017.01.09" idEvt="170110.093156">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.01.09</debut>
+			<description>Impossible de mettre la station à jour à distance (version de 2015?).</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170110.093156</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>PYPP</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.01.16</fin>
+		</evenement>
+                
+		<evenement date="2017.02.05" idEvt="170206.091327">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.02.05</debut>
+			<description>Pas de ping.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170206.091327</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPP</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.02.14</fin>
+		</evenement>
+		<evenement date="2019.07.11" idEvt="190715.092058">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.11</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190715.092058</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPP</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.27</fin>
+		</evenement>
+		<evenement date="2019.11.08" idEvt="191115.092827">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.08</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191115.092827</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPP</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.27</fin>
+		</evenement>
+		<evenement date="2019.12.04" idEvt="191204.084749">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.04</debut>
+			<description>Perte de la connexion hier vers 13h.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191204.084749</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPP</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.06</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2015.03.20">
+			<intervenant>Frank</intervenant>
+			<commentaires>Installation de la D66-BBDIN S/N 0282. Le GPS est placé à l'intérieur derrière la partie vitrée au dessus de la porte d'entrée du bâtiment.</commentaires>
+			<evt idEvt="141117.100027">
+				<commentaire>Changement numériseur</commentaire>
+				<fin>2015.03.20</fin>
+			</evt>
+			<evt idEvt="140408.145134">
+				<commentaire>Installation GPS</commentaire>
+				<fin>2015.03.20</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.03">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				Pour Franck :
+Il faudrait que tu les rappelles pour convenir d'un RDV avec leur technicien.
+			</commentaires>
+			<evt idEvt="150901.141914">
+				<commentaire>Appel à FT : pas de default constaté sur la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.14">
+			<intervenant>Helene</intervenant>
+			<commentaires>L'entreprise qui a fait les travaux est sur place ce mercredi et jeudi. J'ai insisté pour qu'ils regardent la ligne qui correspond à notre numéro.</commentaires>
+			<evt idEvt="150901.141914">
+				<commentaire>Test ligne ADSL qui confirme le diagnostique de Frank...</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2014.09.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Appel de la société qui doit intervenir sur la ligne, visiblement il n'y a rien sur la partie physique (câble), après autocom. Un autre technicien doit intervenir sur l'autocom la semaine prochaine</commentaires>
+			<evt idEvt="150901.141914"/>
+		</intervention>
+		<intervention date="2015.10.07">
+			<intervenant>marie</intervenant>
+			<commentaires>L'entreprise a repare la connexion tel/ADSL dans le bâtiment</commentaires>
+			<evt idEvt="150901.141914">
+				<fin>2015.10.07</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.11.20">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le modem BEWAN fonctionnait mais mal .... je l'ai changé.
+Gyrocompas effectué, le capteur était bien orienté
+			</commentaires>
+		</intervention>
+		<intervention date="2016.09.29">
+			<intervenant>helene</intervenant>
+			<commentaires>Appel Orange : Pb de configuration du modem (ie: perte des identifiants de connexion). Visite sur site nécessaire avec modem de rechange.</commentaires>
+			<evt idEvt="160929.085747">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.30">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Un simple reboot du modem a suffit. Nous pouvons demander à Yves, si jamais ... 0603959049</commentaires>
+			<evt idEvt="160929.085747">
+				<commentaire>reboot du modem</commentaire>
+				<fin>2016.09.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.01.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Une simple mise à jour de la D6BB a suffit.</commentaires>
+			<evt idEvt="170110.093156">
+				<commentaire>Mise à jour D6BB</commentaire>
+				<fin>2017.01.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.02.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170206.091327">
+				<commentaire>Appel FT : Le modem aurait perdu ses identifiants.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.02.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Modem Routeur changé : laissé 14:CC:20:7A:C9:D9 - retiré : Mac BOB2DC7E8303</commentaires>
+			<evt idEvt="170206.091327">
+				<commentaire>
+				</commentaire>
+				<fin>2017.02.14</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.01">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Des travaux sont en cours, il est possible qu'un disjoncteur ait été coupé volontairement ou non. Le technicien y jette un oeil demain et me rappelle en fin de journée.</commentaires>
+			<evt idEvt="190715.092058">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.02">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Pour Yves le technicien qui est passé à la citadelle il n'y a pas de pb d'alimentation, même si le temps des travaux il y a peut être eu une coupure.</commentaires>
+			<evt idEvt="190715.092058">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.27">
+			<intervenant>???</intervenant>
+			<evt idEvt="190715.092058">
+				<commentaire>La communication a été rétablie le 27/8.</commentaire>
+				<fin>2019.08.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.06">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>appel intendant pour coupure électrique durant l'été, faire un courrier postal mentionnant le problème.</commentaires>
+		</intervention>
+		<intervention date="2019.11.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>l'adapteur noir entre le modem et la D6BB est grillé, je n'en avais pas en stock, il faut en commander</commentaires>
+		</intervention>
+		<intervention date="2019.11.12">
+			<intervenant>???</intervenant>
+			<evt idEvt="191115.092827">
+				<commentaire>Ok avec le modem, mais le numériseur n'est toujours pas joignable.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.27">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Après reboot mécanique de la D6BB (0282) la led verte était allumée en continu et toujours impossible de dialoguer avec je l'ai donc changée par la 0444.
+J'ai changée l'antenne GPS et fait la connectique avec des &quot;bonbons&quot;, la synchro tarde à se faire je vérifie mes branchements avec Sébastien, tout semble ok mais depuis mon intervention toujours pas de synchro GPS.
+			</commentaires>
+			<evt idEvt="191115.092827">
+				<commentaire>D6BB changée</commentaire>
+				<fin>2019.11.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191204.084749">
+				<commentaire>Test de ligne OK.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.06">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Yves sur place a vérifié que le chargeur était bien branché et d'après lui tout avait l'air de fonctionner ...
+Vu le test Orange ok, je lui ai demandé de faire un reboot du Modem, cela semble à nouveau fonctionner
+			</commentaires>
+			<evt idEvt="191204.084749">
+				<commentaire>reboot Modem</commentaire>
+				<fin>2019.12.06</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.04">
+			<intervenant>Frank et Hélène</intervenant>
+			<commentaires>Connectique rallonge-GPS. Nous avons utiliser des connexions rapides wago.</commentaires>
+		</intervention>
+	</interventions>
+</station>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!-- fichier PYLOacc.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYLOacc</nom>
+	<historique>
+	</historique>
+	<interventions>	
+	</interventions>
+</station>

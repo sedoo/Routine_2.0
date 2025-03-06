@@ -1,0 +1,352 @@
+<?xml version="1.0" ?>
+<!-- fichier PAND.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PAND</nom>
+	<identifiant>internet</identifiant>
+	<pwd>361862</pwd>
+	<ip>omp-pand.dyndns.info</ip>
+	<tel>00376315277</tel>
+	<materielDivers>modem 3G et dyndns</materielDivers>
+	<lienModem>http://omp-pand.dyndns.info</lienModem>
+	<lienNumeriseur>http://omp-pand.dyndns.info:8020</lienNumeriseur>
+	<divers>Tony Molné, service météo Andorre, +00 376 325025.</divers>
+        
+	<entretien date="2021.04.12"/>        <alimentation>solaire</alimentation>
+	<gissmo n="112"/>
+	<historique>
+		<evenement date="2013.01.01" idEvt="140408.143514">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2013.01.01</debut>
+			<description>Modem GSM incompatible avec l'abonnement</description>
+			<battCharg>???</battCharg>
+			<signal>???</signal>
+			<idEvt>140408.143514</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>???</connStation>
+			<stationID>PAND</stationID>
+			<valid>valider</valid>
+			<etatSignal>???</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>???</GPSTempsg>
+			<fin>2014.05.20</fin>
+		</evenement>
+		<evenement date="2014.05.19" idEvt="140523.103411">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140523.103411</idEvt>
+			<description>Le signal n'est pas amorti : prévoir de rajouter les résistances d'amortissement à la prochaine intervention (20kOhm entre Z  et Z-, N  et N- et E  et E-).</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.05.19</debut>
+			<stationID>PAND</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.09.04</fin>
+		</evenement>
+		<evenement date="2014.07.28" idEvt="140728.095501">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.07.28</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140728.095501</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PAND</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2014.07.29</fin>
+		</evenement>
+		<evenement date="2014.09.13" idEvt="140922.094413">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.09.13</debut>
+			<description>Pas de connexion avec la station</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140922.094413</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PAND</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.11.03</fin>
+		</evenement>
+		<evenement date="2015.05.19" idEvt="150519.094020">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>150519.094020</idEvt>
+			<description>Pas de synchro GPS</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.05.19</debut>
+			<stationID>PAND</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2015.11.25</fin>
+		</evenement>
+		<evenement date="2015.07.03" idEvt="150703.131028">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.07.03</debut>
+			<description>La voie Z reste plate.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150703.131028</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PAND</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2015.07.10</fin>
+		</evenement>
+		<evenement date="2015.11.03" idEvt="151104.144953">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>151104.144953</idEvt>
+			<description>Pas de ping vers le modem GPRS.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.11.03</debut>
+			<stationID>PAND</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2015.11.25</fin>
+		</evenement>
+		<evenement date="2018.08.07" idEvt="180816.093722">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.08.07</debut>
+			<description>Perte de connexion le 2018.08.07 vers 14:15. Période orageuse.</description>
+			<battCharg>???</battCharg>
+			<signal>???</signal>
+			<idEvt>180816.093722</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PAND</stationID>
+			<valid>valider</valid>
+			<etatSignal>???</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>???</GPSTempsg>
+			<fin>2018.10.02</fin>
+		</evenement>
+		<evenement date="2018.11.25" idEvt="181123.101542">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>181123.101542</idEvt>
+			<description>Pas de connexion avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.11.25</debut>
+			<stationID>PAND</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.12.01</fin>
+		</evenement>
+		<evenement date="2018.12.11" idEvt="181213.124001">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.12.11</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181213.124001</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PAND</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.12.15</fin>
+		</evenement>
+		<evenement date="2019.02.19" idEvt="190215.125044">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>190215.125044</idEvt>
+			<description>Pas de liaison avec la station.</description>
+			<battCharg>OK</battCharg>
+			<debut>2019.02.19</debut>
+			<stationID>PAND</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.02.25</fin>
+		</evenement>
+		<evenement date="2019.03.29" idEvt="190401.085410">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.03.29</debut>
+			<description>Perte de la connexion.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190401.085410</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PAND</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.04.03</fin>
+		</evenement>
+		<evenement date="2019.04.08" idEvt="190409.085007">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.04.08</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190409.085007</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PAND</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.04.19</fin>
+		</evenement>
+		<evenement date="2020.01.17" idEvt="200117.103741">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2020.01.17</debut>
+			<description>C'est maintenant le GPS de la station PAND qui n'est plus à jour. Pourquoi l'erreur apparaît-elle seulement maintenant ???</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200117.103741</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PAND</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2020.01.22</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.05.20">
+			<intervenant>Helene et Seb</intervenant>
+			<commentaires>La station a aussi été remplacée par une station D6BB-DIN. Les données sont maintenant continues et sous format SeedLink.</commentaires>
+			<evt idEvt="140408.143514">
+				<commentaire>Remplacement avec un modem 3G</commentaire>
+				<fin>2014.05.20</fin>
+			</evt>
+		</intervention>
+		<intervention date="2014.07.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="140728.095501">
+				<commentaire>ON/OFF</commentaire>
+				<fin>2014.07.29</fin>
+			</evt>
+			<evt idEvt="140523.103411"/>
+		</intervention>
+		<intervention date="2014.11.03">
+			<intervenant>Helene</intervenant>
+			<commentaires>Un ON/OFF est maintenant commandé tous les Lundi (depuis Omni) pour éviter un blocage similaire.</commentaires>
+			<evt idEvt="140922.094413">
+				<commentaire>ON/OFF sur le modem</commentaire>
+				<fin>2014.11.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.07.02">
+                        
+			<intervenant>Frank Matthieu et Helene</intervenant>
+			<commentaires>Objectif : Réinstaller le capteur LB en creusant un puits derrière la cabane&lt;br&gt;Construction puits:&lt;br&gt;- Trou creusé dans la roche à 70 cm de profondeur.&lt;br&gt;- Dalle béton (1/2 sacs) 10 cm d'épaisseur.&lt;br&gt;- Capteur protégé par bidon étanche avec fond coupé.&lt;br&gt;- Isolation pouzzolane.&lt;br&gt;Le câble (neuf) passe par une gaine et entre dans la cabane par la bouche d'aération nord. Elle est protégée par du béton au niveau du passage du sentier.&lt;br&gt;On a changé l'antenne GPRS par une antenne omnidirectionnelle qui améliore le gain.&lt;br&gt;Cette antenne a été placé sur un mat fixé au niveau du portillon de la clôture. L'antenne GPS est également sur ce mat.&lt;br&gt;On a remplacé les deux batteries par des batteries neuves et refait les câblages panneaux - régulateurs - batteries.&lt;br&gt;</commentaires>
+                        
+			<commentaires>test&lt;br&gt;test.</commentaires>
+                
+		</intervention>
+		<intervention date="2015.07.10">
+			<intervenant>Helene</intervenant>
+			<commentaires>Attention, le câble fin noir correspond à la masse et le &quot;gros&quot; câble à la terre.</commentaires>
+			<evt idEvt="150703.131028">
+				<commentaire>Capteur recablé (masse/terre)</commentaire>
+				<fin>2015.07.10</fin>
+			</evt>
+			<evt idEvt="150519.094020"/>
+		</intervention>
+		<intervention date="2018.10.02">
+			<intervenant>Franck et Seb</intervenant>
+			<commentaires>Le connecteur cable/sismo commence à se fendre. Ce n'est pas critique. Pour l'instant le câble reste en place. Mais penser à l'échanger.</commentaires>
+			<evt idEvt="180816.093722">
+				<commentaire>Echange de modem et de cable ethernet.</commentaire>
+				<fin>2018.10.02</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.15">
+			<intervenant>---</intervenant>
+			<evt idEvt="181213.124001">
+				<commentaire>La liaison est revenue. Aucune manip effectuée.</commentaire>
+				<fin>2018.12.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.03">
+			<intervenant>---</intervenant>
+			<evt idEvt="190401.085410">
+				<commentaire>La communication avec Andorre s'est rétablie.</commentaire>
+				<fin>2019.04.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.19">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				A mon arrivée, le modem est allumé la led power est rouge, la led status clignote vert, la led warm et err sont oranges. Le numériseur est OK.&lt;br&gt;
+Le modem n'est pas connecté au réseau.&lt;br&gt;
+Le reboot automatique quotidien n'est pas activé.&lt;br&gt;
+Je lance un reboot manuel --&gt; rien. un deuxième --&gt; rien.&lt;br&gt;
+Test du reboot automatique : il prend en compte le reboot mais les leds ne s’éteignent pas et il reste déconnecté avec les 3 leds antenne vertes.&lt;br&gt;
+Je remplace le modem par NB1600 S/N 00112B020EB3.
+Le reboot automatique est activé à 00:30 chaque jour.
+Désalimentation du modem, idem.
+			</commentaires>
+			<evt idEvt="190409.085007">
+				<commentaire>changement Modem Inhand remplacé par NB1600 S/N 00112B020EB3</commentaire>
+				<fin>2019.04.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200117.103741">
+				<commentaire>Mise à jour de la station.</commentaire>
+				<fin>2020.01.22</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

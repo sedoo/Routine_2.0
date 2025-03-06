@@ -1,0 +1,506 @@
+<?xml version="1.0" ?>
+<!-- fichier PYLU.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYLU</nom>
+	<identifiant>fti/ptdxgaz</identifiant>
+	<pwd>6vhwp7x</pwd>
+	<ip>80.11.196.31</ip>
+	<tel>05 61 89 65 27</tel>
+	<materielDivers>Chargeur</materielDivers>
+	<lienModem>http://80.11.196.31</lienModem>
+	<lienNumeriseur>http://80.11.196.31:8020</lienNumeriseur>
+	<divers>Mr Cazes 05.61.94.68.68 ou 06.08.69.43.14</divers>
+	<gissmo n="386"/>
+        
+	<entretien date="2020.11.04" motif=""/>
+	<historique>
+		<evenement date="2015.05.04" idEvt="150504.091745">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.05.04</debut>
+			<description>Coupure de signal fréquentes.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150504.091745</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.05.21</fin>
+		</evenement>
+		<evenement date="2015.05.18" idEvt="150518.093831">
+			<typeEvt>autre</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.05.18</debut>
+			<description>Reboot incessants de la Mykernios</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150518.093831</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.05.21</fin>
+		</evenement>
+		<evenement date="2015.05.21" idEvt="150526.095934">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.05.21</debut>
+			<description>Le temp de la station est 1995...</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150526.095934</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2015.06.09</fin>
+		</evenement>
+		<evenement date="2015.06.25" idEvt="150625.092447">
+			<typeEvt>autre</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.06.25</debut>
+			<description>Pb de cablage</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150625.092447</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.07.08</fin>
+		</evenement>
+		<evenement date="2015.07.19" idEvt="150717.084837">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>150717.084837</idEvt>
+			<description>Pas de connexion avec le modem</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.07.19</debut>
+			<stationID>PYLU</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.07.19</fin>
+		</evenement>
+		<evenement date="2015.09.19" idEvt="150921.084650">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.09.19</debut>
+			<description>Pas de liaison avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150921.084650</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.25</fin>
+		</evenement>
+		<evenement date="2015.09.28" idEvt="150928.103829">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.09.28</debut>
+			<description>Pb de connexion avec le modem toujours présent malgrès l'intervention FT.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150928.103829</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.10.02</fin>
+		</evenement>
+		<evenement date="2018.03.13" idEvt="180313.093632">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.03.13</debut>
+			<description>Pas de connexion.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180313.093632</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.03.16</fin>
+		</evenement>
+		<evenement date="2018.06.15" idEvt="180615.161605">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.06.15</debut>
+			<description>Pas de connexion depuis le 15.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180615.161605</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.20</fin>
+		</evenement>
+		<evenement date="2018.06.26" idEvt="180629.141937">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.06.26</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180629.141937</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.07.04</fin>
+		</evenement>
+		<evenement date="2018.09.08" idEvt="180907.142135">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.09.08</debut>
+			<description>Pas de contact avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180907.142135</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.09.13</fin>
+		</evenement>
+		<evenement date="2018.10.02" idEvt="181004.132515">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.10.02</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181004.132515</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.10.10</fin>
+		</evenement>
+		<evenement date="2018.10.28" idEvt="181126.101247">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.10.28</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181126.101247</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.12.13</fin>
+		</evenement>
+		<evenement date="2019.07.04" idEvt="190704.090000">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.07.04</debut>
+			<description>Pas d'alimentation du chargeur.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190704.090000</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYLU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.07.05</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.11.12">
+			<intervenant>Frank</intervenant>
+			<commentaires>
+				Le dialogue était possible avec la Mykérinos mais pas avec la Titan.
+Sur place le Titan GPS ne fonctionnait pas, après un reboot tout est ok.
+			</commentaires>
+		</intervention>
+		<intervention date="2015.05.11">
+			<intervenant>Helene</intervenant>
+			<commentaires>test</commentaires>
+			<evt idEvt="150504.091745"/>
+		</intervention>
+		<intervention date="2015.05.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai changé l'antenne et le Titan GPS, mais le dialogue depuis l'extérieur est impossible alors que l'accès au Modem est ok et que le dialogue direct avec mon PC aussi mais par intermittence.
+La Mykérinos semble rebooter sans cesse, je la ramène à Toulouse pour test.
+			</commentaires>
+			<evt idEvt="150504.091745">
+				<commentaire>Changé GPS et Antenne</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.05.21">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Après avoir démonté la Mykérinos l'or de ma dernière intervention, Sébastien a résolu le problème de reboot au labo. J'ai donc ré-installé la Mykérinos ce jour, tout semble fonctionner. Reste à confirmer que le signal GPS est bien pris par la Titan sur la durée.</commentaires>
+			<evt idEvt="150518.093831">
+				<fin>2015.05.21</fin>
+			</evt>
+			<evt idEvt="150504.091745">
+				<fin>2015.05.21</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.06.09">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai mis une alim directe sur le GPS et retiré le cable dialogue qui allait à la Titan.
+Puis relié les 2 appareil par un cable BNC
+Pour la mise à l'heure : au top de l'horloge parlante faire un &quot;Time&quot; sur &quot;TC&quot;S lorsque la led gauche &quot;GPS RECEIVER STATUS&quot; du Titan GPS se met à clignoter, la manip ne peut se faire malheureuse que sur place car il faut réveiller le GPS .....
+			</commentaires>
+			<evt idEvt="150526.095934">
+				<commentaire>Cablage BNC - BNC entre le GPS et la Titan</commentaire>
+				<fin>2015.06.09</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.06.26">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				l'Episensor 660 et son câble sont envoyés à Toulouse.
+L'Episensor 1896 que j'avais à Tarbes est maintenant à Luchon, mais non connecté faute de câble.
+En fonction du résultat de l'analyse du câble par Sébastien j'y retournerais pour mettre un nouveau câble ou remettre l'ancien capteur et son câble réparé.
+Modifs sur GISSMO ok
+			</commentaires>
+			<evt idEvt="150625.092447"/>
+		</intervention>
+		<intervention date="2015.07.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Cable réparé par Sébastien remis, mais problème avec la station Titan qui reboote sans cesse, batterie vérifiée et Titanrel lancé mais sans succès, je ne peux dialoguer avec la titan et je n'en ai pas une de rechange ....</commentaires>
+			<evt idEvt="150625.092447"/>
+		</intervention>
+		<intervention date="2015.07.08">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Station Titan 3000034 changée par Titan 3000044 et tout fonctionne à nouveau, après une mise à l'heure et changement de paramètres du GPS tout est ok, rappel l'Episensor qui est à PYLU maintenant c'est le .....1896..... (anciennement PYAT)</commentaires>
+			<evt idEvt="150625.092447">
+				<fin>2015.07.08</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150921.084650">
+				<commentaire>Appel FT : pas de pb sur la ligne</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.25">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>LE transformateur était HS, je l'ai changé. Tout est à nouveau ok</commentaires>
+			<evt idEvt="150921.084650">
+				<commentaire>Changement de transformateur</commentaire>
+				<fin>2015.09.25</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.28">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150928.103829">
+				<commentaire>Appel FT : pb sur la ligne =&gt; intervention prévue cet après midi</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.10.02">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Modem Bewan changé d'abord par un autre bewan, mais le soucis était toujours le même, je pense que ce sont les transformateurs qui ont un soucis.
+Du coup j'ai mis un modem Zyxel, après configuration tout est ok
+			</commentaires>
+			<evt idEvt="150928.103829">
+				<commentaire>Modem Bewan changé</commentaire>
+				<fin>2015.10.02</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.02.22">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Installation nouvelle chaine d'acquisition :
+Capteur Episensor installé : 5348
+Capteur Episensor récupéré : 1896
+Station Centaur intallée 3183
+Antenne GPS laissée à l'intérieur du local sur le tableau électrique, car elle capte suffisamment
+Tests ok depuis Toulouse
+			</commentaires>
+		</intervention>
+		<intervention date="2018.03.14">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180313.093632">
+				<commentaire>Appel FT: Un problème a été constaté sur la ligne, un technicien doit intervenir dans les 24H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.03.16">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="180313.093632">
+				<commentaire>Intervention Orange</commentaire>
+				<fin>2018.03.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.18">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180615.161605">
+				<commentaire>Appel FT: la ligne est OK.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.20">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>la Led Internet du Xyzell était rouge un simple reboot et tout est ok</commentaires>
+			<evt idEvt="180615.161605">
+				<commentaire>Reboot Modem</commentaire>
+				<fin>2018.06.20</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180629.141937">
+				<commentaire>Appel FT: Un problème a été constaté sur la ligne. Un RDV est nécessaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.04">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Simple reboot du Zyxell
+j'en ai profité pour faire un double de la clé, que la mairie n'avait pas
+			</commentaires>
+			<evt idEvt="180629.141937">
+				<commentaire>reboot du Modem</commentaire>
+				<fin>2018.07.04</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.10">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180907.142135">
+				<commentaire>Appel FT: la ligne semble OK.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>le Zyxell perd la synchro ADSl et a besoin de reboot</commentaires>
+			<evt idEvt="180907.142135">
+				<commentaire>reboot du modem</commentaire>
+				<fin>2018.09.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.05">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181004.132515">
+				<commentaire>Appel FT: un problème exterieur a été constaté sur la ligne. Un technicien doit intervenir dans la journée. Pas de RDV nécessaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.08">
+			<intervenant>Technicien FT</intervenant>
+			<commentaires>En cas de problème après une manip de notre part, prendre RDV avec le technicien au 06 32 40 21 09.</commentaires>
+			<evt idEvt="181004.132515">
+				<commentaire>Le problème sur la ligne a bien été résolu, les tests de ligne sont OK mais le modem n'est toujours pas joignable.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.08">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Mr Cazes 06.08.69.43.14 responsable technique du stade, va faire un on/off sur le modem demain</commentaires>
+			<evt idEvt="181004.132515">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.10">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="181004.132515">
+				<commentaire>reboot modem</commentaire>
+				<fin>2018.10.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.26">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181126.101247">
+				<commentaire>Appel FT: un problème a été constaté sur la ligne. Un technicien doit intervenir dans l'après-midi.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.26">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Un technicien Orange est passé, pour lui pas de soucis sur la ligne ... Il pestait après l'opérateur qui a fait le test de ligne.
+Aujourd'hui Mr Cazes va rebooter le modem car ce doit être le même soucis que les fois précédentes.
+			</commentaires>
+			<evt idEvt="181126.101247">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Nous avons changé le Zyxell par un Mulogic RSA-1120D (MAC : 00:24:55:07:1F:8C)
+Test avec Sébastien ok.
+Je mets quelques photos et pour rappel le site se trouve au terrain de foot de Luchon (Montauban de Luchon), la station est derrière le club house à coté de la chaufferie)
+			</commentaires>
+			<evt idEvt="181126.101247">
+				<commentaire>modem changé</commentaire>
+				<fin>2018.12.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.05">
+			<intervenant>???</intervenant>
+			<evt idEvt="190704.090000">
+				<commentaire>La tension est revenue.</commentaire>
+				<fin>2019.07.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.03">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+	</interventions>
+</station>

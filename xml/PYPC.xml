@@ -1,0 +1,404 @@
+<?xml version="1.0" ?>
+<!-- fichier PYPC.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYPC</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>92.154.70.102</ip>
+	<tel>05 59 82 86 73</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>modem 56k</lienModem>
+	<lienNumeriseur>modem 56k</lienNumeriseur>
+	<divers>Mr Navarro 05 59 82 38 17. La synchronisation se fait par ntp (pool.ntp.org).</divers>
+        
+	<entretien date="2020.11.04" motif="entretien baie"/>
+	<historique>
+		<evenement date="2014.04.11" idEvt="140422.124006">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>140422.124006</idEvt>
+			<description>La station ne prend pas la synchro.</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.11</debut>
+			<stationID>PYPC</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2014.07.10</fin>
+		</evenement>
+		<evenement date="2014.04.30" idEvt="140430.104837">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140430.104837</idEvt>
+			<description>
+				problème rencontré : pas de prise de temps GPS
+sur place l'antenne et le GPS fonctionnent très bien, j'ai juste changé le cordon de dialogue GPS =&amp;gt; Titan et la synchro s'est faite rapidement ensuite.
+			</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.30</debut>
+			<stationID>PYPC</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2014.04.29</fin>
+		</evenement>
+		<evenement date="2014.04.30" idEvt="140430.104837">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140430.104837</idEvt>
+			<description>
+				problème rencontré : pas de prise de temps GPS
+sur place l'antenne et le GPS fonctionnent très bien, j'ai juste changé le cordon de dialogue GPS =&amp;gt; Titan et la synchro s'est faite rapidement ensuite.
+			</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.30</debut>
+			<stationID>PYPC</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2014.04.29</fin>
+		</evenement>
+		<evenement date="2014.04.20" idEvt="140430.104837">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140430.104837</idEvt>
+			<description>
+				problème rencontré : pas de prise de temps GPS
+sur place l'antenne et le GPS fonctionnent très bien, j'ai juste changé le cordon de dialogue GPS =&amp;gt; Titan et la synchro s'est faite rapidement ensuite.
+			</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.20</debut>
+			<stationID>PYPC</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2014.04.29</fin>
+		</evenement>
+		<evenement date="2015.01.01" idEvt="150116.085712">
+			<etat>Pb</etat>
+			<typeEvt>GPSTemps</typeEvt>
+			<idEvt>150116.085712</idEvt>
+			<description>Le synchro avec le temps (GPS° ne se fait pas automatiquement. Sur place, l'antenne avait été déplacée, je l'ai remis à sa place.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.01.01</debut>
+			<stationID>PYPC</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>???</GPSTempsg>
+			<fin>2015.01.15</fin>
+		</evenement>
+		<evenement date="2015.06.10" idEvt="150610.093416">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.06.10</debut>
+			<description>Tension très élevée : batterie HS ?</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>150610.093416</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.06.18</fin>
+		</evenement>
+		<evenement date="2015.06.17" idEvt="150617.085928">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.06.17</debut>
+			<description>Derniere synchronisation qui date du 29/01.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>150617.085928</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2015.06.18</fin>
+		</evenement>
+		<evenement date="2015.06.22" idEvt="150624.135715">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.06.22</debut>
+			<description>Surtension</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>150624.135715</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.06.29</fin>
+		</evenement>
+		<evenement date="2015.09.01" idEvt="150901.113111">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.09.01</debut>
+			<description>Pas de synchro superviseur/numeriseur</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150901.113111</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.10</fin>
+		</evenement>
+		<evenement date="2016.04.29" idEvt="160429.091758">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>160429.091758</idEvt>
+			<description>Le modem ne decroche pas.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.04.29</debut>
+			<stationID>PYPC</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.05.17</fin>
+		</evenement>
+		<evenement date="2016.06.01" idEvt="160718.153815">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.06.01</debut>
+			<description>La station ne se synchronise pas.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160718.153815</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2016.09.29</fin>
+		</evenement>
+		<evenement date="2018.07.02" idEvt="180704.095500">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>180704.095500</idEvt>
+			<description>Le numériseur ne se synchronise pas avec le temps.</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.07.02</debut>
+			<stationID>PYPC</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2018.12.14</fin>
+		</evenement>
+		<evenement date="2019.04.17" idEvt="190417.122240">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.04.17</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190417.122240</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.04.19</fin>
+		</evenement>
+		<evenement date="2019.07.08" idEvt="190709.094224">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.08</debut>
+			<description>Modem OK, mais pas de connexion avec le numériseur.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190709.094224</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.01</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.07.10">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le pb de temps, venait de l'antenne que nous avions déplacé, du coup elle est à nouveau sur la porte en bas du couloir et tout fonctionne parfaitement. J'ai juste demandé à un agent de sécurité de vérifier que l'antenne est bien en place lors de ses rondes.</commentaires>
+		</intervention>
+		<intervention date="2015.01.15">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Difficulté pour le GPS de transmettre le temps, sur place l'antenne a été déplacée.
+J'ai remis l'antenne aimantée sur la porte d'entrée, cette porte est beaucoup plus fréquentée ponctuellement à cause des travaux.
+			</commentaires>
+		</intervention>
+		<intervention date="2015.06.18">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				L'antenne avait été déplacée, il y a toujours des travaux dans ce couloir, ils vont faire un peu plus attention ...
+Batterie HS (feu vert ...) changée.
+			</commentaires>
+			<evt idEvt="150617.085928">
+				<commentaire>Antennne remise sur la porte d'entrée</commentaire>
+				<fin>2015.06.18</fin>
+			</evt>
+			<evt idEvt="150610.093416">
+				<commentaire>Batterie Changée</commentaire>
+				<fin>2015.06.18</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.06.29">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Chargeur &quot;Bosh&quot; changé par chargeur &quot;Mascott&quot;</commentaires>
+			<evt idEvt="150624.135715">
+				<commentaire>Chargeur Changé</commentaire>
+				<fin>2015.06.29</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.10">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le modem comme souvent était bloqué, un simple on off a suffit.</commentaires>
+			<evt idEvt="150901.113111">
+				<commentaire>Reboot mécanique du superviseur</commentaire>
+				<fin>2015.09.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.04.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160429.091758">
+				<commentaire>Appel à FT : la ligne est OK.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.05.11">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai appelé le chateau pour signaler mon arrivée, et en présentant le problème de dialogue que nous avons avec PYPC, on m'a répondu que c'était normal vu les soucis internes sur les lignes téléphoniques.
+Le responsable chargé des lignes téléphoniques ... Mr Pinasson 0559212222 est injoignable ce matin, je rappelle dès que je peux.
+			</commentaires>
+			<evt idEvt="160429.091758">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.05.13">
+			<intervenant>Pinasson</intervenant>
+			<commentaires>
+				Mr Pinasson aurait réglé le problème sur notre ligne, suite à des travaux
+Confirmation que notre ligne Orange est directe et ne passe pas par leur Autocom, donc aucune incidence du changement de l'Autocom.
+			</commentaires>
+			<evt idEvt="160429.091758">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.29">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai déplacé l'antenne en bas de la porte et le GPS voit désormai  7 satellites.
+Le responsable du chateau ne nous autorise pas à tirer une petite gaine juste au dessus de la porte.
+Si nous voulons nous pouvons demander à l'architecte des batiments de France (Mr Colonel) pour passer dans un joint entre 2 pierres ...
+			</commentaires>
+			<evt idEvt="160718.153815">
+				<commentaire>Antenne déplacée</commentaire>
+				<fin>2016.09.29</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.01.20">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				L'antenne est toujours bien en place, au bas de la porte et je l'ai légèrement déplacée vers le centre pour essayer de mieux capter.
+4 photos jointes pour la demande à Mr Lecolonel.
+Rapel ou on passe dans un espace entre deux pierres de l'encadrement ou on passe carrement par l'ouverture quelques mètrs au dessus en faisant une petite tranchée jusqu'au dessus de la porte.
+			</commentaires>
+		</intervention>
+		<intervention date="2017.09.27">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				L'antenne n'aimantait plus et était tombée, après nettoyage de la porte et de l'arrière de l'antenne tout est ok.
+Tests avec Sébastien de puis Toulouse ok
+			</commentaires>
+		</intervention>
+		<intervention date="2019.01.24">
+			<intervenant>Frank et Helene</intervenant>
+			<commentaires>
+				Passage de la station déclenchée en continue.&lt;br&gt;
+Installation du numériseur Centaur3 S/N 3149. La datation se fait via un serveur ntp.&lt;br&gt;
+Installation du modem Mulogic (00:24:55:07:66:25). Add IP station : 92.154.70.102 &lt;br&gt;
+Installation du chargeur ENAG (PRE00047-12-15).&lt;br&gt;
+L'emplacement capteur est propre.&lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.04.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190417.122240">
+				<commentaire>Test de ligne: aucune anomalie detectée.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>j'ai simplemenent rebooté le modem. Un reboot automatique est possible a mettre en place ?</commentaires>
+			<evt idEvt="190417.122240">
+				<commentaire>reboot du modem</commentaire>
+				<fin>2019.04.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.01">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le modem fonctionnait, l'ADSL ok mais la led PPP était orange et impossible de m'y logger avec le PC. La config de la Centaur est ok.
+J'ai remplacé le Mulogic par un TPlink que j'ai branché directement sur la batterie.
+Tout fonctionne normalement à mon départ.
+			</commentaires>
+			<evt idEvt="190709.094224">
+				<commentaire>Changé Modem</commentaire>
+				<fin>2019.08.01</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.10">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+	</interventions>
+</station>

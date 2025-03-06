@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<!-- fichier PYPU.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYPU</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>***</ip>
+	<tel>05 59 83 79 87</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>modem 56k</lienModem>
+	<lienNumeriseur>modem 56k</lienNumeriseur>
+	<divers>Mr Capelle 06.46.45.81.63</divers>
+        
+	<entretien date="2019.06.12" motif="débroussaillage"/>
+	<historique>
+		<evenement date="2015.01.01" idEvt="150116.085433">
+			<etat>Pb</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>150116.085433</idEvt>
+			<description>Batterie faible changée et pile du DCF également changée car DCF HS</description>
+			<battCharg>Pb</battCharg>
+			<debut>2015.01.01</debut>
+			<stationID>PYPU</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2015.01.15</fin>
+		</evenement>
+		<evenement date="2015.06.15" idEvt="150617.143253">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.06.15</debut>
+			<description>Pas de synchronisation pour la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150617.143253</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2015.06.29</fin>
+		</evenement>
+		<evenement date="2015.06.30" idEvt="150630.084208">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.06.30</debut>
+			<description>Pas de synchro superviseur/numeriseur</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150630.084208</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.25</fin>
+		</evenement>
+		<evenement date="2017.08.07" idEvt="170904.105759">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.08.07</debut>
+			<description>Pas de réponse.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170904.105759</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYPU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.09.27</fin>
+		</evenement>
+		<evenement date="2017.10.27" idEvt="181114.085025">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.10.27</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181114.085025</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.11.15</fin>
+		</evenement>
+		<evenement date="2018.11.12" idEvt="181211.152747">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.11.12</debut>
+			<description>Le modem ne décroche pas.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181211.152747</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYPU</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.02.26</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2015.01.15">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Batterie faible =&gt; changée
+DCF HS =&gt; pile changée
+			</commentaires>
+		</intervention>
+		<intervention date="2015.06.29">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>J'ai changé le DCF qui doit avoir la pile qui faiblit ... par un DCF avec une pile neuve .... A noter que je n'ai plus de piles neuves et que je m'en vois toujours pour souder les fils d'alim du DCF sur les pôles des piles, si on peut trouver une solution plus fiable ... à réfléchir.</commentaires>
+			<evt idEvt="150617.143253">
+				<commentaire>DCF changé</commentaire>
+				<fin>2015.06.29</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.08.25">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				tout d'abord le superviseur avait la led &quot;chargeur&quot; allumée, mais la batterie et le chargeur paraissaient ok.
+J'ai changé le superviseur : test avec Toulouse, rien de changé pas de synchro avec la numériseur mais le modem répond bien.
+J'ai changé le numériseur : pb toujours là
+J'ai fait un titanrel sur le premier numériseur : pb toujours là
+et enfin j'ai remis le premier superviseur et là tout fonctionne normalement.
+Donc un titanrel à suffit.
+			</commentaires>
+			<evt idEvt="150630.084208">
+				<fin>2015.08.25</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Visiblement plus de déclenchements depuis un moment. Sur place la led &quot;seismo&quot; était anormalement allumée, un simple reboot à suffit, pour que tout fonctionne à nouveau. A vérifier sur les prochains jours</commentaires>
+		</intervention>
+		<intervention date="2017.09.27">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Je chargeur été HS, après remplacement l'alim fonctionne mais le numériseur pose un soucis (la led média clignote anormalement et le dialogue n'est pas possible).
+J'ai donc changé la Titan 3 : 300039 par la Titan 3 100046
+Tout est ok, ne manque plus qu'un top du DCF : on attend de voir jusqu'à demain.
+Tests ok avec Sébastien depuis Toulouse.
+			</commentaires>
+			<evt idEvt="170904.105759">
+				<commentaire>Changé chargeur</commentaire>
+				<fin>2017.09.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.04">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Plus de connexion avec la station.
+Le chargeur semble HS, en le remplaçant je me rends compte que c'est la ligne électrique qui est coupée.
+Je suis passé voir Mr Hauser au service du patrimone mais il était absent. Je lui laisse un émail. alexis.hauser@univer-pau.fr pour qu'il fasse intervenir quelqu'un afin de remettre la ligne en service.
+			</commentaires>
+		</intervention>
+		<intervention date="2018.11.15">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="181114.085025">
+				<commentaire>Batterie changée</commentaire>
+				<fin>2018.11.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.12">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181211.152747">
+				<commentaire>Appel FT: Un problème a été identifié sur la ligne mais cela nécéssite un RDV. On rappellera quand ce sera possible.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.24">
+			<intervenant>Frank et Helene</intervenant>
+			<commentaires>
+				Passage de la station déclenchée en continue.&lt;br&gt;
+Le site, protégé par une grille, est recouvert de ronce et d'ortie. Prévoir de débroussailler une fois par an.&lt;br&gt;
+Le capteur est placé dans une buse. A notre arrivée, celle-ci était remplie de terre. A surveiller.&lt;br&gt;
+Difficulté pour enlever le câble côté capteur. La connectique au niveau du capteur est abîmée mais on a pu fixer le nouveau câble.&lt;br&gt;
+Installation du modem Mulogic (00:24:55:07:1C:5E). Pas de signal DSL. Orange trouve un pb sur la ligne. Intervention du technicien en présence de Frank prévue le 25/01/19 AM.&lt;br&gt;
+Installation de la Centaur (S/N 3109). La Centaur ne démarre pas. Nous avons inversé les bornes +/- au moment du branchement mais normalement la Centaur est protégée contre cette manip. La Centaur est ramenée à Toulouse.&lt;br&gt;
+Installation du chargeur ENAG (PRE 000960217).&lt;br&gt;
+			</commentaires>
+			<evt idEvt="181211.152747">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.29">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Rendez vous avec Orange sur place, la difficulté est de trouver la tête de ligne qui n'est pas proche du standard.
+Nous avons du faire appel à Mr Capelle  06.46.45.81.63 qui nous a aidé à trouver dans quel bâtiment la trouver.
+Du coup pour Orange il n'y a pas de soucis de leur coté l'ADSL arrive bien, par contre le câble qui va jusqu'à la station a du être sectionné pendant les travaux effectués sur le toit. L'entreprise en cause va réparer ou remplacer le câble.
+Pour cela il faut adresser un message à Mr Hauser : alexis.hauser@univ-pau.fr même si son collègie Mr Capelle est bien informé de la situation.
+			</commentaires>
+			<evt idEvt="181211.152747">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.02.26">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Après l'intervention d'un technicien Orange et en collaboration avec Mr Capelle de l'Université de Pau la ligne télécom a pu être à nouveau identifiée, elle est dans la baie de brassage réseaux de l'université. Du coup le modem fonctionne très bien et la Centaur également.
+Test faits avec Sébastien tout est ok.
+			</commentaires>
+			<evt idEvt="181211.152747">
+				<commentaire>intervention Orange et Université de Pau</commentaire>
+				<fin>2019.02.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.19">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+	</interventions>
+</station>

@@ -1,0 +1,486 @@
+<?xml version="1.0" ?>
+<!-- fichier PYHE.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYHE</nom>
+	<identifiant>fti/7cy7hvz</identifiant>
+	<pwd>6axg79f</pwd>
+	<ip>82.127.136.24</ip>
+	<tel>05 59 56 85 39</tel>
+	<materielDivers>RelaiPanneau/Chargeur</materielDivers>
+	<lienModem>http://82.127.136.24</lienModem>
+	<lienNumeriseur>http://82.127.136.24:8020</lienNumeriseur>
+	<divers>Céline Davadan 06 60 68 15 28</divers>
+	<gissmo n="393"/>
+        
+	<entretien date="2022.05.04" motif=""/>
+	<historique>
+		<evenement date="2015.09.02" idEvt="150902.140033">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>150902.140033</idEvt>
+			<description>Pas de connexion avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.09.02</debut>
+			<stationID>PYHE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.04</fin>
+		</evenement>
+		<evenement date="2016.02.09" idEvt="160209.111740">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.02.09</debut>
+			<description>Impossible de joindre le numériseur.Le modem répond correctement.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160209.111740</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYHE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.02.19</fin>
+		</evenement>
+		<evenement date="2016.03.10" idEvt="160310.093342">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.03.10</debut>
+			<description>Voie E HS</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160310.093342</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYHE</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.09.30</fin>
+		</evenement>
+		<evenement date="2016.08.30" idEvt="160901.124152">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.08.30</debut>
+			<description>Pas de liaison avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160901.124152</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYHE</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.09.13</fin>
+		</evenement>
+		<evenement date="2017.06.06" idEvt="170602.111105">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.06.06</debut>
+			<description>Le nb de satellites vu par l'antenne est très aléatoire. J'ai l'impression que celle-ci est tombée du palmier.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170602.111105</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYHE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2017.06.09</fin>
+		</evenement>
+		<evenement date="2018.06.18" idEvt="180618.091012">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>180618.091012</idEvt>
+			<description>Très basses fréquences sur le signal.</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.06.18</debut>
+			<stationID>PYHE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+		<evenement date="2018.12.20" idEvt="181220.100337">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.12.20</debut>
+			<description>Pas moyen de se connecter avec la station. Ce n'est peut être pas lié, mais le signal a commencé à se dégrader très fortement quelques heures avant la coupure.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181220.100337</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYHE</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.01.26</fin>
+		</evenement>
+		<evenement date="2019.05.02" idEvt="190502.094232">
+			<debut>2019.05.02</debut>
+			<typeEvt>connStation</typeEvt>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<battCharg>OK</battCharg>
+			<GPSTemps>???</GPSTemps>
+			<signal>???</signal>
+			<description>Problème sur la voie Nord: la position de la masse passe de 0V à 7V en quelques secondes.</description>
+			<idEvt>190502.094232</idEvt>
+			<etat>Pb</etat>
+			<stationID>PYHE</stationID>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+		<evenement date="2019.10.03" idEvt="191003.165144">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.10.03</debut>
+			<description>Le firmware du GPS n'est plus à jour.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191003.165144</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYHE</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2020.01.22</fin>
+		</evenement>
+		<evenement date="2019.11.05" idEvt="191108.165625">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.05</debut>
+			<description>Pas d'alim sur le chargeur. Pas de données depuis le 8/11.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191108.165625</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYHE</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2019.11.13</fin>
+		</evenement>
+		<evenement date="2019.11.16" idEvt="191118.084941">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.16</debut>
+			<description>La batterie est déchargée.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191118.084941</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYHE</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2019.11.18</fin>
+		</evenement>
+		<evenement date="2020.02.27" idEvt="200228.115818">
+			<debut>2020.02.27</debut>
+			<typeEvt>connStation</typeEvt>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<battCharg>OK</battCharg>
+			<GPSTemps>???</GPSTemps>
+			<signal>???</signal>
+			<description>Perte de connexion avec la station.</description>
+			<idEvt>200228.115818</idEvt>
+			<etat>HS</etat>
+			<stationID>PYHE</stationID>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="15.09.2014">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La station ne fonctionnait plus à cause d'une panne électrique. En fait un disjoncteur avait sauté dans le coffret à coté de la cuisine et personne ne s'en était rendu compte, car il y a deux lignes de fusibles, une pour l'éclairage et une pour les prises. Une fois ré-armé tout est ok.</commentaires>
+		</intervention>
+		<intervention date="2015.09.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150902.140033">
+				<commentaire>Appel à FT : la ligne est OK, le problème serait plutôt au niveau du modem.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.04">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Céline Davadan à constaté qu'un de leurs disjoncteurs avait sauté, une fois réarmé tout est ok</commentaires>
+		</intervention>
+		<intervention date="2015.11.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Céline Davadan a débranché la kefren pour quelle s'éteigne et l'a ensuite redémarrée, visiblement sans réussite, je m'y déplace vendredi</commentaires>
+		</intervention>
+		<intervention date="2015.11.20">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La kefren avait perdu sa config réseau, une fois remise et après un reboot tout est ok</commentaires>
+		</intervention>
+		<intervention date="2016.02.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Les paramètres &quot;Réseau&quot; avaient sauté, je les ai juste rajoutés et tout est à nouveau ok.</commentaires>
+			<evt idEvt="160209.111740">
+				<fin>2016.02.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.01">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160901.124152">
+				<commentaire>Appel FT : une instabilité a été constatée sur la ligne. Voir avec le musee pour programmer une intervention de FT.</commentaire>
+			</evt>
+			<evt idEvt="160310.093342">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Céline Davadan a rebooté le modem, pas d'amélioration. Je vais sur place mardi 13 septembre.</commentaires>
+			<evt idEvt="160901.124152">
+				<commentaire>Reboot du Modem</commentaire>
+			</evt>
+			<evt idEvt="160310.093342">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Comme prévu le modem ne fonctionnait pas à cause de son alimentation (les 4 leds de gauches clignotaient et les 4 de droites étaient éteintes). Les transformateurs grillent en ce moment .... j'ai donc comme à PYOT branché le Modem directement sur la batterie.
+Concernant la voie Est du capteur, j'ai essayé plusieurs choses sur place : réhausser les pieds, débrancher rebrancher le cable ... rien qui n'ait amélioré quoi que ce soit. A distance Sébastien à réussi à désalimenter les voies, mais au final rien pour améliorer non plus.
+Il faudra l'ouvrir, Sébastien s'en chargera lorsque nous aurons déposé à la place l'épisensor qui est à Toulouse.
+			</commentaires>
+			<evt idEvt="160901.124152">
+				<commentaire>Alimentation branchée sur la batterie</commentaire>
+				<fin>2016.09.13</fin>
+			</evt>
+			<evt idEvt="160310.093342">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.30">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>l'épisensor 0660 remplace donc le 4133 que je fais remonter à Toulouse</commentaires>
+			<evt idEvt="160310.093342">
+				<commentaire>Capteur changé</commentaire>
+				<fin>2016.09.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.08">
+			<intervenant>Frank</intervenant>
+			<commentaires>
+				Remplacement du numériseur Kephren S/N:560022 par le numériseur D6BB-DIN S/N:0499.
+Le GPS de la Kephren est resté en place et a été recâblé sur la D6BB.
+L’accéléromètre a été recâblé sur la D6BB. A noter que la calibration n'est pas câblée.
+Installation du STS-2 S/N:20018.
+			</commentaires>
+		</intervention>
+		<intervention date="2017.06.09">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="170602.111105">
+				<commentaire>Antenne refixée</commentaire>
+				<fin>2017.06.09</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.01.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Problème signal
+La Nadirane est très propre, pas d'humidité, le capteur est un peu débullé et la porte d'accès à l'escalier était ouverte sans la plaque de polystyrène.
+Si nous voulons installer une ré hausse avec du sable il nous faudra déplacer le capteur de l'IPGP (avec leur autorisation)
+			</commentaires>
+		</intervention>
+		<intervention date="2018.02.15">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Isolation du capteur Large Bande. J'ai du déplacer et refixer l'épisensor. J'ai déplacé le capteur de l'IPGP.
+J'ai installé une réhausse béton de 40x40 cm dans laquelle j'ai ré-installé le LB, puis j'ai  mis des sacs de sables tout au tour et dessus pour isoler, j'ai juste posé un carré d'isolant thermo-réflectif sur le dessus pour finir.
+			</commentaires>
+		</intervention>
+		<intervention date="2018.12.20">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181220.100337">
+				<commentaire>Appel FT: aucun disfonctionnement n'a été détécté sur la ligne.</commentaire>
+			</evt>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.20">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>J'ai appelé Céline Davadan. L'Apave est en train de remettre aux normes l'électricité dsu sous sol et ils ont effectivement coupé l'électricité pour quelques heures ... jours ? Cela va revenir une fois les travaux effectués.</commentaires>
+			<evt idEvt="181220.100337">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.26">
+			<intervenant>Apave</intervenant>
+			<commentaires>Le signal est toujours aussi moche.</commentaires>
+			<evt idEvt="181220.100337">
+				<commentaire>Depuis le 26/12, la connexion passe de nouveau correctement.</commentaire>
+				<fin>2019.01.26</fin>
+			</evt>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.09">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Pour les travaux de l'APAVE notre matériel a été bougé. Céline Davadan pense qu'il serait bien que j'y aille pour remettre en place et vérifier que tout est ok</commentaires>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.10">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				L'installation modem-D6bb avait été un peu bougée (technicien de l'APAVE) mais rien de grave, par contre la batterie donnait des signes de fatigue je l'ai changée. Coté sismo je suis allé vérifier mais rien à signaler.
+L'APAVE ne travaille pas au chateau ce vendredi jusqu'à mardi, puis reprend les travaux qui peuvent toucher aussi le réseau internet.
+			</commentaires>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190502.094232">
+				<commentaire>Recentrage: la position de la voie N reste maintenant à 3V. Il semblerait qu'un problème soit apparu cette nuit sur la chaine instrumentale (capteur, cablage, ...?).</commentaire>
+			</evt>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.13">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="191108.165625">
+				<commentaire>la prise de notre installation n'était plus alimentée</commentaire>
+				<fin>2019.11.13</fin>
+			</evt>
+			<evt idEvt="191003.165144">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="190502.094232">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Des travaux encore au domaine et donc une coupure de différentiel que Céline n'avait pas vu.
+Je n'ai pas laissé le GPS, il faudrait un cable de 25m 
+pas de soucis de bullage du capteur
+			</commentaires>
+			<evt idEvt="191003.165144">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="190502.094232">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.18">
+			<intervenant>???</intervenant>
+			<evt idEvt="191118.084941">
+				<commentaire>La tension est revenue.</commentaire>
+				<fin>2019.11.18</fin>
+			</evt>
+			<evt idEvt="191003.165144">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="190502.094232">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191003.165144">
+				<commentaire>Mise à jour de la station.</commentaire>
+				<fin>2020.01.22</fin>
+			</evt>
+			<evt idEvt="190502.094232">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.28">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200228.115818">
+				<commentaire>Appel Orange: Un problème a été identifié sur la ligne ou sur notre materiel. Un RDV est nécéssaire.</commentaire>
+			</evt>
+			<evt idEvt="190502.094232">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="180618.091012">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

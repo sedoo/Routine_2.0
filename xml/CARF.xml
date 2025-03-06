@@ -1,0 +1,242 @@
+<?xml version="1.0" ?>
+<!-- fichier CARF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>CARF</nom>
+	<identifiant>fti/2r4dz2b</identifiant>
+	<pwd>4zqhuxq</pwd>
+	<ip>80.14.95.69</ip>
+	<tel>04 68 20 49 95</tel>
+	<materielDivers/>
+	<lienModem>http://80.14.95.69</lienModem>
+	<lienNumeriseur>http://80.14.95.69:8020</lienNumeriseur>
+	<divers>
+	</divers>
+        
+	<entretien date="2020.10.09" motif="Entretien"/>
+        <gissmo n="73"/>
+	<historique>
+		<evenement date="2014.02.27" idEvt="140408.095603">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>140408.095603</idEvt>
+			<description>Le signal est taché d'impulsions périodiques.</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.02.27</debut>
+			<stationID>CARF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.04.13</fin>
+		</evenement>
+		<evenement date="2014.06.16" idEvt="140616.093425">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.06.16</debut>
+			<description>Le signal n'est pas amorti (rajouter les résistances d'amortissement)</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140616.093425</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>CARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.09.18</fin>
+		</evenement>
+		<evenement date="2014.08.15" idEvt="140909.094547">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.08.15</debut>
+			<description>Des impulsions apparaissent sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140909.094547</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>CARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.09.11</fin>
+		</evenement>
+		<evenement date="2014.09.01" idEvt="140922.100208">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.09.01</debut>
+			<description>De nombreuses impulsions sur le signal.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140922.100208</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>CARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.28</fin>
+		</evenement>
+		<evenement date="2016.10.03" idEvt="161003.104141">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.10.03</debut>
+			<description>Plus de 300 déclenchements par jour.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>161003.104141</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>CARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.10.20</fin>
+		</evenement>
+		<evenement date="2016.10.21" idEvt="161024.135638">
+			<etat>Pb</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>161024.135638</idEvt>
+			<description>Pas de reponse du modem</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.10.21</debut>
+			<stationID>CARF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.10.26</fin>
+		</evenement>
+		<evenement date="2019.12.14" idEvt="191216.085742">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.14</debut>
+			<description>Perte de la connexion.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191216.085742</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>CARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.16</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.09.11">
+			<intervenant>SB</intervenant>
+			<evt idEvt="140909.094547">
+				<commentaire>Reset à distance de la station</commentaire>
+				<fin>2014.09.11</fin>
+			</evt>
+			<evt idEvt="140616.093425"/>
+		</intervention>
+		<intervention date="2014.09.18">
+			<intervenant>Helene</intervenant>
+			<evt idEvt="140616.093425">
+				<commentaire>Echange de numériseur</commentaire>
+				<fin>2014.09.18</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.08.28">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Pb de dialogue entre le superviseur et le numériseur.
+Superviseur changé tout fonctionne à nouveau.
+A noter que nous n'avons plus de superviseurs fiables en secours ..... 
+			</commentaires>
+			<evt idEvt="140922.100208">
+				<fin>2015.08.28</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.22">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				La station déclanchait très souvent, sur place après un Titanrel toujours la même chose, j'ai donc changé la &quot;minititan 026 0001&quot; par la &quot;0260011&quot;. Tout est ok
+J'ai ajouté un chargeur sur la batterie maintenant que nous avons le 220v et changé le régulateur sur le panneaux solaires par un &quot;photos&quot; tout neuf.
+			</commentaires>
+		</intervention>
+		<intervention date="2016.10.20">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Installation de la station Large Bande le 20/10/2016
+Matériel installé : D6BB-DIN S/N 0508 - T120QA S/N 2382 - Modem/routeur Mulogic S/N 00:24:55:06:96:4E
+Le capteur est installé dans le puits maçonné isolé avec du sable (dans sacs poubelles) et 30cm de polystyrène extrudé. Le tout est recouvert d'une plaque métal et de terre.
+J'ai creusé une tranchée directe entre le puits et la cabane et mis en place une gaine TPE diam. 90cm.
+J'ai percé un trou à l'arrière de la cabane pour le passage de câble.
+Le modem et le numériseur sont installés dans un coffret étanche dans la cabane.
+Au niveau du câblage, la pinoche du signal de calibration n'a pas tenue. Je n'ai pas fait de réparation car cela impliquait de raccourcir tous les fils. Quand on installera la baie, il faudra prévoir de refaire complètement le câblage au niveau de la D6BB-DIN.
+Le signal est OK.
+Pb ADSL : pas de signal ADSL. un technicien est passé le lendemain, il a changé la prise téléphone. J'ai quitté le site avec connexion ADSL mais perte de la connexion 3h plus tard, cad vendredi 21/10/2016 à 16h00. Une intervention est prévue demain mardi 25 octobre entre 8h00 et 10h00.
+Voici l'IP de CARF : 80.14.95.69
+J'ai démonté le matériel CP (sans sectionner la câble capteur) qui est disponible pour VALF.
+			</commentaires>
+			<evt idEvt="161003.104141">
+				<commentaire>
+				</commentaire>
+				<fin>2016.10.20</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.08.16">
+			<intervenant>Frank et Helene</intervenant>
+			<commentaires>
+				Installation de la baie outdoor:
+- Démontage de la cabane.
+- Passage des gaines dans la dalle.
+- Mise en place de la baie avec cimentation du socle.
+- Changement du chargeur Mascott par le chargeur ENAG S/N PRE00036-04-16.
+- Câblage de la calibration.
+- A noter que les modules R-DYN et T-DYN ne sont pas activés.
+Les propriétaires de la ferme en contre bas ont changés:
+Rémy Clastres et Susana Lopez 06 07 51 25 92
+			</commentaires>
+		</intervention>
+		<intervention date="2019.07.04">
+			<intervenant>Hélène et Frank</intervenant>
+			<commentaires>
+				Entretien station: &lt;br&gt;
+- Changement de la batterie.&lt;br&gt;
+- Rallonge du câble téléphonique, remplacement de la prise téléphonique par une prise DTI et fixation de la prise.&lt;br&gt;
+- Nettoyage armoire.&lt;br&gt;
+- débroussaillage du site. Actuellement il n'y a pas d'animaux sur la parcelle et la végétation prend le dessus, accès difficile.&lt;br&gt;
+A prévoir lors du prochain passage sur site: &lt;br&gt;
+- brancher le ventilateur (attention le thermostat n'est pas dans la baie).&lt;br&gt;
+- Installer une goulotte pour cable GPS.&lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.07.04">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+		<intervention date="2019.12.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191216.085742">
+				<commentaire>Test Orange: Un problème a déjà été identifié sur la ligne, l'intervention du 15/12 n'a pas résolu le problème. Les travaux sont toujours en cours.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.16">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="191216.085742">
+				<commentaire>La liaison semble rétablie.</commentaire>
+				<fin>2019.12.16</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

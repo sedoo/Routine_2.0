@@ -1,0 +1,412 @@
+<?xml version="1.0" ?>
+<!-- fichier FNEB.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>FNEB</nom>
+	<identifiant>fti/7wzchab</identifiant>
+	<pwd>4akukad</pwd>
+	<ip>80.13.157.134</ip>
+	<tel>04 68 74 07 31</tel>
+	<materielDivers>TSA, relais panneau, multiprise parafoudre</materielDivers>
+	<lienModem>http://80.13.157.134</lienModem>
+	<lienNumeriseur>http://80.13.157.134:8020</lienNumeriseur>
+	<divers>Le portail s'ouvre en soulevant légerement la porte.Ne pas oublier la cle pour la porte du local.</divers>
+	<gissmo n="20"/>
+        
+	<entretien date="2019.11.10" motif="Debroussailler la station,protéger les equipements dans une armoire et refaire l'éléctricité"/>
+	<historique>
+		<evenement date="2014.04.04" idEvt="140408.103011">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>140408.103011</idEvt>
+			<description>La connexion s’établit pendant des intervalles très courts.</description>
+			<battCharg>???</battCharg>
+			<debut>2014.04.04</debut>
+			<stationID>FNEB</stationID>
+			<connStation>???</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>???</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>???</GPSTempsg>
+			<fin>2014.04.11</fin>
+		</evenement>
+		<evenement date="2014.06.16" idEvt="140616.092249">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.06.16</debut>
+			<description>Problème récurent dût à l'instabilité du disjoncteur.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140616.092249</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.07</fin>
+		</evenement>
+		<evenement date="2014.07.19" idEvt="140722.124857">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.07.19</debut>
+			<description>Disjoncteur ?</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140722.124857</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.29</fin>
+		</evenement>
+		<evenement date="2015.05.18" idEvt="150518.094007">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.05.18</debut>
+			<description>Materiel à tester</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>150518.094007</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>???</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.06.26</fin>
+		</evenement>
+		<evenement date="2015.06.26" idEvt="150626.165919">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.06.26</debut>
+			<description>Le sismo ne semble pas alimenté. Problème de cable ?</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150626.165919</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>29/07/2015</fin>
+		</evenement>
+		<evenement date="2015.07.24" idEvt="150727.090104">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.07.24</debut>
+			<description>Pas de connexion avec le modem</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150727.090104</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>29/07/2015</fin>
+		</evenement>
+		<evenement date="2016.10.06" idEvt="161006.121839">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.10.06</debut>
+			<description>Pas de réponse du modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>161006.121839</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.10.14</fin>
+		</evenement>
+		<evenement date="2017.01.24" idEvt="170125.084940">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>170125.084940</idEvt>
+			<description>Pas de ping avec la station depuis hier.</description>
+			<battCharg>OK</battCharg>
+			<debut>2017.01.24</debut>
+			<stationID>FNEB</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.01.27</fin>
+		</evenement>
+		<evenement date="2017.03.13" idEvt="170314.101601">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.03.13</debut>
+			<description>Pas de ping</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170314.101601</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.03.30</fin>
+		</evenement>
+		<evenement date="2017.06.29" idEvt="170629.102809">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.06.29</debut>
+			<description>Le numériseur n'est pas à jour. La maj à distance n'est pas possible.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170629.102809</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.07.03</fin>
+		</evenement>
+		<evenement date="2017.06.29" idEvt="170629.102910">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.06.29</debut>
+			<description>La station Reboot toutes les deux minutes.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170629.102910</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.07.03</fin>
+		</evenement>
+		<evenement date="2018.06.29" idEvt="180702.084148">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>180702.084148</idEvt>
+			<battCharg>OK</battCharg>
+			<debut>2018.06.29</debut>
+			<stationID>FNEB</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.07.09</fin>
+		</evenement>
+		<evenement date="2018.08.02" idEvt="180806.124624">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.08.02</debut>
+			<description>plus de connexion ADSL</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180806.124624</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>FNEB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.09.06</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.07.04">
+			<intervenant>Helene et Seb</intervenant>
+			<commentaires>Les panneaux solaires ont été montés sur le mur de la cabane. Ils n'ont pas pût être raccordés à la batterie pour faute de clé oubliée.</commentaires>
+			<evt idEvt="140616.092249"/>
+		</intervention>
+		<intervention date="2014.07.07">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="140616.092249">
+				<commentaire>Le disjoncteur a été réarmé et les panneaux sont maintenant connectés à la batterie.</commentaire>
+				<fin>2014.07.07</fin>
+			</evt>
+		</intervention>
+		<intervention date="2014.07.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="140722.124857">
+				<commentaire>Réenclenchement du disjoncteur</commentaire>
+				<fin>2014.07.29</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.05.06">
+			<intervenant>Seb</intervenant>
+			<commentaires>Échange de batterie.</commentaires>
+		</intervention>
+		<intervention date="2015.05.22">
+			<intervenant>Helene et Seb</intervenant>
+			<commentaires>il semblerait que tout le meteriel soit endommagé aau niveau éléctrique (modem, chargeur, numériseur, le capteur à tester). Surtension ?</commentaires>
+			<evt idEvt="150518.094007">
+				<commentaire>Materiel ramené à Toulouse</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.06.26">
+			<intervenant>Matthieu et Seb</intervenant>
+			<commentaires>
+				Le cable était séctionné au niveau de la prise qui reliait le cable sismo à la rallonge. Vue l'allure du signal, il semblerait que la réparation de fortune n'ait pas tenue. La prochaine fois, on changera tout le cable en reliant en une seule section de cable le capteur et le numériseur.
+On en a aussi profité pour poser un régulateur à la sortie des panneaux et une multiprise &quot;parfoudre&quot; pour remplacer les TSA qui semble ne pas apprécier le lieu (transfo du BRGM?).
+			</commentaires>
+			<evt idEvt="150518.094007">
+				<commentaire>Changement du chargeur, du modem et du numériseur.</commentaire>
+				<fin>2015.06.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.07.29">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>
+				Le câble avec rallonge de type &quot;clipper M+F&quot; a été remplacé par un câble nanometrics de 10m commandé pour l'occasion.
+Impossible de le faire passer par la gaine : il court donc sur le sol comme le précédent.
+			</commentaires>
+			<evt idEvt="150727.090104">
+				<commentaire>réenclenchement disjoncteur</commentaire>
+				<fin>29/07/2015</fin>
+			</evt>
+			<evt idEvt="150626.165919">
+				<commentaire>changement de câble</commentaire>
+				<fin>29/07/2015</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.10.07">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="161006.121839">
+				<commentaire>Appel FT : La ligne est OK, le problème semble se situer au niveau du modem.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.10.14">
+			<intervenant>Seb</intervenant>
+			<commentaires>La station fonctionnait correctement à mon arrivée, alimentée par la batterie et les panneaux. La pancarte fixée sur le mur de la cabane est complètement illisible.</commentaires>
+			<evt idEvt="161006.121839">
+				<commentaire>Réarmement des disjoncteurs.</commentaire>
+				<fin>2016.10.14</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.01.25">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170125.084940">
+				<commentaire>Appel à FT : un problème a bien été identifié sur la ligne et devrait être résolu dans la matinée.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.14">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170314.101601">
+				<commentaire>Appel FT : un incident sur la ligne a bien été identifié.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170314.101601">
+				<commentaire>Appel FT : l'incident a été résolu. Une intervention devra être programmée.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.30">
+			<intervenant>Helene, Seb</intervenant>
+			<evt idEvt="170314.101601">
+				<commentaire>Echange du modem.</commentaire>
+				<fin>2017.03.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.07.03">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170629.102910">
+				<commentaire>Echange du numériseur.</commentaire>
+				<fin>2017.07.03</fin>
+			</evt>
+			<evt idEvt="170629.102809">
+				<commentaire>
+				</commentaire>
+				<fin>2017.07.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.12.07">
+			<intervenant>Seb</intervenant>
+			<commentaires>Raccordement de l'accéléromètre du BCSF à notre station.</commentaires>
+		</intervention>
+		<intervention date="2018.04.05">
+			<intervenant>Seb</intervenant>
+			<commentaires>Inversion des polarités pour les voies Z et E de l'accéléromètre (Sismo1)</commentaires>
+		</intervention>
+		<intervention date="2018.06.01">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Accéléromètre Episensor  N°2484 retiré et remplacé par le N° 1896
+Entretien autour du local effectué
+Test des doubles des clés ok
+			</commentaires>
+		</intervention>
+		<intervention date="2018.07.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180702.084148">
+				<commentaire>Appel FT: Pas de tests possible.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180702.084148">
+				<commentaire>FNEB pandant la coupure.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.06">
+			<intervenant>Seb</intervenant>
+			<commentaires>Conclusion: Ne pas prévoir d'intervention quand FT annonce que des tests ne sont pas possibles sur la ligne. Il vaut mieux les rappeler plus tard.</commentaires>
+			<evt idEvt="180702.084148">
+				<commentaire>Appel FT: la ligne devrait être rétablie ce soir à 20H00.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.08.06">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>
+				Plus de données ni de contact avec le modem depuis le 2 août 15:52.
+Appel 3901 : il y a un problème électrique sur la ligne, une intervention (sans présence nécessaire) est prévue d'ici le 07/08 à 18:00
+			</commentaires>
+		</intervention>
+		<intervention date="2018.09.05">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180806.124624">
+				<commentaire>Appel FT: une anomalie a bien été constatée sur la ligne, un RDV est programé pour jeudi entre 13h et 18h.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.06">
+			<intervenant>Seb</intervenant>
+			<commentaires>L'interface WEB du modem ne s'affichant pas correctement, j'ai aussi changé le modem.</commentaires>
+			<evt idEvt="180806.124624">
+				<commentaire>Intervention de FT: la prise était oxydée.</commentaire>
+				<fin>2018.09.06</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

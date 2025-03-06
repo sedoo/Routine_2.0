@@ -1,0 +1,416 @@
+<?xml version="1.0" ?>
+<!-- fichier MONQ.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>MONQ</nom>
+	<identifiant>fti/grufcpv</identifiant>
+	<pwd>6va297t</pwd>
+	<ip>80.15.208.248</ip>
+	<tel>05 65 22 54 69</tel>
+	<materielDivers>GPS déporté à l'exterieur de la grotte</materielDivers>
+	<lienModem>http://80.15.208.248</lienModem>
+	<lienNumeriseur>http://80.15.208.248:8020</lienNumeriseur>
+	<divers>Prévenir monsieur Vignoles avant une intervention :M. et Mme vignoles, lagrottederoland@orange.fr, 05 65 22 99 90.N'oubliez pas la lampe.</divers>
+	<gissmo n="48"/>
+        
+	<entretien date="2021.01.12"/>
+	<historique>
+		<evenement date="2013.12.07" idEvt="140408.105221">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2013.12.07</debut>
+			<description>La voie N est très fortement parasitée.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140408.105221</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MONQ</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>22/01/2015</fin>
+		</evenement>
+		<evenement date="2014.06.16" idEvt="140616.093208">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140616.093208</idEvt>
+			<description>Problème de disque (visible sur omni)</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.06.16</debut>
+			<stationID>MONQ</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.01.22</fin>
+		</evenement>
+		<evenement date="2015.08.24" idEvt="150826.095839">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.08.24</debut>
+			<description>
+				Perte connexion modem à 15h00 TU.
+Intervention de FT le 8/9/15 =&amp;gt; la ligne est OK. Prévoir une intervention.
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150826.095839</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>???</connStation>
+			<stationID>MONQ</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.17</fin>
+		</evenement>
+		<evenement date="2016.01.25" idEvt="160122.084658">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.01.25</debut>
+			<description>Pas de dialogue avec le modem</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160122.084658</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MONQ</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.01.26</fin>
+		</evenement>
+		<evenement date="2016.01.26" idEvt="160127.094233">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>160127.094233</idEvt>
+			<description>Pas de dialogue avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.01.26</debut>
+			<stationID>MONQ</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.02.03</fin>
+		</evenement>
+		<evenement date="2016.03.18" idEvt="160318.141703">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>160318.141703</idEvt>
+			<description>Pas de liaison avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.03.18</debut>
+			<stationID>MONQ</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.03.21</fin>
+		</evenement>
+		<evenement date="2017.03.18" idEvt="170320.105138">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.03.18</debut>
+			<description>Perte de la connexion modem le 18 mars 2017 à 00:28</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170320.105138</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MONQ</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.03.20</fin>
+		</evenement>
+		<evenement date="2017.10.03" idEvt="171003.132605">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.10.03</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>171003.132605</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>MONQ</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.10.04</fin>
+		</evenement>
+		<evenement date="2018.05.27" idEvt="180517.134817">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.05.27</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180517.134817</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MONQ</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.27</fin>
+		</evenement>
+		<evenement date="2018.07.16" idEvt="180905.084442">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.07.16</debut>
+			<description>Pas de satellites.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180905.084442</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MONQ</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2018.11.23</fin>
+		</evenement>
+		<evenement date="2019.05.19" idEvt="190520.084241">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.05.19</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190520.084241</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>MONQ</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.05.24</fin>
+		</evenement>
+		<evenement date="2020.02.27" idEvt="200226.170438">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>200226.170438</idEvt>
+			<description>Perte de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<debut>2020.02.27</debut>
+			<stationID>MONQ</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2015.01.22">
+			<intervenant>Helene et Matthieu</intervenant>
+			<commentaires>
+				La station Kephren BB a été remplacée par la D6BB-DIN n° 0283.
+Ce faisant, le problème sur la voie Z a disparu ; il y avait très certainement un défaut au niveau du boîtier de séparation des voies sismo et des mass pos.
+Par ailleurs, le modem bewan 9000G a été remplacé par un Zyxel.
+			</commentaires>
+			<evt idEvt="140616.093208"/>
+			<evt idEvt="140408.105221">
+				<commentaire>remplacement numériseur</commentaire>
+				<fin>2015.01.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.07.21">
+			<intervenant>Matthieu et Seb</intervenant>
+			<commentaires>
+				PB : La position des masses, la température du capteur et toutes les informations qui passent par le port RX de la stations n'apparaissent pas sur le cable.
+Le problème est causé par une erreur de cablage : sur le port RX, ce n'est pas le cable bleu foncé mais bleu clair qui doit être connecté.
+Pb : le cable bleu clair a été sectionné. Je pense que le plus simple serait de rallonger ce cable (prévoir le fer à souder) pour le brancher correctement.
+			</commentaires>
+		</intervention>
+		<intervention date="2015.09.03">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150826.095839">
+				<commentaire>Appel à FT : un problème sur la ligne a été constaté et une intervention est programmée.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.07">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150826.095839">
+				<commentaire>Appel à FT : Pb constaté, intervention de FT programmée le 8/9</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.17">
+			<intervenant>Franck et Seb</intervenant>
+			<commentaires>
+				Le modem a été changé TP-LINK &lt;=&gt; ZyXEL.
+Le cable numériseur/capteur a aussi été changé. L'ancien cable est à tester en raccordant le fil gris au moins de l'alim.
+			</commentaires>
+			<evt idEvt="150826.095839">
+				<commentaire>Après avoir tripattouillé la chaussette, le flux s'est rétabli.</commentaire>
+				<fin>2015.09.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.01.26">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160122.084658">
+				<commentaire>Appel FT : ils ont constaté une panne sur la ligne et devraient y intervenir prochainement.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.01.26">
+			<intervenant>Matthieu</intervenant>
+			<evt idEvt="160122.084658">
+				<commentaire>L'abonnement SFR avait été résilié. Un nouveau numéro est maintenant utilisé.</commentaire>
+				<fin>2016.01.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.01.26">
+			<intervenant>Seb</intervenant>
+			<commentaires>Le technicien FT est intervenu est a localisé la panne sur nos installation.</commentaires>
+			<evt idEvt="160127.094233">
+				<commentaire>Appel FT : un problème a bien été identifié sur la ligne. Une intervention de FT est programmée.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.18">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160318.141703">
+				<commentaire>Appel FT : un problème aurait été identifié sur la ligne, un technicien doit intervenir cet après-midi.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.18">
+			<intervenant>France Télécom</intervenant>
+			<evt idEvt="160318.141703">
+				<commentaire>Le problème viendrait de nos installations.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.20">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				J'ai essayé de relancer le modem via le R-Dyn sans succès.
+Appel Orange : Un défaut électrique sur la ligne est identifié, une intervention est prévue cet après-midi avant 15:00.
+			</commentaires>
+			<evt idEvt="170320.105138">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.20">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="170320.105138">
+				<commentaire>Intervention SAV Orange. Ligne rétablie le 20/03/17 à 15:20</commentaire>
+				<fin>2017.03.20</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.10.04">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="171003.132605">
+				<commentaire>Appel FT : Le retablissement de la ligne est prevu pour 14H30</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.10.04">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="171003.132605">
+				<commentaire>Ligne rétablie.</commentaire>
+				<fin>2017.10.04</fin>
+			</evt>
+		</intervention>
+                
+		<intervention date="2018.05.29">
+                        
+			<intervenant>Seb</intervenant>
+                        
+			<evt idEvt="180517.134817">
+                                
+				<commentaire>Appel FT: un défault a été constaté sur la ligne, une intervention est programmée.</commentaire>
+                        
+			</evt>
+                
+		</intervention>
+		<intervention date="2018.05.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180517.134817">
+				<commentaire>Appel FT: rien n'a été constaté par le technicien sur place. De son point de vue, une prise de RDV s'impose.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.05">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180517.134817">
+				<commentaire>Appel FT: le nouveau test sur la ligne est OK. Aucun RDV.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.14">
+			<intervenant>Seb</intervenant>
+			<commentaires>La lampe baladeuse ne fonctionne plus.&lt;br /&gt;Je me demande aussi si le choix de mettre une D6BB-DIN ne devrait pas être discuté: elle n'est pas étanche et la grotte possède un fort tôt d'hygrométrie risquant à moyen terme d’entraîner une oxydation des circuits.</commentaires>
+			<evt idEvt="180517.134817">
+				<commentaire>Le téléphone arrive en surface mais pas au fond de la grotte. Le seul élément présent en contact avec le signal téléphonique entre ces deux prises est le module R-DIN (le TSA) qui sert à rebooter la station sur un appel téléphonique. Une nouvelle intervention devra être programmée pour examen du module et du relais le commandant.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.27">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180517.134817">
+				<commentaire>Appel FT: un problème a été identifié sur la ligne. Après RDV avec le technicien, la liaion est rétablie.</commentaire>
+				<fin>2018.06.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.23">
+			<intervenant>Seb</intervenant>
+			<commentaires>Le câble téléphonique coté cabane commence à vieillir. L'isolation se fend suite à une torsion. A surveiller.</commentaires>
+			<evt idEvt="180905.084442">
+				<commentaire>Installation du module G-DIN.</commentaire>
+				<fin>2018.11.23</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.20">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190520.084241">
+				<commentaire>Appel FT: Les tests démontrent que le réseau Orange fonctionne normalement.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.24">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190520.084241">
+				<commentaire>La connexion est revenue.</commentaire>
+				<fin>2019.05.24</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.28">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200226.170438">
+				<commentaire>Appel Orange: Un défault a été constaté sur la ligne, une intervention est programmée pour 18h00.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.05">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200226.170438">
+				<commentaire>J'ai appelé le technicien Orange censé intervenir hier. Il est bien intervenu mais a constaté la nécéssité de s'equiper d'une nacelle. J'ai ensuite appelé le standard Orange qui a reconnu un problème général. Celui-ci devrait être résolu pour le 12/3. </commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.12">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200226.170438">
+				<commentaire>Appel Orange: L'intervention est en cours et devrait être résolue prochainement.</commentaire>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

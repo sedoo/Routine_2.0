@@ -1,0 +1,689 @@
+<?xml version="1.0" ?>
+<!-- fichier LABF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>LABF</nom>
+	<identifiant>fti/wptb64e</identifiant>
+	<pwd>4pcua94</pwd>
+	<ip>82.127.117.234</ip>
+	<tel>05 62 86 82 41</tel>
+	<materielDivers/>
+	<lienModem>http://82.127.117.234</lienModem>
+	<lienNumeriseur>http://82.127.117.234:8020</lienNumeriseur>
+	<divers>Mairie de Labassère 05 62 95 05 41 peuvent se déplacer pour disjoncteur</divers>
+        
+	<entretien date="2020.04.30" motif="Sécuriser la connexion du câble d'alimentation 220V."/>
+	<historique>
+		<evenement date="2014.02.16" idEvt="140414.095640">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140414.095640</idEvt>
+			<description>Des glitchs sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.02.16</debut>
+			<stationID>LABF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.06.30</fin>
+		</evenement>
+		<evenement date="2014.05.21" idEvt="140523.094220">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.05.21</debut>
+			<description>Les voie Z et E sont plates.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140523.094220</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.04.22</fin>
+		</evenement>
+		<evenement date="2014.06.16" idEvt="140616.092130">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.06.16</debut>
+			<description>La station ne répond plus</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140616.092130</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.06.24</fin>
+		</evenement>
+		<evenement date="2014.06.20" idEvt="140620.105732">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.06.20</debut>
+			<description>Ligne Télécom rompue suite à Orage de grêle les 20 et 21 juins</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140620.105732</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.06.19</fin>
+		</evenement>
+		<evenement date="2014.12.01" idEvt="141201.095359">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.12.01</debut>
+			<description>Pas de réponse, la liaison passe occasionnellement.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>141201.095359</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.03.02</fin>
+		</evenement>
+		<evenement date="2016.01.05" idEvt="160105.152708">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.01.05</debut>
+			<description>De gros glitchs apparaissent sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160105.152708</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.05.20</fin>
+		</evenement>
+		<evenement date="2016.03.24" idEvt="160324.084905">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.03.24</debut>
+			<description>La synchro avec le télécode ne prend pas.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160324.084905</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.05.20</fin>
+		</evenement>
+		<evenement date="2017.03.10" idEvt="170310.091216">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.03.10</debut>
+			<description>Glitchs sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170310.091216</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.05.12</fin>
+		</evenement>
+		<evenement date="2017.05.23" idEvt="170608.084800">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.05.23</debut>
+			<description>Pas de déclenchement depuis le 23/05/2017. Un déclenchement artificiel ne donne aucun e donnée.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170608.084800</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.06.08</fin>
+		</evenement>
+		<evenement date="2017.12.14" idEvt="171220.085522">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.12.14</debut>
+			<description>Pas de synchro dans le temps.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>171220.085522</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.02.06</fin>
+		</evenement>
+		<evenement date="2018.03.27" idEvt="180327.085021">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.03.27</debut>
+			<description>Le signal sur la voie Z est bruité et des impulsions apparaissent.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180327.085021</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.05.24</fin>
+		</evenement>
+		<evenement date="2018.04.16" idEvt="180502.092827">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.04.16</debut>
+			<description>La station perd fréquemment l'heure.Au vu des tensions affichées en pleine journée, je suspecterais un problème de batterie ou de régulateur. Prévoir quand même une chaîne complète.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180502.092827</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2018.05.24</fin>
+		</evenement>
+		<evenement date="2018.07.16" idEvt="180716.124936">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.07.16</debut>
+			<description>perte de connexion depuis le 13/07/18 22:40</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180716.124936</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.07.23</fin>
+		</evenement>
+		<evenement date="2018.08.12" idEvt="180816.094451">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.08.12</debut>
+			<description>Perte de la connexion le 2018.08.12. Période orageuse. Gros tilt sur les 3 voies juste avant la perte de ligne. Pas de pb d'après Orange (3901)</description>
+			<battCharg>???</battCharg>
+			<signal>???</signal>
+			<idEvt>180816.094451</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>???</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>???</GPSTempsg>
+			<fin>2018.09.10</fin>
+		</evenement>
+		<evenement date="2019.06.28" idEvt="190628.124207">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.06.28</debut>
+			<description>Pas de données arrivant sur sosis. Modem OK, numériseur OK.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190628.124207</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.07.01</fin>
+		</evenement>
+		<evenement date="2019.07.04" idEvt="190704.090234">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.07.04</debut>
+			<description>Pas d'alimentation du chargeur.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190704.090234</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.07.05</fin>
+		</evenement>
+		<evenement date="2019.12.13" idEvt="191216.122629">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.13</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191216.122629</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.16</fin>
+		</evenement>
+		<evenement date="2019.12.19" idEvt="191220.084517">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.19</debut>
+			<description>Perte d'alimentation.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191220.084517</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.05</fin>
+		</evenement>
+		<evenement date="2020.01.24" idEvt="200124.090547">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.01.24</debut>
+			<description>Le sectionneur est tombé.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>200124.090547</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.27</fin>
+		</evenement>
+		<evenement date="2020.01.27" idEvt="200127.164639">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2020.01.27</debut>
+			<description>Perte d'alimentation.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>200127.164639</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.30</fin>
+		</evenement>
+		<evenement date="2020.03.17" idEvt="200317.100901">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2020.03.17</debut>
+			<description>Coupure d'alimentation.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>200317.100901</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LABF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.03.17</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.04.22">
+			<intervenant>SB</intervenant>
+			<evt idEvt="140523.094220">
+				<commentaire>Reset de la station.</commentaire>
+				<fin>2014.04.22</fin>
+			</evt>
+			<evt idEvt="140414.095640"/>
+		</intervention>
+		<intervention date="2014.06.19">
+			<intervenant>Frank</intervenant>
+			<commentaires>
+				Tout d'abord problème de signal récurrent : station changée Loana par Ophélie, signal toujours filtré : capteur rebullé, tout est ok.
+Problème plus récent suite à orage le 14 juin, plus de ligne Télécom.1015 appelé intervention en cours.
+			</commentaires>
+			<evt idEvt="140620.105732">
+				<commentaire>supprimer</commentaire>
+				<fin>2014.06.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2014.06.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Câble sectionné =&gt; changé</commentaires>
+			<evt idEvt="140616.092130">
+				<commentaire>Intervention Orange</commentaire>
+				<fin>2014.06.24</fin>
+			</evt>
+			<evt idEvt="140414.095640"/>
+		</intervention>
+		<intervention date="2014.12.02">
+			<intervenant>Frank</intervenant>
+			<evt idEvt="141201.095359">
+				<commentaire>Changement de batterie</commentaire>
+				<fin>2014.12.02</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.03.02">
+			<intervenant>SB</intervenant>
+			<commentaires>Oups!</commentaires>
+			<evt idEvt="141201.095359">
+				<commentaire>J'ai remplacé le &quot;B&quot; de LABF par un &quot;R&quot;</commentaire>
+				<fin>2015.03.02</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.05.20">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Station Ophélie changée par Nolwen, DCF changé aussi
+A voir sur le long terme.
+J'en ai profité pour agrandir le trou pour le futur espace capteur
+			</commentaires>
+			<evt idEvt="160324.084905">
+				<commentaire>
+				</commentaire>
+				<fin>2016.05.20</fin>
+			</evt>
+			<evt idEvt="160105.152708">
+				<commentaire>
+				</commentaire>
+				<fin>2016.05.20</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.12">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Entretien Cabane fait</commentaires>
+			<evt idEvt="170310.091216">
+				<commentaire>Capteur rebullé</commentaire>
+				<fin>2017.05.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.06.08">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170608.084800">
+				<commentaire>Reset de la station.</commentaire>
+				<fin>2017.06.08</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.02.06">
+			<intervenant>Gr!maud</intervenant>
+			<commentaires>DCF faible une fois changé la synchro temps est à nouveau ok</commentaires>
+			<evt idEvt="171220.085522">
+				<commentaire>Changé le DCF</commentaire>
+				<fin>2018.02.06</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.03.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le câble téléphonique de la station s'est décroché de l'un de ses poteaux et du coup il repose sur une trentaine de mètres sur un roncier. Au prochain écobuage il va brûler. J'ai appelé Orange au 0969363901 pour qu'ils fassent intervenir quelqu'un pour remettre ce câble. Ma demande a été prise en compte ...; à suivre.</commentaires>
+		</intervention>
+		<intervention date="2018.05.24">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Installation du Trillium120QA S/N 2382. Le puits était propre. Mise en place du capteur et du sable (dans des sacs poubelle) autour du capteur. Il reste à mettre une plaque d'isolant (dimension 41cmx41cm et 10cm d'épaisseur), à faire une saignée dans le beton avec la meuleuse pour le passage de cable (prévoir une rallonge) et à remettre la terre sur le puits.&lt;p&gt;
+Installation de la D6BB-DIN S/N 0608. Le signal est OK. Il reste à fixer le GPS avec du scratch ou du scotch double-face.&lt;p&gt;
+Installation du modem Mulogic (00:24:55:07:1C:27) sur la vieille prise de téléphone avec filtre ADSL. Le modem voit l'ADSL mais pas de synchro. Appel Orange, un pb a été identifié sur la ligne, ils interviennent avant demain 18h00. Il faudra repasser sur site pour noter l'adresse IP. Prévoir également un filtre ADSL et un autre modem au cas où.&lt;p&gt;
+Les stagiaires ont bien bossé, installation autonome et propre du coffret électrique. Il faut se procurer la protection des dominos pour l'arrivée du 220V car c'est dangereux.&lt;br&gt;
+On n'a pas réussi à fermer correctement la baie, je pense qu'elle a mal supporté la montée et elle est un peu tordue. Il faut prévoir d'élargir, avec la meuleuse, l'encoche supérieure de la porte droite et poncer légèrement le bord supérieur de cette porte.
+			</commentaires>
+			<evt idEvt="180502.092827">
+				<commentaire>
+				</commentaire>
+				<fin>2018.05.24</fin>
+			</evt>
+			<evt idEvt="180327.085021">
+				<commentaire>Installation de la station LB</commentaire>
+				<fin>2018.05.24</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.28">
+			<intervenant>Helene</intervenant>
+			<commentaires>Le technicien Orange pour la ligne ADSL est passé sur site, il n'a toujours pas de synchro. Il repasse demain matin et va intervenir dans l'armoire.</commentaires>
+		</intervention>
+		<intervention date="2018.06.08">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Changé adaptateur USB D6BB -&gt; Modem l'ancien a du subir la foudre</commentaires>
+		</intervention>
+		<intervention date="2018.06.11">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Reboot du modem ... tout est ok</commentaires>
+		</intervention>
+		<intervention date="2018.07.02">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Reboot Modem</commentaires>
+		</intervention>
+		<intervention date="2018.07.05">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Reboot modem, suite à orage</commentaires>
+		</intervention>
+		<intervention date="2018.07.16">
+			<intervenant>Helene</intervenant>
+			<evt idEvt="180716.124936">
+				<commentaire>Appel 3901 - La ligne est OK. Le modem répond au ping mais il n'a pas de session ADSL ouverte. Reboot et/ou reconfiguration nécessaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Modem rebooté mais la liaison n'est toujours pas rétablie.
+le câble entre la D6BB et le Modem semble &quot;grillé&quot;, Hélène m'en fait passer un que j'irai posé la semaine prochaine
+			</commentaires>
+			<evt idEvt="180716.124936">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.23">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai changé le TP-Link par un Mulogic, (il faut penser à la programmer au reboot)
+J'ai également changé le cordon et l'adaptateur de dialogue entre la D6BB et le Modem, car l'adaptateur semblait défectueux.
+La serrure de l'armoire a été forcée au tournevis et la porte un peu forcée aussi, il faudrait mettre sur ces baies un petit panneau explicatif .... j'ai du percer le barillet pour pouvoir ouvrir. J'essaye de trouver un barillet correspondant, sinon nous pourrons mettre un cadenas. En attendant une vis fait office de fermeture il faut un cruciforme pour ouvrir.
+			</commentaires>
+			<evt idEvt="180716.124936">
+				<commentaire>
+				</commentaire>
+				<fin>2018.07.23</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.08.16">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>Perte de la connexion le dimanche 2018.08.12 vers 16:30. Période orageuse. Gros tilt sur les 3 voies juste avant la perte de ligne. Pas de pb d'après Orange (3901)</commentaires>
+			<evt idEvt="180816.094451">
+				<commentaire>Appel 3901</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.08.20">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Sur place le modem Mulogic semble alimenté (led verte ok), mais aucune autre led ne fonctionne. Je débranche l'alimentation 5mn et rebranche : même constat et impossible de dialoguer avec. 
+Je mets le TP-Link que nous avions avant le Mulogic et il fonctionne très bien, j'arrive à me connecter dessus avec mon ordi. Tout est ok à part l'adaptateur D6BB - Modem qui ne fonctionne pas et empèche d'accèder à la D66BB qui elle fonctionne très bien, je remets l'adaptateur qu'il y avait avant mais il était HS aussi.
+Du coup je garde le TP-link en secours (Arette ou autre ...) en attendant un adaptateur neuf. La station vivra sans Modem quelques jours. Je ramène aussi le Mulogic pour tests.
+			</commentaires>
+			<evt idEvt="180816.094451">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.06">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Avec le technicien Orange nous avons testé la ligne et essayé toutes les solutions pour que le modem trouve enfin la synchro.
+Le cable d'arrivée a été changé, la prise, le condensateur et le filtre changé, ainsi que le cable modem-prise.
+Il n'y aucun problème ADSL sur la ligne mais la synchro ne se fait pas !
+Ou les mulogic sont trop sensibles ou mal paramètrés ...
+Je prends ce Mulogic pour test demain a Arette, ou nous avions rencontrés le même soucis alors qu'un TP-Link y fonctionne très bien.
+			</commentaires>
+			<evt idEvt="180816.094451">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.10">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				après plusieurs tests avec un autre Mulogic toujours pas de synchro ADSL, il faut voir la paramétrisation plus précisement.
+Avec le TP-link c'est ok
+			</commentaires>
+			<evt idEvt="180816.094451">
+				<commentaire>Modem changé</commentaire>
+				<fin>2018.09.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.19">
+			<intervenant>Franck et Seb</intervenant>
+			<commentaires>Installation des armoires. Attention, pour éviter la surtension à 24V des sorties SC1-/SC1+ (9/10), le numériseur a été connecté aux sorties HL-/HL+ (75/76) destinées normalement à l'éclairage TBT. Le cable ethernet relie directement le modem à la prise sans passer par le detecteur d'orage.</commentaires>
+		</intervention>
+		<intervention date="2019.05.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Je suis allé à Labassère pour l'entretien et en même temps installer les cables du modem passant par le parafoudre.
+J'ai également changé la prise téléphonique par une DTI et inversé l'alimentation scientifique (pinoche dans boitier noir) ainsi que le câble correspondant, d'alimentation scientifique sur SC1.
+Le parafoudre pose un problème pour synchroniser l'ADSL ! en passant directement de la DTI au Modem aucun soucis, dès que l'on passe par le parafoudre connection impossible.
+Après des tests avec Toulouse nous décidons de brancher directement le modem sur la DTI.
+Interieur propre j'ai juste mis du produit anti-fourmis car une fourmillère commençait à se contruire dans le sabot de l'armoire.
+Débrouissallage du chemin autour armoire et caisson capteur.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.07.01">
+			<intervenant>???</intervenant>
+			<evt idEvt="190628.124207">
+				<commentaire>
+				</commentaire>
+				<fin>2019.07.01</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.04">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190704.090234">
+				<commentaire>Le PDL semble ouvert.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.04">
+			<intervenant>???</intervenant>
+			<evt idEvt="190704.090234">
+				<commentaire>Retour du signal à LABF.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.05">
+			<intervenant>???</intervenant>
+			<evt idEvt="190704.090234">
+				<commentaire>---</commentaire>
+				<fin>2019.07.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.16">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+		<intervention date="2019.12.16">
+			<intervenant>---</intervenant>
+			<evt idEvt="191216.122629">
+				<commentaire>La connexion est rétablie avec l'armoire/le modem mais aucune connexion avec le numériseur.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191216.122629">
+				<commentaire>Une brève coupure de l'alimentation du numériseur a permit de rétablir la connexion.</commentaire>
+				<fin>2019.12.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.05">
+			<intervenant>---</intervenant>
+			<evt idEvt="191220.084517">
+				<commentaire>L'alimentation est revenue.</commentaire>
+				<fin>2020.01.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.27">
+			<intervenant>---</intervenant>
+			<evt idEvt="200124.090547">
+				<commentaire>Le secteur est revenu.</commentaire>
+				<fin>2020.01.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.30">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Description de la panne : Les disjoncteurs de la platine BT ne sont plus contrôlés par l'interface web du TBOX : le passage ON/OFF du bouton de l'interface web reste sans effet et je peux les monter et descendre à la main sans qu'ils reviennent dans leur état &quot;programmé&quot;.&lt;br&gt;
+&lt;br&gt;
+Changement du barillet de la baie qui est maintenant fermée à clef.
+			</commentaires>
+			<evt idEvt="200127.164639">
+				<commentaire>Redémarrage de l'armoire à partir de zéro.</commentaire>
+				<fin>2020.01.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.17">
+			<intervenant>---</intervenant>
+			<evt idEvt="200317.100901">
+				<commentaire>La station est de nouveau correctement alimentée.</commentaire>
+				<fin>2020.03.17</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

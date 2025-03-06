@@ -1,0 +1,337 @@
+<?xml version="1.0" ?>
+<!-- fichier VALF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>VALF</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>***</ip>
+	<tel>04 68 04 96 80</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>modem 56k</lienModem>
+	<lienNumeriseur>modem 56k</lienNumeriseur>
+	<divers>
+	</divers>
+	<historique>
+		<evenement date="2014.06.11" idEvt="140616.093928">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.06.11</debut>
+			<description>Le modem sonne occupé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140616.093928</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.16</fin>
+		</evenement>
+		<evenement date="2014.07.20" idEvt="140730.105405">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.07.20</debut>
+			<description>Les trois voies sont plates.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140730.105405</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.01.13</fin>
+		</evenement>
+		<evenement date="2014.09.05" idEvt="140909.095134">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.09.05</debut>
+			<description>Le superviseur n'arrive pas à synchroniser le numériseur.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140909.095134</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.01.13</fin>
+		</evenement>
+		<evenement date="2015.06.10" idEvt="150616.171238">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.06.10</debut>
+			<description>Pas de synchro entre le modem et le numériseur.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150616.171238</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.28</fin>
+		</evenement>
+		<evenement date="2015.07.17" idEvt="150723.091629">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.07.17</debut>
+			<description>Signal plat.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150723.091629</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.28</fin>
+		</evenement>
+		<evenement date="2015.08.28" idEvt="150828.170136">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>150828.170136</idEvt>
+			<description>
+				Voies plates du à un pb sur le numériseur.
+Après un Titanrel tout est ok
+			</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.08.28</debut>
+			<stationID>VALF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>HS</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.28</fin>
+		</evenement>
+		<evenement date="2015.09.01" idEvt="150907.085329">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.09.01</debut>
+			<description>Les 3 voies restent plattes.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150907.085329</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.30</fin>
+		</evenement>
+		<evenement date="2016.06.26" idEvt="160718.154048">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.06.26</debut>
+			<description>Signal plat.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160718.154048</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.09.22</fin>
+		</evenement>
+		<evenement date="2016.09.01" idEvt="160901.104228">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.09.01</debut>
+			<description>Pas de synchronisation avec le numériseur.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160901.104228</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.09.22</fin>
+		</evenement>
+		<evenement date="2016.10.17" idEvt="161014.164224">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.10.17</debut>
+			<description>Signal plat sur les trois voies.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>161014.164224</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.11.17</fin>
+		</evenement>
+		<evenement date="2016.11.23" idEvt="161207.104715">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>161207.104715</idEvt>
+			<description>Pas de synchro avec le numériseur.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.11.23</debut>
+			<stationID>VALF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.03.13</fin>
+		</evenement>
+		<evenement date="2017.05.22" idEvt="170602.110030">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.05.22</debut>
+			<description>Le modem ne décroche pas.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170602.110030</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>VALF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2017.06.01</fin>
+		</evenement>
+		<evenement date="2017.05.11" idEvt="170602.110246">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>170602.110246</idEvt>
+			<description>Le télécode envoie très rarement son top minute.</description>
+			<battCharg>OK</battCharg>
+			<debut>2017.05.11</debut>
+			<stationID>VALF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.07.16">
+			<intervenant>Helene</intervenant>
+			<evt idEvt="140616.093928">
+				<commentaire>Changement de batterie et de numériseur ( Benjamin &lt;=&gt; Quitterie)</commentaire>
+				<fin>2014.07.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2014.12.01">
+			<intervenant>Seb</intervenant>
+			<commentaires>Le numériseur et le superviseur sont en test à Toulouse. Le superviseur est HS.</commentaires>
+			<evt idEvt="140909.095134"/>
+			<evt idEvt="140730.105405"/>
+		</intervention>
+		<intervention date="2014.01.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="140909.095134">
+				<commentaire>Echange de superviseur</commentaire>
+				<fin>2014.01.13</fin>
+			</evt>
+			<evt idEvt="140730.105405">
+				<commentaire>Echange de numériseur</commentaire>
+				<fin>2014.01.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.08.28">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Voies plates du à un pb sur le numériseur, après un Titanrel tout est ok</commentaires>
+			<evt idEvt="150723.091629">
+				<commentaire>Titanrel</commentaire>
+				<fin>2015.08.28</fin>
+			</evt>
+			<evt idEvt="150616.171238">
+				<fin>2015.08.28</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.30">
+			<intervenant>Helene</intervenant>
+			<commentaires>Batterie à 12.6V le matin par temps couvert.</commentaires>
+			<evt idEvt="150907.085329">
+				<commentaire>Changement du numériseur remplacé par la TITAN3-EXT n° 106</commentaire>
+				<fin>2015.09.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.22">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le superviseur avait son fusible grillé, j'ai quand même du mettre un autre superviseur car le dialogue avec la &quot;minititan XT&quot; ne fonctionnait pas.
+tout est ok
+			</commentaires>
+			<evt idEvt="160901.104228">
+				<commentaire>
+				</commentaire>
+				<fin>2016.09.22</fin>
+			</evt>
+			<evt idEvt="160718.154048">
+				<commentaire>
+				</commentaire>
+				<fin>2016.09.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.11.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Capteur L4C changé, éloigné de 10 cm de plus de la parois et Numériseur minititan-XT (106) changé par numériseur du RI 02600011 (dernièrement à Carcanières). Tests ok</commentaires>
+			<evt idEvt="161014.164224">
+				<commentaire>
+				</commentaire>
+				<fin>2016.11.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.12.02">
+			<intervenant>Seb</intervenant>
+			<commentaires>L'échange de numériseur a résolu le problème de synchro mais le dialogue reste aléatoire.</commentaires>
+			<evt idEvt="161207.104715">
+				<commentaire>Echange de numériseur.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.06.01">
+			<intervenant>Seb</intervenant>
+			<commentaires>Comme la station va être prochainement remplacée, les travaux nécessaire pour placer correctement le télécode (relevé de +/-5cm) ne me paraissent pas nécessaires.</commentaires>
+			<evt idEvt="170602.110246">
+				<commentaire>Le boitier est replacé dans la bonne direction et le télécode est changé. La manip ne donne pas entièrement satisfaction.</commentaire>
+			</evt>
+			<evt idEvt="170602.110030">
+				<commentaire>Changement de numériseur.</commentaire>
+				<fin>2017.06.01</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

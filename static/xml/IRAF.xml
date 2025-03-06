@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<!-- fichier IRAF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>IRAF</nom>
+	<identifiant>---</identifiant>
+	<pwd>---</pwd>
+	<ip>omp-iraf.dyndns.info</ip>
+	<tel>---</tel>
+        
+	<divers>Chalets d'Iraty 05.59.28.51.29 pour intervention sur disjoncteur du Chateau d'Eau</divers>
+	        
+        
+	<entretien date="2020.09.13" motif="entretien"/>
+	<historique>
+		<evenement date="2019.02.04" idEvt="190204.093811">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>190204.093811</idEvt>
+			<description>Coupures fréquentes de la connexion après une chute de tension.</description>
+			<battCharg>OK</battCharg>
+			<debut>2019.02.04</debut>
+			<stationID>IRAF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.02.04</fin>
+		</evenement>
+		<evenement date="2019.05.28" idEvt="190528.122011">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.05.28</debut>
+			<description>Pas d'alimentation secteur.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190528.122011</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>IRAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.05.28</fin>
+		</evenement>
+		<evenement date="2019.06.13" idEvt="190611.170550">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.06.13</debut>
+			<description>Pas de connexion depuis 4j.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190611.170550</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>IRAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.06.26</fin>
+		</evenement>
+		<evenement date="2019.07.01" idEvt="190701.090525">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.01</debut>
+			<description>Perte d'alim en entrée du chargeur.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190701.090525</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>IRAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.01</fin>
+		</evenement>
+		<evenement date="2019.09.06" idEvt="190909.104041">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.06</debut>
+			<description>Une mauvaise configuration de l'armoire entraîne des rebots en continu du modem GSM.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190909.104041</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>IRAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.13</fin>
+		</evenement>
+		<evenement date="2019.10.15" idEvt="191015.100635">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.10.15</debut>
+			<description>Plus de tension d'alimentation.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191015.100635</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>IRAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.10.16</fin>
+		</evenement>
+		<evenement date="2019.11.06" idEvt="191106.084450">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.11.06</debut>
+			<description>Pas d'alim pour la TBox.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191106.084450</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>IRAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.16</fin>
+		</evenement>
+		<evenement date="2019.12.19" idEvt="191220.090437">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.19</debut>
+			<description>Pas d'alimentation.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191220.090437</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>IRAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.19</fin>
+		</evenement>
+		<evenement date="2020.03.05" idEvt="200309.090748">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>200309.090748</idEvt>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<debut>2020.03.05</debut>
+			<stationID>IRAF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2019.02.04">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La chute de tension était due à une coupure de notre arrivée électrique générale coté chateau d'eau, j'ai appelé Mathieu Miquelestorena technicien des Chalets d'Iraty et vers 16h30 il s'est rendu sur place pour remonter notre disjoncteur. A noter que la leur (chateau d'eau) n'avait pas sauté.</commentaires>
+			<evt idEvt="190204.093811">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai changé l'Antenne GSM et constaté que le disjoncteur du chateau d'eau avait sauté, ce qui explique la mauvaise communication. Je suis allé cherché la clé à la réception des chalets d'Iraty.
+Je pensais qu'ils avaient la possibilité de voir quand leur installation &quot;sauté&quot;, mais finalement ce serait plutôt à nous de leur signaler ... quand nous nous rendons compte que notre disjoncteur saute.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.05.28">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190528.122011">
+				<commentaire>ON/OFF au niveau du disjoncteur général.</commentaire>
+				<fin>2019.05.28</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.26">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le modem avait status en vert mais les autres leds étaient éteintes, après reboot mécanique idem.
+J'ai desuite changé le modem et pareil seule la led status s'allume .... j'ai donc changé l'antenne pour me retrouver avec l'ensemble du matériel testé à Toulouse, tout fonctionne parfaitement.
+J'ai quand même remis le premier modem avec la petite antenne et la pas de connections ...
+Donc au final : j'ai laissé la chaine testé à Toulouse et ramené le modem et la grande antenne qui ne semble pas fonctionner.
+J'en ai profité pour installer plus proprement l'antenne GPS que j'ai vissé sur le support de l'antenne GSM.
+			</commentaires>
+			<evt idEvt="190611.170550">
+				<commentaire>Modem et antenne changés</commentaire>
+				<fin>2019.06.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.01">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Un technicien des chalets est allé vérifié et a remonté notre disjoncteur à 17h25</commentaires>
+			<evt idEvt="190701.090525">
+				<commentaire>Disjoncteur remonté</commentaire>
+				<fin>2019.08.01</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.08">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Une personne a réarmé notre disjoncteur aujourd'hui.
+Chez eux aussi cela saute souvent et ils envisagent de mettre un réarmement automatique, un électricien pourrait s'occuper de ces deux disjoncteurs en même temps. Si nous le souhaitons.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.09.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>OFF de la fonction redémarrage, après rédémarrage le Modem ne soyait pas de signal, dans l'après midi tout est revenu à la normale</commentaires>
+			<evt idEvt="190909.104041">
+				<commentaire>OFF de la fonction redémarrage</commentaire>
+				<fin>2019.09.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.16">
+			<intervenant>Techniciens?</intervenant>
+			<evt idEvt="191015.100635">
+				<commentaire>
+				</commentaire>
+				<fin>2019.10.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.16">
+			<intervenant>???</intervenant>
+			<evt idEvt="191106.084450">
+				<commentaire>???</commentaire>
+				<fin>2019.11.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.19">
+			<intervenant>---</intervenant>
+			<evt idEvt="191220.090437">
+				<commentaire>L'alim est revenue.</commentaire>
+				<fin>2019.12.19</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

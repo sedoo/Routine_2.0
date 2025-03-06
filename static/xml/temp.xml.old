@@ -1,0 +1,4410 @@
+<?xml version="1.0" ?>
+<FDSNStationXML schemaVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.0.xsd">
+	
+     
+	<Source>
+		Noeud A
+	</Source>
+	
+     
+	<Sender>
+		Noeud A
+	</Sender>
+	
+     
+	<Created>
+		2016-05-13T15:54:22
+	</Created>
+	
+     
+     
+	<Network code="FR">
+		
+         
+         
+         
+		<TotalNumberStations>
+			60
+		</TotalNumberStations>
+		
+         
+		<SelectedNumberStations>
+			1
+		</SelectedNumberStations>
+		
+         
+		<Station code="MLS">
+			
+           
+			<Latitude>
+				42.960000
+			</Latitude>
+			
+           
+			<Longitude>
+				1.090000
+			</Longitude>
+			
+           
+			<Elevation>
+				450.0
+			</Elevation>
+			
+           
+			<Site>
+				
+             
+				<Name>
+					MOULIS
+				</Name>
+				
+             
+             
+             
+               
+				<Region>
+					Midi-Pyrénées
+				</Region>
+				
+             
+             
+               
+				<Country>
+					France
+				</Country>
+				
+             
+           
+			</Site>
+			
+           
+           
+           
+           
+			<Operator>
+				
+             
+				<Agency>
+					OMP
+				</Agency>
+				
+           
+			</Operator>
+			
+           
+           
+           
+           
+			<TotalNumberChannels>
+				27
+			</TotalNumberChannels>
+			
+           
+			<SelectedNumberChannels>
+				27
+			</SelectedNumberChannels>
+			
+           
+             
+			<Channel code="BHE" locationCode="00" startDate="2014-04-02T08:45:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					90.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					20.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-04-02T08:45:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2016-02-19T16:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="BHN" locationCode="00" startDate="2014-04-02T08:45:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					20.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-04-02T08:45:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2016-02-19T16:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="BHZ" locationCode="00" startDate="2014-04-02T08:45:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					-90.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					20.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-04-02T08:45:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2016-02-19T16:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="HHE" locationCode="00" startDate="2014-04-02T08:45:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					90.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					100.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-04-02T08:45:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2016-02-19T16:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="HHN" locationCode="00" startDate="2014-04-02T08:45:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					100.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-04-02T08:45:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2016-02-19T16:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="HHZ" locationCode="00" startDate="2014-04-02T08:45:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					-90.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					100.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-04-02T08:45:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2016-02-19T16:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="LHE" locationCode="00" startDate="2014-04-02T08:45:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					90.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					1.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-04-02T08:45:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2016-02-19T16:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="LHN" locationCode="00" startDate="2014-04-02T08:45:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					1.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-04-02T08:45:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2016-02-19T16:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="LHZ" locationCode="00" startDate="2014-04-02T08:45:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					-90.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					1.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-04-02T08:45:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2016-02-19T16:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="BHE" endDate="2014-04-02T08:30:00" locationCode="00" startDate="2014-01-07T15:00:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					90.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+                 
+				<Type>
+					CONTINUOUS
+				</Type>
+				
+             
+                 
+				<Type>
+					GEOPHYSICAL
+				</Type>
+				
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					20.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                  
+					<Manufacturer>
+						Agecodagis
+					</Manufacturer>
+					
+                 
+                 
+                 
+                  
+					<Model>
+						OSIRIS
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						037-0056
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-01-07T14:00:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-04-02T08:30:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+                   
+					<Configuration>
+						
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+					</Configuration>
+					
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="BHN" endDate="2014-04-02T08:30:00" locationCode="00" startDate="2014-01-07T15:00:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+                 
+				<Type>
+					CONTINUOUS
+				</Type>
+				
+             
+                 
+				<Type>
+					GEOPHYSICAL
+				</Type>
+				
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					20.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                  
+					<Manufacturer>
+						Agecodagis
+					</Manufacturer>
+					
+                 
+                 
+                 
+                  
+					<Model>
+						OSIRIS
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						037-0056
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-01-07T14:00:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-04-02T08:30:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+                   
+					<Configuration>
+						
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+					</Configuration>
+					
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="BHZ" endDate="2014-04-02T08:30:00" locationCode="00" startDate="2014-01-07T15:00:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					-90.0
+				</Dip>
+				
+             
+             
+                 
+				<Type>
+					CONTINUOUS
+				</Type>
+				
+             
+                 
+				<Type>
+					GEOPHYSICAL
+				</Type>
+				
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					20.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                  
+					<Manufacturer>
+						Agecodagis
+					</Manufacturer>
+					
+                 
+                 
+                 
+                  
+					<Model>
+						OSIRIS
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						037-0056
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-01-07T14:00:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-04-02T08:30:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+                   
+					<Configuration>
+						
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+					</Configuration>
+					
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="HHE" endDate="2014-04-02T08:30:00" locationCode="00" startDate="2014-01-07T15:00:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					90.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+                 
+				<Type>
+					CONTINUOUS
+				</Type>
+				
+             
+                 
+				<Type>
+					GEOPHYSICAL
+				</Type>
+				
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					100.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                  
+					<Manufacturer>
+						Agecodagis
+					</Manufacturer>
+					
+                 
+                 
+                 
+                  
+					<Model>
+						OSIRIS
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						037-0056
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-01-07T14:00:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-04-02T08:30:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+                   
+					<Configuration>
+						
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+                 
+                   
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+					</Configuration>
+					
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="HHN" endDate="2014-04-02T08:30:00" locationCode="00" startDate="2014-01-07T15:00:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+                 
+				<Type>
+					CONTINUOUS
+				</Type>
+				
+             
+                 
+				<Type>
+					GEOPHYSICAL
+				</Type>
+				
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					100.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                  
+					<Manufacturer>
+						Agecodagis
+					</Manufacturer>
+					
+                 
+                 
+                 
+                  
+					<Model>
+						OSIRIS
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						037-0056
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-01-07T14:00:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-04-02T08:30:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+                   
+					<Configuration>
+						
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+					</Configuration>
+					
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="HHZ" endDate="2014-04-02T08:30:00" locationCode="00" startDate="2014-01-07T15:00:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					-90.0
+				</Dip>
+				
+             
+             
+                 
+				<Type>
+					CONTINUOUS
+				</Type>
+				
+             
+                 
+				<Type>
+					GEOPHYSICAL
+				</Type>
+				
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					100.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                  
+					<Manufacturer>
+						Agecodagis
+					</Manufacturer>
+					
+                 
+                 
+                 
+                  
+					<Model>
+						OSIRIS
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						037-0056
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-01-07T14:00:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-04-02T08:30:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+                   
+					<Configuration>
+						
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+					</Configuration>
+					
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="LHE" endDate="2014-04-02T08:30:00" locationCode="00" startDate="2014-01-07T15:00:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					90.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+                 
+				<Type>
+					CONTINUOUS
+				</Type>
+				
+             
+                 
+				<Type>
+					GEOPHYSICAL
+				</Type>
+				
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					1.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                  
+					<Manufacturer>
+						Agecodagis
+					</Manufacturer>
+					
+                 
+                 
+                 
+                  
+					<Model>
+						OSIRIS
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						037-0056
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-01-07T14:00:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-04-02T08:30:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+                   
+					<Configuration>
+						
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+					</Configuration>
+					
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="LHN" endDate="2014-04-02T08:30:00" locationCode="00" startDate="2014-01-07T15:00:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					0.0
+				</Dip>
+				
+             
+             
+                 
+				<Type>
+					CONTINUOUS
+				</Type>
+				
+             
+                 
+				<Type>
+					GEOPHYSICAL
+				</Type>
+				
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					1.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                  
+					<Manufacturer>
+						Agecodagis
+					</Manufacturer>
+					
+                 
+                 
+                 
+                  
+					<Model>
+						OSIRIS
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						037-0056
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-01-07T14:00:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-04-02T08:30:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+                   
+					<Configuration>
+						
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+					</Configuration>
+					
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="LHZ" endDate="2014-04-02T08:30:00" locationCode="00" startDate="2014-01-07T15:00:00">
+				
+             
+             
+				<Latitude unit="DEGREES">
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude unit="DEGREES">
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation unit="METERS">
+					450.0
+				</Elevation>
+				
+             
+				<Depth unit="METERS">
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth unit="DEGREES">
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip unit="DEGREES">
+					-90.0
+				</Dip>
+				
+             
+             
+                 
+				<Type>
+					CONTINUOUS
+				</Type>
+				
+             
+                 
+				<Type>
+					GEOPHYSICAL
+				</Type>
+				
+             
+             
+               
+               
+				<SampleRate unit="SAMPLES/S">
+					1.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                  
+					<Manufacturer>
+						Agecodagis
+					</Manufacturer>
+					
+                 
+                 
+                 
+                  
+					<Model>
+						OSIRIS
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						037-0056
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2014-01-07T14:00:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-04-02T08:30:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+                   
+					<Configuration>
+						
+                   
+                     
+						<Gain>
+							1
+						</Gain>
+						
+                   
+                   
+					</Configuration>
+					
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="BHE" endDate="2014-01-07T14:00:00" locationCode="00" startDate="2010-05-21T10:11:00">
+				
+             
+             
+				<Latitude>
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude>
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation>
+					450.0
+				</Elevation>
+				
+             
+				<Depth>
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth>
+					90.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip>
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate>
+					20.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-01-07T14:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="BHN" endDate="2014-01-07T14:00:00" locationCode="00" startDate="2010-05-21T10:11:00">
+				
+             
+             
+				<Latitude>
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude>
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation>
+					450.0
+				</Elevation>
+				
+             
+				<Depth>
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth>
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip>
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate>
+					20.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-01-07T14:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="BHZ" endDate="2014-01-07T14:00:00" locationCode="00" startDate="2010-05-21T10:11:00">
+				
+             
+             
+				<Latitude>
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude>
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation>
+					450.0
+				</Elevation>
+				
+             
+				<Depth>
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth>
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip>
+					-90.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate>
+					20.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-01-07T14:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="HHE" endDate="2014-01-07T14:00:00" locationCode="00" startDate="2010-05-21T10:11:00">
+				
+             
+             
+				<Latitude>
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude>
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation>
+					450.0
+				</Elevation>
+				
+             
+				<Depth>
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth>
+					90.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip>
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate>
+					100.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-01-07T14:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="HHN" endDate="2014-01-07T14:00:00" locationCode="00" startDate="2010-05-21T10:11:00">
+				
+             
+             
+				<Latitude>
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude>
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation>
+					450.0
+				</Elevation>
+				
+             
+				<Depth>
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth>
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip>
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate>
+					100.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-01-07T14:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="HHZ" endDate="2014-01-07T14:00:00" locationCode="00" startDate="2010-05-21T10:11:00">
+				
+             
+             
+				<Latitude>
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude>
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation>
+					450.0
+				</Elevation>
+				
+             
+				<Depth>
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth>
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip>
+					-90.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate>
+					100.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-01-07T14:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="LHE" endDate="2014-01-07T14:00:00" locationCode="00" startDate="2010-05-21T10:11:00">
+				
+             
+             
+				<Latitude>
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude>
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation>
+					450.0
+				</Elevation>
+				
+             
+				<Depth>
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth>
+					90.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip>
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate>
+					1.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-01-07T14:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="LHN" endDate="2014-01-07T14:00:00" locationCode="00" startDate="2010-05-21T10:11:00">
+				
+             
+             
+				<Latitude>
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude>
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation>
+					450.0
+				</Elevation>
+				
+             
+				<Depth>
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth>
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip>
+					0.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate>
+					1.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-01-07T14:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+             
+			<Channel code="LHZ" endDate="2014-01-07T14:00:00" locationCode="00" startDate="2010-05-21T10:11:00">
+				
+             
+             
+				<Latitude>
+					42.960000
+				</Latitude>
+				
+             
+				<Longitude>
+					1.090000
+				</Longitude>
+				
+             
+				<Elevation>
+					450.0
+				</Elevation>
+				
+             
+				<Depth>
+					0.0
+				</Depth>
+				
+             
+               
+				<Azimuth>
+					0.0
+				</Azimuth>
+				
+             
+             
+               
+				<Dip>
+					-90.0
+				</Dip>
+				
+             
+             
+             
+               
+               
+				<SampleRate>
+					1.0
+				</SampleRate>
+				
+               
+             
+             
+             
+             
+             
+               
+				<Sensor>
+					
+                 
+					<Type>
+						Vélocimètre
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						T240
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						612
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                 
+                  
+               
+				</Sensor>
+				
+             
+             
+             
+               
+				<DataLogger>
+					
+                 
+					<Type>
+						Numériseur
+					</Type>
+					
+                 
+                 
+                 
+                 
+                  
+					<Model>
+						KEPH6BB
+					</Model>
+					
+                 
+                 
+                  
+					<SerialNumber>
+						079-0016
+					</SerialNumber>
+					
+                 
+                 
+                  
+					<InstallationDate>
+						2010-05-21T10:11:00
+					</InstallationDate>
+					
+                 
+                 
+                  
+					<RemovalDate>
+						2014-01-07T14:00:00
+					</RemovalDate>
+					
+                 
+                 
+                 
+               
+				</DataLogger>
+				
+             
+             
+             
+             
+             
+             
+             
+             
+			</Channel>
+			
+           
+         
+		</Station>
+		
+      
+	</Network>
+	
+     
+
+</FDSNStationXML>

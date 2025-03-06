@@ -1,0 +1,288 @@
+<?xml version="1.0" ?>
+<!-- fichier PYAD.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYAD</nom>
+	<identifiant>fti/t6vwukd</identifiant>
+	<pwd>4w9fuct</pwd>
+	<ip>80.11.246.174</ip>
+	<tel>05 59 05 62 32</tel>
+	<materielDivers>Chargeur</materielDivers>
+	<lienModem>http://80.11.246.174</lienModem>
+	<lienNumeriseur>http://80.11.246.174:8020</lienNumeriseur>
+	<divers>Mairie 05 59 05 80 44 service Technique pour Fours à Chaux Iseste</divers>
+        
+	<entretien date="2020.11.05" motif="entretien"/>
+	<gissmo n="384"/>
+	<historique>
+		<evenement date="2015.06.09" idEvt="150609.110514">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>150609.110514</idEvt>
+			<description>Il semblerait que la station ait une seconde de retard.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.06.09</debut>
+			<stationID>PYAD</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>???</GPSTempsg>
+			<fin>2015.06.15</fin>
+		</evenement>
+		<evenement date="2015.07.23" idEvt="150723.091129">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>150723.091129</idEvt>
+			<description>La station a perdu la synchro (reboot de la station le 21/7).</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.07.23</debut>
+			<stationID>PYAD</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2015.08.25</fin>
+		</evenement>
+		<evenement date="2015.09.10" idEvt="150908.164542">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>150908.164542</idEvt>
+			<description>Le signal est fortement parasité sur les trois voies.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.09.10</debut>
+			<stationID>PYAD</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.01.08</fin>
+		</evenement>
+		<evenement date="2016.11.16" idEvt="161118.092641">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>161118.092641</idEvt>
+			<description>Signal HS.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.11.16</debut>
+			<stationID>PYAD</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>HS</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.11.22</fin>
+		</evenement>
+		<evenement date="2019.03.07" idEvt="190307.144835">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.03.07</debut>
+			<description>Perte de connexion le 6 mars 2019 à 11h30.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190307.144835</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYAD</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.03.19</fin>
+		</evenement>
+		<evenement date="2019.08.16" idEvt="190816.102446">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.08.16</debut>
+			<description>Depuis début août, nombreuses pertes de connexion de longue durée. Orange a identifié 2 causes : Instabilité de la ligne et difficulté du modem à se synchroniser. Une intervention est programmée le lundi 26 août entre 13h30 et 15h30.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190816.102446</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>PYAD</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.16</fin>
+		</evenement>
+		<evenement date="2019.10.02" idEvt="191002.091648">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.10.02</debut>
+			<description>Pb de coupures intempestives.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191002.091648</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYAD</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.05</fin>
+		</evenement>
+		<evenement date="2020.03.09" idEvt="200310.084433">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.03.09</debut>
+			<description>Perte de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200310.084433</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYAD</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.03.10</fin>
+		</evenement>
+		<evenement date="2020.04.29" idEvt="200331.171513">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>200331.171513</idEvt>
+			<description>Des coupures intempestives apparaissent sur la liaison.</description>
+			<battCharg>OK</battCharg>
+			<debut>2020.04.29</debut>
+			<stationID>PYAD</stationID>
+			<connStation>Pb</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2015.09.10">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>J'ai posé la Centaur à la place  de la Mykérinos, j'ai donc récupéré au labo à Tarbes: la Mykérinos 0720005, un Titan GPS 0170245 et son antenne, une Titan30100044 ainsi qu'un cable ==&gt; épisensor==&gt; Titan </commentaires>
+			<evt idEvt="150908.164542"/>
+		</intervention>
+		<intervention date="2015.09.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Après changement du capteur et divers tests sur place, pas d'améliorations, je démonte tout et je fais passer demain par Hélène à Sébastien.</commentaires>
+			<evt idEvt="150908.164542"/>
+		</intervention>
+		<intervention date="2015.12.03">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La Centaur a été installée avec succès, vérifier juste s'il est normal que toutes les leds clignotent par secondes</commentaires>
+			<evt idEvt="150908.164542"/>
+		</intervention>
+		<intervention date="2016.01.08">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>capteur épisensor 660 changé par capteur 658</commentaires>
+		</intervention>
+		<intervention date="2016.11.22">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Episensor 0658 changé par épisensor 4133, test avant départ ok</commentaires>
+		</intervention>
+		<intervention date="2018.08.21">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Je suis passé à Arudy (ARUF) ou nous avons fait des tests avec Matthieu à distance sur le Bewan.
+Les ports 9001 et 9000 sont bien redirigés pour ARUF, vers le device 192.168.1.4 sur les ports 21 (ftp) et 80 (http).
+Le Modem reste inaccessible de l'extérieur sauf si on désactive le pare-feu, je le laisse donc désactivé pour tests possibles avec Alvaro ces prochains jours.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.03.07">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel Orange : Pas de défauts sur la ligne. Je n'ai pas fixé de rdv avec un technicien étant donné que le modem en place est un modèle bewan et la probabilité qu'il est rendu l'âme est forte. Avec Alvaro, nous avions prévu d'aller visiter ce site le 13 mars.</commentaires>
+			<evt idEvt="190307.144835">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.14">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Le câble téléphonique était coupé au niveau du pylone électrique. Le technicien d'Orange est passé jeudi en fin de matinée et a reposé un câble. &lt;br&gt;
+J'ai remplacé le modem Bewan par un Mulogic. Après sa réparation, le technicien voyait le modem mais il n'est pas visible de l’extérieur.&lt;br&gt;
+J'ai remplacé la batterie et le chargeur, il me manquait des cosses plates pour faire une installation propre. A modifier lors du prochain passage.&lt;br&gt;
+Les coffrets électriques sont ouverts, est-ce que c'est suite au changement de compteur? Je vais faire un mail à ENEDIS. En attendant, il faudrait scotcher les portes avec du scotch orange.
+			</commentaires>
+			<evt idEvt="190307.144835">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le mot de passe du modem n'était pas le bon, tout fonctionne à nouveau</commentaires>
+			<evt idEvt="190307.144835">
+				<commentaire>mot de passe motifié</commentaire>
+				<fin>2019.03.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Une intervention a été réalisée par Orange et les tests sont ok maintenant, ils m'ont appelé et effectivement tout semble ok.
+RDV de lundi annulé du coup.
+			</commentaires>
+			<evt idEvt="190816.102446">
+				<commentaire>
+				</commentaire>
+				<fin>2019.08.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.18">
+			<intervenant>Seb</intervenant>
+			<commentaires>Comme les coupures répétées de PYAD apparaissaient depuis plusieurs jours au moment du reboot programmé du modem. J'ai réglé celui-ci pour que son reboot soit maintenant hebdomadaire le lundi à 00H (heure locale). A suivre.</commentaires>
+		</intervention>
+		<intervention date="2019.10.28">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Test de ligne : dysfonctionnement détecté. J'ai fixé un RDV sur site le mardi 5 novembre entre 9h00 et 11h00. Frank si le RDV ne te convient pas, tu peux le déplacer. Prendre un autre modem Mulogic.</commentaires>
+			<evt idEvt="191002.091648">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.05">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				le Câble avait été changé début d'été car il avait été arraché. Pour le technicien Orange pas de problème détecté ce jour.
+Pour info hier appel du 3901 et impossible de les faire répondre pour annuler le RDV
+			</commentaires>
+			<evt idEvt="191002.091648">
+				<commentaire>intervention Orange</commentaire>
+				<fin>2019.11.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.10">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200310.084433">
+				<commentaire>Appel Orange: Aucun défaut a été constaté sur la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.10">
+			<intervenant>Seb</intervenant>
+			<commentaires>Au vu des logs du modem et du numériseur, il semblerait qu'il y ait bien eût un problème au niveau de la connexion modem/ADSL.</commentaires>
+			<evt idEvt="200310.084433">
+				<commentaire>La connexion a été rétablie.</commentaire>
+				<fin>2020.03.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.04.01">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200331.171513">
+				<commentaire>Appel Orange: Tout semble fonctionner correctement du côté d'Orange.</commentaire>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

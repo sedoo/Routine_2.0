@@ -1,0 +1,420 @@
+<?xml version="1.0" ?>
+<!-- fichier LRDF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>LRDF</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>***</ip>
+	<tel>04 68 70 14 53</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>modem 56k</lienModem>
+	<lienNumeriseur>modem 56k</lienNumeriseur>
+	<divers>Mr Herman: 06 80 82 76 00</divers>
+        <entretien date="2020.09.12"/>
+	<historique>
+		<evenement date="2014.04.21" idEvt="140422.103416">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140422.103416</idEvt>
+			<description>Des glitchs sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.21</debut>
+			<stationID>LRDF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.06.30</fin>
+		</evenement>
+		<evenement date="2015.06.15" idEvt="150615.094135">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.06.15</debut>
+			<description>Difficultés de connexion avec la station.Dépannage en cours selon le 1015 appel aujourd'hui 26/08/15</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150615.094135</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>LRDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.11</fin>
+		</evenement>
+		<evenement date="2015.09.20" idEvt="151002.085208">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.09.20</debut>
+			<description>Sonne occupé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151002.085208</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.10.22</fin>
+		</evenement>
+		<evenement date="2015.10.15" idEvt="151015.100632">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.10.15</debut>
+			<description>Le signal est plat sur les trois voies.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151015.100632</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.02.02</fin>
+		</evenement>
+		<evenement date="2015.10.26" idEvt="151026.110144">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.10.26</debut>
+			<description>Retour du pb du signal qui sonne occupé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151026.110144</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.12.07</fin>
+		</evenement>
+		<evenement date="2016.01.05" idEvt="160105.113416">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.01.05</debut>
+			<description>Le superviseur répond correctement, FT semble avoir résolu son problème, mais le numériseur n'arrive pas à synchroniser avec le superviseur. </description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160105.113416</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LRDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.02.02</fin>
+		</evenement>
+		<evenement date="2016.02.09" idEvt="160211.093359">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>160211.093359</idEvt>
+			<description>Le superviseur ne décroche pas. La ligne semble OK.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.02.09</debut>
+			<stationID>LRDF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.02.07</fin>
+		</evenement>
+		<evenement date="2016.04.25" idEvt="160425.143928">
+			<etat>Pb</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>160425.143928</idEvt>
+			<description>Toujours les mêmes problèmes.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.04.25</debut>
+			<stationID>LRDF</stationID>
+			<connStation>Pb</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.04.25</fin>
+		</evenement>
+		<evenement date="2016.10.06" idEvt="161007.094135">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.10.06</debut>
+			<description>Les trois voies sont HS (signal plat sur la Z, carré sur la N et incohérent sur la E.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>161007.094135</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>LRDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.10.13</fin>
+		</evenement>
+		<evenement date="2017.09.01" idEvt="170926.095949">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.09.01</debut>
+			<description>Pas de réponse du modem</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170926.095949</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.11.15</fin>
+		</evenement>
+		<evenement date="2017.12.13" idEvt="171211.124052">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>171211.124052</idEvt>
+			<description>Le modem ne decroche pas.</description>
+			<battCharg>OK</battCharg>
+			<debut>2017.12.13</debut>
+			<stationID>LRDF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.01.15</fin>
+		</evenement>
+		<evenement date="2018.01.10" idEvt="180110.092937">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.01.10</debut>
+			<description>Faible tension de batterie.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>180110.092937</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.01.15</fin>
+		</evenement>
+		<evenement date="2018.06.18" idEvt="180622.085911">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>180622.085911</idEvt>
+			<description>Pas de liaison avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.06.18</debut>
+			<stationID>LRDF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.26</fin>
+		</evenement>
+		<evenement date="2019.03.15" idEvt="190314.124003">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.03.15</debut>
+			<description>Pas de synchronisation entre le numériseur et le superviseur. La ligne est OK.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190314.124003</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LRDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.03.25</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2015.08.20">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Plus de connexion avec la station, un technien Orange est intervenu le 21 août, je l'ai eu au téléphone et m'a expliqué qu'il avait changé des fusibles en amont de notre ligne, il devait passer à la cabane et ne m'a jamais rapplelé, cela ne fonctionne toujours pas.</commentaires>
+			<evt idEvt="150615.094135"/>
+		</intervention>
+		<intervention date="2015.08.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>appel au 1015 d'orange por eux l'intervention n'est pas terminée</commentaires>
+			<evt idEvt="150615.094135"/>
+		</intervention>
+		<intervention date="2015.09.07">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150615.094135">
+				<commentaire>Appel FT : la ligne semble OK</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.11">
+			<intervenant>Franck</intervenant>
+			<evt idEvt="150615.094135">
+				<commentaire>Le propriétaire à redémarré le modem.</commentaire>
+				<fin>2015.09.11</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.10.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="151002.085208">
+				<commentaire>Appel à FT =&gt; aucun résultat.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.10.22">
+			<intervenant>marie</intervenant>
+			<commentaires>La station decroche correctement depuis le 21/10/2015</commentaires>
+			<evt idEvt="151015.100632"/>
+			<evt idEvt="151002.085208">
+				<commentaire>Intervention FT??</commentaire>
+				<fin>2015.10.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.12.01">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Pb de signal pas visible en direct avec TCS, par contre pas de ligne téléphonique.
+Pour Orange la ligne n'est pas complètement défectueuse ce qui est normal car il y a une partie Herzienne ... un technicien doit passer cette semaine.
+			</commentaires>
+			<evt idEvt="151026.110144"/>
+			<evt idEvt="151015.100632"/>
+		</intervention>
+		<intervention date="2015.12.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Un technicien Orange est intervenu ce matin, le dialogue analogique est revenu</commentaires>
+			<evt idEvt="151026.110144">
+				<commentaire>Intervention Orange</commentaire>
+				<fin>2015.12.07</fin>
+			</evt>
+			<evt idEvt="151015.100632"/>
+		</intervention>
+		<intervention date="2015.12.15">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La ligne téléphonique est toujours en dérangement, après appel Orange problème en bout de ligne constaté, j'ai vérifié notre fiche téléphonique rien d'anormal ... un technicien vient une nouvelle fois jeudi 17 après midi  ... j'ai précisé que plusieurs interventions avaient été programmées ces derniers temps et que je me demandais si le technicien était véritablement intervenu. Normalement demain il m'appelle une fois sur place</commentaires>
+			<evt idEvt="151015.100632"/>
+		</intervention>
+		<intervention date="2015.12.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Un technicien Orange est passé hier mais la situation reste la même, pas de réseau sur plusieurs poteaux en amont de la station. Ils doivent revenir avec une nacelle.</commentaires>
+			<evt idEvt="151015.100632"/>
+		</intervention>
+		<intervention date="2016.01.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>RDV était prit avec Orange le 19 janvier entre 14h et 16h00, le technicien n'est pas venu mais m'a appelé car il a fait des tests en amont de la station qui pour lui étaient bons. Après avoir changé superviseur, puis numériseur, fait un Titanrel, la synchro ne se fait pas. J'ai insisté pour qu'il vienne sur place constater la friture sur la ligne, qui pour moi gène pour la synchronisation entre le superviseur et le numériseur, il n'a pas voulu venir .... et donc n'a pas assuré le RDV. Pour lui le problème n'est pas de son ressort, mais du niveau de dépannage au dessus qu'il a déjà réclamé mais sans réaction d'Orange. J'ai donc appelé Orange qui rencontre des problèmes dans ce secteur avec l'entreprise de dépannage .... Je dois faire une réclamation au : Service Client, TSA 40012, 59878 Lille Cedex.</commentaires>
+			<evt idEvt="160105.113416"/>
+			<evt idEvt="151015.100632"/>
+		</intervention>
+		<intervention date="2016.01.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Numériseur NoalWenn changé par Numériseur 010 0085</commentaires>
+			<evt idEvt="160105.113416"/>
+			<evt idEvt="151015.100632"/>
+		</intervention>
+		<intervention date="2016.02.02">
+			<intervenant>Seb</intervenant>
+			<commentaires>La chaîne d'acquisition (sans le capteur) a été testée le lendemain à Toulouse et se comporte sans problème. Pourquoi à Toulouse mais pas à LRDF ?</commentaires>
+			<evt idEvt="160105.113416">
+				<commentaire>Examen de la ligne par FT. Changement de la prise. Echange du numériseur et du superviseur.</commentaire>
+				<fin>2016.02.02</fin>
+			</evt>
+			<evt idEvt="151015.100632">
+				<fin>2016.02.02</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.10.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="161007.094135">
+				<commentaire>Echange de numériseur. C'est maintenant un TITAN3.</commentaire>
+				<fin>2016.10.13</fin>
+			</evt>
+			<evt idEvt="160425.143928">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.04.24">
+			<intervenant>Seb</intervenant>
+			<commentaires>Changement de télécode.</commentaires>
+			<evt idEvt="160425.143928">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.09.26">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170926.095949">
+				<commentaire>Appel FT : un intervention est programmée pour cet après-midi.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.09.27">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170926.095949">
+				<commentaire>Rien n'a été constaté par FT lors de sa visite hier sur le terrain.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.11.15">
+			<intervenant>Seb</intervenant>
+			<commentaires>L'antenne par-foudre a été coupée de moitié, le superviseur pouvait se bloquer à cause de cela.</commentaires>
+			<evt idEvt="170926.095949">
+				<commentaire>Changement du superviseur.</commentaire>
+				<fin>2017.11.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.12.20">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="171211.124052">
+				<commentaire>Appel FT : pas de pb de ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.01.15">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180110.092937">
+				<commentaire>Changement de batterie</commentaire>
+				<fin>2018.01.15</fin>
+			</evt>
+			<evt idEvt="171211.124052">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180622.085911">
+				<commentaire>Appel FT: pb sur le répartiteur d'orange. Une intervention devrait avoir lieu dans les 24H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.25">
+			<intervenant>---</intervenant>
+			<evt idEvt="190314.124003">
+				<commentaire>La station fonctionne depuis quelques jours. Quelques difficultées occasionnelles sont toujours présentes.</commentaire>
+				<fin>2019.03.25</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

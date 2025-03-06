@@ -1,0 +1,392 @@
+<?xml version="1.0" ?>
+<!-- fichier LRVF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>LRVF</nom>
+	<identifiant>fti/7qzzucd</identifiant>
+	<pwd>4hxdvww</pwd>
+	<ip>80.15.99.173</ip>
+	<tel>05 57 50 30 63</tel>
+	<materielDivers>Chargeur</materielDivers>
+	<lienModem>http://80.15.99.173</lienModem>
+	<lienNumeriseur>http://80.15.99.173:8020</lienNumeriseur>
+	<divers>Prendre RDV avec Xavier Buffo (directeur technique), x.buffo@chateau-de-la-riviere.com, 06 85 55 56 15 ou Joel 06 84 60 22 31. N'oubliez pas la lampe.</divers>
+	<gissmo n="50"/>
+        
+	<entretien date="2020.10.12"/>
+	<historique>
+		<evenement date="2014.01.01" idEvt="140528.154759">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.01.01</debut>
+			<description>Le signal de la voie Z subit occasionnellement des parasites.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140528.154759</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRVF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.05.28</fin>
+		</evenement>
+		<evenement date="2014.05.28" idEvt="140528.160040">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140528.160040</idEvt>
+			<description>Des bruits parasites apparaissent le matin sur la voie Z</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.05.28</debut>
+			<stationID>LRVF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.05.04</fin>
+		</evenement>
+		<evenement date="2014.06.13" idEvt="140616.092640">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.06.13</debut>
+			<description>Impossible de dialoguer avec le numériseur depuis mon reboot.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140616.092640</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LRVF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.06.23</fin>
+		</evenement>
+		<evenement date="2016.06.20" idEvt="160620.094952">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.06.20</debut>
+			<description>Impossible de recentrer à distance (KBB-STS2). Au prochain passage, faire un recentrage manuel.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160620.094952</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRVF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.07.12</fin>
+		</evenement>
+		<evenement date="2018.03.20" idEvt="180321.104706">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>180321.104706</idEvt>
+			<battCharg>OK</battCharg>
+			<debut>2018.03.20</debut>
+			<stationID>LRVF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.03.21</fin>
+		</evenement>
+		<evenement date="2018.05.01" idEvt="180430.112715">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.05.01</debut>
+			<description>Pas de réponse de la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180430.112715</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRVF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.05.07</fin>
+		</evenement>
+		<evenement date="2018.07.01" idEvt="180702.084311">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>180702.084311</idEvt>
+			<battCharg>OK</battCharg>
+			<debut>2018.07.01</debut>
+			<stationID>LRVF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.07.09</fin>
+		</evenement>
+		<evenement date="2019.09.01" idEvt="190902.102720">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.09.01</debut>
+			<description>Problème de redirection du port 2323 =&amp;gt; Pas d'infos sur Synapse. La station semble tourner correctement.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190902.102720</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRVF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.25</fin>
+		</evenement>
+		<evenement date="2019.09.24" idEvt="190925.142921">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.24</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190925.142921</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LRVF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.25</fin>
+		</evenement>
+		<evenement date="2019.12.29" idEvt="200106.100433">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.29</debut>
+			<description>Perte de connexion.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200106.100433</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LRVF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.08</fin>
+		</evenement>
+		<evenement date="2020.02.05" idEvt="200206.090122">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.02.05</debut>
+			<description>Perte de la connexion.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200206.090122</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LRVF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.03.04</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.05.28">
+			<intervenant>Helene et Seb</intervenant>
+			<commentaires>
+				Des bruits parasites semblant provenir d'une source extérieure à la chaîne de mesure, on commencer à apparaître vers 7h (locale) et se prolongent dans la journée.
+La source de ces bruits n'a pas été identifiée. A suivre...
+			</commentaires>
+			<evt idEvt="140528.154759">
+				<commentaire>Echange de capteurs.</commentaire>
+				<fin>2014.05.28</fin>
+			</evt>
+		</intervention>
+		<intervention date="2014.04.25">
+			<intervenant>Hélène</intervenant>
+			<evt idEvt="140528.160040"/>
+		</intervention>
+		<intervention date="2014.06.23">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La configuration réseau avait sauté, reconfiguration + reboot</commentaires>
+			<evt idEvt="140616.092640">
+				<commentaire>Paramètres réseau ré-écrits</commentaire>
+				<fin>2014.06.23</fin>
+			</evt>
+			<evt idEvt="140528.160040"/>
+		</intervention>
+		<intervention date="2015.07.28">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>Gyrocompas OK</commentaires>
+		</intervention>
+		<intervention date="2016.07.12">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Joël 0684602231, est allé recentrer les masses en appuyant sur le boitier extérieur de recentrage.</commentaires>
+			<evt idEvt="160620.094952">
+				<commentaire>
+				</commentaire>
+				<fin>2016.07.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.03.21">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180321.104706">
+				<commentaire>Appel FT : rien de leur coté.</commentaire>
+			</evt>
+		</intervention>
+               
+		<intervention date="2018.03.21">
+                        
+			<intervenant>Grimaud</intervenant>
+                        
+			<commentaires>La prise du câble qui alimente notre installation avait été débranchée par le nouveau maître de chai.</commentaires>
+                
+		</intervention>
+		<intervention date="2018.05.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180430.112715">
+				<commentaire>Appel FT : Ligne OK. Pas de synchro sur le modem.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180430.112715">
+				<commentaire>Mail au chateau : ils ont un pb de téléphone depuis plusieurs jours. En attente d'un rétablissement de la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.07">
+			<intervenant>FT</intervenant>
+			<evt idEvt="180430.112715">
+				<commentaire>La ligne est rétablie, tout est maintenant OK.</commentaire>
+				<fin>2018.05.07</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180702.084311">
+				<commentaire>Appel FT: Pas de problème sur la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180702.084311">
+				<commentaire>LRVF au moment de la coupure.</commentaire>
+			</evt>
+		</intervention>
+                
+		<intervention date="2018.07.09">
+                        
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="180702.084311">
+                        				<commentaire>Disjoncteur remonté</commentaire>
+				<fin>2018.07.09</fin>
+			</evt>
+                
+		</intervention>
+		<intervention date="2019.09.25">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190925.142921">
+				<commentaire>Appel FT: Un RDV sur place est nécessaire.</commentaire>
+			</evt>
+			<evt idEvt="190902.102720">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.25">
+			<intervenant>???</intervenant>
+			<evt idEvt="190925.142921">
+				<commentaire>Raison inconnue.</commentaire>
+				<fin>2019.09.25</fin>
+			</evt>
+			<evt idEvt="190902.102720">
+				<commentaire>
+				</commentaire>
+				<fin>2019.09.25</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200106.100433">
+				<commentaire>Test Orange: Un problème a été identifié chez Orange mais en fin de ligne. Il sera nécéssaire d'ouvrir les locaux.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.08">
+			<intervenant>Orange</intervenant>
+			<commentaires>Le technicien a aussi changé par précaution le cordon reliant la prise au modem et m'a signalé un matériel fortement humide (notamment le chargeur) et sale. Une intervention d'entretien prochaine pourrait être nécessaire avec changement du chargeur.</commentaires>
+			<evt idEvt="200106.100433">
+				<commentaire>Changement de la prise oxydée.</commentaire>
+				<fin>2020.01.08</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200206.090122">
+				<commentaire>Test Orange: la ligne fonctionne normalement.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai demandé à Xavier Buffo de tout débrancher et rebrancher sur la batterie. Cela n'a rien rebooté.
+J'y vais donc demain.
+			</commentaires>
+			<evt idEvt="200206.090122">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				A mon arrivée, tout fonctionnait. Le modem Bewan n'avait juste pas la liaison ADSL. Après vérification des identifiants. je suis sortie de la cave pour appeler le 3901. Pour eux pas de soucis.
+Je change donc la batterie, le chargeur et le modem que j'ai configuré la veille. Toujours pas d'ADSL.
+Je sors à nouveau pour appeler Sébastien et on décide de rappeler le 3901 pour demander une intervention. Je m'en charge, après le test de ligne qui est automatique et qui me dit que tout est ok, j'arrive à basculer sur la ligne assistance technique et 25 mn après toujours personne qui répond. Je coupe, rappelle Sébastien et décidons d'aller manger !
+Au retour de manger, Sébastien prend le relais pour essayer d'avoir quelqu'un .... moi je reprends la route du retour, puisque l'intervention ne se fera pas aujourd'hui.
+Finalement Sébastien a eu l'assitance qui affirme qu'il n'y a pas de soucis et que cela vient de nos identifiants, je trouve cela étonnant que sur 2 modems avec les mêmes identifiants cela ne fonctionne pas ... 
+La difficulté sur ce site est que l'on ne peut appeler Orange de l'intérieur, pour pouvoir maniper en même temps.
+			</commentaires>
+			<evt idEvt="200206.090122">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Matériel laissé :
+Enag 00035-04-16
+Mulogic 00:24:55:07:66:25
+			</commentaires>
+			<evt idEvt="200206.090122">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.04">
+			<intervenant>Helene et Seb</intervenant>
+			<commentaires>Au niveau du boîtier Orange, présent dans le château, la ligne était dérivée vers une autre prise téléphonique appartenant au château. Selon toute vraisemblance, la ligne ADSL était connectée vers un autre modem ADSL ce qui expliquerait les conclusions des tests Orange (mauvais identifiants). Les explications du fonctionnement du téléphone au travers de notre ligne mais pas de l'ADSL restent floues (les deux lignes, donc deux modems, montées en parallèle ?).</commentaires>
+			<evt idEvt="200206.090122">
+				<commentaire>Le technicien Orange a réparé la ligne.</commentaire>
+				<fin>2020.03.04</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

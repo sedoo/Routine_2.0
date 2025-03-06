@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<!-- fichier PYBE.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYBE</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>***</ip>
+	<tel>04 68 20 35 52</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>modem 56k</lienModem>
+	<lienNumeriseur>modem 56k</lienNumeriseur>
+	<divers>
+	</divers>
+        <entretien date="2019.07.12"/>
+	<historique>
+		<evenement date="2015.04.29" idEvt="150429.123831">
+			<etat>HS</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>150429.123831</idEvt>
+			<description>Pas de déclenchements depuis plusieurs jours.Impossible de faire déclencher la station à distance.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.04.29</debut>
+			<stationID>PYBE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>HS</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.04.30</fin>
+		</evenement>
+		<evenement date="2017.10.03" idEvt="171003.132533">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.10.03</debut>
+			<description>La batterie est bonne à changer.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>171003.132533</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYBE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.12.07</fin>
+		</evenement>
+		<evenement date="2017.11.01" idEvt="171013.084717">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>171013.084717</idEvt>
+			<description>La synchronisation du modem avec la station ne se fait qu'occasionnellement.</description>
+			<battCharg>Pb</battCharg>
+			<debut>2017.11.01</debut>
+			<stationID>PYBE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2017.12.01</fin>
+		</evenement>
+		<evenement date="2017.11.09" idEvt="171109.125508">
+			<typeEvt>autre</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.11.09</debut>
+			<description>Defaut de non-paiement.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>171109.125508</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYBE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2017.11.09</fin>
+		</evenement>
+		<evenement date="2017.12.28" idEvt="180201.153039">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>180201.153039</idEvt>
+			<battCharg>OK</battCharg>
+			<debut>2017.12.28</debut>
+			<stationID>PYBE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.02.12</fin>
+		</evenement>
+		<evenement date="2018.07.23" idEvt="180723.095433">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>180723.095433</idEvt>
+			<description>Pas de synchro superviseur/numériseur</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.07.23</debut>
+			<stationID>PYBE</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2017.11.09">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="171109.125508">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="171013.084717">
+				<commentaire>Appel FT : test de ligne impossible, defaut de non-paiement.</commentaire>
+			</evt>
+			<evt idEvt="171003.132533">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.11.09">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="171109.125508">
+				<commentaire>Appel service commercial de FT : aucun pb.</commentaire>
+				<fin>2017.11.09</fin>
+			</evt>
+			<evt idEvt="171013.084717">
+				<commentaire>Appel FT (service technique) : pas de pb sur la ligne</commentaire>
+			</evt>
+			<evt idEvt="171003.132533">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.12.07">
+			<intervenant>Seb</intervenant>
+			<commentaires>Contrairement à ce que je pressentais, la perte de temps du numériseur n'était pas due à une baisse de la tension. Le numériseur était alimenté par le biais du superviseur. Une coupure du superviseur entraînait donc un on/off et une perte de l'heure. Autre chose : les câbles extérieurs qui relient les panneaux sont très usés et bon à changer (Voir photos). Une manip est à prévoir quand les conditions seront plus clémentes. Prévoir pas mal de câble.</commentaires>
+			<evt idEvt="171013.084717">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="171003.132533">
+				<commentaire>La batterie est bonne. Alimentation du numériseur directement sur la batterie.</commentaire>
+				<fin>2017.12.07</fin>
+			</evt>
+		</intervention>
+                
+		<intervention date="2018.01.31">
+                        
+			<intervenant>Franck et Seb</intervenant>
+                        
+			<commentaires>Remise à neuf du câblage des panneaux, un nouveau régulateur est installé et la batterie a été changée. Impossible d’appeler la station ou d'appeler de la station. Appel à FT : la ligne est fermée depuis plusieurs années du fait d'un problème de facturation.</commentaires>
+                
+		</intervention>
+		<intervention date="2018.02.09">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180201.153039">
+				<commentaire>Appel FT : Un defaut est visible sur la ligne, FT va intervenir dans les 24H.</commentaire>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

@@ -1,0 +1,85 @@
+{% extends "squelette.html" %}
+
+{% block head %}
+        <script type="text/javascript">
+            window.onload = function () {
+                init_evenement();		// active le calendrier
+                pwd("CR_intervention.py");
+                if (navigator.userAgent.match(/Android/i)) {
+                    document.getElementById("formulaire").innerHTML += '<input type="submit" name="valid" value="valider" class="boutons" />';
+                }
+            }
+        </script>
+        <script type="text/javascript" src="{{url_for('static', filename='./js/CR_intervention.js')}}"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+{% endblock %}
+
+{% block contenu %}
+        <form id="formulaire" action='' method='POST' enctype="multipart/form-data">
+            <fieldset>
+                <p>
+                    <label for="date">Date de l'intervention : </label>
+                    <input type="text" id="date" name="date" class="calendrier" style="width: 100px;" value="{%- if lstChamps is defined %}{{ lstChamps['date'] }}{% endif %}" />
+                </p>
+                <p>
+                    <label for="nomIntervenant">Nom de l'intervenant : </label>
+                    <input type="text" id="nomIntervenant" name="nomIntervenant" class="input" style="width: 300px;" value="{%- if lstChamps is defined %}{{ lstChamps['nomIntervenant'] }}{% endif %}" />
+                </p>
+                <p>
+                    <label for="station">Station : </label>
+                    <select id="stations" name="station">
+                        <option />
+                    {%- for sta in liste_sta %}
+                        <option value="{{ sta }}"{%- if lstChamps is defined and lstChamps['station'] == sta %} selected {% endif %}>{{ sta }}</option>
+                    {%- endfor %}
+                    </select>
+                </p>
+                <input type="hidden" id="validStation" name="validStation" value="stationOK" />
+            </fieldset>
+
+        {%- if lstChamps is defined %}
+            <fieldset>
+                <legend>Liste des probl&egrave;mes : </legend>
+                <input id="nomStation" type="hidden" value="{{ lstChamps['station'] }}">
+                <table>
+                    <tr><th>ID</th><th>Type de d&eacute;faut</th><th>Description de la panne</th><th>R&eacute;solu</th><th>Manipulation</th></tr>
+                    {%- for evt in station.evenement %}
+                        <tr>
+                            <td>{{ evt.idEvt }}</td>
+                            <td>{{ evt.typeEvt }}</td>
+                            <td>{{ evt.description }}</td>
+                            <td><input type="checkbox" id="resolu[{{ evt.idEvt }}]" name="resolu[{{ evt.idEvt }}]" /></td>
+                            <td><input type="text" id="commEvt[{{ evt.idEvt }}]" name="commEvt[{{ evt.idEvt }}]" class="input" style="width: 500px" /><td>
+                        </tr>
+                    {%- endfor %}
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Maintenance de la station</legend/>
+                <p>
+                    <label for="Date de la prochaine intervention de maintenance">La prochaine intervention devra avoir lieu au maximum dans : </label>
+                    <input type="button" value="1 an" id="boutons_ent1" class="maintenance" />
+                    <input type="button" value="2 ans" id="boutons_ent2" class="maintenance" />
+                    &nbsp;&nbsp;&nbsp;ou le
+                     <input type="text" id="dateEnt" name="dateEnt" class="calendrier" style="width: 100px;"/>
+                </p>
+                <p>
+                    <label for="motif">Motif de l'intervention : </label>
+                    <textarea name="motif" class="input" style="width: 600px;" rows="1" cols="1"></textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <label for="commentaires">Commentaires : </label>
+                    <textarea name="commentaires" id="commentaires" class="input" style="width: 930px;" rows="5" cols="1"></textarea>
+                </p>
+                <p id="piecesJointes">
+                    <label for="photos">Pieces jointes : </label><br />
+                    <input type="file" name="photos" multiple /><br />
+                </p>
+            </fieldset>
+            <p><input type="submit" name="validationCR" id="validationCR" value="valider" class="boutons"/></p>
+        {% endif %}
+        </form>
+{% endblock %}

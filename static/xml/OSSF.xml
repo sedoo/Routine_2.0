@@ -1,0 +1,622 @@
+<?xml version="1.0" ?>
+<!-- fichier OSSF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>OSSF</nom>
+	<identifiant>fti/d4ap4gx</identifiant>
+	<pwd>6cufkqf</pwd>
+	<ip>193.251.84.116</ip>
+	<tel>05 59 37 77 12</tel>
+	<materielDivers>Chargeur</materielDivers>
+	<lienModem>http://193.251.84.116</lienModem>
+	<lienNumeriseur>http://193.251.84.116:8020</lienNumeriseur>
+	<divers>tel mairie: 05 59 37 74 62</divers>
+	<gissmo n="111"/>
+        
+	<entretien date="2020.04.01" motif="Entretien, débroussaillage"/>
+	<historique>
+		<evenement date="2014.03.24" idEvt="140408.105738">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>140408.105738</idEvt>
+			<description>La batterie commence à être fatiguée</description>
+			<battCharg>Pb</battCharg>
+			<debut>2014.03.24</debut>
+			<stationID>OSSF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.22</fin>
+		</evenement>
+		<evenement date="2014.06.16" idEvt="140616.093250">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140616.093250</idEvt>
+			<description>Voie N HS</description>
+			<battCharg>Pb</battCharg>
+			<debut>2014.06.16</debut>
+			<stationID>OSSF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.22</fin>
+		</evenement>
+		<evenement date="2014.07.22" idEvt="140722.153759">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140722.153759</idEvt>
+			<description>Capteur légèrement débullé</description>
+			<battCharg>Pb</battCharg>
+			<debut>2014.07.22</debut>
+			<stationID>OSSF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.22</fin>
+		</evenement>
+		<evenement date="2015.02.24" idEvt="150303.144343">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>150303.144343</idEvt>
+			<description>Friture sur la ligne appel Orange, rien à faire de concret à part faire déplacer un technicien .... Le Modem était tout de même planté, après un on/off tout est ok</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.02.24</debut>
+			<stationID>OSSF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.05</fin>
+		</evenement>
+		<evenement date="2015.03.05" idEvt="150305.185131">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>150305.185131</idEvt>
+			<description>Friture sur la ligne appel Orange, rien à faire de concret à part faire déplacer un technicien .... Le Modem était tout de même planté, après un on/off tout est ok</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.03.05</debut>
+			<stationID>OSSF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.05</fin>
+		</evenement>
+		<evenement date="2015.03.06" idEvt="150306.083915">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.03.06</debut>
+			<description>Succession de micro coupures : la ligne ne semble pas stable.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150306.083915</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>OSSF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.03.10</fin>
+		</evenement>
+		<evenement date="2015.03.09" idEvt="150316.093036">
+			<etat>Pb</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>150316.093036</idEvt>
+			<description>Coupure de connexion très fréquentes.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.03.09</debut>
+			<stationID>OSSF</stationID>
+			<connStation>Pb</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.05.04</fin>
+		</evenement>
+		<evenement date="2015.08.23" idEvt="150826.095946">
+			<etat>Pb</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>150826.095946</idEvt>
+			<description>Perte connexion modem à 19h30TU</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.08.23</debut>
+			<stationID>OSSF</stationID>
+			<connStation>???</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.27</fin>
+		</evenement>
+		<evenement date="2015.08.28" idEvt="150828.170632">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>150828.170632</idEvt>
+			<description>
+				pb de dialogue avec le modem.
+Tout est revenu en ordre tout seul, surement après un reboot électrique
+			</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.08.28</debut>
+			<stationID>OSSF</stationID>
+			<connStation>???</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.28</fin>
+		</evenement>
+		<evenement date="2015.09.06" idEvt="150907.085241">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.09.06</debut>
+			<description>Pas de dialogue avec le modem</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150907.085241</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>OSSF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.15</fin>
+		</evenement>
+		<evenement date="2016.03.23" idEvt="160324.085051">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>160324.085051</idEvt>
+			<description>Pas de liaison avec le modem</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.03.23</debut>
+			<stationID>OSSF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.03.25</fin>
+		</evenement>
+		<evenement date="2016.05.30" idEvt="160530.090321">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.05.30</debut>
+			<description>Pas de dialogue avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160530.090321</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>OSSF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.06.02</fin>
+		</evenement>
+		<evenement date="2017.01.13" idEvt="170113.135016">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>170113.135016</idEvt>
+			<description>Pas de ping avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2017.01.13</debut>
+			<stationID>OSSF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.01.17</fin>
+		</evenement>
+		<evenement date="2017.02.05" idEvt="170203.084251">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.02.05</debut>
+			<description>Pas de ping.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170203.084251</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>OSSF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.02.16</fin>
+		</evenement>
+		<evenement date="2017.03.17" idEvt="170227.155539">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.03.17</debut>
+			<description>La ligne décroche très fréquemment.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170227.155539</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>OSSF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.03.10</fin>
+		</evenement>
+		<evenement date="2017.03.10" idEvt="170314.122802">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.03.10</debut>
+			<description>Glitchs sur la voie Nord.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170314.122802</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>OSSF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.09.07</fin>
+		</evenement>
+		<evenement date="2017.05.11" idEvt="170515.095725">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.05.11</debut>
+			<description>Pas de liaison avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170515.095725</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>OSSF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.05.18</fin>
+		</evenement>
+		<evenement date="2018.03.12" idEvt="180312.095808">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.03.12</debut>
+			<description>Ligne coupée.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180312.095808</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>OSSF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.03.12</fin>
+		</evenement>
+		<evenement date="2019.09.06" idEvt="190909.103617">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.06</debut>
+			<description>Pb Orange: un technicien doit intervenir.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190909.103617</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>OSSF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.13</fin>
+		</evenement>
+		<evenement date="2020.03.14" idEvt="200316.105149">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>200316.105149</idEvt>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<debut>2020.03.14</debut>
+			<stationID>OSSF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.03.18</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.07.22">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Capteur rebullé</commentaires>
+		</intervention>
+		<intervention date="2015.02.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Problème de dialogue. Sur place le modem ZyXel fonctionne mais la led &quot;internet&quot; est rouge. Un simple reboot et tout est ok. Il faudra vérifier que le modem ne se met pas en sommeil et peut être lui envoyer un script hebdomadaire pour le réveiller ...</commentaires>
+		</intervention>
+		<intervention date="2015.02.05">
+			<intervenant>Frank</intervenant>
+			<commentaires>Le problème semble s'être résolu tout seul dans la nuit .... suite à une interruption d'alimentation du modem ? Orage + TSA, qui a fait rebooté ? J'ai tout de même changé le filtre ADSL, il faudra vérifier s'il y a toujours autant de micro coupures sur la ligne Télécom</commentaires>
+		</intervention>
+		<intervention date="2015.03.10">
+			<intervenant>Frank</intervenant>
+			<commentaires>
+				Micros coupures surement dues au cable téléphonique qui était abimé et que les techniciens ont changé.
+Vérifier quand même que le superviseur soit aussi source de micro coupures
+			</commentaires>
+			<evt idEvt="150306.083915">
+				<commentaire>Intervention Orange, cable changé</commentaire>
+				<fin>2015.03.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.06.10">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai juste remis le TSA, mais pas sur la ligne Télécom car derrière le Modem n'arrive pas à trouver l'ADSL, par contre le Modem et le Chargeur sont dessus et pas de soucis. Le Tdin clignote 2imp/sec et tout semble ok.
+J'en ai profité pour tirer une gaine pour faire intervenir Orange et déplacer la prise de la cabane vers le coffret, il faut retirer une ligne depuis la route je pense et à ce moment là on pourra voir si le soucis Télécom-TSA vient de la bande passante.
+			</commentaires>
+		</intervention>
+		<intervention date="2015.09.14">
+			<intervenant>Helene</intervenant>
+			<commentaires>Vérifier demain matin si on a une connexion internet ou pas.</commentaires>
+			<evt idEvt="150907.085241">
+				<commentaire>Changement de modem : j'ai remplacé le zyxel par un TP-Link</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.15">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Pas de coupure dans la nuit suite au changement de modem.
+Le technicien d' Orange est venu, il n'a pas constaté de défaut sur la ligne.
+Il a fait (gratuitement) les travaux pour déplacer le boîtier RP1 qui était encore dans la cabane : il a tiré un câble du poteau téléphone jusque dans le coffret électrique et changé la prise téléphone. De mon côté, j'ai changé le câble entre le filtre ADSL et le modem qui était rongé et le câble d'alim de la D6-BBDIN qui était trop court et générait des faux contacts.
+La cabane bois peut être démonté. Il y'a un panneau solaire dessus qui peut être fixé sur la dalle béton. Il faut prévoir un relais solaire. Pour cela, il faut refaire un boîtier avec TH-DIN et relais, sans RD-DIN car l'ADSL ne passe pas à travers.
+			</commentaires>
+			<evt idEvt="150907.085241">
+				<commentaire>Changement Modem</commentaire>
+				<fin>2015.09.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.25">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160324.085051">
+				<commentaire>Appel FT : un pb a été constaté au niveau du répartiteur Orange, une intervention est programmée avant 18H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.04.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Les derniers petits travaux de finition ont été fait.
+j'ai mis du béton fibré tout autour du bas de l'armoire, j'ai rajouté une petite gaine grise.
+J'ai meulé le bas de la porte qui forçait, ainsi que 2 tiges filetées qui dépassaient de la chape.
+J'ai mis une clôture à l'entrée, les piquets sont en fer .... pas de piquets bois chez Toujas, ni Pages
+			</commentaires>
+		</intervention>
+		<intervention date="2016.05.31">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160530.090321">
+				<commentaire>Appel FT : pas de problème sur la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.06.02">
+			<intervenant>???</intervenant>
+			<evt idEvt="160530.090321">
+				<commentaire>Pour une raison inconnue, le modem a rebooté et la synchro est revenue.</commentaire>
+				<fin>2016.06.02</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.01.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170113.135016">
+				<commentaire>Appel FT : pas de problème au niveau de la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.02.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170203.084251">
+				<commentaire>Appel FT : Un intervention s'impose avec quelqu'un sur place.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.02.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Une intervention Orange sur place est nécessaire et prévu le 16/02</commentaires>
+			<evt idEvt="170203.084251">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.02.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le technicien Orange est passé le 15 finalement .... sans me prévenir ni faire de compte rendu.
+Au final la ligne est ok et après avoir rebooté le modem la station est à nouveau disponible sur le réseau.
+			</commentaires>
+			<evt idEvt="170203.084251">
+				<commentaire>
+				</commentaire>
+				<fin>2017.02.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.02.27">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170227.155539">
+				<commentaire>Appel FT : Des travaux sont en cours sur la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170227.155539">
+				<commentaire>Appel FT : Les travaux sont terminés, un appel pour RDV devrait arriver en fin de matinée.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.10">
+			<intervenant>Seb</intervenant>
+			<commentaires>Malgré la configuration du modem, la Taurus reste invisible.Suite à une mauvaise manip tentée depuis Toulouse, la D6BB est maintenant aussi invisible (possible conflit avec la Taurus). Une intervention devra être de nouveau programmée (ce serait plus simple si je m'y rendais personnellement).</commentaires>
+			<evt idEvt="170227.155539">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.10">
+			<intervenant>Seb</intervenant>
+			<commentaires>Le problème a été résolu, les deux stations sont maintenant visibles : la D6BB sur le port 8020 et la Taurus sur le port 8030. L'intervention ne sera plus nécessaire.</commentaires>
+			<evt idEvt="170227.155539">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.10">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le technicien Orange est passé ce matin et a trouvé un fil mis à nu sur la ligne au niveau du pylone juste à coté ... le modem fonctionne à nouveau et la station est bien visible de l'extérieur.</commentaires>
+			<evt idEvt="170314.122802">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="170227.155539">
+				<commentaire>
+				</commentaire>
+				<fin>2017.03.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.15">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170515.095725">
+				<commentaire>Appel FT : La ligne est OK.</commentaire>
+			</evt>
+			<evt idEvt="170314.122802">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.18">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Comme convenu j'ai changé le TP Link, qui a du perdre ses identifiants, car,  après reboot toujours pas de liaison ADSL.
+Le Mulogic &quot;00 24 55 06 BA 50&quot; le remplace et fonctionne parfaitement.
+			</commentaires>
+			<evt idEvt="170515.095725">
+				<commentaire>Modem Routeur Changé</commentaire>
+				<fin>2017.05.18</fin>
+			</evt>
+			<evt idEvt="170314.122802">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.09.07">
+			<intervenant>Frank et Helene</intervenant>
+			<commentaires>
+				Installation capteur fond de puits T120PH S/N 0662.
+Installation Centaur6 S/N 2841.
+Demontage L4C et D6BB-DIN S/N 0051.
+CR detaille en piece jointe\&lt;br /\&gt;&lt;a href=&quot;http://rssp.irap.omp.eu/Routine/Photos/OSSF/OSSF_CR_installation_capteur_puits_20170907.pdf&quot;&gt;fichier join en pdf&lt;/a&gt;
+			</commentaires>
+			<evt idEvt="170314.122802">
+				<commentaire>Changement de la chaîne instrumentale</commentaire>
+				<fin>2017.09.07</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.03.12">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180312.095808">
+				<commentaire>Appel FT : une intervention est programmée cet après-midi.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.03.12">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="180312.095808">
+				<commentaire>Intervention Orange</commentaire>
+				<fin>2018.03.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.29">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Installation de l'armoire ABAC S/N 023. &lt;br&gt;
+Mesure de l'orientation du capteur fond de puits : 3°N. &lt;br&gt;
+NB: le modem est accessible sur le port 8080. &lt;br&gt;
+&lt;br&gt;
+A FAIRE:&lt;br&gt;
+- Débroussailler le site.&lt;br&gt;
+- Changer la prise téléphone (ancienne prise en T avec filtre) par une prise DTI.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.04.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Entretien extérieur et intérieur fait, des guêpes commencaient à nicher ...
+J'en ai profité pour changer le câble parafoudre-DTI et la prise téléphonique par une DTI
+J'ai également mis les capuchons sur les vis des batteries
+			</commentaires>
+		</intervention>
+		<intervention date="2019.09.09">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="190909.103617">
+				<commentaire>La ligne semble correcte jusqu'à la baie.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>OFF de la fonction redémarrage, la végétation avait bien poussé depuis la dernière fois ou j'avais déjà passé le rotofil</commentaires>
+			<evt idEvt="190909.103617">
+				<commentaire>OFF de la fonction redémarrage </commentaire>
+				<fin>2019.09.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Modif paramètres reboot modem</commentaires>
+		</intervention>
+		<intervention date="2020.03.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200316.105149">
+				<commentaire>Appel Orange: Une instabilité est présente sur la ligne mais un RDV est quand même nécéssaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200316.105149">
+				<commentaire>Appel Orange: Le technicien m'à rappellé et finalement une intervention est programmée pour le 18/3.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.18">
+			<intervenant>---</intervenant>
+			<evt idEvt="200316.105149">
+				<commentaire>La connexion a été rétablie.</commentaire>
+				<fin>2020.03.18</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

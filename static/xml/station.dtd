@@ -1,0 +1,10 @@
+<!ELEMENT station (nom, historique)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT historique (evenement?)>
+<!--
+<!ELEMENT evenement (etat, typeEvt, stationID, debut, valid)>
+-->
+<!ELEMENT evenement (#PCDATA)>
+<!ATTLIST evenement date CDATA #REQUIRED
+                    etat CDATA #REQUIRED
+                    idEvt ID #REQUIRED>

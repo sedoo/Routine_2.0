@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<!-- fichier PYTB.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYTB</nom>
+	<identifiant>fti/x67krxg</identifiant>
+	<pwd>7qkkfv7</pwd>
+	<ip>193.251.72.243</ip>
+	<tel>05 59 88 95 39</tel>
+	<materielDivers>Armoire STANEO</materielDivers>
+	<lienModem>http://193.251.72.243</lienModem>
+	<lienNumeriseur>http://193.251.72.243:8020</lienNumeriseur>
+	<divers>Mr Leroy Frédéric 05 62 44 42 21</divers>
+	<gissmo n="388"/>
+        
+	<entretien date="2020.11.04" motif=""/>
+	<historique>
+		<evenement date="2014.04.23" idEvt="140424.154858">
+			<etat>Pb</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>140424.154858</idEvt>
+			<description>Facture pas payée</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.23</debut>
+			<stationID>PYTB</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.05.14</fin>
+		</evenement>
+		<evenement date="2014.05.15" idEvt="140514.165841">
+			<typeEvt>autre</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.05.15</debut>
+			<description>Les données n'arrivent plus sur sosis et sismoserv</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140514.165841</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYTB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.05.22</fin>
+		</evenement>
+		<evenement date="2014.09.05" idEvt="140825.100901">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>140825.100901</idEvt>
+			<description>Impossible de se connecter à la station.</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.09.05</debut>
+			<stationID>PYTB</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.09.08</fin>
+		</evenement>
+		<evenement date="2017.03.06" idEvt="170306.112613">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.03.06</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170306.112613</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYTB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.03.29</fin>
+		</evenement>
+		<evenement date="2020.01.06" idEvt="200106.101512">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2020.01.06</debut>
+			<description>Le firmware du GPS n'est plus à jour.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200106.101512</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYTB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2020.01.22</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.04.23">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Bjr,
+Nous n'avions plus de dialogue avec la station de PYTB
+après avoir passé pas mal de temps a chercher avec Sébastien, tout était ok et même l'accès au réseau ... pendant 2 mn .... jusqu'à qu'un message d'Orange vienne nous annoncer que nous n'avions pas réglé les dernières factures et que quand elles seraient réglées la ligne serait réouverte dès le lendemain ...
+			</commentaires>
+			<evt idEvt="140424.154858"/>
+		</intervention>
+		<intervention date="2014.05.22">
+			<intervenant>SB</intervenant>
+			<commentaires>Prévoir la même manipulation pour les autres station RAP</commentaires>
+			<evt idEvt="140514.165841">
+				<commentaire>Les données ne passent plus par sismoserv mais arrivent directement sur sosis</commentaire>
+				<fin>2014.05.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.06">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Sébastien a remarqué que nous n'avions plus de dialogue avec PYTB
+Sur place le détecteur d'orage était en fonctionnement, mais après l'avoir mis en mode test, toujours pas de dialogue possible.
+Le modem semble couper de temps en temps : controle batterie elle est ok 13.80 v, mais je la change pour une autre moins chargée ... 13.20 v .... Toujours rien.
+Sébastien a appelé Orange, qui me contacte en suivant pour des tests et un reboot du modem. Conclusion une intervention est prévue demain matin, je ne serais pas là mais dirigerais le technicien Orange vers un collègue de l'IUT si besoin.
+			</commentaires>
+			<evt idEvt="170306.112613">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.15">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>J'ai changé le module RD Din, mais le Modem coupe toujours à peu près toutes les 10mn. Je pense que Sébastien devra venir sur place pour mieux dianostiquer.</commentaires>
+			<evt idEvt="170306.112613">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.03.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170306.112613">
+				<commentaire>Deconnexion du relais de la D6BB. Le module T-DIN est désactivé.</commentaire>
+				<fin>2017.03.29</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.02">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+		<intervention date="2020.01.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200106.101512">
+				<commentaire>Mise à jour de la station.</commentaire>
+				<fin>2020.01.22</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

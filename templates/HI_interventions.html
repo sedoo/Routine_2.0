@@ -1,0 +1,115 @@
+{% extends "squelette.html" %}
+
+{% block head %}
+        <script type="text/javascript">
+            window.onload = function () {
+                init_evenement();		// active le calendrier
+                pwd("CR_intervention.py");
+                if (navigator.userAgent.match(/Android/i)) {
+                    document.getElementById("formulaire").innerHTML += '<input type="submit" name="valid" value="valider" class="boutons" />';
+                }
+            }
+        </script>
+        <script type="text/javascript" src="{{url_for('static', filename='./js/HI_interventions.js')}}"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+        <style type="text/css">
+        <!--
+            td.Commentaires {
+                overflow: hidden;
+                float: none;
+            }
+
+            td.Commentaires div {
+                height: 20px;
+            }
+
+            span.lstEvt {
+                float: right;
+                background-color: #EEEEEE;
+            }
+        -->
+        </style>
+{% endblock %}
+
+{% block contenu %}
+        <form id="formulaire" action='' method='post' enctype="multipart/form-data">
+            <fieldset>
+                <p>
+                    <label for="station">Station : </label>
+                    <select id="stations" name="station">
+                        <option />
+                    {%- for sta in liste_sta %}
+                        <option value="{{ sta }}"{%- if station is defined and station == sta %} selected {% endif %}>{{ sta }}</option>
+                    {%- endfor %}
+                    </select>
+                </p>
+                <p>
+                    <table id="caracteristiques" style="float: left">
+                        <tr><td>Nom de la station :</td><td id="nom"></td></tr>
+                        <tr><td>Latitude :</td><td id="lat"></td></tr>
+                        <tr><td>Longitude :</td><td id="lon"></td></tr>
+                        <tr><td>Altitude :</td><td id="alt"></td></tr>
+                        <tr><td>&nbsp;</td><td /></tr>
+                        <tr><td>&nbsp;</td><td /></tr>
+                        <tr><td>Materiel divers : </td><td></td></tr>
+                    </table>
+                    <table id="telecom" style="float: right">
+                        <tr><td>Adresse IP :</td><td id="ip">---</td></tr>
+                        <tr><td>n° de t&eacute;l</td><td id="tel"></td></tr>
+                        <tr><td>Identifiant</td><td id="identifiant"></td></tr>
+                        <tr><td>Mot de passe</td><td id="pwd"></td></tr>
+                        <tr><td colspan=2 /></tr>
+                        <tr><td colspan=2 style="text-align: left; border-bottom-style: none;">Autre :</td></tr>
+                        <tr><td colspan=2 id="divers" style="text-align: left; border-top-style: none;"></td></tr>
+                    </table>
+                </p>
+            </fieldset>
+        </form>
+
+        {%- if listeInt is defined %}
+        <div id="interventions">
+            <table style="width: 100%">
+                <tr>
+                    <th>Date de l'intervention</th>
+                    <th>Intervenant(s)</th>
+                    <th>Commentaires</th>
+                    <th>Probl&egrave;mes</th>
+                    <th>R&eacute;solu</th>
+                    <th>Commentaire</th>
+                </tr>
+            {%- for intervention in listeInt %}
+                <tr>
+                {%- if intervention['nbEvt'] == 0 %}
+                    <td class="Date de l'intervention">{{ intervention['date'] }}</td>
+                    <td class="Intervenant(s)">{{ intervention['intervenant'] }}</td>
+                    <td class="Commentaires">
+                        <span class='lstEvt'>&#9662;</span>
+                            <div>{{ intervention['commentaires'] }}</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                {% else %}
+                    <td class="Date de l'intervention" rowspan="{{ intervention['nbEvt'] }}" >{{ intervention['date'] }}</td>
+                    <td class="Intervenant(s)" rowspan="{{ intervention['nbEvt'] }}" >{{ intervention['intervenant'] }}</td>
+                    <td class="Commentaires" rowspan="{{ intervention['nbEvt'] }}">
+                        {% if intervention['commentaires'] != "" %}<span class='lstEvt'>&#9662;</span>{% endif %}
+                            <div>{{ intervention['commentaires'] }}</div>
+                    </td>
+                    {%- for interventions in intervention['evt'] %}
+                        {% if not loop.first %}
+                <tr>
+                        {% endif %}
+                    <td class="Problème">{{ interventions['description'] }}</td>
+                    <td class="Résolu">{{ interventions['fin'] }}</td>
+                    <td class="Commentaire">{{ interventions['commentaire'] }}</td>
+                </tr>
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+{% endblock %}

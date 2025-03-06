@@ -1,0 +1,880 @@
+<?xml version="1.0" ?>
+<!-- fichier ATE.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>ATE</nom>
+	<identifiant>fti/262a466</identifiant>
+	<pwd>atww4dp</pwd>
+	<ip>193.253.180.69</ip>
+	<tel>05 59 88 95 39</tel>
+	<materielDivers>RelaiPanneau/Chargeur</materielDivers>
+	<lienModem>http://193.253.180.69</lienModem>
+	<lienNumeriseur>http://193.253.180.69:8020</lienNumeriseur>
+	<divers>        Tel. de l'employé municipal 06 26 68 67 81</divers>
+	<entretien date="2020.10.09" motif="Entretien, Débroussaillage"/>
+	<gissmo n="12"/>
+	<historique>
+		<evenement date="2014.07.13" idEvt="140710.165320">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.07.13</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140710.165320</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.17</fin>
+		</evenement>
+		<evenement date="2014.07.17" idEvt="140717.203739">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140717.203739</idEvt>
+			<description>La Kefren était éteinte malgré le cordon d'alim ok. Après on/off elle a redémarré </description>
+			<battCharg>OK</battCharg>
+			<debut>2014.07.17</debut>
+			<stationID>ATE</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.17</fin>
+		</evenement>
+		<evenement date="2015.07.25" idEvt="150727.085943">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.07.25</debut>
+			<description>Dialogue avec le numériseur mais pas avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150727.085943</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.07.30</fin>
+		</evenement>
+		<evenement date="2015.08.31" idEvt="150901.111715">
+			<etat>HS</etat>
+			<typeEvt>GPSTemps</typeEvt>
+			<idEvt>150901.111715</idEvt>
+			<description>Impossible de se connecter avec le modem, pas de ping.FT devrait rétablir la ligne pour le 8/9</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.08.31</debut>
+			<stationID>ATE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.04</fin>
+		</evenement>
+		<evenement date="2015.09.15" idEvt="150915.083808">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>150915.083808</idEvt>
+			<description>Pas de ping.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.09.15</debut>
+			<stationID>ATE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.17</fin>
+		</evenement>
+		<evenement date="2015.09.11" idEvt="150922.161808">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.09.11</debut>
+			<description>La tension diminue régulièrement.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>150922.161808</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.24</fin>
+		</evenement>
+		<evenement date="2015.09.24" idEvt="150924.103106">
+			<etat>Pb</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>150924.103106</idEvt>
+			<description>Pas de dialogue avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.09.24</debut>
+			<stationID>ATE</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.09.29</fin>
+		</evenement>
+		<evenement date="2015.10.14" idEvt="151016.095450">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.10.14</debut>
+			<description>Pas de réponse du modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151016.095450</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.10.22</fin>
+		</evenement>
+		<evenement date="2016.02.09" idEvt="160203.101338">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.02.09</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160203.101338</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.02.09</fin>
+		</evenement>
+		<evenement date="2016.03.09" idEvt="160309.085453">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>160309.085453</idEvt>
+			<description>La ligne sonne occupé.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.03.09</debut>
+			<stationID>ATE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.03.14</fin>
+		</evenement>
+		<evenement date="2016.03.15" idEvt="160315.145842">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.03.15</debut>
+			<description>La ligne est très instable depuis ce matin. Le téléphone sonne occupé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160315.145842</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.03.18</fin>
+		</evenement>
+		<evenement date="2016.06.12" idEvt="160613.104419">
+			<etat>HS</etat>
+			<typeEvt>GPSTemps</typeEvt>
+			<idEvt>160613.104419</idEvt>
+			<description>Difficulté à joindre le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.06.12</debut>
+			<stationID>ATE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.06.14</fin>
+		</evenement>
+		<evenement date="2016.07.22" idEvt="160722.142056">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.07.22</debut>
+			<description>Sonne occupé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160722.142056</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.07.22</fin>
+		</evenement>
+		<evenement date="2016.10.13" idEvt="161014.090319">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.10.13</debut>
+			<description>La batterie fonctionne sur panneau depuis le 8 octobre 14:30 et était à 10,25V le 13 octobre à 00:30, le numériseur s'est éteint.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>161014.090319</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.10.17</fin>
+		</evenement>
+		<evenement date="2016.11.17" idEvt="161118.100059">
+			<etat>Pb</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>161118.100059</idEvt>
+			<description>Pas de connexion avec le modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.11.17</debut>
+			<stationID>ATE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>Pb</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.11.21</fin>
+		</evenement>
+		<evenement date="2017.09.01" idEvt="170913.102024">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.09.01</debut>
+			<description>TEST</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170913.102024</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.09.06</fin>
+		</evenement>
+		<evenement date="2018.01.24" idEvt="180124.135202">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>180124.135202</idEvt>
+			<description>Pas de dialogue.</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.01.24</debut>
+			<stationID>ATE</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.01.24</fin>
+		</evenement>
+		<evenement date="2018.03.27" idEvt="180327.085113">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.03.27</debut>
+			<description>Pas de signal depuis hier.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180327.085113</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.03.27</fin>
+		</evenement>
+		<evenement date="2018.03.24" idEvt="180329.091614">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.03.24</debut>
+			<description>Depuis le 24/3, la ligne est coupée de plus en plus fréquemment.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180329.091614</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.14</fin>
+		</evenement>
+		<evenement date="2018.06.29" idEvt="180629.142831">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.06.29</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180629.142831</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.07.03</fin>
+		</evenement>
+		<evenement date="2018.07.16" idEvt="180716.124605">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.07.16</debut>
+			<description>perte de connexion le 14/07/18 à 22:45</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180716.124605</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.07.17</fin>
+		</evenement>
+		<evenement date="2018.07.18" idEvt="180723.095332">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.07.18</debut>
+			<description>Pas de contact avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180723.095332</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.08.21</fin>
+		</evenement>
+		<evenement date="2018.11.14" idEvt="181114.085637">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>181114.085637</idEvt>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.11.14</debut>
+			<stationID>ATE</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>???</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.11.06</fin>
+		</evenement>
+		<evenement date="2019.07.05" idEvt="190705.140038">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.05</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190705.140038</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.07.08</fin>
+		</evenement>
+		<evenement date="2019.07.17" idEvt="190718.085745">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.17</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190718.085745</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.07.18</fin>
+		</evenement>
+		<evenement date="2019.12.19" idEvt="191220.085018">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.12.19</debut>
+			<description>Une baisse d'alimentation laisse à penser que la batterie n'est plus chargée.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>191220.085018</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>ATE</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.20</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.07.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La Kefren était éteinte malgrè l'alimentation qui fonctionnait bien, j'ai juste débranché et remis le câble d'alim. Tout est ok pour Toulouse et pour moi</commentaires>
+			<evt idEvt="140710.165320">
+				<commentaire>on/off cable d'alim</commentaire>
+				<fin>2014.07.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.07.30">
+			<intervenant>Matthieu et Seb</intervenant>
+			<commentaires>Le dialogue avec le modem est impossible sur place comme de l'exterieur. C'est le denier modem Bewan 600 encore en utilisation et il semble donner quelques signes de fatigue. Quelques LED sont HS...</commentaires>
+			<evt idEvt="150727.085943">
+				<commentaire>Remplacement du chargeur.</commentaire>
+				<fin>2015.07.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.08.04">
+			<intervenant>HP/MS</intervenant>
+			<commentaires>
+				Motivation de l'intervention : perte de contact avec l'installation (numériseur et modem) depuis le vendredi 30/07
+Arrivée sur place : le disjoncteur extérieur a sauté.
+Foultitude de problèmes :
+- chargeur grillé (celui mis en palce la semaine précédente) =&gt; remplacé par un mascott 5A
+- modem bewan sont un seul port ethernet fonctionne =&gt; remplacé par un TP-link
+- numériseur 570041 dont la connexion ethernet est chaotique =&gt; remplacé par 570040
+Installation CEA : le disjoncteur sous la table est tombé, on le relève, et on constate l'absence de LEDs sur les routeurs GPRS et VSAT. On appelle Sylvain Carré, qui nous fait tester la présence de courant en entrée de ces 2 équipements. Constat : ils ont probablement grillé, il viendra les changer.
+Gyrocompas : fait
+A noter : il n'y a plus de numériseur de secours pour ATE-Cratanem. Voir pour une solution de remplacement.
+			</commentaires>
+		</intervention>
+		<intervention date="2015.09.01">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150901.111715">
+				<commentaire>Appel FT : ligne OK.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150915.083808">
+				<commentaire>Appel à FT : des problèmes on été identifiés sur la ligne. Intervention programmée demain.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Chargeur HS changé
+Par contre le relais panneaux solaire ne s'est pas effectué, après avoir bien regardé et avec Sébastien au téléphone un cable (négatif) bleu en position 24 sur le relais n'étais pas à la bonne place, je l'ai mis en position 22 et normalement tout est ok.
+Reboot du modem car il ne fonctionnait plus correctement et reboot de la Kefren car on ne pouvait pas dialoguer avec ni par modem, ni en direct.
+Au final tout est ok.
+			</commentaires>
+			<evt idEvt="150922.161808">
+				<commentaire>Chargeur Changé</commentaire>
+				<fin>2015.09.24</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.25">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150924.103106">
+				<commentaire>Appel à FT : un problème a été identifié sur la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.09.25">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="150924.103106">
+				<commentaire>Appel à FT : intervention prévue le 29/09</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.10.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="151016.095450">
+				<commentaire>Appel FT : la ligne est actuellement en maintenance, elle devrait être rétablie pour 16H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2015.10.22">
+			<intervenant>Helene</intervenant>
+			<commentaires>Tout fonctionnait normalement mais le modem n'était pas connecté à internet. Il faut prévoir une prise pour faire un ON/OFF du modem tout les jours.</commentaires>
+			<evt idEvt="151016.095450">
+				<commentaire>Débrancher / Rebrancher le modem</commentaire>
+				<fin>2015.10.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.11.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Reboot du modem par l'employé municipal son portable est 0626686781</commentaires>
+		</intervention>
+		<intervention date="2016.02.09">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160203.101338">
+				<commentaire>Appel FT : un problème est bien survenu sur la ligne qu'ils auraient résolu ce matin. Un reboot du modem ?</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.02.09">
+			<intervenant>Employe municipal</intervenant>
+			<evt idEvt="160203.101338">
+				<commentaire>Reboot du modem</commentaire>
+				<fin>2016.02.09</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.01">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Vérification du capteur du RAP il est parfaitement bullé, son espace est propre et sec pas de circulation d'eau dans la cloche.
+Le signal répond bien. A suivre et à vérifier sur du long terme
+			</commentaires>
+		</intervention>
+		<intervention date="2016.03.10">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160309.085453">
+				<commentaire>Appel FT : aucun défaut constaté.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.15">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160315.145842">
+				<commentaire>Appel FT : un problème a été constaté sur la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.18">
+			<intervenant>Employe municipal</intervenant>
+			<evt idEvt="160315.145842">
+				<commentaire>Reboot du modem et débranchement du téléphone.</commentaire>
+				<fin>2016.03.18</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.22">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>j'ai mis un programmateur entre la prise électrique et le modem afin qu'il reboote chaque jour vers 3h00 du matin</commentaires>
+		</intervention>
+		<intervention date="2016.06.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160613.104419">
+				<commentaire>Appel FT : la ligne est OK. Le modem a perdu ses identifiants.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.07.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160722.142056">
+				<commentaire>Appel FT : la ligne semble correcte. D'après l'operateur, le modem aurait perdu ses identifiants ou le filtre pourrait être endommagé.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.07.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160722.142056">
+				<commentaire>Appel de Romain : aujourd'hui il risque de ne pas avoir le temps mais lundi ils travailleront à proximité.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.07.22">
+			<intervenant>Romain</intervenant>
+			<evt idEvt="160722.142056">
+				<commentaire>Reboot du modem</commentaire>
+				<fin>2016.07.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.10.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				La station fonctionnait à nouveau depuis le matin, car la batterie s'était un peu rechargée grace aux panneaux solaires.
+Toutefois le chargeur était HS et la batterie limite, j'ai donc changé les 2 et tout fonctionne à nouveau normalement.
+			</commentaires>
+			<evt idEvt="161014.090319">
+				<commentaire>Chargeur et batterie changés</commentaire>
+				<fin>2016.10.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.11.18">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="161118.100059">
+				<commentaire>Appel FT : d'après l'operateur, le modem a perdu ses identifiants (il est connecté mais pas synchronisé).</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.07.04">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Disjoncteur CEA réarmé à 16h05
+Chargeur Mascott grillé changé par un Enag
+			</commentaires>
+		</intervention>
+		<intervention date="2017.09.06">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				RDV Orange
+Jouvence Numériseur : Kephren S/N 0057-0040 remplacé par D6BB-DIN S/N 0607.
+Changement Modem : TPLINK – AC1750 remplacé par Mulogic ADSL 2401 S/N 00:24:55:06:B6:1A
+Remplacement régulateur solaire/
+CR détaillé en pièce jointe
+/\&gt;&lt;a href=&quot;http://rssp.irap.omp.eu/Routine/Photos/ATE/ATE_CR_intervention_20170906.pdf&quot;&gt;fichier join en pdf&lt;/a&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2018.03.27">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180327.085113">
+				<commentaire>Appel FT: un problème a été constaté mais pas localisé. Intervention d'un technicien.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.03.27">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180327.085113">
+				<commentaire>Nouvel appel à FT: le problème semble venir de notre materiel (filtre ou modem).</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.03.27">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180327.085113">
+				<commentaire>Le signal est revenu, il semblerait que le test FT a rétabli la connexion.</commentaire>
+				<fin>2018.03.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.03.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180329.091614">
+				<commentaire>Appel FT: des travaux ont lieu actuellement sur la ligne mais ne sont pas sensés modifier les communications. Un problème apparait avec les tests FT (alors que la liaison est active). Un technicien doit intervenir le 30/3. Pour l'instant un déplacement n'est pas nécessaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.04.09">
+			<intervenant>Seb</intervenant>
+			<commentaires>Pour Franck: il devrait te rappeler demain dans la matinée sur ton portable pour convenir d'un RDV. </commentaires>
+			<evt idEvt="180329.091614">
+				<commentaire>Appel de FT: le technicien a constaté de multiples defauts sur la ligne. Un examen physique de l'installation est nécessaire de sa part.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.04.11">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Nouvelle intervention d'un technicien qui a repéré un soucis à hauteur du collège : le cable nous concernant a été étiré par la chute d'un arbre, une partie de la ligne avait été réparée mais pas la notre .... à suivre, j'ai reçu un SMS que confirmant que la répartion sera faite avant le 16/04.
+Je suis allé voir notre installation pour vérifier, qu'il n'y ait pas de soucis. Tout est ok, le chargeur fonctionne, les batteries sont bonnes et les panneaux sont aussi ok ainsi que le régulateur. Nous décidons toutefois de débrancher pendant quelques jours, le régulateur et les panneaux de la batterie pour voir si cela a un effet ou pas sur la ligne ...
+Pendant ma présence le Modem a cherché une synchro ADSL quasi toutes les 10mn .... nous avons essayé de retirer l'alimentation chargeur pour voir si cela améliorait quelque chose rien non plus.
+Je laisse ainsi alimentation uniquement par le secteur, sans panneaux.
+			</commentaires>
+			<evt idEvt="180329.091614">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180329.091614">
+				<commentaire>Appel FT : Une intervention a été faite le 13/4, un cable aurait été remplacé. Il faudrait de nouveau prendre RDV.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.22">
+			<intervenant>helene</intervenant>
+			<commentaires>Le défaut sur la ligne d'Arette persiste (coupure d'une dizaine d'heure chaque nuit). J'ai envoyé un mail à mon contact commercial pour faire bouger la situation, sans succès, elle m'a renvoyée sur le 3901. Appel au 3901: Identification d'un problème électrique sur la ligne à 300-500m de notre arrivée. Un technicien va intervenir demain. D'après mon interlocuteur au 3901 ce doit être un technicien qui aura minimum 1/2 journée pour résoudre le pb et susceptible de monter sur des poteaux. Affaire à suivre.</commentaires>
+			<evt idEvt="180329.091614">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.25">
+			<intervenant>Helene</intervenant>
+			<commentaires>Les techniciens Orange se sont rendus sur site, il n'ont pas pu accéder au dernier poteau à cause de la pluie. Il prévoit un autre déplacement quand le temps sera plus clément.</commentaires>
+			<evt idEvt="180329.091614">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.31">
+			<intervenant>Helene</intervenant>
+			<commentaires>Un technicien est intervenu sur la ligne téléphonique le 31/05, il a réparé un segment de la ligne (au dessus du château d'eau) qui ne tenait plus que par un brin et était très oxydé ce qui peut expliquer les coupures. Suite à l'intervention, le modem n'a pas retrouver la connexion malgré le reboot automatique. Il faut donc prévoir de se rendre dur place pour intervenir sur le modem.</commentaires>
+			<evt idEvt="180329.091614">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.04">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le technicien d'Arette doit y passer dans l'après midi et rebootera le modem</commentaires>
+			<evt idEvt="180329.091614">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Intervention d'une équipe sur la ligne Orange, je n'ai pas eu le rapport du travail effectué. Nous avons une garantie de 14 jours pendant lesquels nous pouvons appeler le 09-70-73-87-57 si nous rencontrons à nouveau des problèmes</commentaires>
+			<evt idEvt="180329.091614">
+				<commentaire>
+				</commentaire>
+				<fin>2018.06.14</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180629.142831">
+				<commentaire>Appel FT: Pas de test possible. Un RDV est necessaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180629.142831">
+				<commentaire>ATE pendant la coupure.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.03">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Reboot du Mulogic, le mode reboot automatique n'était pas configuré</commentaires>
+			<evt idEvt="180629.142831">
+				<commentaire>Reboot du Modem</commentaire>
+				<fin>2018.07.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.16">
+			<intervenant>Helene</intervenant>
+			<evt idEvt="180716.124605">
+				<commentaire>Appel 3901 - Pas de pb électrique détecté sur la ligne. La ligne sonne occupée. Pb possible au niveau de la prise ou du modem. RDV avec technicien le 17/07/18 entre 10:00 et 12:00</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Avec le vent le câble était tombé</commentaires>
+			<evt idEvt="180716.124605">
+				<commentaire>Cable ré-accroché</commentaire>
+				<fin>2018.07.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.23">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Rappel ce jour au 3901, une intervention est prévue demain, car il y a un problème sur la ligne.
+Orange m'a proposé une box 4G en remplacement (le temps du dépannage) gratuitement, j'ai refusé.
+			</commentaires>
+			<evt idEvt="180723.095332">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.26">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180723.095332">
+				<commentaire>Appel FT: les réparateurs n'ont toujours pas eût de nacelle à leur diposition. Selon leurs prévisions, l'intervention devrait avoir lieu demain dans la journée et prendre fin en fin d'après midi.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.31">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>Malgré une intervention nacelle clôturée, un problème persiste sur le répartiteur local. Une nouvelle intervention est programmée pour demain premier août. L'opérateur que j'ai eu au téléphone s'est alarmé, limite indigné, de la situation ; il va suivre le dossier et me rappeler jeudi pour vérifier que tout est rentré dans l'ordre inch'Allah.</commentaires>
+			<evt idEvt="180723.095332">
+				<commentaire>Appel 3901</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.08.03">
+			<intervenant>tech</intervenant>
+			<commentaires>
+				intervention ce midi d'un tech sous-traitant d'Orange, qui était déjà allé à la cabane et s'énervait de devoir y retourner. Pour lui, c'est un problème purement Orange à Arette ; il y a du bruit, les tests ne passent pas bien, mais quand il est sur site il teste sur la prise et constate qu'il y a de l'ADSL sans problème. Il pense que le problème de notre site est désormais à imputer à notre routeur.
+Je ne pouvais pas être là au moment où il est passé à la cabane, mais il m'a envoyé un sms avec une photo de son écran de contrôle (joint). Les paramètres de débit montant et descendant semblent corrects.
+Je lui avais demandé de faire un on/off sur le modem par acquit de conscience ; s'il l'a fait, ça n'a rien changé...
+Prochaine étape : changer le modem ?
+			</commentaires>
+			<evt idEvt="180723.095332">
+				<commentaire>rien du tout</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.08.21">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				En arrivant le Mulogic avait la led &quot;PWR&quot; ainsi que la led &quot;ETH&quot; allumées, les autres éteintes. Un reboot manuel n'a rien changé.
+J'ai donc pris le TP-Link qui fonctionnait hier à Labassère, changé les identifiants Orange et là tout fonctionne.
+Je me suis également connecté sur le modem Mulogic pour voir si la paramètrisation avait changé, tout semble ok et pourtant pas de synchro possible avac l'ADSL. Je laisse en place le TP-Link. Je ramène le Mulogic pour tests.
+			</commentaires>
+			<evt idEvt="180723.095332">
+				<commentaire>Changement de Modem</commentaire>
+				<fin>2018.08.21</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le Mulogic testé à Labassère et qui ne trouvait pas la synchro, fonctionne bien ici. Je le laisse en place ici et récupère le TP-link pour test à Labassère</commentaires>
+		</intervention>
+		<intervention date="2018.11.14">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181114.085637">
+				<commentaire>Appel FT : Un problème a été identifié sur la ligne, un technicien doit intervenir.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Débroussaillage en prévision de l'écobuage.</commentaires>
+		</intervention>
+		<intervention date="2019.07.08">
+			<intervenant>???</intervenant>
+			<evt idEvt="190705.140038">
+				<commentaire>La tension est revenue.</commentaire>
+				<fin>2019.07.08</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.18">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190718.085745">
+				<commentaire>Appel FT: La ligne est actuellement en dérangement collectif. Elle devrait être rétablie dans les 24H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.18">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="190718.085745">
+				<commentaire>Le dialogue a été rétabli.</commentaire>
+				<fin>2019.07.18</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.14">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+		<intervention date="2019.12.20">
+			<intervenant>---</intervenant>
+			<evt idEvt="191220.085018">
+				<commentaire>L'alimentation est revenue.</commentaire>
+				<fin>2019.12.20</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

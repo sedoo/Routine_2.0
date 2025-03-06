@@ -1,0 +1,359 @@
+<?xml version="1.0" ?>
+<!-- fichier REYF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>REYF</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>omp-reyf.dyndns.info</ip>
+	<tel>05 59 05 74 74</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>http://omp-reyf.dyndns.info:8080</lienModem>
+	<lienNumeriseur>http://omp-reyf.dyndns.info</lienNumeriseur>
+	<divers>tel mairie: 05 59 05 79 51</divers>
+        
+	<entretien date="2020.05.01" motif="OFF de la fonction redémarrage sur perte de connexion.."/>
+	<historique>
+		<evenement date="2014.04.03" idEvt="140408.142808">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140408.142808</idEvt>
+			<description>Le signal devient parasité occasionnellement</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.03</debut>
+			<stationID>REYF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.03.16</fin>
+		</evenement>
+		<evenement date="2016.03.04" idEvt="160307.093558">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.03.04</debut>
+			<description>Le modem ne décroche pas.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160307.093558</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>REYF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.03.08</fin>
+		</evenement>
+		<evenement date="2016.05.07" idEvt="160509.151651">
+			<etat>HS</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>160509.151651</idEvt>
+			<description>Ne décroche pas.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.05.07</debut>
+			<stationID>REYF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.05.18</fin>
+		</evenement>
+		<evenement date="2016.11.21" idEvt="161121.084723">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>161121.084723</idEvt>
+			<description>Filtre sur la voie E.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.11.21</debut>
+			<stationID>REYF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.11.22</fin>
+		</evenement>
+		<evenement date="2018.10.17" idEvt="181017.091834">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.10.17</debut>
+			<description>La tension baisse très rapidement. Pour rappel, la batterie a été changée le mois dernier.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>181017.091834</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>REYF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.11.16</fin>
+		</evenement>
+		<evenement date="2018.11.19" idEvt="181119.090956">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.11.19</debut>
+			<description>Le problème de baisse de tension est toujours présent: tension à 10V.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>181119.090956</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>REYF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.11.22</fin>
+		</evenement>
+		<evenement date="2018.12.13" idEvt="181214.085103">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.12.13</debut>
+			<description>Coupures intempestives de la liaison avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181214.085103</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>REYF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.12.17</fin>
+		</evenement>
+		<evenement date="2019.01.24" idEvt="190124.084307">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.01.24</debut>
+			<description>Coupures regulières de la liaison (toutes les 6H).</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190124.084307</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>REYF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.01.25</fin>
+		</evenement>
+		<evenement date="2019.01.25" idEvt="190129.113405">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.01.25</debut>
+			<description>Perte de connexion le 25/01/19 à 12:00 TU</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190129.113405</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>REYF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.03.13</fin>
+		</evenement>
+		<evenement date="2019.09.06" idEvt="190909.104259">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.06</debut>
+			<description>Une mauvaise configuration de l'armoire entraîne des rebots en continu du modem GSM.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190909.104259</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>REYF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.12</fin>
+		</evenement>
+		<evenement date="2019.11.06" idEvt="191106.084720">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.11.06</debut>
+			<description>Pas d'alim pour la Tbox.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191106.084720</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>REYF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.26</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.11.20">
+			<intervenant>Frank</intervenant>
+			<commentaires>Batterie faible, changée.</commentaires>
+			<evt idEvt="140408.142808"/>
+		</intervention>
+		<intervention date="2016.03.07">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160307.093558">
+				<commentaire>Appel à FT : une intervention est prévue dans les 48H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.08">
+			<intervenant>France</intervenant>
+			<evt idEvt="160307.093558">
+				<fin>2016.03.08</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.05.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160509.151651">
+				<commentaire>Appel FT : un incident a été constaté sur la ligne. Aucune intervention n'est nécessaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.11.22">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Capteur rebullé, test avant départ ok</commentaires>
+		</intervention>
+		<intervention date="2017.05.15">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Capteur rebullé ... bien qu'étant bien centré. A voir si la N filtre toujours</commentaires>
+		</intervention>
+		<intervention date="2017.12.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Batterie Changée
+Capteur ok
+			</commentaires>
+		</intervention>
+		<intervention date="2018.09.28">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>La batterie est HS, une fois changée la station fonctionne à nouveau</commentaires>
+		</intervention>
+		<intervention date="2018.11.16">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="181017.091834">
+				<commentaire>Batterie Changée</commentaire>
+				<fin>2018.11.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.22">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="181119.090956">
+				<commentaire>Batterie changée</commentaire>
+				<fin>2018.11.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181214.085103">
+				<commentaire>Appel FT: aucun problème de leur coté sur la ligne.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Concernant les coupures intempestives, rien d'anormal sur place. 
+Nous avons retendu le cable sismo en sortie du tube, il n'y avait que 20 cm de mou.
+			</commentaires>
+			<evt idEvt="181214.085103">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.17">
+			<intervenant>Franck</intervenant>
+			<commentaires>C'est possible, vu les logs que ce problème soit dût à la tentative du modem de se connecter au GPS. C'est aussi depuis la désactivation de cette option (ACEmanager &gt; GPS &gt; GPS Service: Disable) que le problème n'est pas réapparu.</commentaires>
+			<evt idEvt="181214.085103">
+				<commentaire>Depuis le passage de Franck, le problème des coupures semble avoir disparu.</commentaire>
+				<fin>2018.12.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.25">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190124.084307">
+				<commentaire>Ces coupures sont normales. Elles se produisent quand les batteries commencent à être déchargées: l'armoire ABAC coupe l'alim du modem pendant 5H pour limiter la consommation de courant.</commentaire>
+				<fin>2019.01.25</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.02.07">
+			<intervenant>Frank et Helene</intervenant>
+			<commentaires>
+				A notre arrivée le modem rebootait toutes les minutes alors que la variable ABAC &quot;intervalle de ping&quot; est à 600s ==&gt; reboot toutes les 10' si pas de connexion. &lt;br&gt;
+Impossible de se connecter via ethernet au modem (LS300), ré-initialisation du modem sans succès.&lt;br&gt;
+Remplacement par un modem inhand qui fonctionne avec carte SIM Bouygue mais pas avec la carte SIM SFR malgré la modification du code APN.&lt;br&gt;
+Le modem et la carte SIM sont ramenés à Toulouse.&lt;br&gt;
+&lt;br&gt;
+Ré-installation du capteur fond de puits:&lt;br&gt;
+- Aspiration du sable difficile avec l'aspirateur branché sur le groupe électrogène, manque de puissance?&lt;br&gt;
+- Le sable au fond est humide et nous aussi car il pleut!&lt;br&gt;
+- Le capteur est remonté, la bague du connecteur est resserrée.&lt;br&gt;
+- Le capteur est redescendu au fond du puits et orienté parfaitement au Nord (contrôle visuel).&lt;br&gt;
+- Le capteur est ensablé avec du sable sec.&lt;br&gt;
+- Contrôle du signal OK mais pas assez de temps pour voir si les glitchs sont présents ou pas.&lt;br&gt;
+- Pas de changement de câble car aucune tension sur le câble.&lt;br&gt;
+&lt;br&gt;
+Frank a relevé les informations du système solaire, la tension des batteries ne descend pas en dessous de 23V.&lt;br&gt;
+La tension des batteries dans la baie : 26V
+			</commentaires>
+			<evt idEvt="190129.113405">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.13">
+			<intervenant>Helene</intervenant>
+			<evt idEvt="190129.113405">
+				<commentaire>Remplacement modem Sierra wireless S/N CA9021301141003 par NB1600 S/N 00112B020E1F </commentaire>
+				<fin>2019.03.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Je suis passé récupérer la station test GPS d'Alvaro</commentaires>
+		</intervention>
+		<intervention date="2019.04.18">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				L'ancienne Cabane a été totalement enlevée par l'employé municipal.
+Dans le tube de notre nouveau capteur j'ai détendu un peu plus le câble et ajouté du sable.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.09.12">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>OFF de la fonction redémarrage, Rotofil</commentaires>
+			<evt idEvt="190909.104259">
+				<commentaire>OFF de la fonction redémarrage sur perte de connexion..</commentaire>
+				<fin>2019.09.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.26">
+			<intervenant>---</intervenant>
+			<evt idEvt="191106.084720">
+				<commentaire>Le soleil a rechargé les batteries.</commentaire>
+				<fin>2019.11.26</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

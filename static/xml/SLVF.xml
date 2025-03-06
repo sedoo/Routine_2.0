@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!-- fichier SLVF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>SLVF</nom>
+	<identifiant>fti/6fp2xkp</identifiant>
+	<pwd>gugeg9b</pwd>
+	<ip>80.14.251.72</ip>
+	<tel>05 65 81 23 12</tel>
+        
+	<divers> </divers>
+        
+	<entretien date="2021.02.07" motif="Placer des grilles fines sur les aérations pour empêcher le passage de mouches."/>        <divers/>
+	<historique>
+		<evenement date="2020.02.03" idEvt="200203.085324">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.02.03</debut>
+			<description>Perte d'alimentation.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>200203.085324</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>SLVF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.02.07</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2019.07.02">
+			<intervenant>Seb</intervenant>
+			<commentaires>test</commentaires>
+		</intervention>
+		<intervention date="2019.06.27">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				INSTALLATION MATÉRIEL SCIENTIFIQUE &lt;br&gt;
+A notre arrivée, la station était sous les ronces.&lt;br&gt;
+Installation des armoires ABAC (cf photo). Le ventilateur est branché et réglé sur 45°C &lt;br&gt;
+J'ai malencontreusement fait tombé le GPS sur une cosse de batterie et la Centaur ne capte plus de signal GPS. Elle fonctionne actuellement sur ntp.&lt;br&gt;
+Installation du capteur en fond de puits (pas de sable au fond). Il a été orienté à l'aide des tiges. &lt;br&gt;
+Mesure d'orientation avec un capteur en surface placé dans la tête de puits sur du sable. Ce n'est pas l'idéal mais il n'y a pas vraiment d'autre emplacement.&lt;br&gt;
+Les mesures réalisées la nuit ne sont pas bonnes (pb sur une des voies du CMG40). J'effectue un recentrage manuel des voies et la chaîne de mesure D3BBMOD+CMG40 est laissée sur site.&lt;br&gt;
+&lt;br&gt;
+RAF : &lt;br&gt;
+- Remplacer le GPS et/ou la Centaur. NB: il faut faire un trou dans l'armoire pour le passage du câble GPS&lt;br&gt;
+- Récupérer les mesures d'orientation. &lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.07.16">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Remplacement Centaur S/N 2726 par Centaur S/N 2849 : Le GPS ne fonctionne pas sur la Centaur S/N 2726 ramenée à Toulouse pour tests et éventuellement SAV.&lt;br&gt;
+Réalisation du passage de câble GPS sur côté armoire.&lt;br&gt;
+Mesures d'orientation (D3BBMOB 0441 / T43688) du 26/06/2019 au 16/07/2019. Les mesures sont OK pour déterminer l'erreur d'orientation : 8°N.&lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.11.04">
+			<intervenant>Hélène</intervenant>
+		</intervention>
+		<intervention date="2020.02.07">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				A mon arrivée le disjoncteur PDL est ON, le disjoncteur principal est ON, le 220V arrive en entrée du XP-Power mais rien en sortie.&lt;br&gt;
+J'ai installé un chargeur ENAG S/N PRE00052-12-15 qui alimente les batteries branchées en série. Le numériseur et le modem sont alimentés directement par les batteries.&lt;br&gt;
+Le XP-Power  S/N K16030070 est ramené à Toulouse&lt;br&gt;
+Branchement para-surtenseur ADSL OK.&lt;br&gt;
+Affiche collée.&lt;br&gt;
+Armoire nettoyée. A noter la présence de nombreuses mouches.&lt;br&gt;
+			</commentaires>
+			<evt idEvt="200203.085324">
+				<commentaire>XP-Power HS - Mise en place chargeur ENAG</commentaire>
+				<fin>2020.02.07</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

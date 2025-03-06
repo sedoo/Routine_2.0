@@ -1,0 +1,283 @@
+<?xml version="1.0" ?>
+<!-- fichier PYBB.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>PYBB</nom>
+	<identifiant>fti/wq2xhy3</identifiant>
+	<pwd>t944kkh</pwd>
+	<ip>80.14.226.212</ip>
+	<tel>05 62 90 33 14</tel>
+	<materielDivers>Armoire STANEO</materielDivers>
+	<lienModem>http://80.14.226.212</lienModem>
+	<lienNumeriseur>http://80.14.226.212:8020</lienNumeriseur>
+	<divers>J.Paul Ferré 06 45 46 16 08</divers>
+	<gissmo n="385"/>
+        
+	<entretien date="2020.05.04" motif="Débroussaillage"/>
+	<historique>
+		<evenement date="2014.04.01" idEvt="140414.101613">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.04.01</debut>
+			<description>Le signal n'est pas synchronisé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140414.101613</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYBB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2014.06.10</fin>
+		</evenement>
+		<evenement date="2014.06.10" idEvt="140611.090739">
+			<etat>HS</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140611.090739</idEvt>
+			<description>
+				Mise en place de la D6BB-DIN : pas de soucis particulier pour l'installation en elle même. A noter tout de même que le fil marron (K) du cable sismo (épisensor) n'est pas prévu par la notice Stanéo et que si on ne le branche pas avec le vert (U) sur la barette, le signal n'apparait pas.
+Le TSA nous pose un problème toutefois en coupant la ligne téléphonique, du coup le modem est branché directement sur la fiche télécom.
+			</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.06.10</debut>
+			<stationID>PYBB</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2014.06.10</fin>
+		</evenement>
+		<evenement date="2015.06.15" idEvt="150615.094320">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>150615.094320</idEvt>
+			<description>Impossible de s'y connecter.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.06.15</debut>
+			<stationID>PYBB</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.06.17</fin>
+		</evenement>
+		<evenement date="2015.07.21" idEvt="150723.090936">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.07.21</debut>
+			<description>La tension baisse régulièrement.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>150723.090936</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYBB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.25</fin>
+		</evenement>
+		<evenement date="2016.04.24" idEvt="160425.105858">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.04.24</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160425.105858</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>PYBB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.04.27</fin>
+		</evenement>
+		<evenement date="2018.06.01" idEvt="180604.105646">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.06.01</debut>
+			<description>Pas de dialogue avec la station</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180604.105646</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYBB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.21</fin>
+		</evenement>
+		<evenement date="2019.10.03" idEvt="191003.160953">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.10.03</debut>
+			<description>Le firmware du GPS n'est plus à jour.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191003.160953</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>PYBB</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2019.11.19</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2004.06.10">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Mise en place de la D6BB-DIN : pas de soucis particulier pour l'installation en elle même.
+A noter tout de même que le fil marron (K) du cable sismo (épisensor) n'est pas prévu par la notice Stanéo et que si on ne le branche pas avec le vert (U) sur la barette, le signal n'apparait pas.
+Le TSA nous pose un problème toutefois en coupant la ligne téléphonique, du coup le modem est branché directement sur la fiche télécom.
+			</commentaires>
+			<evt idEvt="140414.101613"/>
+		</intervention>
+		<intervention date="2014.06.10">
+			<intervenant>Franck Grimaud</intervenant>
+			<commentaires>
+				Mise en place de la D6BB-DIN : pas de soucis particulier pour l'installation en elle même.
+A noter tout de même que le fil marron (K) du cable sismo (épisensor) n'est pas prévu par la notice Stanéo et que si on ne le branche pas avec le vert (U) sur la barrette, le signal n’apparaît pas.
+Le TSA nous pose un problème toutefois en coupant la ligne téléphonique, du coup le modem est branché directement sur la fiche télécom.
+			</commentaires>
+			<evt idEvt="140414.101613">
+				<commentaire>Echange du numériseur</commentaire>
+				<fin>2014.06.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.06.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>L'alimentation 220v semblait être coupée, problème de chargeur ? Sur place (le 16 juin) c'est le disjoncteur général de Bagnères (OMP) qui doit être tombé (local fermé je n'y ai pas accès), j'ai averti le responsable technique qui l'a réenclenché ce matin (le 17 juin à 8h00). Tout est ok</commentaires>
+		</intervention>
+		<intervention date="2015.08.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Pas d'électricité dans le local. La station fonctionne que grace à la batterie. Le disjoncteur général ne peut etre réarmé que par un collègue qui le fera demain.</commentaires>
+			<evt idEvt="150723.090936"/>
+		</intervention>
+		<intervention date="2015.08.25">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Ré armement du disjoncteur général ok, il se situe dans les batiments de l'OMP à Bagnères de Bigorre et seul JP Ferré à le droit d'y accéder</commentaires>
+			<evt idEvt="150723.090936">
+				<commentaire>Ré armement du disjoncteur général</commentaire>
+				<fin>2015.08.25</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.12.10">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le capteur L4C qui était à Bagnères à été branché sur la D6BB avec succès</commentaires>
+		</intervention>
+		<intervention date="2016.04.25">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160425.105858">
+				<commentaire>Appel FT : la ligne est bonne mais le modem n'est pas synchronisé.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.04.26">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				La tension a commencé à baisser le 21/4, ce qui laisse à penser à une coupure de courant. C'est possible qu'il faille juste réarmer le disjoncteur.
+Pour Franck : Peut on contacter quelqu'un juste pour cela ?
+			</commentaires>
+			<evt idEvt="160425.105858">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.04.27">
+			<intervenant>Ferre</intervenant>
+			<evt idEvt="160425.105858">
+				<commentaire>Réarmement du disjoncteur.</commentaire>
+				<fin>2016.04.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.05.26">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Avec l'aide de Philippe Beau qui est bûcheron, nous avons nettoyé tout le tour du local sismo de Bagnères, surtout nous avons fait tomber 4 arbres assez gros ainsi nous serons tranquille pour quelques années. Un seul arbre est resté car nous n'avons pas eu l'autorisation de le faire tomber
+Je lui ai acheté avec la carte achat, l'essence, l'huile moteur, du graissage et une chaine pour un motant de 104,50.
+			</commentaires>
+		</intervention>
+		<intervention date="2018.06.04">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180604.105646">
+				<commentaire>Appel FT: Un problème a déjà été identifié sur la ligne. Ils prévoient un retour vers 15H00.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.07">
+			<intervenant>Technicien FT</intervenant>
+			<commentaires>Quand quelqu'un sera sur place, si le problème persiste toujours, rappeler le 05 61 90 20 94 au lieu du 3901. C'est le numéro du service sur place (le même technicien qu'à Larrau).</commentaires>
+			<evt idEvt="180604.105646">
+				<commentaire>Le technicien France télécom sur place a constaté et resolu un problème sur la ligne. Cette manip n'a pas suffit a rétablir la liaison avec le modem. A voir sur place.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.08">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le disjoncteur général et les différentiels avaient sauté, j'ai réarmé tout ça et rien ne fonctionne, pb de chargeur visiblement.
+J'ai mis un chargeur en externe sur la batterie la D6 fonctionne. Mais rien sur le 220v de l'armoire Stanéo.
+Appel de Sébastien pour essayer de comprendre et après quelques tests il y a sûrement des modules qui ont gillé.
+La D6BB fonctionne, une intervention de Sébastien est a prévoir.
+			</commentaires>
+			<evt idEvt="180604.105646">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.21">
+			<intervenant>Seb</intervenant>
+			<commentaires>Le module T-DIN (détecteur d'orage) et le module R-DIN (reboot par un rappel téléphonique) sont HS. Pour l'instant ils sont seulement débranchés. A voir si l'on peut se satisfaire de cette situation ou s'il est préférable d'en recommander chez STANEO.</commentaires>
+			<evt idEvt="180604.105646">
+				<commentaire>Déconnexion des modules T-DIN et R-DIN.</commentaire>
+				<fin>2018.06.21</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				les voies V0- V0+ et V1- V1+ étaient inversés sur le SENSOR 1 (Courte période), je les ai remise en ordre.
+Sur l'épisensor :  rien d'anormal sur le câblage et le branchement, pourtant pas de réaction du capteur après plusieurs tests avec Sébastien nous décidons de l'enlever pour test à Toulouse, Sébastien m'en porte un mercredi en rechange.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.06.05">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="191003.160953">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.25">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="191003.160953">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>J'ai vérifié dans le stock matériel, pas de CMG40 T43792</commentaires>
+			<evt idEvt="191003.160953">
+				<commentaire>L'antenne GPS a été changé ce jour</commentaire>
+				<fin>2019.11.19</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

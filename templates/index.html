@@ -1,0 +1,59 @@
+{% extends "squelette.html" %}
+{% block contenu %}
+    <table>
+        <tr><th rowspan="2" colspan="2" /><th rowspan="2">STATION</th><th rowspan="2">ETAT</th><th rowspan="2">Dernier d&eacute;faut constat&eacute; le</th><th colspan="5">DEFAUTS IDENTIFIES</th><th rowspan="2">Description de la panne</th></tr>
+        <tr>
+            <th>Connexion num&eacute;riseur</th>
+            <th>Connexion routeur/modem</th>
+            <th>Etat batterie/chargeur</th>
+            <th>GPS / Temps</th><th>Qualit&eacute; signal (3 comp)</th>
+        </tr>
+        {%- for sta in lStations.liste %}
+            <tr>
+            {%- if station[sta].etatActuel['etat'] == 'OK' %}
+                {#-#}
+                {#-#### Station OK #####}
+                <td><a href="{{ url_for('majStation', stationID=sta, debut=time.strftime('%Y.%m.%d'), idEvt=time.strftime('%y%m%d.%H%M%S')) }}" >&#x271A;</a></td>
+                <td />
+                <td>{{ sta }}</td>
+                <td><span>{{ station[sta].etatActuel['etat'] }}</span></td>
+                <td /><td /><td /><td /><td /><td /><td /><td />
+                {#-#}
+            {%- else %}
+                {#-#}
+                {#-#### Station NOK #####}
+                <td><a href="{{ url_for('majStation', stationID=sta, debut=time.strftime('%Y.%m.%d'), idEvt=time.strftime('%y%m%d.%H%M%S')) }}" >&#x271A;</a></td>
+                <td />
+                <td>{{ sta }}</td>
+                <td><span style="background-color: {{ station[sta].coulActuel['etat'] }}" >{{ station[sta].etatActuel['etat'] }}</span></td>
+                <td class="flecheB">
+                    {{ station[sta].etatActuel['debut'] }}
+                    {%- if station[sta].nbEvt > 1 %}<span id={{ sta }} class='lstEvt'>&#9662;</span>{% endif %}
+                </td>
+                <td><span style="background-color: {{ station[sta].coulActuel['connStation'] }}" >{{ station[sta].etatActuel['connStation'] }}</span></td>
+                <td><span style="background-color: {{ station[sta].coulActuel['connRouteurModem'] }}" >{{ station[sta].etatActuel['connRouteurModem'] }}</span></td>
+                <td><span style="background-color: {{ station[sta].coulActuel['battCharg'] }}" >{{ station[sta].etatActuel['battCharg'] }}</span></td>
+                <td><span style="background-color: {{ station[sta].coulActuel['GPSTempsg'] }}" >{{ station[sta].etatActuel['GPSTempsg'] }}</span></td>
+                <td><span style="background-color: {{ station[sta].coulActuel['etatSignal'] }}" >{{ station[sta].etatActuel['etatSignal'] }}</span></td>
+                {%- if station[sta].nbEvt == 1 %}
+                    <td>{{ station[sta].evenement[0].description|safe }}</td>
+                {%- else %}
+                    <tr class="ligne_{{ sta }} ligne_up" style="display: none" />
+                    {%- for i in range(0, station[sta].nbEvt) %}
+                        <tr class="ligne_{{ sta }} ligne_sta" style="display: none">
+                            <td /><td /><td /><td />
+                            <td>{{ station[sta].evenement[i].debut }}</td>
+                            <td>{{ station[sta].evenement[i].connStation}}</td>
+                            <td>{{ station[sta].evenement[i].connRouteurModem}}</td>
+                            <td>{{ station[sta].evenement[i].battCharg }}</td>
+                            <td>{{ station[sta].evenement[i].GPSTempsg }}</td>
+                            <td>{{ station[sta].evenement[i].etatSignal }}</td>
+                            <td>{{ station[sta].evenement[i].description|safe }}</td>
+                        </tr>
+                    {%- endfor %}
+                {%- endif %}
+            {%- endif %}
+            </tr>
+        {%- endfor %}
+    </table>
+{%- endblock %}

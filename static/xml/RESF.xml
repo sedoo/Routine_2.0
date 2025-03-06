@@ -1,0 +1,323 @@
+<?xml version="1.0" ?>
+<!-- fichier RESF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>RESF</nom>
+	<identifiant>fti/792t7pk</identifiant>
+	<pwd>tq4tuvy</pwd>
+	<ip>80.13.45.101</ip>
+	<tel>05 62 39 42 67</tel>
+	<materielDivers/>
+	<lienModem>http://80.13.45.101</lienModem>
+	<lienNumeriseur>http://80.13.45.101:8020</lienNumeriseur>
+	<divers>Mairie de Ens 05 62 39 56 09 ou Jean luc Sénac 05 62 39 45 51</divers>
+        
+	<entretien date="2020.10.09" motif="Entretien"/>
+	<historique>
+		<evenement date="2014.03.17" idEvt="140408.142705">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140408.142705</idEvt>
+			<description>Des impulsions apparaissent sur le signal</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.03.17</debut>
+			<stationID>RESF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.03.22</fin>
+		</evenement>
+		<evenement date="2014.06.30" idEvt="140630.095729">
+			<etat>HS</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140630.095729</idEvt>
+			<description>Les trois voies sont plates.</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.06.30</debut>
+			<stationID>RESF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>HS</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.03</fin>
+		</evenement>
+		<evenement date="2015.11.25" idEvt="151125.090312">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.11.25</debut>
+			<description>La tension d'alim est faible (&amp;lt;10V).</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>151125.090312</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>RESF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.01.15</fin>
+		</evenement>
+		<evenement date="2017.03.09" idEvt="170309.161954">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.03.09</debut>
+			<description>En période d'ensoleillement, la tension de la station est forte. Je pense qu'elle doit être équipée d'un ancien modèle de chargeur couplé à une batterie qui commence à fatiguer.Ce n'est pas urgent mais à voir avant l'été.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>170309.161954</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>RESF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.04.24</fin>
+		</evenement>
+		<evenement date="2017.04.01" idEvt="170404.163622">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.04.01</debut>
+			<description>Pas de réponse du superviseur.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>170404.163622</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>RESF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.04.24</fin>
+		</evenement>
+		<evenement date="2017.11.15" idEvt="171115.143729">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2017.11.15</debut>
+			<description>On observe des variations de tension bien que le chargeur fonctionne ==&amp;gt; CHANGER LA BATTERIE</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>171115.143729</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>RESF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.12.05</fin>
+		</evenement>
+		<evenement date="2017.11.16" idEvt="171115.145602">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.11.16</debut>
+			<description>Pas de réponse de la station.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>171115.145602</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>RESF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.12.05</fin>
+		</evenement>
+		<evenement date="2018.06.15" idEvt="180615.101022">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.06.15</debut>
+			<description>
+				Reboots en continu de la station depuis 3H23 (TU).
+Les messages d'erreur laissent à penser un problème au niveau de la carte SD.
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180615.101022</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>RESF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.15</fin>
+		</evenement>
+		<evenement date="2019.05.15" idEvt="190516.092708">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.05.15</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190516.092708</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>RESF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.05.17</fin>
+		</evenement>
+		<evenement date="2020.02.18" idEvt="200220.084428">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>200220.084428</idEvt>
+			<description>Connexion ponctuelles depuis deux jours.</description>
+			<battCharg>OK</battCharg>
+			<debut>2020.02.18</debut>
+			<stationID>RESF</stationID>
+			<connStation>Pb</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.07.03">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le signal des 3 voies était plat aussi une fois sur place, le capteur est bien bullé, après reboot et Titanrel, toujours pareil. J'ai donc remplacé le numériseur 2600011 par &quot;Loana&quot; et du coup tout est ok. Test à distance avec Toulouse et tout est parfait.</commentaires>
+		</intervention>
+		<intervention date="2016.01.15">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Batterie changée car elle était HS.</commentaires>
+			<evt idEvt="151125.090312">
+				<fin>2016.01.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.15">
+			<intervenant>Frank &amp; Helene</intervenant>
+			<commentaires>
+				La station fonctionne maintenant sur secteur.
+Installation chargeur ENAG S/N 000471215.
+Installation d'un régulateur Phocos 12V 5/6A pour connecter les deux panneaux en place.
+			</commentaires>
+		</intervention>
+		<intervention date="2017.04.19">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170404.163622">
+				<commentaire>Appel FT : pas de problème identifié sur la ligne.</commentaire>
+			</evt>
+			<evt idEvt="170309.161954">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.04.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Pas d'électricité sur place, vérification du coffret Enedis et de notre installation tout est ok ... je descends dans le village pour voir s'il y a une coupure et un villageois me donne un numéro  09 726 750 65 d'urgence d'Enedis. Il y a eu des travaux et peut être qu'un répartiteur n'a pas été remis. Ils sont à St Lary et vont intervenir d'ans l'après midi. A 16h30 tout est ok, appel de Sébastien pour test, tout fonctionne.
+Notez  09 726 750 plus les 2 chiffres du département concerné pour appeller Enedis.
+			</commentaires>
+			<evt idEvt="170404.163622">
+				<commentaire>
+				</commentaire>
+				<fin>2017.04.24</fin>
+			</evt>
+			<evt idEvt="170309.161954">
+				<commentaire>
+				</commentaire>
+				<fin>2017.04.24</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.09.28">
+			<intervenant>Frank et Helene</intervenant>
+			<commentaires>Passage CP --&gt; LB. Installation T120PH S/N 0621 et Centaur6 S/N 2842. CR ci-joint.&lt;br /&gt;&lt;a href=&quot;http://rssp.irap.omp.eu/Routine/Photos/RESF/20170928_RESF_CR_installation_capteur_puits_20170928.pdf&quot;&gt;fichier joint en pdf&lt;/a&gt;</commentaires>
+		</intervention>
+		<intervention date="2017.11.07">
+			<intervenant>Frank</intervenant>
+			<commentaires>
+				Câble d'alimentation électrique rallongé et mise en place d'une clôture.
+A noter qu'avec la neige les vaches ont été mises dans un champ plus bas et que du coup il devrait y avoir moins de mouvements la nuit autour du capteur, la clôture fera également son effet.
+			</commentaires>
+		</intervention>
+		<intervention date="2017.11.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="171115.145602">
+				<commentaire>Appel FT : l'état de la ligne est bon.</commentaire>
+			</evt>
+			<evt idEvt="171115.143729">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.12.05">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Modem Mulogic mis en place.
+2 batteries en parallèle ont été installées. Le modem branché sur l'une. La Centaur sur l'autre.
+A noter que le cache de la connectique d'entrée du sismo 2 a été rongé par un animal. Il faudra sûrement mettre du poison pour rats dans les baies.
+			</commentaires>
+			<evt idEvt="171115.145602">
+				<commentaire>Modem Changé</commentaire>
+				<fin>2017.12.05</fin>
+			</evt>
+			<evt idEvt="171115.143729">
+				<commentaire>Batterie Changée</commentaire>
+				<fin>2017.12.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.15">
+			<intervenant>Seb</intervenant>
+			<commentaires>Une manip reste quand même à prévoir pour changer la carte SD. Ne pas oublier de réactiver le stockage (selectionner &quot;configuration-&gt;continuous data archive-&gt;enable continuous data archive&quot;).</commentaires>
+			<evt idEvt="180615.101022">
+				<commentaire>Désactivation de l'archivage de donnés. Les reboots ont céssés.</commentaire>
+				<fin>2018.06.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190516.092708">
+				<commentaire>Appel FT: Un problème a été identifié sur la ligne, un technicien doit intervenir prochainement.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190516.092708">
+				<commentaire>Le signal est revenu.</commentaire>
+				<fin>2019.05.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.24">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				pose d'une chaine d'acquisition Cmg40 T43794 et D3BB 444 pour mesure d'Orientation capteur.
+j'ai branché un chargeur dans la baie qui va vers un coffret.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.10.08">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+		<intervention date="2020.02.24">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200220.084428">
+				<commentaire>Test Orange: Un défaut a été identfié, un technicien doit intervenir. La présence sur place n'est pas nécéssaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.02.25">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="200220.084428">
+				<commentaire>Appel sous traitant d'Orange: Un technicien est intervenu ce matin sur place et a idéntifié le pb. Il n'a pas pût faire la réparation mais devrait réintervenir demain pour réparer la ligne.</commentaire>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

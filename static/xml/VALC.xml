@@ -1,0 +1,337 @@
+<?xml version="1.0" ?>
+<!-- fichier VALC.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>VALC</nom>
+	<identifiant>fti/e963uxb</identifiant>
+	<pwd>ec64qv6</pwd>
+	<ip>193.251.47.110</ip>
+	<tel>04 68 30 56 27</tel>
+	<lienModem>http://193.251.47.110</lienModem>
+	<lienNumeriseur>http://193.251.47.110:8020</lienNumeriseur>
+        <divers> </divers>        
+	<entretien date="2021.11.04" motif="Contrôle des installations"/>
+	<historique>
+		<evenement date="2017.12.11" idEvt="171211.123813">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.12.11</debut>
+			<description>Pas de réponse du modem</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>171211.123813</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VALC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.12.14</fin>
+		</evenement>
+		<evenement date="2018.05.01" idEvt="180504.135828">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.05.01</debut>
+			<description>Le dialogue avec le modem est OK, la config du modem semble correcte mais le numériseur est injoignable.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180504.135828</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>CLAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+                        
+			<fin>2018.05.16</fin>
+		</evenement>
+		<evenement date="2018.09.04" idEvt="180906.084911">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.09.04</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180906.084911</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VALC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.10.03</fin>
+		</evenement>
+		<evenement date="2019.01.16" idEvt="190116.124001">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.01.16</debut>
+			<description>Pas réponse de la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190116.124001</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VALC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.01.17</fin>
+		</evenement>
+		<evenement date="2019.11.05" idEvt="191106.084816">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.11.05</debut>
+			<description>Perte de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191106.084816</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>VALC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.07</fin>
+		</evenement>
+		<evenement date="2019.12.11" idEvt="191216.095411">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>191216.095411</idEvt>
+			<description>Des pertes de connexion journalières ont été constatées (18:45-&amp;gt;8:30).</description>
+			<battCharg>OK</battCharg>
+			<debut>2019.12.11</debut>
+			<stationID>VALC</stationID>
+			<connStation>Pb</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+		<evenement date="2019.12.20" idEvt="191220.084857">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.12.20</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191220.084857</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>VALC</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.20</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2017.12.11">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="171211.123813">
+				<commentaire>Appel FT : Pas de pb sur la ligne. Le technicien reçoit des messages d'erreur du modem.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.11.28">
+			<intervenant>frank &amp; Helene</intervenant>
+			<commentaires>
+				T120PH S/N 0635 installé en forage à 6m de profondeur. NB: Pas de sable en dessous du capteur.
+Numériseur Centaur 6 S/N 2844 (HH 100Hz et BH 20Hz).
+Modem/routeur Zyxel SBG3300 S/N S150Y52156525.
+Chargeur ENAG S/N PRE00093-02-17
+Le numériseur et le modem sont alimentés par des batteries différentes.
+Le site a été clôturé.
+Mise en place du couvercle. Le couvercle est mal fixé car les vis étaient trop courtes. Au prochain passage, prévoir des vis de 10cm (diam. 8mm).
+Mesure en surface avec un CMG40 pour déterminer l'orientation du capteur.
+Mise en servie EDF et ADSL.
+			</commentaires>
+			<evt idEvt="171211.123813">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.11.28">
+			<intervenant>frank &amp; Helene</intervenant>
+			<commentaires>
+				T120PH S/N 0635 installé en forage à 6m de profondeur. NB: Pas de sable en dessous du capteur.
+Numériseur Centaur 6 S/N 2844 (HH 100Hz et BH 20Hz).
+Modem/routeur Zyxel SBG3300 S/N S150Y52156525.
+Chargeur ENAG S/N PRE00093-02-17
+Le numériseur et le modem sont alimentés par des batteries différentes.
+Le site a été clôturé.
+Mise en place du couvercle. Le couvercle est mal fixé car les vis étaient trop courtes. Au prochain passage, prévoir des vis de 10cm (diam. 8mm).
+Mesure en surface avec un CMG40 pour déterminer l'orientation du capteur.
+Mise en servie EDF et ADSL.
+			</commentaires>
+			<evt idEvt="171211.123813">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.12.14">
+			<intervenant>Sebastien &amp; Helene</intervenant>
+			<commentaires>
+				le modem Zyxel avait perdu la connexion, un reboot était nécessaire. Il a été remplacé par un modem Mulogic S/N 00:24:55:07:1f:8c. ce modem est configuré pour rebooter automatiquement une fois par semaine le lundi à 0:00.
+Ré-installation du capteur fond de puits avec du sable en dessous.
+Le couvercle métallique est bien fixé et cadenassé.
+Installation de la résistance de chauffage dans l'armoire.
+Mesure en surface avec un CMG40 et un capteur chinois.
+Mesure à proximité du réservoir d'eau et de l'antenne téléphone avec le capteur chinois. Le bruit observé au niveau de la station est particulièrement visible à proximité de l'antenne téléphone.
+			</commentaires>
+			<evt idEvt="171211.123813">
+				<commentaire>Changement du modem</commentaire>
+				<fin>2017.12.14</fin>
+			</evt>
+		</intervention>
+                
+		<intervention date="2018.05.04">
+                        
+			<intervenant>Sebastien &amp; Hélène</intervenant>
+                        
+			<evt idEvt="180504.135828">
+                                
+				<commentaire>Le voyant ethernet du modem reste éteint. Le numériseur fonctionne correctement. Nous ramenons le modem à Toulouse.</commentaire>
+                        
+			</evt>
+                
+		</intervention>
+		<intervention date="2018.05.16">
+			<intervenant>Helene et Frank</intervenant>
+			<commentaires>
+				Le Modem Mulogic (00:24:55:07:1F:8C) sur lequel le port ethernet ne fonctionne plus est remplacé par le modem Mulogic (00:24:55:07:1B:F0). A noter que le disjoncteur différentiel situé dans la baie avait sauté. La Centaur a fonctionné normalement sur batterie.
+La station CP a été démontée ce jour.
+			</commentaires>
+			<evt idEvt="180504.135828">
+				<commentaire>Changement de modem</commentaire>
+				<fin>2018.05.16</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.17">
+			<intervenant>Seb</intervenant>
+			<commentaires>Je viens de recevoir un mail me signalant une remise en état du câble téléphonique arrivant à VALC (le 17/05/2018). A vérifier à la prochaine intervention.</commentaires>
+		</intervention>
+		<intervention date="2018.09.10">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180906.084911">
+				<commentaire>Appel FT: La ligne semble OK.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.03">
+			<intervenant>Franck</intervenant>
+			<commentaires>Les armoires ABAC ont été installée. ATTENTION: la feuilles contenant les numéro de serie n'a pas été mise dans la porte (oubli). Le bouchon a été rajouté sur le puit.</commentaires>
+			<evt idEvt="180906.084911">
+				<commentaire>Echange de modem.</commentaire>
+				<fin>2018.10.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.03">
+			<intervenant>Franck</intervenant>
+			<commentaires>Les armoires ABAC ont été installée. ATTENTION: la feuilles contenant les numéro de serie n'a pas été mise dans la porte (oubli). Le bouchon a été rajouté sur le puit.</commentaires>
+		</intervention>
+		<intervention date="2018.10.03">
+			<intervenant>Franck</intervenant>
+			<commentaires>Les armoires ABAC ont été installée. ATTENTION: la feuilles contenant les numéro de serie n'a pas été mise dans la porte (oubli). Le bouchon a été rajouté sur le puit.</commentaires>
+		</intervention>
+		<intervention date="2019.01.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190116.124001">
+				<commentaire>Appel FT: problème sur la ligne, les techniciens interviennent actuellement.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.01.17">
+			<intervenant>FT</intervenant>
+			<evt idEvt="190116.124001">
+				<commentaire>
+				</commentaire>
+				<fin>2019.01.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.19">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Recentrage à distance des masses le 2019.06.19 à 05:45 TU. (fort niveau de bruit sur les composantes horizontales)
+Pos masse avant recentrage (UVW): -0.19; -0.27; -0.19
+Pos masse apres recentrage (UVW): -0.01; -0.27; -0.19
+			</commentaires>
+		</intervention>
+		<intervention date="2019.07.04">
+			<intervenant>Hélène et Frank</intervenant>
+			<commentaires>
+				PB sur le signal à BF.&lt;br&gt;
+Nous avons enlevé la bague qui serait le câble au niveau du bouchon de la tête de puits car le câble était en contact avec le couvercle métallique.&lt;br&gt;
+Nous avons rajouté du sable pour couvrir complètement le capteur.&lt;br&gt;
+Nettoyage du site et peinture de la porte en bois.Nettoyage de l'intérieur de la baie envahi de mouches.&lt;br&gt;
+A noter que le PDL est équipé avec un compteur Linky, la porte était ouverte.&lt;br&gt;
+Pour info, le thermostat du ventilateur est su 50°C et celui du chauffage sur 10°C.&lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.11.04">
+			<intervenant>Hélène</intervenant>
+		</intervention>
+		<intervention date="2019.11.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191106.084816">
+				<commentaire>Appel FT: un problème a été constté sur la ligne, une intervention est programmée le 7/11.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.07">
+			<intervenant>FT</intervenant>
+			<commentaires>Le technicien Orange a constaté, en plus du problème au niveau de la ligne FT, un problème au niveau de nos installations. Il a identifié un problème au niveau du parafoudre et le modem ne s'est pas synchronisé en sa présence. C'est peut de temps après son passage (un dizaine de minutes) que le communication a été rétablie.</commentaires>
+			<evt idEvt="191106.084816">
+				<commentaire>Réparation au niveau de la ligne FT.</commentaire>
+				<fin>2019.11.07</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191216.095411">
+				<commentaire>Un défaut électrique a été constaté sur l'équipement Orange. Une intervention est programmée pour aujourd'hui.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.16">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="191216.095411">
+				<commentaire>Le technicien d'orange n'a pas pût accéder à la station: le chemin est enneigé et impraticable.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.20">
+			<intervenant>---</intervenant>
+			<evt idEvt="191220.084857">
+				<commentaire>Le dialogue est revenu.</commentaire>
+				<fin>2019.12.20</fin>
+			</evt>
+			<evt idEvt="191216.095411">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.06">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191216.095411">
+				<commentaire>Appel Orange: toujours le même défaut. Une intervention est programmée avant mercredi.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.14">
+			<intervenant>Technicien</intervenant>
+			<commentaires>Un technicien a vérifié la ligne au niveau du poteau à proximité de la station, elle fonctionne correctement. De notre côté, il y a des perturbations électriques, c'est probablement le parafoudre qui est mal branché. Il faut aller sur site. de la neige est prévue fin de semaine. A noter que l'état de la connexion actuelle nous permet de recevoir les données.</commentaires>
+			<evt idEvt="191216.095411">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

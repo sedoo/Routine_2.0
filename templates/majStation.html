@@ -1,0 +1,92 @@
+{% extends "squelette.html" %}
+
+{% block head %}
+        <script type="text/javascript">
+            window.onload = function () {
+                console.log("coucou");
+                init_evenement();		// active le calendrier
+                pwd("CR_intervention.py");
+                if (navigator.userAgent.match(/Android/i)) {
+                    document.getElementById("formulaire").innerHTML += '<input type="submit" name="valid" value="valider" class="boutons" />';
+                }
+            }
+        </script>
+        <script type="text/javascript" src="{{url_for('static', filename='./js/majStation.js')}}"></script>
+{% endblock %}
+
+{% block contenu %}
+        <form id='formulaire' action='' method='post'>
+            <fieldset>
+            <legend>Etat g&eacute;n&eacute;ral</legend>
+            <p>
+                <label for='stationID'>Station : </label>
+                <input type='text' id='stationID' name='stationID' class='input' value='{{ stationID }}' style='width: 100px;' />
+            </p>
+            <p>
+                <label for='Etat'>Etat de la station : </label>
+                <input type='radio' id='etat' name='etat' class='input ok' value='OK' />OK
+                <input type='radio' id='etat' name='etat' class='input pb' value='Pb' />Pb
+                <input type='radio' id='etat' name='etat' class='input hs' value='HS' />HS
+            </p>
+            <p>
+                <label for='connStation'>Connexion avec la station : </label>
+                <input type='radio' id='connStation' name='connStation' class='input ok' value='OK' checked='checked'>OK
+                <input type='radio' id='connStation' name='connStation' class='input int' value='???'>???
+                <input type='radio' id='connStation' name='connStation' class='input pb' value='Pb'>Pb
+                <input type='radio' id='connStation' name='connStation' class='input hs' value='HS'>HS
+            </p>
+            <p>
+                <label for='connRouteurModem'>Connexion avec le modem/Routeur : </label>
+                <input type='radio' id='connRouteurModem' name='connRouteurModem' class='input ok' value='OK' checked='checked'>OK
+                <input type='radio' id='connRouteurModem' name='connRouteurModem' class='input int' value='???'>???
+                <input type='radio' id='connRouteurModem' name='connRouteurModem' class='input pb' value='Pb'>Pb
+                <input type='radio' id='connRouteurModem' name='connRouteurModem' class='input hs' value='HS'>HS
+            </p>
+            <p>
+                <label for='battCharg'> Etats de la batterie et du chargeur : </label>
+                <input type='radio' id='battCharg' name='battCharg' class='input ok' value='OK' checked='checked'>OK
+                <input type='radio' id='battCharg' name='battCharg' class='input int' value='???'>???
+                <input type='radio' id='battCharg' name='battCharg' class='input pb' value='Pb'>Pb
+                <input type='radio' id='battCharg' name='battCharg' class='input hs' value='HS'>HS
+            </p>
+            <p>
+                <label for='GPSTempsg'> Etats du GPS, synchronisation de la station : </label>
+                <input type='radio' id='GPSTempsg' name='GPSTempsg' class='input ok' value='OK' checked='checked'>OK
+                <input type='radio' id='GPSTempsg' name='GPSTempsg' class='input int' value='???'>???
+                <input type='radio' id='GPSTempsg' name='GPSTempsg' class='input pb' value='Pb'>Pb
+                <input type='radio' id='GPSTempsg' name='GPSTempsg' class='input hs' value='HS'>HS
+            </p>
+            <p>
+                <label for='signal'> Qualite du signal : </label>
+                <input type='radio' id='etatSignal' name='etatSignal' class='input ok' value='OK' checked='checked'>OK
+                <input type='radio' id='etatSignal' name='etatSignal' class='input int' value='???'>???
+                <input type='radio' id='etatSignal' name='etatSignal' class='input pb' value='Pb'>Pb
+                <input type='radio' id='etatSignal' name='etatSignal' class='input hs' value='HS'>HS
+            </p>
+            </fieldset>
+            <fieldset>
+            <legend>Evenement {{ idEvent }}</legend>
+            <p>
+                <label for='debut'>Date de d&eacute;but : </label>
+                <input type='text' id='debut' name='debut' class='calendrier' style='width: 100px;' value='{{ dateDebut }}'/>
+            </p>
+            <p>
+                <label for='type'>Type de probl&egrave;me : </label>
+                <select name='typeEvt'>
+                    <option value='connStation' selected>Connexion station</option>
+                    <option value='battCharg'>Alimentation</option>
+                    <option value='GPSTemps'>GPS/Temps</option>
+                    <option value='signal' onclick="document.getElementById('signal').style.display='block'">Qualit&eacute; du signal</option>
+                    <option value='autre'>Autre</option>
+                </select>
+            </p>
+            <p>
+                <label for='description'>Description de la Panne : </label>
+                <textarea id='description' name='description' class='input' style='width: 300px; height: 50px;' rows='3' cols='1'></textarea>
+            </p>
+            </fieldset>
+            <input type='submit' name='valid' value='valider' class='boutons'>
+            <input type='hidden' name='tache' value='nouveau'>
+            <input type='hidden' name='idEvt' value='200414.161337'>
+        </form>
+{% endblock %}

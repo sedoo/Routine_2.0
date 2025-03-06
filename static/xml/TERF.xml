@@ -1,0 +1,690 @@
+<?xml version="1.0" ?>
+<!-- fichier TERF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>TERF</nom>
+	<identifiant>fti/63egbvg</identifiant>
+	<pwd>4w49k9h</pwd>
+	<ip>82.127.236.164</ip>
+	<tel>05 58 35 48 34</tel>
+	<materielDivers>RelaiPanneau/Chargeur</materielDivers>
+	<lienModem>http://82.127.236.164</lienModem>
+	<lienNumeriseur>http://82.127.236.164:8020</lienNumeriseur>
+	<divers>Mme Dezest 06 72 10 41 52 - 67 route des carrieres 40180 Tercis les bains</divers>
+	<gissmo n="49"/>
+        
+	<entretien date="2020.05.05" motif="Entretien, débrouissallage"/>
+	<historique>
+		<evenement date="2012.09.04" idEvt="140408.142902">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140408.142902</idEvt>
+			<description>Le disque dur est HS</description>
+			<battCharg>OK</battCharg>
+			<debut>2012.09.04</debut>
+			<stationID>TERF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.04.08</fin>
+		</evenement>
+		<evenement date="2014.04.12" idEvt="140422.102423">
+			<etat>HS</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>140422.102423</idEvt>
+			<description>La tension a commencé par baisser régulièrement puis la liaison vers la station a été coupée.</description>
+			<battCharg>HS</battCharg>
+			<debut>2014.04.12</debut>
+			<stationID>TERF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.04.22</fin>
+		</evenement>
+		<evenement date="2014.04.25" idEvt="140425.112745">
+			<etat>HS</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140425.112745</idEvt>
+			<description>TSA en dysfonctionnement, récupéré et expédié à Toulouse. Station en direct sur le 220v </description>
+			<battCharg>HS</battCharg>
+			<debut>2014.04.25</debut>
+			<stationID>TERF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.04.23</fin>
+		</evenement>
+		<evenement date="2014.06.16" idEvt="140616.094235">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140616.094235</idEvt>
+			<description>Problème de disque (visible sur omni).</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.06.16</debut>
+			<stationID>TERF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.06.30</fin>
+		</evenement>
+		<evenement date="2014.09.18" idEvt="140915.101232">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.09.18</debut>
+			<description>Le signal sur les voies horizontales est fortement bruité à basse fréquence</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140915.101232</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.10.15</fin>
+		</evenement>
+		<evenement date="2015.08.12" idEvt="150817.090955">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.08.12</debut>
+			<description>La tension de la batterie est en chute libre. Probablement chargeur HS.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>150817.090955</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.08.13</fin>
+		</evenement>
+		<evenement date="2015.09.04" idEvt="150904.085654">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.09.04</debut>
+			<description>De grosses impulsions affectent le signal.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150904.085654</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.10.15</fin>
+		</evenement>
+		<evenement date="2015.10.27" idEvt="151027.165343">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.10.27</debut>
+			<description>La déterioration du signal semble correspondre avec la pluie.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151027.165343</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.11.06</fin>
+		</evenement>
+		<evenement date="2015.11.02" idEvt="151102.090039">
+			<etat>Pb</etat>
+			<typeEvt>GPSTemps</typeEvt>
+			<idEvt>151102.090039</idEvt>
+			<description>Appel avec FT : la ligne semble OK, possibilité d'un pb au niveau du materiel (filtre ou modem).</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.11.02</debut>
+			<stationID>TERF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.11.06</fin>
+		</evenement>
+		<evenement date="2016.05.31" idEvt="160531.094025">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.05.31</debut>
+			<description>A l'Ouest rien de nouveau.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160531.094025</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.10.23</fin>
+		</evenement>
+		<evenement date="2016.12.14" idEvt="161215.091649">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.12.14</debut>
+			<description>Pas de liaison avec le modem. D'après Mr Fourquet, EDF est passé le 14/12.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>161215.091649</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.01.05</fin>
+		</evenement>
+		<evenement date="2017.10.04" idEvt="171005.125532">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>171005.125532</idEvt>
+			<description>Depuis le 09/09/17, la connexion est très instable. Le modem perd la connexion dans la matinée et la retrouve la nuit avec le reboot automatique. Cette nuit pas de reconnexion</description>
+			<battCharg>OK</battCharg>
+			<debut>2017.10.04</debut>
+			<stationID>TERF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.10.13</fin>
+		</evenement>
+		<evenement date="2018.04.17" idEvt="180417.110846">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.04.17</debut>
+			<description>Plus de connexion avec le modem depuis le 16/04/18 à 3h00 TU</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180417.110846</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.05.02</fin>
+		</evenement>
+		<evenement date="2018.06.01" idEvt="180604.110031">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.06.01</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180604.110031</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.06.05</fin>
+		</evenement>
+		<evenement date="2018.12.02" idEvt="181203.144305">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.12.02</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181203.144305</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.12.05</fin>
+		</evenement>
+		<evenement date="2018.12.13" idEvt="181213.085503">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.12.13</debut>
+			<description>Le signal est parti complètement dans les choux.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181213.085503</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.12.13</fin>
+		</evenement>
+		<evenement date="2019.10.08" idEvt="191009.163758">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.10.08</debut>
+			<description>Pas de connexion depuis hier soir.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191009.163758</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.10.10</fin>
+		</evenement>
+		<evenement date="2020.01.01" idEvt="200106.100811">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.01.01</debut>
+			<description>Perte d'alimentation.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>200106.100811</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>TERF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.13</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="18.09.2014">
+			<intervenant>Grimaud + Benhamed</intervenant>
+			<commentaires>Remplacement de la station retirée la dernière fois, par une D6BB, tout est ok. Penser au TSA la prochaine fois et trouver une solution pour fixer le modem sur la plaque du fond. Dans le puits les parois ouest-sud-est ont été isolé avec du polystyrène </commentaires>
+		</intervention>
+		<intervention date="2014.11.13">
+			<intervenant>Frank</intervenant>
+			<commentaires>
+				J'ai installé un caniveau de 3m avant le batiment, j'ai aussi fait une petite tranchée encore plus en amont et installé deux tubes PVC sur les cotés du batiment pour essayer de diriger l'eau.
+J'ai aussi fait un puits de cailloux pour y mettre les gaines d'évacuations qui partent de l'intérieur du batiment, cela devrait éviter que l'air n'entre par ces gaines.
+			</commentaires>
+			<evt idEvt="140915.101232"/>
+		</intervention>
+		<intervention date="2015.07.30">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>
+				Gyrocompas OK.
+Des signes indiquent une montée importante du niveau d'eau (+/-15cm), au dessus du niveau de la dalle. La sortie de l'évacuation est-elle assez basse et pentue ?
+			</commentaires>
+			<evt idEvt="140915.101232"/>
+		</intervention>
+		<intervention date="2015.08.13">
+			<intervenant>Frank/Helene</intervenant>
+			<commentaires>Pb de signal sur cette station. Sur place, on a rien remarqué d'anormal. On a enlevé le double caisson de polystyrène qui, avec le temps, n'était plus fixé et pouvait introduire du bruit. On observe toujours le pb de signal.</commentaires>
+			<evt idEvt="150817.090955">
+				<commentaire>Changement chargeur</commentaire>
+				<fin>2015.08.13</fin>
+			</evt>
+			<evt idEvt="140915.101232"/>
+		</intervention>
+		<intervention date="2015.10.15">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Après avoir découpé la dalle puis fait un pilier sismique avec le maçon, j'ai remis ce jour le capteur sur le pilier, il est à noté que de l'eau stagne au pied du puits.
+Le Gyrocompas a été fait.
+Le caisson a été reconstruit, pas de sable à l'interieur, seulement du vide.
+Le TSA est aussi branché et le panneau solaire en secours est ok.
+Juste un petit soucis le TSA est resté longtemps éteint ... jusqu'à que je bouge le cable d'alim batterie coté TSA, un mauvais contact ? à suivre
+			</commentaires>
+			<evt idEvt="150904.085654">
+				<commentaire>Découpe dans la dalle</commentaire>
+				<fin>2015.10.15</fin>
+			</evt>
+			<evt idEvt="140915.101232">
+				<commentaire>Puits sismique</commentaire>
+				<fin>2015.10.15</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.11.04">
+			<intervenant>Fourquet</intervenant>
+			<evt idEvt="151102.090039">
+				<commentaire>Mr Fourquet a remis en place les disjoncteurs qui avaient sauté. La station n'est toujours pas joignable.</commentaire>
+			</evt>
+			<evt idEvt="151027.165343"/>
+		</intervention>
+		<intervention date="2015.11.06">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				1/ l'intérieur du puits est sec il je ne crois pas qu'il y ait eu de grosses circulation d'eau de pluie ces derniers jours, à vérifier la prochaine fois qu'il pleut si le signal recommence à partir dans tout les sens ....
+2/ Problème de dialogue : le disjoncteur était tombé et les réarmement automatiques n'ont pas l'air de fonctionner ... j'ai appelé Mr Herryberri qui ma demandé de faire des test et du coup le réarmement auto du coffret puits est resté bloqué comme la dernière fois ... Mr Herryberri est donc passé en fin d'après midi pour voir. Il a démonté le réarmement auto pour mettre un disjoncteur classique, il attend une réponse de Legrand concernant ce pb sur ce matériel et ne comprend pas pourquoi il se bloque ainsi. En tout cas cela fonctionne jusqu'à la prochaine fois que cela disjonctera, il suggère de faire venir ERDF pour retendre les cable le long du chemin en amont car ils doivent se toucher et peut être faire disjoncter notre install. Mr Fourquet avait déjà fait la demande pour retendre ces câbles .... je vais les appeler
+			</commentaires>
+			<evt idEvt="151102.090039">
+				<fin>2015.11.06</fin>
+			</evt>
+			<evt idEvt="151027.165343">
+				<fin>2015.11.06</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.11.16">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Disjoncteur réarmé par Mr Fourquet mais n'a pas tenu longtemps.
+Mr Herriberry doit y passer pour test et nous faire un devis pour pose de para foudre, afin que nous enlevions le TSA
+			</commentaires>
+		</intervention>
+		<intervention date="2016.01.21">
+			<intervenant>SB+MS</intervenant>
+			<commentaires>
+				Réinstallation de la chaîne d'acquisition (T240 + D6BB-DIN) d'origine, après 5 semaines de test à Toulouse.
+A notre arrivée, le trou autour du pilier était plein d'au, mais le puits était vide.
+Nous avons changé par précaution le modem-routeur (TP-Link n°2155172001517) et le chargeur (ENAG n° PRE00052-12-15).
+A noter que le modem Bewan et le chargeur Mascot retirés fonctionnent. 
+Nous n'avons pas réinstallé le TSA, Sébastien a eu un doute au dernier moment.
+Au chapitre des surprises : ATTENTION, lorsque nous avons installé le modem, malgré des identifiants de connexion bidon (ceux de la ligne de Toulouse), il nous a été possible de sortir sur Internet en flux descendant. En revanche (et là c'est normal), pas de possibilité de flux montant =&gt; pas de transfert de données ni de visibilité de la station tant que les identifiants n'ont pas été modifiés. Important de vérifier qu'on peut bien se connecter de l'extérieur (utilité du smartphone...).
+Et sinon, on a bien failli rester embourbés.
+			</commentaires>
+		</intervention>
+		<intervention date="2016.01.27">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Avec Mr Herriberry nous avons fait plusieurs tests :
+1/ pourquoi le différentiel à l'entrée du chemin saute avant celui du coffret près du puits ? pas de réelle réponse mais un différentiel puis puissant va être mis à l'entrée du chemin.
+2/ Quel est le défaut qui fait que ça saute, pour Mr Herriberry le TSA à un soucis il en a parlé à Sébastien directement au tél, je le ramène à Toulouse.
+Autre soucis il y a de la condensation dans le coffret et ça ce n'est pas normal ... surement du à l'exposition du coffret au chaud froid il faudrait l'isoler par l'extérieur.
+			</commentaires>
+		</intervention>
+		<intervention date="2016.06.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai changé le cable, voici les photos
+tercis3.jpg est le branchement de l'ancien cable.
+tercis4.jpg nouveau cable avant démontage.
+			</commentaires>
+			<evt idEvt="160531.094025">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.06.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'ai changé le cable.
+tercis1.jpg et tercis2.jpg nouveau cable branché.
+tercis3.jpg nouveau cable avant démontage pour passer dans le coffret
+tercis4.jpg l'ancien cable.
+			</commentaires>
+			<evt idEvt="160531.094025">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.07.27">
+			<intervenant>Seb et Franck</intervenant>
+			<commentaires>
+				Un problème sur la D6BB-DIN 175 a été identifié : la voie Z du capteur #1 reste plate. Comme les tests exigent l'utilisation des deux entrées, la D6BB-DIN 175 est échangée avec le D6BB-DIN 500.
+Trois sismos sont actuellement en fonctionnement (Voir la photo 20160727_151344).
+On en a profité pour aussi tester la possibilité de mettre en place une station Minititan sur une ligne ADSL : le superviseur, branché sur le filtre ADSL répond correctement. La synchronisation avec la MiniTitan n'a pas pût se faire mais la fiabilité de celle-ci est douteuse.
+			</commentaires>
+			<evt idEvt="160531.094025">
+				<commentaire>De nouveaux tests sont mis en place</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.08.01">
+			<intervenant>MS/Fourquet</intervenant>
+			<commentaires>
+				Perte du signal / perte du modem depuis samedi 30/07 dans l'après-midi.
+Appel du 3901 : tout va bien.
+Appel de M. Fourquet : orages samedi. M. Fourquet se rend sur place : tous les disjoncteurs sont en haut, par contre le modem (TP-Link) est éteint. Il le rallume : ça marche !
+Ces TP-Link, c'est vraiment de la merde, non ?
+			</commentaires>
+			<evt idEvt="160531.094025">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.10.23">
+			<intervenant>Seb</intervenant>
+			<commentaires>Le matériel de test a été démonté et est revenu à Toulouse.</commentaires>
+			<evt idEvt="160531.094025">
+				<commentaire>Changement de capteur (un T120 remplace maintenant le T240).</commentaire>
+				<fin>2016.10.23</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.12.15">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="161215.091649">
+				<commentaire>Appel FT : ligne OK. Appel Mr Fourquet : il va jeter un coup d'oeil.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.12.15">
+			<intervenant>Fourquet</intervenant>
+			<evt idEvt="161215.091649">
+				<commentaire>Les disjoncteurs sont en place mais le minuteur est arrêté sur 4H. ON/OFF sur le modem mais toujours aucune LED sur celui-ci. La station a l'air de fonctionner correctement.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.12.16">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="161215.091649">
+				<commentaire>Appel EDF : aucun problème n'a été constaté.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.01.05">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				suite à des travaux sur la ligne électrique ERDF avait du couper leur arrivée (disjoncteur ERDF) et ne l'avait pas réarmé. J'ai ouvert leur coffret .... et juste remonté le disjoncteur tout refonctionne.
+Bien que sur panneaux solaires la batterie était également faible, 10,8v ... je l'ai donc changée, il faudra vérifier si des données ont été perdues.
+			</commentaires>
+			<evt idEvt="161215.091649">
+				<commentaire>Disjoncteur ERDF Ré-armé</commentaire>
+				<fin>2017.01.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.09.08">
+			<intervenant>Frank</intervenant>
+			<commentaires>
+				Le capteur T240 S/N 611, de retour de SAV a été ré-installé à TERF à la place du T120QA S/N 2382.
+Ce capteur est câblé en analogique sur la D6BB-DIN.
+Depuis, on a observé des perturbations à longue période associées à une mauvaise position des masses, un recentrage améliore la situation.
+			</commentaires>
+		</intervention>
+		<intervention date="2017.10.05">
+			<intervenant>Helene</intervenant>
+			<commentaires>Appel 3901 : réponse automatique, le rétablissement de la ligne est prévue pour le 10 octobre à 18:30.</commentaires>
+			<evt idEvt="171005.125532">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.10.11">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="171005.125532">
+				<commentaire>Appel FT : reponse automatique, le probleme est en cour de resolution.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.01.29">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				La terre ayant bouché les grilles d'évacuation d'eau, il était nécessaire de les nettoyer.
+J'ai finalement opté pour casser la grille pour qu'il y ait un plus gros trou et une évacuation meilleure.
+A noté qu'il n'y avait pas d'eau dans le puits à mon arrivée.
+			</commentaires>
+		</intervention>
+		<intervention date="2018.04.17">
+			<intervenant>Helene</intervenant>
+			<commentaires>Appel 3901 : problème de synchronisation avec le modem (TP-LINK). Un déplacement est nécessaire. Prévoir d'installer un modem MULOGIC (il en reste 3 disponibles à Toulouse, je vais essayer d'en faire passer un à Tarbes).</commentaires>
+			<evt idEvt="180417.110846">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.05.02">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>TPlink changé par le Mulogic</commentaires>
+			<evt idEvt="180417.110846">
+				<commentaire>Modem changé</commentaire>
+				<fin>2018.05.02</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.04">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180604.110031">
+				<commentaire>Appel FT: le test de ligne est OK.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.05">
+			<intervenant>Mr Fourquet</intervenant>
+			<evt idEvt="180604.110031">
+				<commentaire>Réarmement du disjoncteur.</commentaire>
+				<fin>2018.06.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le câble télécom était tombé avec le vent, un technicien Orange est venu le remettre provisoirement. Une autre équipe doit finir l'intervention dans la semaine.</commentaires>
+		</intervention>
+		<intervention date="2018.11.09">
+			<intervenant>Seb</intervenant>
+			<commentaires>Recentrage de la station.</commentaires>
+		</intervention>
+		<intervention date="2018.12.03">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181203.144305">
+				<commentaire>Appel FT: Un problème a bien été constaté sur la ligne, une intervention est programmée.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.05">
+			<intervenant>France</intervenant>
+			<evt idEvt="181203.144305">
+				<commentaire>Le signal revient depuis hier sur Tercis. Je n'ai toujours pas reçu le SMS d'orange me signalant l'intervention (le recevrais-je un jour ?).</commentaire>
+				<fin>2018.12.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181213.085503">
+				<commentaire>Recentrage</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.12.13">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="181213.085503">
+				<commentaire>Le signal semble s'être stabilisé.</commentaire>
+				<fin>2018.12.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.23">
+			<intervenant>Frank et Helene</intervenant>
+			<commentaires>
+				Installation du capteur fond de puits (12m) - T120PH S/N 853 : &lt;br&gt;
+Le capteur a été descendu sans les cannes pour l'orientation et orienté approximativement au N, posé au fond sans sable. On a laissé le câble faire des spirales dans le tube et versé 1,5 sacs de sable. Les mesures dans la nuit montrent des glitchs sur les voies horizontales aussi le lendemain, j'ai retendu le câble.&lt;br&gt;
+Installation de la Centaur S/N 2915 et de l'armoire ABAC dans le puits maçonné : &lt;br&gt;
+Nous avons utilisé la plaque présente dans le coffret en surface pour fixer l'armoire BT et le support de barre de ce même coffret pour fixer l'armoire TBT (cf photo).&lt;br&gt;
+Les batteries sont sur des parpaings.&lt;br&gt;
+Les numériseurs sont posés sur le coffret de protection du T240 en attendant de mettre une étagère sous la TBT.&lt;br&gt;
+La chaîne instrumentale D6BBDIN + T240 est encore en fonctionnement pour comparer les signaux.&lt;br&gt;
+Les GPS sont dans la buse en béton à l’extérieur avec les arrivées téléphone et électrique (Cf photo).
+&lt;br&gt;
+Reste A Faire : &lt;br&gt;
+- protéger le dessus des armoires TBT et BT avec une plaque de plexiglas ou installer l'armoire TBT dans une baie informatique (https://www.conrad.fr/p/armoire-baie-de-brassage-19-intellinet-711937-l-x-h-x-p-570-x-770-x-450-mm-15-uh-noir-ral-9005-1-pcs-1337009).&lt;br&gt;
+- Protéger avec un boiter étanche la jonction du câble électrique dans la buse et remplacer le couvercle béton ouvert par un couvercle fermé.&lt;br&gt;
+- Mettre un cadenas sur la tête de puits. &lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.06.27">
+			<intervenant>Seb</intervenant>
+			<commentaires>Maj de la Centaur à la version 4.3.19</commentaires>
+		</intervention>
+		<intervention date="2019.07.04">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Finition de l'installation, protection des armoires avec plexiglass, arrivée électrique de la buse dans une boite étanche, béton sur la gaine. Entretien débroussailleuse et démontage de l'ancienne chaine d'acquisition.</commentaires>
+		</intervention>
+		<intervention date="2019.08.07">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Mr Fourquet à remonter le disjoncteur a l'entrée du chemin. Il était tombé suite à un orage le 1er Aout</commentaires>
+		</intervention>
+		<intervention date="2019.08.12">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				La position des masses W et U est supérieure à 1V --&gt; Recentrage des masses &lt;br&gt;
+Mass position avant recentrage W, V, U : -1.11V; -0.04V; 1.02V&lt;br&gt;
+Mass position après recentrage W, V, U : 0.07V; -0.06V; -0.13V
+			</commentaires>
+		</intervention>
+		<intervention date="2019.09.26">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Recentrage masse : &lt;br&gt;
+Avant recentrage : -1.06 (W); 0.24 (V); 0.68 (U) &lt;br&gt;
+Après recentrage : -0.00 (W); -0.03(V); -0.10 (U) &lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.07.03">
+			<intervenant>Grimaud</intervenant>
+		</intervention>
+		<intervention date="2019.10.09">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191009.163758">
+				<commentaire>Appel FT: Un problème a été identifié sur la ligne, un technicien doit intervenir au plus tard le 10/10 à 15h</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.10">
+			<intervenant>FT</intervenant>
+			<evt idEvt="191009.163758">
+				<commentaire>Un technicien est intervenu et a rétabli la ligne.</commentaire>
+				<fin>2019.10.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.09">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="200106.100811">
+				<commentaire>Juste pour signaler que le seuil éstimé de charge de la batterie est maintenant inferieur à 20%.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				L e disjoncteur à l'entrée du chemin avait sauté.
+J'ai rencontrémadame Dezest Renée, compagne de Mr Fourquet (décès le 18/12).
+Elle accepte de continuer à ré-armer ce disjoncteur s'il saute à nouveau, voici son numéro 0672104152
+Elle nous demande également de lui faire une copie de la convention car elle avoue ne pas savoir ou elle est rangée.
+Son adresse : 67 route des carrières 40180 Tercis les bains.
+			</commentaires>
+			<evt idEvt="200106.100811">
+				<commentaire>Disjoncteur Réarmé</commentaire>
+				<fin>2020.01.13</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

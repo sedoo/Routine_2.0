@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<!-- fichier DUNF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>DUNF</nom>
+	<identifiant>internet</identifiant>
+	<pwd>xxx</pwd>
+	<ip>omp-dunf.dyndns.info</ip>
+	<tel>06 23 39 79 87</tel>
+	<materielDivers>modem 3G et dyndns</materielDivers>
+	<lienModem>http://omp-dunf.dyndns.info</lienModem>
+	<lienNumeriseur>http://omp-dunf.dyndns.info:8020</lienNumeriseur>
+	<divers>tel mairie: 09 77 33 46 65</divers>
+        
+	<entretien date="2020.09.11" motif="Entretien exterieur de la station et du PDL (sous les ronces)."/>
+	<gissmo n="112"/>
+	<historique>
+		<evenement date="2017.09.21" idEvt="170929.140933">
+			<typeEvt>autre</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.09.21</debut>
+			<description>Mise en place de la station</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170929.140933</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>DUNF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.09.29</fin>
+		</evenement>
+		<evenement date="2018.05.22" idEvt="180529.084041">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.05.22</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180529.084041</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>DUNF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.05.31</fin>
+		</evenement>
+		<evenement date="2018.07.04" idEvt="180710.092239">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.07.04</debut>
+			<description>Le dialogue est interrompu avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180710.092239</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>DUNF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.09.27</fin>
+		</evenement>
+		<evenement date="2019.09.06" idEvt="190909.104350">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.06</debut>
+			<description>Une mauvaise configuration de l'armoire entraîne des rebots en continu du modem GSM.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190909.104350</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>DUNF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.11</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2017.09.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170929.140933">
+				<commentaire>Test</commentaire>
+				<fin>2017.09.29</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.09.21">
+			<intervenant>Marie et Helene</intervenant>
+			<commentaires>Installation T120PH S/N 0609 et Centaur6 S/N 2840. CR ci-joint.&lt;br /&gt;&lt;a href=&quot;http://rssp.irap.omp.eu/Routine/Photos/DUNF/20170921_DUNF_CR_installation_capteur_puits_20170921.pdf&quot;&gt;fichier joint en pdf&lt;/a&gt;</commentaires>
+		</intervention>
+		<intervention date="2018.01.31">
+			<intervenant>Franck</intervenant>
+			<commentaires>Sur place, rien ne laissait paraître un problème dans la liaison. Modif de la configuration : la réactualisation du dyndns se faisait théoriquement à chaque changement =&gt; elle se fait maintenant toutes les 48H. Est-ce cette modif ou le reboot nécessaire à chaque changement de config ? En tout cas la liaison et de nouveau établie avec Toulouse.</commentaires>
+		</intervention>
+		<intervention date="2018.05.31">
+			<intervenant>Seb</intervenant>
+			<commentaires>D'après la mairie, l'antenne SFR a été modifiée récemment.</commentaires>
+			<evt idEvt="180529.084041">
+				<commentaire>Bidouille...mais sa marche.</commentaire>
+				<fin>2018.05.31</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.16">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Depuis le 4 juillet, la station ne transmet plus de données. Pb de communication avec la téléphonie mobile.
+J'ai contacté le service technique SFR-UGAP au 0 805 700 570 (il faut donner la référence MYT760 et le n° appel de la carte M2M AJUSTABLE PLUS 06 23 39 79 87).
+Un ticket (n° C20539849) a été ouvert auprès des équipes réseaux. A suivre
+			</commentaires>
+			<evt idEvt="180710.092239">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.31">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>Pas grand chose de nouveau par rapport au dernier appel d'Hélène. Le problème se situe sur une partie de l'installation gérée par Orange, et le dialogue SFR/Orange manque de dynamisme. Une relance a été faite à destination d'Orange, sans réponse jusqu'à présent. On devrait en savoir plus d'ici la fin de la semaine inch'Allah, avec au mieux l'annonce d'un délai d'intervention. Je rappelle lundi prochain.</commentaires>
+			<evt idEvt="180710.092239">
+				<commentaire>Appel SFR-UGAP</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.08.01">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>SFR Business a appelé pour dire que Orange a testé son antenne (qu'utilise aussi SFR). De ce côté, tout va bien, pas de perte de performance. En revanche, SFR a bien constaté que depuis le 4 juillet, notre ligne n'est plus active - aucune synchro malgré le reboot automatique toutes les nuits. 2 possibilités : carte SIM défectueuse, ou routeur défectueux.</commentaires>
+			<evt idEvt="180710.092239">
+				<commentaire>Tests Orange</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.27">
+			<intervenant>Matthieu et Helene</intervenant>
+			<commentaires>Installation ce jour de l'armoire ABAC (S/N 25) et changement du modem GPRS : le sierra wireless est remplaçé par un Netmodule NB1600 (S/N 00112B01EFEE).</commentaires>
+			<evt idEvt="180710.092239">
+				<commentaire>La carte SIM et HS. Changement de carte SIM et de Modem</commentaire>
+				<fin>2018.09.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.11">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				- Installation du ventilateur (40°).
+- Nettoyage intérieur et extérieur de la baie.
+L'exploitation est actuellement abandonnée. Il va y avoir prochainement un repreneur.
+			</commentaires>
+		</intervention>
+	</interventions>
+</station>

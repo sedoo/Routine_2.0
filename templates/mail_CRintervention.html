@@ -1,0 +1,22 @@
+<html>
+    <head></head>
+    <body>
+        {{ form['nomIntervenant'] }}, le {{ form['date'] }} à {{ form['station'] }} :
+        <ul>
+        {% for evt in caracEvts %}
+            <li>Le problème "{{ evt.description }}" 
+            {% if 'fin' in evt %} a été résolu
+            {% else %} n'a pas été résolu
+            {% endif %} : <br />
+            {{ form['commEvt[%s]' % evt.idEvt] }}
+            </li>
+        {% endfor %}
+        </ul>
+
+        {{ form['commentaires'] }}
+
+        {% for photo in lstPhotos %}
+            <img src="http://localhost:5000/{{ photo }}" />
+        {% endfor %}
+    </body>
+</html>    

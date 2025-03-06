@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!-- fichier TOTO.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom></nom>
+	<historique>
+	</historique>
+	<interventions>
+	</interventions>	
+</station>

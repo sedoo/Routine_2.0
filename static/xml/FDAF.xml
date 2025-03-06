@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<!-- fichier FDAF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>FDAF</nom>
+        <identifiant>***</identifiant>
+        <pwd>***</pwd>
+        <ip>***</ip>
+        <tel>06 27 07 99 07</tel>
+        <materielDivers>station sur panneaux</materielDivers>
+        <lienModem>modem GSM</lienModem>
+        <lienNumeriseur>modem GSM</lienNumeriseur>
+        <divers>
+        </divers>
+        <entretien date="2019.12.12"/>
+	<historique>
+		<evenement date="2014.12.01" idEvt="141201.095235">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.12.01</debut>
+			<description>Pas de réponse (sûrement un pb de batterie)</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>141201.095235</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>FDAF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.12.02</fin>
+		</evenement>
+		<evenement date="2015.06.15" idEvt="150615.094056">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>150615.094056</idEvt>
+			<description>La station ne décroche pas</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.06.15</debut>
+			<stationID>FDAF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.06.16</fin>
+		</evenement>
+		<evenement date="2015.10.15" idEvt="151015.100720">
+			<etat>Pb</etat>
+			<typeEvt>connRouteurModem</typeEvt>
+			<idEvt>151015.100720</idEvt>
+			<description>Dialogue occasionnel dut au reseau hertzien. Sonne occupé la plupart du temps.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.10.15</debut>
+			<stationID>FDAF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>Pb</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.12.02">
+			<intervenant>Frank</intervenant>
+			<commentaires>Batterie sûrement faible, mais nous avions convenu de &quot;laisser mourir&quot; cette station. </commentaires>
+			<evt idEvt="141201.095235">
+				<fin>2014.12.02</fin>
+			</evt>
+		</intervention>
+                <intervention date="2018.07.06">
+                        <intervenant>Grimaud</intervenant>
+                        <commentaires>Station entièrement démontée ce jour ....il ne reste plus rien !</commentaires>
+                </intervention>
+	</interventions>
+</station>

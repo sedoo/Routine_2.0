@@ -1,0 +1,71 @@
+{% extends "squelette.html" %}
+
+{% block head %}
+        <script type="text/javascript">
+            window.onload = function () {
+                init_evenement();       // active le calendrier
+                pwd("CR_intervention.py");
+                if (navigator.userAgent.match(/Android/i)) {
+                    document.getElementById("formulaire").innerHTML += '<input type="submit" name="valid" value="valider" class="boutons" />';
+                }
+            }
+        </script>
+        <script type="text/javascript" src="{{url_for('static', filename='./js/photo.js')}}"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+        <style type="text/css">
+        <!--
+            td.Commentaires {
+                overflow: hidden;
+                float: none;
+            }
+
+            td.Commentaires div {
+                height: 20px;
+            }
+
+            span.lstEvt {
+                float: right;
+                background-color: #EEEEEE;
+            }
+
+            img.icone:hover {
+                cursor: pointer;
+            }
+
+            span.image {
+                margin-right: 30px;
+            }
+        -->
+        </style>
+{% endblock %}
+
+{% block contenu %}
+        <form id="formulaire" method='post' enctype="multipart/form-data">
+            <fieldset>
+                <p>
+                    <label for="station">Station : </label>
+                    <select id="stations" name="station">
+                        <option />
+                    {%- for sta in liste_sta %}
+                        <option value="{{ sta }}"{%- if station is defined and station == sta %} selected {% endif %}>{{ sta }}</option>
+                    {%- endfor %}
+                    </select>
+                </p>
+            </fieldset>
+        </form>
+
+        {%- if station is defined %}
+        <div>
+            {% for jour in liste_dates %}
+
+            <p>
+                <h2>{{ jour }}</h2>
+                {% for fic in liste_photos[jour] %}
+                <span class="image"><img src="{{ fic[1] }}" class="icone" name="{{ fic[0] }}" /><a href="{{ fic[0] }}"><img src="{{ url_for('static', filename='./img/icone_telechargement.png') }}" /></a></span>
+                {% endfor %}
+            </p>
+            {% endfor %}
+        {% endif %}
+        </div> 
+{% endblock %}

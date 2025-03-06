@@ -1,0 +1,353 @@
+<?xml version="1.0" ?>
+<!-- fichier MLS.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>MLS</nom>
+	<identifiant>fti/geqz2gc</identifiant>
+	<pwd>yvkxg44</pwd>
+	<ip>80.13.16.40</ip>
+	<tel>05 61 66 63 67</tel>
+	<materielDivers>GPS déporté à l'exterieur de la grotte</materielDivers>
+	<lienModem>http://80.13.16.40</lienModem>
+	<lienNumeriseur>http://80.13.16.40:8020</lienNumeriseur>
+	<divers>Prévenir avant une intervention michelle.huet@ecoex-moulis.cnrs.fr, olivier.guillaume@ecoex-moulis.cnrs.fr et thomas.deruelles@sete.cnrs.fr.Voir à l'accueil pour le mot de passe pour entrer (ou demander à Michelle et Olivier).N'oubliez pas la lampe.</divers>
+	<gissmo n="24"/>
+        
+	<entretien date="2020.03.03" motif="Débroussaillage, Entretien"/>
+	<historique>
+		<evenement date="2014.06.16" idEvt="140616.092855">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.06.16</debut>
+			<description>Problème de disque (visible sur omni)</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140616.092855</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MLS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.02.19</fin>
+		</evenement>
+		<evenement date="2015.10.29" idEvt="151030.084125">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.10.29</debut>
+			<description>
+				Le sismo ne semble plus alimenté.
+Le problème semble venir du connecteur cable/capteur. Le cable n'est en fait soutenu sur le connecteur que par les soudures, tout ceci était caché par la gaine thermorétractable. Prévoir avant une intervention de ressouder un connecteur neuf.
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151030.084125</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MLS</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.12.01</fin>
+		</evenement>
+		<evenement date="2015.12.02" idEvt="160128.174039">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>160128.174039</idEvt>
+			<description>Bandes de bruit à 33Hz, 38Hz et 43Hz</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.12.02</debut>
+			<stationID>MLS</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.07.21</fin>
+		</evenement>
+		<evenement date="2016.03.07" idEvt="160307.085816">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>160307.085816</idEvt>
+			<description>Pas de réponse du modem.</description>
+			<battCharg>OK</battCharg>
+			<debut>2016.03.07</debut>
+			<stationID>MLS</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.03.08</fin>
+		</evenement>
+		<evenement date="2016.06.29" idEvt="160701.163745">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.06.29</debut>
+			<description>Pas de dialogue avec le modem</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160701.163745</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MLS</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.07.28</fin>
+		</evenement>
+		<evenement date="2016.06.29" idEvt="160729.151502">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.06.29</debut>
+			<description>Le numériseur ne voit plus le GPS.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160729.151502</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MLS</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>HS</GPSTempsg>
+			<fin>2016.09.08</fin>
+		</evenement>
+		<evenement date="2017.06.15" idEvt="170616.093928">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.06.15</debut>
+			<description>Le numériseur ayant été rebouté sans signal satellite, le signal est maintenant coupé.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170616.093928</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MLS</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.07.18</fin>
+		</evenement>
+		<evenement date="2019.10.03" idEvt="191003.161129">
+			<typeEvt>GPSTemps</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.10.03</debut>
+			<description>Le firmware du GPS n'est plus à jour.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191003.161129</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MLS</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2020.01.22</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2015.11.17">
+			<intervenant>Matthieu et Seb</intervenant>
+			<commentaires>Le capteur et le numériseur sont ramené à Toulouse.</commentaires>
+			<evt idEvt="151030.084125"/>
+			<evt idEvt="140616.092855"/>
+		</intervention>
+		<intervention date="2015.12.01">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>Le L4C et son câble sont ramenés à Toulouse.</commentaires>
+			<evt idEvt="151030.084125">
+				<commentaire>Réinstallation du Trillium 240 + KBB + câble refait par Sébastien à Toulouse</commentaire>
+				<fin>2015.12.01</fin>
+			</evt>
+			<evt idEvt="140616.092855"/>
+		</intervention>
+		<intervention date="2016.01.28">
+			<intervenant>Sébastien &amp; Hélène</intervenant>
+			<commentaires>
+				Voici le détail des tests effectués pour identifier le pb de bruit sur le signal:
+9:58 TU - Coupure alimentation électrique
+10:18 TU - Retrait de la cloche de protection
+10:28 TU - bullage (le capteur était légèrement débullé) et recentrage 
+10:45 TU - Changement câble
+11:14 TU - Changement numériseur (avec câble d'origine)
+11:32 TU - Le capteur est tournée de 90° vers la gauche
+14:00 TU - Capteur réorienter, buller et protéger par cloche verre
+Entre chaque tests, le signal observé est toujours bruité.
+A noter que le capteur n'était pas correctement orienté, sur les T240, le trait noir indique la direction E/W et non N/S comme sur les T120. Le capteur est maintenant orienté N/S.
+On a fait un tour pour éventuellement identifier une source de bruit sans succès, à part peut être les installations du CNRS (chauffage des serres??).
+Prochains tests à faire : installer un autre capteur à coté du T240. 
+			</commentaires>
+			<evt idEvt="160128.174039"/>
+			<evt idEvt="140616.092855"/>
+		</intervention>
+		<intervention date="2016.02.19">
+			<intervenant>Sébastien</intervenant>
+			<commentaires>
+				Objet de l'intervention : Remplacer le numériseur K6BB (079-0016) par une D6BB-DIN (S/N 0285) et ré-orientation du capteur
+A notre arrivée, la deuxième porte du sas était ouverte et il y avait un fort courant d'air. J'ai noté sur le cahier des E/S, la visite de l'APAVE le 12/02 et de la DREAL le 15/02, ils ont peut être été jusqu'au fond de la grotte.
+Repositionnement du capteur par rapport à la ligne E/W marquée sur la dalle (Gyrocompas) (Cf photo dans mail).
+Câblage GPS OK
+Mise en évidence d'un pb de câblage au niveau de la prise capteur : la résistance de calibration génère un court circuit. Le câble a été remplacé par un câble Trillium de Nanometrics. Ce câble étant plus court, on a déplacé la partie numérisation sur la table à droite de l'établi. La D6 et le modem sont placés dans un coffret électrique. On a ramené une des deux valises pour stocker la K6BB.
+Photos dans mail du 22/02/16
+			</commentaires>
+			<evt idEvt="160128.174039"/>
+			<evt idEvt="140616.092855">
+				<commentaire>Changement numériseur</commentaire>
+				<fin>2016.02.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.07">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160307.085816">
+				<commentaire>Appel à FT : la ligne semble être OK.</commentaire>
+			</evt>
+			<evt idEvt="160128.174039"/>
+		</intervention>
+		<intervention date="2016.07.01">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="160701.163745">
+				<commentaire>Appel FT : pas d'abonnement à cette ligne.</commentaire>
+			</evt>
+			<evt idEvt="160128.174039">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.07.18">
+			<intervenant>Matthieu</intervenant>
+			<commentaires>
+				Perte de connexion avec la station depuis le 29/06.
+Les premiers appels au 1015 nous ont induits en erreur : &quot;nous constatons que vous n'avez plus de contrat pour une ligne fixe orange, merci de contacter votre opérateur&quot;.
+Nous avons interprété ce message comme un problème de suspension de ligne, alors qu'il s'agissait d'un transfert chez SFR :
+- la ligne analogique 05 61 66 63 67 avait pour titulaire le labo de Moulis
+- la gestion de leur téléphonie a été basculée au printemps 2013 à l'UGAP, qui l'a attribuée à SFR.
+Nous nous retrouvons donc avec une ligne analogique SFR payée par le labo de Moulis sur crédits CNRS, et un contrat internet ADSL Orange payé par l'IRAP sur crédits CNRS.
+Il faut donc tester séparément la ligne analogique et l'Internet :
+- SAV SFR :  0800 950 920
+- SAV Orange : 3901, choix 1, saisir les 10 chiffres de Moulis, attendre, choix 2, attendre qu'un opérateur veuille bien répondre
+Résultats des tests (mardi 12/07): 
+- SFR : les tests n'ont pas complètement abouti, ils devaient m'appeler quand ils seraient sûrs d'eux. M'ont conseillé d'appeler Orange pour l'Internet
+- Orange : les tests n'ont pas complètement abouti, ils devaient m'appeler pour planifier un RDV et une intervention. Ils ne m'ont jamais rappelé, et ont envoyé le mercredi 13 au matin un technicien au labo de Moulis. Il m'a appelé de là-bas, je lui ai dit d'essayer de contacter Olivier Guillaume (responsable infrastructures Moulis), qui a accepté de l'emmener jusqu'au local pour faire ses tests. Plus de signe de vie depuis.
+Vendredi 15 : appel de SFR pour me dire que tout est rétabli, suite à intervention technicien Orange. Ah bon. Il n'y avait personne à Toulouse (pont du 14 juillet) =&gt; pas de test possible.
+Lundi 18 : comme nous n'avons toujours pas de connexion, je rappelle Orange pour un ultime test de la liaison Internet avant d'intervenir =&gt; pour eux, tout va bien
+=&gt; décision #1 : intervention de Sébastien (mardi 19)
+=&gt; décision #2 : récupérer la ligne analogique et la regrouper à notre contrat global CNRS. A faire quand le problème actuel aura été réglé (Mme Jacquin, de la DR14, m'a donné tous les contacts utiles chez SFR).
+			</commentaires>
+			<evt idEvt="160701.163745">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="160128.174039">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.07.19">
+			<intervenant>Seb</intervenant>
+			<commentaires>
+				A l'arrivée, dans la grotte, les voyants du bewan étaient allumés sauf les voyants &quot;connexion&quot; et &quot;synchronisation&quot;. Un examen de l'interface WEB du modem a confirmé cela.
+Le téléphone branché sur le filtre ADSL fonctionne correctement mis à part du bruit audible sur la ligne.
+L'échange du modem n'a rien donné. Celui du filtre non plus.
+Un filtre placé directement sur l'arrivée téléphone du panneau donne les mêmes résultats (tests effectués avec les deux modems).
+Un examen du numériseur montre un problème sur le GPS : dernière synchro le 29/6/16.
+Appel Orange : Pour le technicien, tout semble correcte.
+Un test de l'arrivée ADSL du local avec le modem TP-LINK permet un connexion sans problème à internet. Le téléphone renvoi un signal non parasité.
+J'en ai profité pour rencontrer un nouveau technicien (depuis deux ans). Nous avons inspecté rapidement le câble sur les sections Local&lt;-&gt;Route et entrée grotte&lt;-&gt;sismo : même si le câble et l'installation commence à beaucoup date et rouiller, rien de visible est apparu.
+Un dernier détail : le technicien aimerait être tenu au courant de nos passages. Son adresse mail va être ajoutée dans la partie &quot;Historique des interventions&quot;.
+			</commentaires>
+			<evt idEvt="160701.163745">
+				<commentaire>Tests dans la grotte et dans le local.</commentaire>
+			</evt>
+			<evt idEvt="160128.174039">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.07.28">
+			<intervenant>Seb et Matthieu</intervenant>
+			<commentaires>Les différents tests nous ont permis de mettre en évidence la présence de deux problèmes distincts : problème au niveau du TSA, maintenant résolu, et problème au niveau du GPS.</commentaires>
+			<evt idEvt="160729.151502">
+				<commentaire>La chaine complète reliant le GPS au numériseur est ramenée à Toulouse.</commentaire>
+			</evt>
+			<evt idEvt="160701.163745">
+				<commentaire>Echange du module RD-DIN</commentaire>
+				<fin>2016.07.28</fin>
+			</evt>
+			<evt idEvt="160128.174039">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.08">
+			<intervenant>Helene et Seb</intervenant>
+			<commentaires>La manip s'est faite sans histoires. Le nouveau module RGPS-DIN a été monté seul dans le boîtier : à Toulouse les ports de contrôles étaient juste reliés entre eux en parallèle, rien ne les commandaient. En fait, ces relais étaient contrôlés par le TSA, un fil partant du TSA et censé être fixé sur les relais est visible et toujours en place. Cette protection n'étant pas indispensable, le montage fonctionne maintenant correctement.</commentaires>
+			<evt idEvt="160729.151502">
+				<commentaire>Echange de l'ampli GPS Fedd par celui de Staneo.</commentaire>
+				<fin>2016.09.08</fin>
+			</evt>
+			<evt idEvt="160128.174039">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.29">
+			<intervenant>Helene</intervenant>
+			<commentaires>Depuis le lundi 27 mars 2017, on observe sur le signal de Moulis du bruit anthropique qui affecte le signal dans la bande 10-45 HZ. Ce bruit est dû à d'importants travaux de voiries et d'assainissement qui ont commencé le 27 mars pour une durée de 6 mois. (http://www.pays-couserans.fr/RENOVATION-DE-NOS-ROUTES.html).</commentaires>
+			<evt idEvt="160128.174039">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.06.15">
+			<intervenant>Seb, Franck</intervenant>
+			<commentaires>
+				Différents tests on été faits et notamment l'échange de l'antenne au niveau du local, l'échange du numériseur...
+On en a aussi profité pour faire un nettoyage des appareils inutiles encore présents sur la paillasse (L4C 1 composante, batteries, vieux chargeurs n'étant plus utilisés...)
+			</commentaires>
+			<evt idEvt="160128.174039">
+				<commentaire>L'antenne et le module STANEO ont été ramené à Toulouse.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.07.18">
+			<intervenant>Matthieu et Seb</intervenant>
+			<evt idEvt="170616.093928">
+				<commentaire>Le G-DIN est de nouveau en place après une réparation par STANEO.</commentaire>
+				<fin>2017.07.18</fin>
+			</evt>
+			<evt idEvt="160128.174039">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.21">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Réarmement PDL</commentaires>
+			<evt idEvt="191003.161129">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191003.161129">
+				<commentaire>Mise à jour de la station.</commentaire>
+				<fin>2020.01.22</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

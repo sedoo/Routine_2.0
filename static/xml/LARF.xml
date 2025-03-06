@@ -1,0 +1,456 @@
+<?xml version="1.0" ?>
+<!-- fichier LARF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>LARF</nom>
+	<identifiant>---</identifiant>
+	<pwd>---</pwd>
+	<ip>---</ip>
+	<tel>05 59 28 75 84</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>modem 56k</lienModem>
+	<lienNumeriseur>modem 56k</lienNumeriseur>
+	<divers>
+	</divers>
+        <entretien date="2020.06.12"/>
+	<historique>
+		<evenement date="2014.03.18" idEvt="140414.100625">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.03.18</debut>
+			<description>Des chenilles apparaissent très fréquemment sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140414.100625</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.17</fin>
+		</evenement>
+		<evenement date="2014.04.14" idEvt="140414.100822">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.04.14</debut>
+			<description>Le signal est filtré sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140414.100822</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.06.12</fin>
+		</evenement>
+		<evenement date="2014.02.16" idEvt="140408.103723">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.02.16</debut>
+			<description>Problème récurent a Larrau cause par France Telecom</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140408.103723</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.17</fin>
+		</evenement>
+		<evenement date="2014.07.17" idEvt="140717.203627">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>140717.203627</idEvt>
+			<description>capteur légèrement débullé</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.07.17</debut>
+			<stationID>LARF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>Pb</connRouteurModem>
+			<etatSignal>HS</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.07.17</fin>
+		</evenement>
+		<evenement date="2015.02.15" idEvt="150303.144623">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.02.15</debut>
+			<description>Problème de dialogue avec le superviseur: la ligne téléphonique passe par une antenne hertzienne.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150303.144623</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.01.12</fin>
+		</evenement>
+		<evenement date="2015.02.01" idEvt="150304.090456">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>150304.090456</idEvt>
+			<description>Le télécode ne prend plus le top.</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.02.01</debut>
+			<stationID>LARF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>Pb</connRouteurModem>
+			<etatSignal>OK</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2015.03.01</fin>
+		</evenement>
+		<evenement date="2015.12.03" idEvt="151203.145734">
+			<typeEvt>autre</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.12.03</debut>
+			<description>Le télécode n'arrive pas à synchroniser la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151203.145734</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.01.12</fin>
+		</evenement>
+		<evenement date="2016.03.18" idEvt="160318.092603">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.03.18</debut>
+			<description>La voie Z est instable.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160318.092603</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.03.22</fin>
+		</evenement>
+		<evenement date="2016.03.24" idEvt="160324.085012">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.03.24</debut>
+			<description>La synchro avec le télécode ne prend pas.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160324.085012</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.04.14</fin>
+		</evenement>
+		<evenement date="2016.01.01" idEvt="170110.092749">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.01.01</debut>
+			<description>Une liaison qui se fait très occasionnellement dût à un passage par Hertzien.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170110.092749</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.05.30</fin>
+		</evenement>
+		<evenement date="2017.05.15" idEvt="170522.093139">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.05.15</debut>
+			<description>Ligne coupée.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170522.093139</idEvt>
+			<connRouteurModem>Pb</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.05.30</fin>
+		</evenement>
+		<evenement date="2018.01.18" idEvt="180112.090504">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.01.18</debut>
+			<description>La station ne synchronise pas à l'appel.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180112.090504</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>Pb</GPSTempsg>
+			<fin>2018.02.23</fin>
+		</evenement>
+		<evenement date="2018.06.08" idEvt="180618.095325">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.06.08</debut>
+			<description>Pas de réponse.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180618.095325</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.07.04</fin>
+		</evenement>
+		<evenement date="2018.10.15" idEvt="181008.111708">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.10.15</debut>
+			<description>De nombreuses impulsions apparaissent sur le signal (plus de 50 déclenchements/j).</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>181008.111708</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>LARF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.12.17</fin>
+		</evenement>
+		<evenement date="2018.12.09" idEvt="181206.090619">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>181206.090619</idEvt>
+			<description>Le modem est joignable mais la connexion est de très mauvaise qualité: beaucoup de friture. C'est possible que ce soit dût à le météo.</description>
+			<battCharg>OK</battCharg>
+			<debut>2018.12.09</debut>
+			<stationID>LARF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.12.11</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.06.12">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Capteur rebullé + Entretien et élagage </commentaires>
+			<evt idEvt="140408.103723"/>
+			<evt idEvt="140414.100822">
+				<commentaire>Capteur remis de niveau</commentaire>
+				<fin>2014.06.12</fin>
+			</evt>
+			<evt idEvt="140414.100625"/>
+		</intervention>
+		<intervention date="2014.07.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le capteur était légèrement débullé, je l'ai remis de niveau. Tout semblait ok depuis Toulouse à part des glishes qui sont apparus en suivant de mon intervention ..... Reset de Sébastien et tout est ok à mon départ</commentaires>
+			<evt idEvt="140408.103723"/>
+			<evt idEvt="140414.100625">
+				<commentaire>Re-bullage</commentaire>
+				<fin>2014.07.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2014.07.17">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="140408.103723">
+				<fin>2014.07.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.02.19">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Pb de dialogue avec la station, sur place tout semble ok. Sauf que quand je veux appeler Sébastien avec la ligne analogique, impossible ... J'ai pu appeler avec le portable d'un peu plus loin et Orange me confirme qu'une intervention est prévue dans l'après midi sur la partie hertzienne, à suivre.</commentaires>
+		</intervention>
+		<intervention date="2016.01.12">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>J'ai changé le télécode ainsi que la batterie, la synchro (temps) se fait correctement maintenant. </commentaires>
+			<evt idEvt="151203.145734">
+				<fin>2016.01.12</fin>
+			</evt>
+			<evt idEvt="150303.144623">
+				<fin>2016.01.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.03.22">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				J'avais mis l'ancien capteur L4C de Moulis et malgré tout un problème sur la voix Z, persistait.
+Cette fois ci j'ai changé la station Tabatha par la station donnée par Grenoble :  010-0085, en vérifiant la connectique du cable capteur coté station, j'ai constaté qu'un fil en position 6 était peut être un peu en retrait, je l'ai bien remis.
+Maintenant le signal semble ok, par contre la synchro temps par le DCF n'avait toujours pas été prise à mon départ, je n'avais pas de DCF de rechange mais celui là semble fonctionner correctement (la pile est à 3,7 v)
+			</commentaires>
+			<evt idEvt="160318.092603">
+				<fin>2016.03.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.04.14">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				DCF changé, la synchro temps fonctionne à nouveau.
+Il faut commander des piles pour les DCF je n'en ai plus.
+Cabane restaurée mais elle n'est pas neuve, vivement que l'on déménage à Iraty
+			</commentaires>
+			<evt idEvt="160324.085012">
+				<commentaire>
+				</commentaire>
+				<fin>2016.04.14</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.15">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le cale téléphonique a été arraché par ? un camion ?
+En tout cas une intervention a été demandée pour le réinstaller au 3901, mais visiblement il faut faire appeler le 0800004843 (ils m'ont contacté) à  suivre ...
+			</commentaires>
+			<evt idEvt="170110.092749">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170522.093139">
+				<commentaire>Appel FT : un technicien est intervenu vendredi et a constaté que la ligne est coupée. Une nouvelle intervention est programmée pour aujourd'hui.</commentaire>
+			</evt>
+			<evt idEvt="170110.092749">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.05.30">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>J'ai scéllé un nouveau piquet d'arrimage a coté de la cabane et Orange a pu y fixer un nouveau câble, le câble arraché sûrement par un tracteur ayant disparu. Le répartiteur ayant lui aussi été arraché, Orange y travaille encore ce matin et la ligne sera à nouveau ok.</commentaires>
+			<evt idEvt="170522.093139">
+				<commentaire>
+				</commentaire>
+				<fin>2017.05.30</fin>
+			</evt>
+			<evt idEvt="170110.092749">
+				<commentaire>
+				</commentaire>
+				<fin>2017.05.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.02.23">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				La batterie était à 10,40v, je l'ai changée et tout fonctionne à nouveau.
+Test depuis Toulouse ok
+			</commentaires>
+			<evt idEvt="180112.090504">
+				<commentaire>Batterie changée.</commentaire>
+				<fin>2018.02.23</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180618.095325">
+				<commentaire>Appel FT: la ligne semble être OK.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.27">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Sur place pas de tonalité sur le combiné de test, impossible d'appeler ni de recevoir un appel.
+J'appelle Orange pour un nouveau test et pour eux la ligne est bonne .... le problème doit venir de la partie hertzienne, un technicien se déplace demain à partir de 10h00.
+Batterie et panneaux solaires ok, la station fonctionne normalement mis à part cela.
+			</commentaires>
+			<evt idEvt="180618.095325">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.06.28">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Orange est intervenu, de leur coté le problème a été résolu, aujourd'hui toutefois le modem reste injoignable, à voir les prochains jours</commentaires>
+			<evt idEvt="180618.095325">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.03">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Un nouveau défaut est détecté par Orange, une intervention est programmée pour ce mercredi</commentaires>
+			<evt idEvt="180618.095325">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.04">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>intervention d'un technicien sur la ligne ou un &quot;manchon avait sauté&quot;</commentaires>
+			<evt idEvt="180618.095325">
+				<commentaire>
+				</commentaire>
+				<fin>2018.07.04</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.07.04">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Joël étant en maladie, j'ai demandé à Xavier Buffo d'aller voir notre installation.
+En plein préparatif pour un festival il y passe quand il peut.
+Je rappelle Joël lundi s'il le faut
+			</commentaires>
+		</intervention>
+		<intervention date="2018.12.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Nous avons retiré le capteur et l'ensemble de la station ce jour. La cabane était vraiment au bout du rouleau, je n'ai récupéré que la porte et le panneau solaire ... le reste à moitié ou complètement pourri est parti à la déchetterie.
+Le cable téléphone a été roulé et accroché au pylone.
+			</commentaires>
+			<evt idEvt="181008.111708">
+				<commentaire>Démontage cabane</commentaire>
+				<fin>2018.12.17</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

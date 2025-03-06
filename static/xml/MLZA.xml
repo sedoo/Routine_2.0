@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<!-- fichier MLZA.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>MLZA</nom>
+	<identifiant>---</identifiant>
+	<pwd>---</pwd>
+	<ip>omp-mlza.dyndns.info</ip>
+	<tel>---</tel>
+        
+	<divers> </divers>
+	<historique>
+		<evenement date="2019.09.06" idEvt="190909.104323">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.06</debut>
+			<description>Une mauvaise configuration de l'armoire entraîne des rebots en continu du modem GSM.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190909.104323</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MLZA</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.10</fin>
+		</evenement>
+		<evenement date="2019.11.08" idEvt="191108.165536">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.08</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191108.165536</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>MLZA</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.24</fin>
+		</evenement>
+		<evenement date="2019.11.18" idEvt="191118.085201">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.18</debut>
+			<description>Perte d'alimentation.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191118.085201</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>MLZA</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.26</fin>
+		</evenement>
+		<evenement date="2020.01.24" idEvt="200124.090643">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2020.01.24</debut>
+			<description>Perte de tension.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>200124.090643</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MLZA</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.01.27</fin>
+		</evenement>
+	</historique>
+        
+	<entretien date="2020.12.12"/>
+	<interventions>
+		<intervention date="2019.07.02">
+			<commentaires>test</commentaires>
+		</intervention>
+		<intervention date="2018.07.19">
+			<intervenant>Hélène et Frank</intervenant>
+			<commentaires>
+				INSTALLATION MATÉRIEL SCIENTIFIQUE et PHOTOVOLTAIQUE&lt;br&gt;
+Présence de l'entreprise Bleu Ciel Energie (Marc Parent) pour monter la structure solaire (cf photo). &lt;br&gt;
+Cette structure est orientée S-E.&lt;br&gt;
+Installation des armoires ABAC. Pas de modem GSM car pas de carte SIM. L'antenne est en place, il est prévue de la déplacer pour la fixer sur la structure solaire (signal GSM faible). Frank va réaliser un support.&lt;br&gt;
+Nettoyage de la baie qui était recouverte de plante.&lt;br&gt;
+Installation du capteur en fond de puits. Le capteur ne se pose pas correctement au fond. Il est maintenu au dessus du fond (orienté ~ +5°) pendant qu'il est enseveli avec du sable qui vient le stabiliser.&lt;br&gt;
+La première nuit d'enregistrement, on observe des glitchs, le câble est détendu (spirale) le 20 juin à 10:00 (local).&lt;br&gt;
+Mesure d'orientation : Le capteur Guralp est placé dans un regard situé dans la dalle derrière la baie. Les mesures réalisées la nuit ne sont pas bonnes (pb sur une des voies du CMG40). On effectue un recentrage manuel des voies et la chaîne de mesure D3BBMOD+CMG40 est laissée sur site.&lt;br&gt;
+&lt;br&gt;
+RAF:&lt;br&gt;
+- Installer modem GSM et déplacer antenne.&lt;br&gt;
+- Mettre un panneau d'information.&lt;br&gt;
+- Mettre la doc de l'armoire ABC.&lt;br&gt;
+- Récupérer données pour mesure d'orientaion.&lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.07.17">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Installation du modem 3G Etic IPL-C-100-LE S/N 190012564. Je n'ai pas déplacé l'antenne, la réception est correct.&lt;br&gt;
+J'ai récupéré la chaîne pour la mesure d'orientation (D3BBMOB 0482 et CMG40 T43687) : le capteur en fond de puits est orienté N11°.&lt;br&gt;
+J'ai récupéré les données du 19/06/2010 au 17/07/2019. Ci-joint les PSD.&lt;br&gt;
+			</commentaires>
+		</intervention>
+		<intervention date="2019.09.10">
+			<intervenant>Hélène</intervenant>
+			<commentaires>j'ai retendu le câble capteur. Il est fixé au tube avec des colliers </commentaires>
+			<evt idEvt="190909.104323">
+				<commentaire>OFF de la fonction redémarrage sur perte de connexion</commentaire>
+				<fin>2019.09.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.26">
+			<intervenant>---</intervenant>
+			<evt idEvt="191118.085201">
+				<commentaire>Le soleil a rechargé les batteries.</commentaire>
+				<fin>2019.11.26</fin>
+			</evt>
+			<evt idEvt="191108.165536">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.24">
+			<intervenant>---</intervenant>
+			<evt idEvt="191108.165536">
+				<commentaire>Les communications ne sont plus coupées.</commentaire>
+				<fin>2019.11.24</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.01.27">
+			<intervenant>---</intervenant>
+			<evt idEvt="200124.090643">
+				<commentaire>La tesnsion est revenue.</commentaire>
+				<fin>2020.01.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.05.14">
+			<intervenant>TEST</intervenant>
+		</intervention>
+	</interventions>
+</station>

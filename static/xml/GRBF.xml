@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<!-- fichier GRBF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>GRBF</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>***</ip>
+	<tel>06 17 12 98 13</tel>
+	<materielDivers>modem GSM, station sur panneaux</materielDivers>
+	<lienModem>modem 56k</lienModem>
+	<lienNumeriseur>modem 56k</lienNumeriseur>
+	<divers>
+	</divers>
+	<historique>
+		<evenement date="2014.04.23" idEvt="140428.091115">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140428.091115</idEvt>
+			<description>La voie Z est occasionnellement filtrée</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.23</debut>
+			<stationID>GRBF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.06.23</fin>
+		</evenement>
+		<evenement date="2014.09.20" idEvt="140922.100827">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.09.20</debut>
+			<description>Signal filtré sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140922.100827</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GRBF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.10.03</fin>
+		</evenement>
+		<evenement date="2014.11.01" idEvt="141117.095914">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.11.01</debut>
+			<description>Les voies nord et est sont filtrées.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>141117.095914</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GRBF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.17</fin>
+		</evenement>
+		<evenement date="2015.03.16" idEvt="150316.093605">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.03.16</debut>
+			<description>Voie E HS.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150316.093605</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GRBF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.05.06</fin>
+		</evenement>
+		<evenement date="2015.04.01" idEvt="150407.111829">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.04.01</debut>
+			<description>La tension de batterie est faible</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>150407.111829</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GRBF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.05.06</fin>
+		</evenement>
+		<evenement date="2015.05.18" idEvt="150518.093720">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>150518.093720</idEvt>
+			<description>filtre sur la voie N</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.05.18</debut>
+			<stationID>GRBF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.10.03">
+			<intervenant>Pauchet</intervenant>
+			<commentaires>Sable au fond du trou.</commentaires>
+			<evt idEvt="140922.100827">
+				<commentaire>Re-bullage capteur</commentaire>
+				<fin>2014.10.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.02.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Liaison impossible à cause du GSM, mais pas de réseau dans le village depuis que la neige est tombée, donc il faut attendre ....</commentaires>
+			<evt idEvt="141117.095914">
+				<commentaire>capteur recentré</commentaire>
+				<fin>2015.02.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.05.06">
+			<intervenant>Seb</intervenant>
+			<commentaires>Le capteur était complètement débullé à mon arrivée.</commentaires>
+			<evt idEvt="150407.111829">
+				<commentaire>Changement de batterie</commentaire>
+				<fin>2015.05.06</fin>
+			</evt>
+			<evt idEvt="150316.093605">
+				<commentaire>Sismo rebullé</commentaire>
+				<fin>2015.05.06</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.05.22">
+			<intervenant>Helene et Seb</intervenant>
+			<commentaires>
+				La voie N filtre encore malgré un capteur correctement bullé. Il semblerait que ce soit dût plutôt à un problème au niveau du capteur.
+Le problème étant sur une voie horizontale et la voie verticale étant correcte, on va laisser cela en l'état.
+			</commentaires>
+			<evt idEvt="150518.093720">
+				<commentaire>Capteur rebullé et callé.</commentaire>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

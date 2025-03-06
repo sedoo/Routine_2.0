@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>BILAN SUPERVISION RESEAUX SISMOLOGIQUES OMP</title>
+<!--        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery.cookie-consent/dist/jquery.cookie-consent.min.js"></script>
+        <link type="text/css" href="{{url_for('static', filename='./css/style.css')}}" rel="stylesheet" />
+        <link type="text/css" href="{{url_for('static', filename='./css/styleForm.css')}}" rel="stylesheet" />
+        <link type="text/css" href="{{url_for('static', filename='./css/calendar.css')}}" rel="stylesheet" />
+        <script type="text/javascript" src="{{url_for('static', filename='./js/index.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='./js/pwd.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='./js/calendar.js')}}"></script>
+        {% block head %}{% endblock %}
+    </head>
+    <body onload="pwd()">
+    <!<body>
+        <h1>BILAN SUPERVISION RESEAUX SISMOLOGIQUES OMP<span>2.0</span></h1>
+        <div id="menu">
+            <a href="{{url_for('listeStations')}}">Index</a>
+            <a href="{{url_for('CR_intervention')}}">Compte rendu d'intervention</a>
+            <a href="{{url_for('HI_interventions')}}">Historique des interventions</a>
+            <a href="{{url_for('listePhotos')}}">Photos des stations</a>
+            <a href="{{url_for('carteStations')}}">Carte des stations</a>
+        </div>
+        {% block contenu %}{% endblock %}
+    </body>
+</html>

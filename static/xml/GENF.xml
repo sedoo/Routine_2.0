@@ -1,0 +1,635 @@
+<?xml version="1.0" ?>
+<!-- fichier GENF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>GENF</nom>
+	<identifiant>fti/zp9be2d</identifiant>
+	<pwd>ckzbdbd</pwd>
+	<ip>80.15.71.36</ip>
+	<tel>05 61 64 75 77</tel>
+	<materielDivers>modem 3G</materielDivers>
+	<lienModem>http://omp-genf.dyndns.info:8080</lienModem>
+	<lienNumeriseur>http://omp-genf.dyndns.info</lienNumeriseur>
+	<divers>tel mairie: 05 61 64 80 2</divers>
+        
+	<entretien date="2020.12.09" motif="Entretien - Coller panneau RESIF"/>
+	<historique>
+		<evenement date="2014.04.23" idEvt="140428.091115">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>140428.091115</idEvt>
+			<description>La voie Z est occasionnellement filtrée</description>
+			<battCharg>OK</battCharg>
+			<debut>2014.04.23</debut>
+			<stationID>GRBF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.06.23</fin>
+		</evenement>
+		<evenement date="2014.09.20" idEvt="140922.100827">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.09.20</debut>
+			<description>Signal filtré sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140922.100827</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GRBF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.10.03</fin>
+		</evenement>
+		<evenement date="2014.11.01" idEvt="141117.095914">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.11.01</debut>
+			<description>Les voies nord et est sont filtrées.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>141117.095914</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GRBF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.17</fin>
+		</evenement>
+		<evenement date="2015.03.16" idEvt="150316.093605">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.03.16</debut>
+			<description>Voie E HS.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150316.093605</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GRBF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.05.06</fin>
+		</evenement>
+		<evenement date="2015.04.01" idEvt="150407.111829">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.04.01</debut>
+			<description>La tension de batterie est faible</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>150407.111829</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GRBF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.05.06</fin>
+		</evenement>
+		<evenement date="2015.12.01" idEvt="150518.093720">
+			<etat>Pb</etat>
+			<typeEvt>autre</typeEvt>
+			<idEvt>150518.093720</idEvt>
+			<description>filtre sur la voie N</description>
+			<battCharg>OK</battCharg>
+			<debut>2015.12.01</debut>
+			<stationID>GENF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.01.10</fin>
+		</evenement>
+		<evenement date="2015.12.01" idEvt="151130.113229">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.12.01</debut>
+			<description>Du bruit haute fréquence apparaît périodiquement.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151130.113229</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.09.27</fin>
+		</evenement>
+		<evenement date="2016.01.04" idEvt="160115.092245">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.01.04</debut>
+			<description>
+				La connexion est aléatoire : la couverture GSM est faible.
+Rien à faire.
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160115.092245</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>Pb</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.02.24</fin>
+		</evenement>
+		<evenement date="2016.03.21" idEvt="160318.170453">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.03.21</debut>
+			<description>La tension est très basse (10V)</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>160318.170453</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.03.29</fin>
+		</evenement>
+		<evenement date="2016.12.12" idEvt="161215.091350">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2016.12.12</debut>
+			<description>La tension baisse régulièrement depuis une semaine.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>161215.091350</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.12.14</fin>
+		</evenement>
+		<evenement date="2017.08.25" idEvt="170904.124945">
+			<etat>HS</etat>
+			<typeEvt>battCharg</typeEvt>
+			<idEvt>170904.124945</idEvt>
+			<description>Pas de réponse de la station.</description>
+			<battCharg>OK</battCharg>
+			<debut>2017.08.25</debut>
+			<stationID>GENF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>HS</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.11.15</fin>
+		</evenement>
+		<evenement date="2019.03.09" idEvt="190311.091607">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.03.09</debut>
+			<description>Depuis le 9 mars, le chargeur n'est plus alimenté. Problème d'éclairage ?</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>190311.091607</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.03.12</fin>
+		</evenement>
+		<evenement date="2019.03.22" idEvt="190319.153133">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.03.22</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190319.153133</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.03.22</fin>
+		</evenement>
+		<evenement date="2019.03.29" idEvt="190401.084901">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.03.29</debut>
+			<description>La station n'est plus alimentée depuis plusieurs jours. On retrouve les mêmes symptômes que lors de la précédente panne. </description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190401.084901</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.04.18</fin>
+		</evenement>
+		<evenement date="2019.04.28" idEvt="190502.091642">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.04.28</debut>
+			<description>La batterie n'est de nouveau pas chargée depuis le 28/04.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190502.091642</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.05.03</fin>
+		</evenement>
+		<evenement date="2019.07.03" idEvt="190703.162134">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.03</debut>
+			<description>Pas d'alimentation la nuit du 3/4 juillet.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190703.162134</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.07.14</fin>
+		</evenement>
+		<evenement date="2019.07.20" idEvt="190722.085704">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.20</debut>
+			<description>Les disjoncteur a encore sauté.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190722.085704</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.13</fin>
+		</evenement>
+		<evenement date="2019.09.01" idEvt="190902.101248">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.09.01</debut>
+			<description>Le chargeur de la batterie ne s'est pas activé dans la nuit du 1/9 au 2/9. PDL ?</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>190902.101248</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.11</fin>
+		</evenement>
+		<evenement date="2019.09.19" idEvt="190918.133545">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.09.19</debut>
+			<description>Plus de secteur à Genat.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>190918.133545</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.10.01</fin>
+		</evenement>
+		<evenement date="2019.11.19" idEvt="191120.084618">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.19</debut>
+			<description>Pas de dialogue avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191120.084618</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>GENF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.29</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.10.03">
+			<intervenant>Pauchet</intervenant>
+			<commentaires>Sable au fond du trou.</commentaires>
+			<evt idEvt="140922.100827">
+				<commentaire>Re-bullage capteur</commentaire>
+				<fin>2014.10.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.02.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Liaison impossible à cause du GSM, mais pas de réseau dans le village depuis que la neige est tombée, donc il faut attendre ....</commentaires>
+			<evt idEvt="141117.095914">
+				<commentaire>capteur recentré</commentaire>
+				<fin>2015.02.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.05.06">
+			<intervenant>Seb</intervenant>
+			<commentaires>Le capteur était complètement débullé à mon arrivée.</commentaires>
+			<evt idEvt="150407.111829">
+				<commentaire>Changement de batterie</commentaire>
+				<fin>2015.05.06</fin>
+			</evt>
+			<evt idEvt="150316.093605">
+				<commentaire>Sismo rebullé</commentaire>
+				<fin>2015.05.06</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.05.22">
+			<intervenant>Helene et Seb</intervenant>
+			<commentaires>
+				La voie N filtre encore malgré un capteur correctement bullé. Il semblerait que ce soit dût plutôt à un problème au niveau du capteur.
+Le problème étant sur une voie horizontale et la voie verticale étant correcte, on va laisser cela en l'état.
+			</commentaires>
+			<evt idEvt="150518.093720">
+				<commentaire>Capteur rebullé et callé.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.02.24">
+			<intervenant>Seb</intervenant>
+			<commentaires>Le fil de l'antenne est sectionné au niveau de l'antenne. Celui-ci est maintenant bloqué dans le pas de vis de l'antenne. Prévoir une nouvelle antenne à la prochaine intervention.</commentaires>
+			<evt idEvt="160115.092245">
+				<commentaire>L'antenne est maintenant posée sur un mat (voir photo).</commentaire>
+				<fin>2016.02.24</fin>
+			</evt>
+			<evt idEvt="151130.113229"/>
+			<evt idEvt="150518.093720"/>
+		</intervention>
+		<intervention date="2016.03.29">
+			<intervenant>Seb</intervenant>
+			<commentaires>J'en ai profité pour aussi changer l'antenne GSM : le fil ne tenait plus que par une réparation de fortune.</commentaires>
+			<evt idEvt="160318.170453">
+				<commentaire>Changement de batterie.</commentaire>
+				<fin>2016.03.29</fin>
+			</evt>
+			<evt idEvt="151130.113229"/>
+			<evt idEvt="150518.093720"/>
+		</intervention>
+		<intervention date="2016.11.17">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Batterie changée la tension baissait (11.40v), normal le panneau solaire était au sol coté cellules. Cela ressemble plus a du vendalisme (des gamins ?) qu'à des animaux qui sont passés par là. Je l'ai bien refixé. A suivre ...
+Je joins 4 photos des travaux électriques effectués : pylone à coté de la dalle, cable tiré depuis le lampadaire d'en face et disjoncteur directement sur le pylone.
+			</commentaires>
+			<evt idEvt="151130.113229">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="150518.093720">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2016.12.14">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="161215.091350">
+				<commentaire>Le regulateur était débranché. Changement de batterie et remise en place du régulateur.</commentaire>
+				<fin>2016.12.14</fin>
+			</evt>
+			<evt idEvt="151130.113229">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="150518.093720">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2017.10.20">
+			<intervenant>Sebastien &amp; Helene</intervenant>
+			<commentaires>
+				Passage station CP ==&gt; LB.
+Matériel installé:
+- Capteur T120PH S/N 0658 installé en forage à 4m de profondeur.
+- Numériseur Centaur 6 S/N 2827 (HH 100Hz et BH 20Hz).
+- Modem/routeur TP-link AC1750 S/N 2155172001511.
+Le numériseur et le modem sont alimentés par des batteries différentes
+A noter que la station est alimentée en 220V uniquement la nuit.
+L'habillage bois est fragile. Lors du prochain passage, il faudra mettre une couche de protection pour le bois.
+			</commentaires>
+			<evt idEvt="151130.113229">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.27">
+			<intervenant>Matthieu et Hélène</intervenant>
+			<commentaires>Installation ce jour de l'armoire ABAC S/N 18.</commentaires>
+			<evt idEvt="151130.113229">
+				<commentaire>L'origine du bruit est identifié : les forges de Niaux</commentaire>
+				<fin>2018.09.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.12">
+			<intervenant>Helene</intervenant>
+			<commentaires>Comme cette station est alimentée sur l'éclairage public, j'ai regardé son état ce soir pour constaté qu'elle était bien alimentée et que l'éclairage public de Génat est OK, mais le disjoncteur général de l'armoire ABAC était ouvert.</commentaires>
+			<evt idEvt="190311.091607">
+				<commentaire>ON/OFF sur le disjoncteur général.</commentaire>
+				<fin>2019.03.12</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190319.153133">
+				<commentaire>Test Orange: un problème a été identifié sur la ligne. Une intervention est programmée aujourd'hui avant 18H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.03.22">
+			<intervenant>???</intervenant>
+			<evt idEvt="190319.153133">
+				<commentaire>La liaison est réablie.</commentaire>
+				<fin>2019.03.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.04">
+			<intervenant>Seb</intervenant>
+			<commentaires>Visite du Technicien Orange: Après un test du modem, branché en direct sur batterie et sur la prise RJ11.Il en a conclu un problème entre la sortie RJ11 et le modem (parafoudre???). Après son départ, j'ai examiné et enfoncé au maximum les branchements aux bornes du parafoudre. Les photos ont été prises avant mon départ. Un dernier détail: l'habillage en bois semble vieillir rapidement peut être qu'un traitement du bois sera nécessaire assez rapidement.</commentaires>
+			<evt idEvt="190401.084901">
+				<commentaire>Le disjoncteur était ouvert, la TBOX en mode SAUVEGARDE semblait insensible à l'état de l'armoire. Après la fermeture du disjoncteur aucun test n'a pût être efféctué.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.18">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				A mon arrivée, pas d'éclairage public. Le disjoncteur général était fermé, tout était éteint. Les batteries étaient chargées.&lt;br&gt;
+L'éclairage public se met en route (soubresaut), La platine BT montre présence tension secteur, sur la platine TBT rien ne se passe.&lt;br&gt;
+Le chargeur fonctionne (batterie en charge).&lt;br&gt;
+Je ferme et ouvre le sectionneur --&gt; rien.&lt;br&gt;
+J'ouvre batterie 1 et 2 et batterie TBOX, j'ouvre et ferme le sectionneur --&gt; rien.&lt;br&gt;
+J'ouvre le sectionneur, attend 1mn et ferme le sectionneur, tout démarre (modem compris).&lt;br&gt;
+Tests avec présence secteur: si je descende le disjoncteur a la main, rien ne se passe le Tbox reste en mode croisière, seul le voyant état/présence tension secteur s'éteint. Le disjoncteur ne réarme pas.
+NB: Réarmement disjoncteur général sur OFF, impossible de le monter sur ON.&lt;br&gt;
+j'ai posé le câble DTI/PARA et la prise de terre 
+			</commentaires>
+			<evt idEvt="190401.084901">
+				<commentaire>
+				</commentaire>
+				<fin>2019.04.18</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.02">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190502.091642">
+				<commentaire>D'après les voyants/états de l'armoire ABAC, il semblerait que le PDL soit ouvert.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.05.03">
+			<intervenant>Hélène</intervenant>
+			<evt idEvt="190502.091642">
+				<commentaire>Réarmement du disjoncteur principal de l'armoire à distance.</commentaire>
+				<fin>2019.05.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.09">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190703.162134">
+				<commentaire>Changement de durée du mode ecoute: 60s =&gt; 6000s</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.10">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190703.162134">
+				<commentaire>Le test de réarmement nocture d'Hélène n'a rien donné. Je repasse le mode ECO de 6000s à 60s.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.14">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190703.162134">
+				<commentaire>Réamorçage du disjoncteur EDF.</commentaire>
+				<fin>2019.07.14</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.13">
+			<intervenant>mairie</intervenant>
+			<evt idEvt="190722.085704">
+				<commentaire>Une personne de la mairie a remonté le disjoncteur différentiel placé sur le poteau à l'extèrieur de l'armoire.</commentaire>
+				<fin>2019.08.13</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.11">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Le site est entretenu : herbe coupé sur le chemin et autour de la station.
+J'ai rencontré un des habitants à l'année et lui ai montré l'installation et le disjoncteur en question. On peut lui envoyer un SMS pour aller remonter le disjoncteur.
+			</commentaires>
+			<evt idEvt="190902.101248">
+				<commentaire>J'ai remonté le disjoncteur sur le poteau extèrieur</commentaire>
+				<fin>2019.09.11</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.01">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Appel d'un adjoint : &lt;br&gt;
+- des travaux d'enfouissement de lignes sont en cours et ce pour quelques mois.&lt;br&gt;
+- Les coupures nocturnes de l'éclairage public sont effectives depuis une dizaine de jours.&lt;br&gt;
+- La mairie est maintenant ouverte le mardi toute la journée.&lt;br&gt;
+			</commentaires>
+			<evt idEvt="190918.133545">
+				<commentaire>Le menuisier est intervenu le 20/09/19.</commentaire>
+				<fin>2019.10.01</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.22">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191120.084618">
+				<commentaire>Appel FT: Un problème a été identifié, un RDV est nécessaire.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.22">
+			<intervenant>Hélène</intervenant>
+			<commentaires>J'ai RDV avec un technicien d'Orange lundi entre 13h00 et 18h00.</commentaires>
+			<evt idEvt="191120.084618">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.25">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Vérification de nos installations : tout fonctionne normalement sauf le modem qui ne voit pas la ligne ADSL.&lt;br&gt;
+J'ai modifié le branchement sur le para-surtenseur ADSL, testé en me connectant directement sur la prise DTI et avec un autre modem sans succès.&lt;br&gt;d
+Je n'ai pas attendu les techniciens d'Orange et poussé la porte de la baie de façon à ce qu'il puisse l'ouvrir sans clé.&lt;br&gt;.
+Orange a finalement reporté le rdv à mercredi (Technicien sur urgence...).&lt;br&gt;
+			</commentaires>
+			<evt idEvt="191120.084618">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.29">
+			<intervenant>Technicien</intervenant>
+			<evt idEvt="191120.084618">
+				<commentaire>Intervention technicien Telecom</commentaire>
+				<fin>2019.11.29</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

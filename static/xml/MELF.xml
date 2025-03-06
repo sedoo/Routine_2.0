@@ -1,0 +1,491 @@
+<?xml version="1.0" ?>
+<!-- fichier MELF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>MELF</nom>
+	<identifiant>***</identifiant>
+	<pwd>***</pwd>
+	<ip>82.127.11.130</ip>
+	<tel>05 61 79 17 45</tel>
+	<materielDivers>station sur panneaux</materielDivers>
+	<lienModem>modem 56k</lienModem>
+	<lienNumeriseur>modem 56k</lienNumeriseur>
+	<divers>Mairie de Melles 05 61 79 41 66 un technicien peut se déplacer.</divers>
+        
+	<entretien date="2020.06.29" motif="- Le gond inférieur de la porte en bois est cassé : changer le gond ou refaire la soudure.&lt;br&gt; - Réaliser la protection contre la condensation.&lt;br&gt;"/>
+	<historique>
+		<evenement date="2015.10.16" idEvt="151016.095255">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.10.16</debut>
+			<description>Voie nord HS occasionnelement.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151016.095255</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.09.27</fin>
+		</evenement>
+		<evenement date="2016.04.27" idEvt="160427.091207">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.04.27</debut>
+			<description>Filtre sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160427.091207</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.09.27</fin>
+		</evenement>
+		<evenement date="2018.09.27" idEvt="180926.091055">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.09.27</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180926.091055</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.09.26</fin>
+		</evenement>
+		<evenement date="2019.01.27" idEvt="190129.113310">
+			<typeEvt>connStation</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.01.27</debut>
+			<description>Perte de connexion le 27/01/19 à 13:04 TU. </description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190129.113310</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.02.06</fin>
+		</evenement>
+		<evenement date="2019.04.15" idEvt="190417.084258">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.04.15</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190417.084258</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.04.19</fin>
+		</evenement>
+		<evenement date="2019.06.15" idEvt="190617.085051">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.06.15</debut>
+			<description>La station s'est mise en mode ECO depuis le 15 à la suite d'une chute brutale de la tension.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190617.085051</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.06.21</fin>
+		</evenement>
+		<evenement date="2019.07.04" idEvt="190704.085732">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.07.04</debut>
+			<description>Pas d'alimentation du chargeur.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190704.085732</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.07.10</fin>
+		</evenement>
+		<evenement date="2019.08.13" idEvt="190814.173219">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.08.13</debut>
+			<description>Le XP-Power (chargeur) de l'armoire TBT est HS.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190814.173219</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.08.21</fin>
+		</evenement>
+		<evenement date="2019.09.04" idEvt="190904.143221">
+			<typeEvt>autre</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.09.04</debut>
+			<description>Appel de M. Fourquet : la porte était ouverte et le cadenas a disparu. Tout est en place. M. Fourquet a fermé la porte avec un fil de fer. Remettre un cadenas  </description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190904.143221</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.30</fin>
+		</evenement>
+		<evenement date="2019.09.18" idEvt="190918.091018">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.09.18</debut>
+			<description>Pas de secteur.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>190918.091018</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.09.30</fin>
+		</evenement>
+		<evenement date="2019.10.02" idEvt="191002.091329">
+			<typeEvt>battCharg</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.10.02</debut>
+			<description>Pas d'alimentation.</description>
+			<battCharg>HS</battCharg>
+			<signal>???</signal>
+			<idEvt>191002.091329</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.10.05</fin>
+		</evenement>
+		<evenement date="2019.10.23" idEvt="191028.085643">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.10.23</debut>
+			<description>Secteur absent</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191028.085643</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.10.26</fin>
+		</evenement>
+		<evenement date="2019.11.07" idEvt="191108.084213">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.11.07</debut>
+			<description>Pas de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191108.084213</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.26</fin>
+		</evenement>
+		<evenement date="2019.12.17" idEvt="191217.122412">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.12.17</debut>
+			<description>Coupure d'alimentation.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>191217.122412</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>MELF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.12.17</fin>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2015.11.05">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Ce jour le capteur à été remis en place.</commentaires>
+			<evt idEvt="151016.095255"/>
+		</intervention>
+		<intervention date="2018.09.27">
+			<intervenant>Seb</intervenant>
+			<commentaires>Pendant le test téléphonique, les données ont été visibles quelques secondes.</commentaires>
+			<evt idEvt="180926.091055">
+				<commentaire>Appel FT: un problème a bien été identifié sur la ligne. Un RDV est nécéssaire.</commentaire>
+			</evt>
+			<evt idEvt="160427.091207">
+				<commentaire>
+				</commentaire>
+				<fin>2018.09.27</fin>
+			</evt>
+			<evt idEvt="151016.095255">
+				<commentaire>
+				</commentaire>
+				<fin>2018.09.27</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.26">
+			<intervenant>Helene</intervenant>
+			<commentaires>Passage de la station CP à la station LB. Installation Trillium 120PH (S/N 610) et Centaur (S/N 2781). Installation armoire ABAC (S/N 24). Validation du système de barre pour l'orientation du capteur en fond de puits. Il reste à modifier l'emplacement de la prise télécom qui est encore dans la cabane et à démonter la cabane.</commentaires>
+			<evt idEvt="180926.091055">
+				<commentaire>La connexion a été rétablie suite à l'appel au 3901</commentaire>
+				<fin>2018.09.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.10.18">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Nous avions rendez vous avec l'entreprise Cassagne pour tirer une ligne téléphonique jusqu'au nouvel emplacement de notre matériel. Le câble a été changé depuis le haut du pylône et une fiche DTI (encastrable) a été mise dans le coffret. Tout fonctionne. Cela nous sera facturé 70 €. La porte a été peinte et isolée, un joint a été mis tout autour du cadre métallique et l'antenne GPS passe dans la goulotte télécom sur le pylone. Range document et élévateur de Centaur .... viennent terminer l'installation.</commentaires>
+		</intervention>
+		<intervention date="2019.01.29">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Appel Orange : il existe un pb sur la ligne. Intervention du technicien le 6 février 2019 entre 8h00 et 13h00, Frank sera présent sur site.</commentaires>
+			<evt idEvt="190129.113310">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.02.06">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				RDV avec technicien entreprise Cassagne pour pb télécom. Sur place aucun soucis ADSL n'est détecté sur la ligne jusqu'à la prise DTI.
+Donc le problème vient de chez nous, effectivement le Modem et la TBox ne semblent pas alimentés, alors que la Centaur et le Hub fonctionnent très bien. Impossible de dialoguer avec le PC portable avec la TBox, nous décidons avec Hélène de remonter les fusibles et de sectionner l'arrivée électrique pour un reboot général. Tout rédémarre petit à petit et finalement le Modem et la TBox fonctionnent aussi.
+Après annalyse des incidents il semblerait que le 26 janvier il y ait eu une coupure électrique, reste à savoir pourquoi la TBox (et le Modem) n'a pas redémarré après. 
+A mon départ, tout fonctionne parfaitement. Hélène a envoyé un mail a l'assistance ABAC pour essayer de comprendre le problème, une mise à jour de la TBox a été également demandée par Hélène à Mr Douvillé.
+J'ai profité de cette intervention pour mettre les bons câbles de dialogue DTI-Parafoudre (gris) puis Parafoudre-Modem (bleu), ainsi que la mise à la terre du Modem.
+			</commentaires>
+			<evt idEvt="190129.113310">
+				<commentaire>
+				</commentaire>
+				<fin>2019.02.06</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190417.084258">
+				<commentaire>Appel FT: Un problème a bien été identifié, une intervention est programmée pour cet après-midi.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.18">
+			<intervenant>Seb</intervenant>
+			<commentaires>En examinant avec attention synapse, on remarque que la station donne des signes de vie périodiquement toutes les 6h. Il semblerait qu'elle ne soit plus alimentée. Je l'examinerais plus attentivement au prochain réveil.</commentaires>
+			<evt idEvt="190417.084258">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.18">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190417.084258">
+				<commentaire>Connexion à l'armoire ABAC: Mode Ecoute, les voyants semblent indiquer un problème au niveau du PDL. Une intervention s'impose.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.04.19">
+			<intervenant>Seb</intervenant>
+			<commentaires>La porte du boîtier électrique était à terre.</commentaires>
+			<evt idEvt="190417.084258">
+				<commentaire>Réarmement du PDL.</commentaire>
+				<fin>2019.04.19</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.17">
+			<intervenant>Seb</intervenant>
+			<commentaires>La chute brutale de la tension n'est pas exceptionnelle: le station étant alimentée par les batteries au lieu du chargeur. Cette remarque faisait suite à une erreur d’interprétation de ma part. Actuellement les batteries sont alimentées à 84% après 2 jours de décharge. Une intervention dans la semaine est à prévoir.</commentaires>
+			<evt idEvt="190617.085051">
+				<commentaire>D'après les indicateurs, tout porte à croire que le PDL est ouvert. Les manips ON/OFF sur le disjoncteur et reboot de l'API n'ont rien donné si ce n'est le retour en mode BATTERIE pour 1H.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190617.085051">
+				<commentaire>Etat du ciel (carte des eclairs) le 14/6 à 23h00 TU.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190617.085051">
+				<commentaire>Aucun incident n'est mentionné sur Melles par le site d'ENEDIS.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.21">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="190617.085051">
+				<commentaire>réarmement disjoncteur à coté Linky</commentaire>
+				<fin>2019.06.21</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.10">
+			<intervenant>Employé</intervenant>
+			<evt idEvt="190704.085732">
+				<commentaire>Réarmement du disjoncteur.</commentaire>
+				<fin>2019.07.10</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.08.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Après passage de l'employé municipal pour remonter le dijoncteur du PDL
+Le disjoncteur de l'armoire ABAC ne remonte pas, après analyse par Olivier Charade un déplacement est nécessaire.
+Sur place effectivement le disjoncteur dans l'armoire ne veut pas remonter, il y a bien un soucis électrique.
+Avec l'aide de Pierre Douville nous observons que c'est la partie alimentation (A13 sur la carte) le chargeur ? le cable qui relie la BT à la barette ? Il faut les changer ou changer tout le module. Hélène verra avec Olivier.
+			</commentaires>
+		</intervention>
+		<intervention date="2019.08.21">
+			<intervenant>Frank et Hélène</intervenant>
+			<commentaires>
+				Après avoir changé le chargeur, le disjoncteur général saute.
+A partir de l'IHM, ON/OFF du disjoncteur général et il reste monté. Cela veut dire que son état était off au niveau de la carte CGE et quand on le remonte manuellement, automatiquement il redescend.
+Le chargeur ramené à Toulouse doit être testé car, à priori, il n'est pas HS. 
+			</commentaires>
+			<evt idEvt="190814.173219">
+				<commentaire>Remplacement par le XP-Power S/N K16030118</commentaire>
+				<fin>2019.08.21</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.09.30">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le Cadena a bien été enlevé et a disparu, pas de dégâts. J'en ai remis un autre, plus un panneau qu'il me restait &quot;Expérience Sismologique&quot;
+Le coffret PDL était bien fermé et le disjoncteur &quot;Linky&quot; avait sauté
+			</commentaires>
+			<evt idEvt="190918.091018">
+				<commentaire>Réarmement PDL</commentaire>
+				<fin>2019.09.30</fin>
+			</evt>
+			<evt idEvt="190904.143221">
+				<commentaire>Nouveau Cadena</commentaire>
+				<fin>2019.09.30</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.05">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Réponse du SDEHG par rapport aux coupures fréquentes :
+D'après les plans que j'ai de votre raccordement électrique, vous vous trouvez en bout de ligne du Poste P7 PLAN DE MONT. 
+Je vais me rapprocher d'ENEDIS pour voir ensemble si la réalisation d'un renforcement de réseau pourrait diminuer vos chutes de tension. Selon le retour, je reviendrai vers vous pour vous dire ce que nous pouvons faire (Renforcement réseau (100% SDEHG) ou se retourner vers votre fournisseur ou ENEDIS?).
+			</commentaires>
+			<evt idEvt="191002.091329">
+				<commentaire>Gérard Raigne (contact Marie Larrieu) est passé remonté le disjoncteur.</commentaire>
+				<fin>2019.10.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.26">
+			<intervenant>Gérard</intervenant>
+			<evt idEvt="191028.085643">
+				<commentaire>Gérard Raigne a remonté le disjoncteur du PDL</commentaire>
+				<fin>2019.10.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.08">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191108.084213">
+				<commentaire>Test Orange: un default à été constaté sur la ligne, un technicien doit intervenir avant le 14/11 à 18h.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.12">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="191108.084213">
+				<commentaire>Des techniciens d'Orange sont intervenus et n'ont constaté aucun problème de ligne jusqu'à la baie. Comme il n'ont pût accéder à la prise et tester la ligne jusqu'au bout, on peut s'attendre à un appel avec RDV.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.26">
+			<intervenant>Sébastien et Hélène</intervenant>
+			<commentaires>
+				Le modem et la Centaur n'ont pas été changés.&lt;br&gt;.
+Le matériel a souffert de la condensation importante dans cette armoire intégrée dans le mur.&lt;br&gt;
+Pour limiter la condensation et ses effets, nous avons :&lt;br&gt;
+- Enlever l'isolant sur la porte pour créer une aération.&lt;br&gt;
+- Installer un module de chauffage (15°).&lt;br&gt;
+- Poser temporairement des planches en bois au dessus de la platine TBT pour limiter le suintement de la condensation sur l'électronique. Cette installation doit être améliorée avec des équerres fixée sur les supports en fer et une planche de dimension 60 x 40 cm.&lt;br&gt;
+&lt;br&gt;
+			</commentaires>
+			<evt idEvt="191108.084213">
+				<commentaire>Changement de la Platine TBT :  S/N 24  remplaçé par  S/N 65.</commentaire>
+				<fin>2019.11.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.17">
+			<intervenant>Enedis</intervenant>
+			<evt idEvt="191217.122412">
+				<commentaire>Enedis est actuellement en travaux.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.12.17">
+			<intervenant>Enedis</intervenant>
+			<evt idEvt="191217.122412">
+				<commentaire>Le courant a été rétabli.</commentaire>
+				<fin>2019.12.17</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.20">
+			<intervenant>Hélène</intervenant>
+			<commentaires>Orange vient de me confirmer le passage de La ligne tél + ADSL en ligne internet sans ligne fixe. Pas de coupure de ligne observée.</commentaires>
+		</intervention>
+	</interventions>
+</station>

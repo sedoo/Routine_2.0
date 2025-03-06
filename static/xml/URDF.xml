@@ -1,0 +1,527 @@
+<?xml version="1.0" ?>
+<!-- fichier URDF.xml -->
+<!DOCTYPE station
+  SYSTEM 'station.dtd'>
+<station>
+	<nom>URDF</nom>
+	<identifiant>fti/497gu33</identifiant>
+	<pwd>9xrgyux</pwd>
+	<ip>82.127.224.158</ip>
+	<tel>05 59 88 95 39</tel>
+	<materielDivers>Chargeur</materielDivers>
+	<lienModem>http://82.127.224.158</lienModem>
+	<lienNumeriseur>http://82.127.224.158:8020</lienNumeriseur>
+	<divers>
+	</divers>
+	<gissmo n="125"/>
+        
+	<entretien date="2019.07.12"/>
+	<historique>
+		<evenement date="2014.05.19" idEvt="140523.095037">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2014.05.19</debut>
+			<description>La station n'est plus joignable.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140523.095037</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2014.04.22</fin>
+		</evenement>
+		<evenement date="2014.09.18" idEvt="140922.094520">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2014.09.18</debut>
+			<description>Des impulsions sont visibles sur le signal</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>140922.094520</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.26</fin>
+		</evenement>
+		<evenement date="2015.02.02" idEvt="150205.191304">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.02.02</debut>
+			<description>Dialogue entre modem et kefren I impossible, dialogue avec pc terrain impossible</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150205.191304</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.26</fin>
+		</evenement>
+		<evenement date="2015.03.03" idEvt="150303.135735">
+			<etat>Pb</etat>
+			<typeEvt>connStation</typeEvt>
+			<idEvt>150303.135735</idEvt>
+			<description>Pb de disque, clé USB </description>
+			<battCharg>OK</battCharg>
+			<debut>2015.03.03</debut>
+			<stationID>URDF</stationID>
+			<connStation>HS</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.02.26</fin>
+		</evenement>
+		<evenement date="2015.07.30" idEvt="150817.085624">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2015.07.30</debut>
+			<description>Bruit à BF</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>150817.085624</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>06.08.2015</fin>
+		</evenement>
+		<evenement date="2015.10.23" idEvt="151023.113536">
+			<typeEvt>connRouteurModem</typeEvt>
+			<etat>HS</etat>
+			<debut>2015.10.23</debut>
+			<description>Plus de connexion modem depuis 7h30 TU</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>151023.113536</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>???</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2015.10.26</fin>
+		</evenement>
+		<evenement date="2016.09.13" idEvt="160914.085442">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2016.09.13</debut>
+			<description>Toujours ces basses fréquences. La manip d'hier ne semble pas avoir amélioré grand chose.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>160914.085442</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2016.09.23</fin>
+		</evenement>
+		<evenement date="2017.03.26" idEvt="170322.101924">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2017.03.26</debut>
+			<description>
+			</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>170322.101924</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2017.03.29</fin>
+		</evenement>
+		<evenement date="2018.07.03" idEvt="180703.085659">
+			<typeEvt>battCharg</typeEvt>
+			<etat>Pb</etat>
+			<debut>2018.07.03</debut>
+			<description>La tension diminue. Vérifier le chargeur ou le disjoncteur.</description>
+			<battCharg>Pb</battCharg>
+			<signal>???</signal>
+			<idEvt>180703.085659</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.07.03</fin>
+		</evenement>
+		<evenement date="2018.09.16" idEvt="180918.092202">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2018.09.16</debut>
+			<description>Problème sur la voie Z: Le signal est flottant après une impulsion.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>180918.092202</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>modifier</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2018.11.22</fin>
+		</evenement>
+		<evenement date="2019.04.09" idEvt="190409.085103">
+			<typeEvt>signal</typeEvt>
+			<etat>Pb</etat>
+			<debut>2019.04.09</debut>
+			<description>De fortes impulsions apparaissent très fréquemment sur le signal.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190409.085103</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.05</fin>
+		</evenement>
+		<evenement date="2019.06.28" idEvt="190628.123929">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.06.28</debut>
+			<description>Depuis ce matin minuit, aucune données nous arrivent de la station. Pas de pb avec le numériseur, impossible de se connecter au modem.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>190628.123929</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>Pb</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.07.03</fin>
+		</evenement>
+		<evenement date="2019.10.14" idEvt="191014.090515">
+			<typeEvt>signal</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.10.14</debut>
+			<description>Pas de signal sur la voie Z.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191014.090515</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.05</fin>
+		</evenement>
+		<evenement date="2019.10.16" idEvt="191016.084703">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2019.10.16</debut>
+			<description>Plus de connexion avec la station.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>191016.084703</idEvt>
+			<connRouteurModem>HS</connRouteurModem>
+			<connStation>OK</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>HS</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2019.11.05</fin>
+		</evenement>
+		<evenement date="2020.03.02" idEvt="200302.100304">
+			<typeEvt>connStation</typeEvt>
+			<etat>HS</etat>
+			<debut>2020.03.02</debut>
+			<description>Pas de connexion avec le numériseur. Le modem est OK.</description>
+			<battCharg>OK</battCharg>
+			<signal>???</signal>
+			<idEvt>200302.100304</idEvt>
+			<connRouteurModem>OK</connRouteurModem>
+			<connStation>HS</connStation>
+			<stationID>URDF</stationID>
+			<valid>valider</valid>
+			<etatSignal>OK</etatSignal>
+			<GPSTemps>???</GPSTemps>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+			<fin>2020.03.05</fin>
+		</evenement>
+		<evenement date="2020.03.08" idEvt="200310.122544">
+			<etat>Pb</etat>
+			<typeEvt>signal</typeEvt>
+			<idEvt>200310.122544</idEvt>
+			<description>Le signal perd de l'amplitude sur de longue période. Cela ressemble à des coupures d'alimentation au niveau du capteur LB =&amp;gt; CP (le séisme du 9/3 à bien été enregistré).</description>
+			<battCharg>OK</battCharg>
+			<debut>2020.03.08</debut>
+			<stationID>URDF</stationID>
+			<connStation>OK</connStation>
+			<connRouteurModem>OK</connRouteurModem>
+			<etatSignal>Pb</etatSignal>
+			<valid>valider</valid>
+			<tache>nouveau</tache>
+			<GPSTempsg>OK</GPSTempsg>
+		</evenement>
+	</historique>
+	<interventions>
+		<intervention date="2014.04.22">
+			<intervenant>FG</intervenant>
+			<commentaires>
+				La station n'a pas en ce moment de TSA. Il y a fort à parier que le problème a été causé par l'orage (5 on/off rapprochés?).
+Prévoir de rajouter un TSA et de l’alimenter par batterie.
+			</commentaires>
+			<evt idEvt="140523.095037">
+				<commentaire>Reconfiguration de la station.</commentaire>
+				<fin>2014.04.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.02.26">
+			<intervenant>Grimaud</intervenant>
+			<evt idEvt="150205.191304">
+				<commentaire>Disque ne fonctionne pas, clé USB changée</commentaire>
+				<fin>2015.02.26</fin>
+			</evt>
+			<evt idEvt="140922.094520">
+				<fin>2015.02.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.05.21">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Déplacement sur place pour changer le disque &quot;usb&quot; de la Kefren, malheureusement le nouveau disque n'est pas vu par la station et je ne peux agir dessus avec mon pc, fsck, mk2fs .... (à voir lors de la prochaine réunion technique) ....
+Finalement un nettoyage de la flash est possible depuis Toulouse et cela solutionne le problème.
+			</commentaires>
+		</intervention>
+		<intervention date="2015.08.06">
+			<intervenant>Frank/Helene</intervenant>
+			<commentaires>
+				Un insecte est entré dans le connecteur Kephren-I / Sismo. Le câble de calibration était déconnecté. On a nettoyé l'intérieur de la prise et refait la soudure du câble de calibration. A ce jour, la connectique n'est toujours pas vraiment étanche car le câble sismo est trop gros pour la prise. Prévoir du ruban adhésif isolant.
+On a également marqué le N/S sur la dalle avec le Gyrocompas.
+			</commentaires>
+			<evt idEvt="150817.085624">
+				<fin>06.08.2015</fin>
+			</evt>
+		</intervention>
+		<intervention date="2015.10.23">
+			<intervenant>Helene</intervenant>
+			<commentaires>
+				Appel au 3901:
+Pas de défaut physique sur la ligne. Probablement problème au niveau du modem. Prévoir intervention avec modem et filtre ADSL de rechange + tél pour tester la ligne.
+			</commentaires>
+			<evt idEvt="151023.113536"/>
+		</intervention>
+		<intervention date="2015.10.26">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="151023.113536">
+				<commentaire>La station et le modem ont rebouté vendredi. Les causes n'ont pas été identifiées.</commentaire>
+				<fin>2015.10.26</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.09.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Problème sur le signal depuis quelques jours.
+Sur place rien d'anormal, avec la météo de ce derniers mois tout est sec et le capteur ne semble pas avoir bougé.
+Par contre dans l'armoire métallique, la Kefren a été envahie de fourmies. Je l'ai éteint, nettoyée redémarrer et il semble que le signal soit meilleur. A suivre sur du plus long terme
+			</commentaires>
+		</intervention>
+		<intervention date="2016.09.23">
+			<intervenant>Franck et Seb</intervenant>
+			<evt idEvt="160914.085442">
+				<commentaire>Remplacement du cable</commentaire>
+				<fin>2016.09.23</fin>
+			</evt>
+		</intervention>
+		<intervention date="2016.10.13">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Le modem fonctionnait toujours, mais la Kefren I n'était plus visible. Nous sommes passés vite fait à Urdès mais nous n'avions pas la clé de l'armoire. Nous avons juste coupé le disjoncteur ERDF pour tenter un reboot et cela à fontionné ... </commentaires>
+		</intervention>
+		<intervention date="2017.03.29">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="170322.101924">
+				<commentaire>Reboot de la station Ki.</commentaire>
+				<fin>2017.03.29</fin>
+			</evt>
+		</intervention>
+		<intervention date="2017.07.05">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>impossible de dialoguer avec la station à distance ou en direct sur place, je la démonte et la fait remonter à Toulouse</commentaires>
+		</intervention>
+		<intervention date="2017.07.13">
+			<intervenant>Seb</intervenant>
+			<commentaires>Installation de la D6BB-DIN 0284, une batterie et un chargeur ENAG (PRE00053-12-15).</commentaires>
+		</intervention>
+		<intervention date="2018.07.03">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Nous sommes passés à Urdès et rien d'anormal sur place la batterie était à 12,86v sans le chargeur et le chargeur semble fonctionner correctement. Un ON/OFF du chargeur à été fait.</commentaires>
+			<evt idEvt="180703.085659">
+				<commentaire>
+				</commentaire>
+				<fin>2018.07.03</fin>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.26">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="180918.092202">
+				<commentaire>Le reboot de la station n'a rien donné.</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.09.28">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Sur place, un des fils de la D6BB est en l'air, mais après test et vérification il ne servirait à rien.
+Je déterre le capteur et la connectique caoutchouc du cable coté capteur est fendue.
+Je ramène câble et capteur
+			</commentaires>
+			<evt idEvt="180918.092202">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2018.11.22">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>Sébastien ayant refait la connectique coté capteur (le plastique de protection avait éclaté), je ai remis le capteur dans son emplacement dans un sac poubelle et recouvert de sable.</commentaires>
+			<evt idEvt="180918.092202">
+				<commentaire>capteur remis en place</commentaire>
+				<fin>2018.11.22</fin>
+			</evt>
+		</intervention>
+		<intervention date="2019.06.28">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="190628.123929">
+				<commentaire>Test FT: Notre service internet est affecté par un incident local.</commentaire>
+			</evt>
+			<evt idEvt="190409.085103">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.02">
+			<intervenant>Orange</intervenant>
+			<evt idEvt="190628.123929">
+				<commentaire>D'après le technicien, la ligne est OK, il se synchronise sans problème.</commentaire>
+			</evt>
+			<evt idEvt="190409.085103">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.07.03">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				Le modem bewan et l'adapteur USB D6BB ont surement pris la foudre.
+J'ai changé les 2, modem Mulogic laissé : 00.24.55.07.66.3B
+Entretien débroussailleuse fait
+			</commentaires>
+			<evt idEvt="190628.123929">
+				<commentaire>Modem changé</commentaire>
+				<fin>2019.07.03</fin>
+			</evt>
+			<evt idEvt="190409.085103">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.17">
+			<intervenant>Seb</intervenant>
+			<evt idEvt="191016.084703">
+				<commentaire>Appel FT: Pb sur la ligne, une intervention est programmée aujourd'hui.</commentaire>
+			</evt>
+			<evt idEvt="191014.090515">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="190409.085103">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.10.28">
+			<intervenant>Hélène</intervenant>
+			<commentaires>
+				Test de ligne : votre ligne présente un défaut. Suite à l'intervention de Sébastien le 17/10, un technicien s'est rendu sur site et il a testé la ligne qui est bonne. Il doit donc tester la fin de la ligne en accédant à la prise dans le coffret. J'ai fixé un rdv pour Frank (qui a du recevoir un SMS) le mardi 5 novembre entre 13h00 et 18h00. Pas possible d'avoir un créneau plus restreint. Il est indiqué dans le dossier qu'il n'y a personne sur site et que le technicien doit appelé au moins 50mn avant. C'est bien sûr possible de modifier le RDV.
+Lors de ce déplacement, il faut également prévoir de regarder le capteur et la connectique pour le pb de signal sur la voie Z.
+			</commentaires>
+			<evt idEvt="191016.084703">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="191014.090515">
+				<commentaire>
+				</commentaire>
+			</evt>
+			<evt idEvt="190409.085103">
+				<commentaire>
+				</commentaire>
+			</evt>
+		</intervention>
+		<intervention date="2019.11.05">
+			<intervenant>Grimaud</intervenant>
+			<commentaires>
+				RDV avec Orange pas de soucis de ligne et le modem a tout les voyants au vert, problème de débit ?
+le modem Mulogic 00:24:55:07:66:3b défectueux est remplacé par le Mulogic 00:24:55:07:20:AA  et tout fonctionne à nouveau.
+			</commentaires>
+			<evt idEvt="191016.084703">
+				<commentaire>modem changé</commentaire>
+				<fin>2019.11.05</fin>
+			</evt>
+			<evt idEvt="191014.090515">
+				<commentaire>
+				</commentaire>
+				<fin>2019.11.05</fin>
+			</evt>
+			<evt idEvt="190409.085103">
+				<commentaire>
+				</commentaire>
+				<fin>2019.11.05</fin>
+			</evt>
+		</intervention>
+		<intervention date="2020.03.05">
+			<intervenant>Franck</intervenant>
+			<commentaires>Lors de son arrivée, Franck a observé un clignotement de la LED de la D6BB avec une fréquence de +/-4s alors que le clignotement normal devrait être d'1s. Les significations de ce signal restent inconnues (rien dans la notice et aucun LOG pendant le problème).</commentaires>
+			<evt idEvt="200302.100304">
+				<commentaire>Reboot du numériseur.</commentaire>
+				<fin>2020.03.05</fin>
+			</evt>
+		</intervention>
+	</interventions>
+</station>

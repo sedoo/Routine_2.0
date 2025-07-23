@@ -151,12 +151,12 @@ def CR_intervention():
 
             lFic = request.files.getlist('photos')
             for fic in lFic:
-                if fic.filename is '': break
+                if fic.filename == '': break
 
                 repPhotos = "%s/%s" % (app.config["IMAGE_UPLOADS"], request.form['station'])
                        
                 # renome les photos
-                if re.match(r"\d{8}_", fic.filename) is None:
+                if re.match(r"\d{8}_", fic.filename) == None:
                     dateFic = re.sub(r"(\d{4})\.(\d{2})\.(\d{2})", r"\1\2\3_", request.form['date'])
                     nomPhoto = "%s%s" % (dateFic, fic.filename)
                 else:

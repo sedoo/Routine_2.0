@@ -1,0 +1,9 @@
+.idea/
+docker-compose.yml
+__pycache__/
+venv/
+data/
+app/migrations/
+.project
+Pipfile
+Pipfile.lock

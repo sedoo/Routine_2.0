@@ -17,6 +17,43 @@ from email import encoders
 from PIL import Image
 import glob
 
+profile = os.getenv("APP_PROFILE", "dev")
+port = int(os.getenv("PORT", 8000))  # port injecté par le shell
+
+def get_host_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(('8.8.8.8', 80))
+        ip = s.getsockname()[0]
+    except Exception:
+        ip = '127.0.0.1'
+    finally:
+        s.close()
+    return ip
+
+def shutdown_handler(*args):
+    print("Unregistering from Eureka...")
+    eureka_client.stop()
+    print("Unregistered from Eureka...")
+
+def signal_handler(sig, frame):
+    shutdown_handler()
+    sys.exit(0)
+
+if profile == "prod":
+    instance_ip = get_host_ip()
+    eureka_client.init(
+        eureka_server=SelConfig.EUREKA_SERVER,
+        app_name=SelConfig.APP_NAME,
+        instance_host=instance_ip,
+        instance_port=port,
+        should_register=True
+    )
+
+    atexit.register(shutdown_handler)
+    signal.signal(signal.SIGINT, signal_handler)
+    signal.signal(signal.SIGTERM, signal_handler)
+
 app = Flask(__name__)
 CORS(app)
 

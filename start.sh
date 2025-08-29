@@ -3,7 +3,7 @@
 set -e  # arrêter le script en cas d'erreur
 
 VENV_DIR="venv"
-PYTHON_BIN="$VENV_DIR/bin/python"
+PYTHON_BIN="/usr/bin/python3.11"       # chemin absolu du Python 3.11 système
 PIP_BIN="$VENV_DIR/bin/pip"
 GUNICORN_BIN="$VENV_DIR/bin/gunicorn"
 
@@ -26,16 +26,16 @@ fi
 export APP_PROFILE=${APP_PROFILE:-dev}
 echo "👉 APP_PROFILE=$APP_PROFILE"
 
-# Vérifier que Python existe
+# Vérifier que Python système existe
 if ! command -v $PYTHON_BIN &> /dev/null; then
     echo "❌ $PYTHON_BIN non trouvé. Installe-le avant de continuer."
     exit 1
 fi
 
-# Création ou activation du venv
+# Création du venv si nécessaire
 if [ ! -d "$VENV_DIR" ]; then
     echo "🧪 Création de l'environnement virtuel..."
-    python3.11 -m venv $VENV_DIR
+    $PYTHON_BIN -m venv $VENV_DIR
 fi
 
 # Activer le venv
@@ -46,7 +46,7 @@ else
     exit 1
 fi
 
-# Installer les dépendances si jamais venv fraîchement créé
+# Installer les dépendances dans le venv
 if [ -f "requirements.txt" ]; then
     echo "📦 Installation/upgrade des dépendances..."
     $PIP_BIN install --upgrade pip
@@ -55,21 +55,15 @@ else
     echo "⚠️ Aucun requirements.txt trouvé."
 fi
 
+# Définir le port
 PORT=${PORT:-8000}
-# Déterminer un port libre si non défini
-if [ "$APP_PROFILE" = "prod" ]; then
-  PORT=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
+if [ "$APP_PROFILE" = "prod" ] && [ "$PORT" = "8000" ]; then
+    PORT=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 fi
 echo "🚀 Lancement sur le port $PORT"
 
 export PYTHONPATH=$(pwd)/app
 
-# Lancer gunicorn
-if ! command -v $GUNICORN_BIN &> /dev/null; then
-    echo "❌ gunicorn non trouvé dans le venv. Installe-le avec 'pip install gunicorn'."
-    exit 1
-fi
-
-exec $GUNICORN_BIN \
-    --bind 0.0.0.0:$PORT \
-    routine:app
+# Vérifier gunicorn
+if [ ! -f "$GUNICORN_BIN" ]; then
+    echo "❌ gunicorn non trouvé

@@ -1,17 +1,22 @@
 #!/bin/bash
+set -e
 
-set -e  # arrêter le script en cas d'erreur
+APP_PROFILE=${APP_PROFILE:-dev}
+BASE_DIR="/data/services/Routine_2.0"
+VENV_DIR="$BASE_DIR/venv"
+PYTHON_BIN="/usr/bin/python3.10"   # version dispo sur ton serveur
+PIP_BIN="$VENV_DIR/bin/pip"
+GUNICORN_BIN="$VENV_DIR/bin/gunicorn"
 
-VENV_DIR="venv"
-
-# Déterminer le fichier .env à charger
+# ------------------------
+# 1. Charger les variables d'env
+# ------------------------
 if [ "$APP_PROFILE" = "prod" ]; then
-    ENV_FILE=".env.prod"
+    ENV_FILE="$BASE_DIR/.env.prod"
 else
-    ENV_FILE=".env.dev"
+    ENV_FILE="$BASE_DIR/.env.dev"
 fi
 
-# Charger le fichier choisi
 if [ -f "$ENV_FILE" ]; then
     export $(grep -v '^#' "$ENV_FILE" | xargs)
     echo "👉 Variables chargées depuis $ENV_FILE"
@@ -19,62 +24,42 @@ else
     echo "⚠️ Aucun fichier $ENV_FILE trouvé."
 fi
 
-# Valeur par défaut si non définie
-export APP_PROFILE=${APP_PROFILE:-dev}
-
-# Définir SYSTEM_PYTHON à partir de l'env ou fallback sur Python 3.11 système
-SYSTEM_PYTHON=${SYSTEM_PYTHON:-/usr/bin/python3.11}
-
 echo "👉 APP_PROFILE=$APP_PROFILE"
-echo "👉 SYSTEM_PYTHON=$SYSTEM_PYTHON"
 
-# Vérifier que Python existe
-if ! command -v $SYSTEM_PYTHON &> /dev/null; then
-    echo "❌ $SYSTEM_PYTHON non trouvé."
-    exit 1
-fi
-
-# Créer le venv si nécessaire
+# ------------------------
+# 2. Créer le venv si besoin
+# ------------------------
 if [ ! -d "$VENV_DIR" ]; then
-    echo "🧪 Création de l'environnement virtuel..."
-    $SYSTEM_PYTHON -m venv $VENV_DIR
+    echo "🧪 Création de l'environnement virtuel avec $PYTHON_BIN..."
+    $PYTHON_BIN -m venv "$VENV_DIR"
 fi
 
-# Activer le venv
-if [ -f "$VENV_DIR/bin/activate" ]; then
-    source "$VENV_DIR/bin/activate"
-else
-    echo "❌ Impossible de trouver $VENV_DIR/bin/activate"
-    exit 1
-fi
-
-# Définir les chemins vers pip et gunicorn dans le venv
-PIP_BIN="$VENV_DIR/bin/pip"
-GUNICORN_BIN="$VENV_DIR/bin/gunicorn"
-
-# Installer les dépendances
-if [ -f "requirements.txt" ]; then
+# ------------------------
+# 3. Installer les dépendances
+# ------------------------
+if [ -f "$BASE_DIR/requirements.txt" ]; then
     echo "📦 Installation/upgrade des dépendances..."
+    $VENV_DIR/bin/python -m ensurepip --upgrade
     $PIP_BIN install --upgrade pip
-    $PIP_BIN install -r requirements.txt
+    $PIP_BIN install -r "$BASE_DIR/requirements.txt"
 else
     echo "⚠️ Aucun requirements.txt trouvé."
 fi
 
-# Définir le port
+# ------------------------
+# 4. Lancer gunicorn
+# ------------------------
 PORT=${PORT:-8000}
 if [ "$APP_PROFILE" = "prod" ] && [ "$PORT" = "8000" ]; then
-    PORT=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
+    PORT=$($VENV_DIR/bin/python -c 'import socket; s=socket.socket(); s.bind(("",0)); print(s.getsockname()[1]); s.close()')
 fi
 echo "🚀 Lancement sur le port $PORT"
 
-export PYTHONPATH=$(pwd)/app
+export PYTHONPATH="$BASE_DIR/app"
 
-# Vérifier gunicorn
 if [ ! -f "$GUNICORN_BIN" ]; then
-    echo "❌ gunicorn non trouvé dans le venv. Installe-le avec '$PIP_BIN install gunicorn'."
-    exit 1
+    echo "❌ gunicorn non trouvé dans le venv. Installation..."
+    $PIP_BIN install gunicorn
 fi
 
-# Lancer gunicorn
 exec "$GUNICORN_BIN" --bind 0.0.0.0:$PORT routine:app

@@ -8,6 +8,12 @@ from flask_cors import CORS
 import re
 import os
 
+import config
+import signal
+import atexit
+import socket
+import py_eureka_client.eureka_client as eureka_client
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -43,8 +49,8 @@ def signal_handler(sig, frame):
 if profile == "prod":
     instance_ip = get_host_ip()
     eureka_client.init(
-        eureka_server=SelConfig.EUREKA_SERVER,
-        app_name=SelConfig.APP_NAME,
+        eureka_server=config.EUREKA_SERVER,
+        app_name=config.APP_NAME,
         instance_host=instance_ip,
         instance_port=port,
         should_register=True

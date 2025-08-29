@@ -3,23 +3,21 @@
 set -e  # arrêter le script en cas d'erreur
 
 VENV_DIR="venv"
-PYTHON_BIN="/usr/bin/python3.11"       # chemin absolu du Python 3.11 système
-PIP_BIN="$VENV_DIR/bin/pip"
-GUNICORN_BIN="$VENV_DIR/bin/gunicorn"
+# Les chemins vers pip et gunicorn seront définis **après** création/activation du venv
 
 # Déterminer le fichier .env à charger
 if [ "$APP_PROFILE" = "prod" ]; then
-  ENV_FILE=".env.prod"
+    ENV_FILE=".env.prod"
 else
-  ENV_FILE=".env.dev"
+    ENV_FILE=".env.dev"
 fi
 
 # Charger le fichier choisi
 if [ -f "$ENV_FILE" ]; then
-  export $(grep -v '^#' "$ENV_FILE" | xargs)
-  echo "👉 Variables chargées depuis $ENV_FILE"
+    export $(grep -v '^#' "$ENV_FILE" | xargs)
+    echo "👉 Variables chargées depuis $ENV_FILE"
 else
-  echo "⚠️ Aucun fichier $ENV_FILE trouvé."
+    echo "⚠️ Aucun fichier $ENV_FILE trouvé."
 fi
 
 # Valeur par défaut si non définie
@@ -27,15 +25,15 @@ export APP_PROFILE=${APP_PROFILE:-dev}
 echo "👉 APP_PROFILE=$APP_PROFILE"
 
 # Vérifier que Python système existe
-if ! command -v $PYTHON_BIN &> /dev/null; then
-    echo "❌ $PYTHON_BIN non trouvé. Installe-le avant de continuer."
+if ! command -v $SYSTEM_PYTHON &> /dev/null; then
+    echo "❌ $SYSTEM_PYTHON non trouvé."
     exit 1
 fi
 
-# Création du venv si nécessaire
+# Créer le venv si nécessaire
 if [ ! -d "$VENV_DIR" ]; then
     echo "🧪 Création de l'environnement virtuel..."
-    $PYTHON_BIN -m venv $VENV_DIR
+    $SYSTEM_PYTHON -m venv $VENV_DIR
 fi
 
 # Activer le venv
@@ -46,7 +44,11 @@ else
     exit 1
 fi
 
-# Installer les dépendances dans le venv
+# Définir les chemins vers pip et gunicorn dans le venv
+PIP_BIN="$VENV_DIR/bin/pip"
+GUNICORN_BIN="$VENV_DIR/bin/gunicorn"
+
+# Installer les dépendances
 if [ -f "requirements.txt" ]; then
     echo "📦 Installation/upgrade des dépendances..."
     $PIP_BIN install --upgrade pip
@@ -66,4 +68,9 @@ export PYTHONPATH=$(pwd)/app
 
 # Vérifier gunicorn
 if [ ! -f "$GUNICORN_BIN" ]; then
-    echo "❌ gunicorn non trouvé
+    echo "❌ gunicorn non trouvé dans le venv. Installe-le avec '$PIP_BIN install gunicorn'."
+    exit 1
+fi
+
+# Lancer gunicorn
+exec "$GUNICORN_BIN" --bind 0.0.0.0:$PORT routine:app

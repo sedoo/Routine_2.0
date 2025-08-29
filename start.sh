@@ -3,7 +3,9 @@
 set -e  # arrêter le script en cas d'erreur
 
 VENV_DIR="venv"
-PYTHON_BIN="python3.11"
+PYTHON_BIN="$VENV_DIR/bin/python"
+PIP_BIN="$VENV_DIR/bin/pip"
+GUNICORN_BIN="$VENV_DIR/bin/gunicorn"
 
 # Déterminer le fichier .env à charger
 if [ "$APP_PROFILE" = "prod" ]; then
@@ -33,7 +35,7 @@ fi
 # Création ou activation du venv
 if [ ! -d "$VENV_DIR" ]; then
     echo "🧪 Création de l'environnement virtuel..."
-    $PYTHON_BIN -m venv $VENV_DIR
+    python3.11 -m venv $VENV_DIR
 fi
 
 # Activer le venv
@@ -47,8 +49,8 @@ fi
 # Installer les dépendances si jamais venv fraîchement créé
 if [ -f "requirements.txt" ]; then
     echo "📦 Installation/upgrade des dépendances..."
-    pip install --upgrade pip
-    pip install -r requirements.txt
+    $PIP_BIN install --upgrade pip
+    $PIP_BIN install -r requirements.txt
 else
     echo "⚠️ Aucun requirements.txt trouvé."
 fi
@@ -63,11 +65,11 @@ echo "🚀 Lancement sur le port $PORT"
 export PYTHONPATH=$(pwd)/app
 
 # Lancer gunicorn
-if ! command -v gunicorn &> /dev/null; then
+if ! command -v $GUNICORN_BIN &> /dev/null; then
     echo "❌ gunicorn non trouvé dans le venv. Installe-le avec 'pip install gunicorn'."
     exit 1
 fi
 
-exec gunicorn \
+exec $GUNICORN_BIN \
     --bind 0.0.0.0:$PORT \
     routine:app

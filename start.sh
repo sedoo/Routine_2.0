@@ -1,22 +1,18 @@
 #!/bin/bash
 set -e
 
-APP_PROFILE=${APP_PROFILE:-dev}
 BASE_DIR="/data/services/Routine_2.0"
 VENV_DIR="$BASE_DIR/venv"
-PYTHON_BIN="/usr/bin/python3.10"   # version dispo sur ton serveur
-PIP_BIN="$VENV_DIR/bin/pip"
-GUNICORN_BIN="$VENV_DIR/bin/gunicorn"
+SETUP_SCRIPT="$BASE_DIR/setup.sh"
 
-# ------------------------
-# 1. Charger les variables d'env
-# ------------------------
+# Déterminer l'environnement à charger
 if [ "$APP_PROFILE" = "prod" ]; then
     ENV_FILE="$BASE_DIR/.env.prod"
 else
     ENV_FILE="$BASE_DIR/.env.dev"
 fi
 
+# Charger les variables d'environnement
 if [ -f "$ENV_FILE" ]; then
     export $(grep -v '^#' "$ENV_FILE" | xargs)
     echo "👉 Variables chargées depuis $ENV_FILE"
@@ -24,42 +20,34 @@ else
     echo "⚠️ Aucun fichier $ENV_FILE trouvé."
 fi
 
+export APP_PROFILE=${APP_PROFILE:-dev}
 echo "👉 APP_PROFILE=$APP_PROFILE"
 
-# ------------------------
-# 2. Créer le venv si besoin
-# ------------------------
-if [ ! -d "$VENV_DIR" ]; then
-    echo "🧪 Création de l'environnement virtuel avec $PYTHON_BIN..."
-    $PYTHON_BIN -m venv "$VENV_DIR"
+# Vérifier que le venv et pip existent, sinon lancer setup.sh
+if [ ! -x "$VENV_DIR/bin/pip" ]; then
+    echo "⚠️ venv/pip introuvable, exécution de $SETUP_SCRIPT..."
+    bash "$SETUP_SCRIPT"
 fi
 
-# ------------------------
-# 3. Installer les dépendances
-# ------------------------
-if [ -f "$BASE_DIR/requirements.txt" ]; then
-    echo "📦 Installation/upgrade des dépendances..."
-    $VENV_DIR/bin/python -m ensurepip --upgrade
-    $PIP_BIN install --upgrade pip
-    $PIP_BIN install -r "$BASE_DIR/requirements.txt"
-else
-    echo "⚠️ Aucun requirements.txt trouvé."
+# Activer le venv
+source "$VENV_DIR/bin/activate"
+
+# Vérifier gunicorn
+if [ ! -x "$VENV_DIR/bin/gunicorn" ]; then
+    echo "⚠️ gunicorn introuvable, installation..."
+    pip install gunicorn
 fi
 
-# ------------------------
-# 4. Lancer gunicorn
-# ------------------------
+# Définir le port (8000 par défaut, ou aléatoire en prod si déjà occupé)
 PORT=${PORT:-8000}
-if [ "$APP_PROFILE" = "prod" ] && [ "$PORT" = "8000" ]; then
-    PORT=$($VENV_DIR/bin/python -c 'import socket; s=socket.socket(); s.bind(("",0)); print(s.getsockname()[1]); s.close()')
-fi
-echo "🚀 Lancement sur le port $PORT"
-
-export PYTHONPATH="$BASE_DIR/app"
-
-if [ ! -f "$GUNICORN_BIN" ]; then
-    echo "❌ gunicorn non trouvé dans le venv. Installation..."
-    $PIP_BIN install gunicorn
+if [ "$APP_PROFILE" = "prod" ]; then
+    PORT=$(python -c 'import socket; s=socket.socket(); s.bind(("",0)); print(s.getsockname()[1]); s.close()')
+    echo "🚀 Utilisation du port libre $PORT"
+else
+    echo "🚀 Lancement en mode dev sur le port $PORT"
 fi
 
-exec "$GUNICORN_BIN" --bind 0.0.0.0:$PORT routine:app
+export PORT
+
+# Lancer l'application
+exec gunicorn --bind 0.0.0.0:$PORT routine:app

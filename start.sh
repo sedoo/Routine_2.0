@@ -3,7 +3,6 @@
 set -e  # arrêter le script en cas d'erreur
 
 VENV_DIR="venv"
-# Les chemins vers pip et gunicorn seront définis **après** création/activation du venv
 
 # Déterminer le fichier .env à charger
 if [ "$APP_PROFILE" = "prod" ]; then
@@ -22,9 +21,14 @@ fi
 
 # Valeur par défaut si non définie
 export APP_PROFILE=${APP_PROFILE:-dev}
-echo "👉 APP_PROFILE=$APP_PROFILE"
 
-# Vérifier que Python système existe
+# Définir SYSTEM_PYTHON à partir de l'env ou fallback sur Python 3.11 système
+SYSTEM_PYTHON=${SYSTEM_PYTHON:-/usr/bin/python3.11}
+
+echo "👉 APP_PROFILE=$APP_PROFILE"
+echo "👉 SYSTEM_PYTHON=$SYSTEM_PYTHON"
+
+# Vérifier que Python existe
 if ! command -v $SYSTEM_PYTHON &> /dev/null; then
     echo "❌ $SYSTEM_PYTHON non trouvé."
     exit 1

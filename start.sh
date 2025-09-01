@@ -2,15 +2,18 @@
 set -e
 
 BASE_DIR="/data/services/Routine_2.0"
-VENV_DIR="$BASE_DIR/venv"
-SETUP_SCRIPT="$BASE_DIR/setup.sh"
 
 # Déterminer l'environnement à charger
 if [ "$APP_PROFILE" = "prod" ]; then
     ENV_FILE="$BASE_DIR/.env.prod"
 else
+    BASE_DIR="/home/tromuald/git/Routine_2.0"
     ENV_FILE="$BASE_DIR/.env.dev"
 fi
+
+VENV_DIR="$BASE_DIR/venv"
+SETUP_SCRIPT="$BASE_DIR/setup.sh"
+
 
 # Charger les variables d'environnement
 if [ -f "$ENV_FILE" ]; then

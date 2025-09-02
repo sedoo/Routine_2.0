@@ -39,8 +39,11 @@ def get_host_ip():
 
 def shutdown_handler(*args):
     print("Unregistering from Eureka...")
-    eureka_client.stop()
-    print("Unregistered from Eureka...")
+    try:
+        asyncio.get_event_loop().create_task(eureka_client.stop_async())
+        print("Unregistered from Eureka...")
+    except Exception as e:
+        print(f"⚠️ Eureka stop error: {e}")
 
 def signal_handler(sig, frame):
     shutdown_handler()
@@ -60,7 +63,9 @@ if profile == "prod":
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
 
-app = Flask(__name__)
+app = Flask(__name__,
+    static_url_path="/routine-2-0/static", 
+    static_folder="static")
 CORS(app)
 
 app.config["IMAGE_UPLOADS"] = "./static/Photos"

@@ -7,13 +7,13 @@ from flask import Flask, render_template, request, redirect, url_for
 from flask_cors import CORS
 import re
 import os
-
+import sys
 import config
 import signal
 import atexit
 import socket
 import py_eureka_client.eureka_client as eureka_client
-
+from werkzeug.middleware.proxy_fix import ProxyFix
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -63,10 +63,11 @@ if profile == "prod":
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
 
-app = Flask(__name__,
-    static_url_path="/routine-2-0/static", 
-    static_folder="static")
+app = Flask(__name__)
+app.config['APPLICATION_ROOT'] = '/routine-2-0'
 CORS(app)
+
+app.wsgi_app = ProxyFix(app.wsgi_app, x_prefix=1)
 
 app.config["IMAGE_UPLOADS"] = "./static/Photos"
 

@@ -8,7 +8,7 @@ $(function() {
     // extraction des donnees du fichier xml
     $.ajax( {
         type: 'GET',
-        url: "http://localhost:5000/static/xml/" + $stationID + ".xml",
+        url: "/iriscc-anomalies/static/xml/" + $stationID + ".xml",
         dataType: 'xml',
         success: function(xml) {
 

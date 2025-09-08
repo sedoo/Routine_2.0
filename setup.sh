@@ -1,9 +1,8 @@
 #!/bin/bash
-set -e
 
-# Choisir la version de Python
-PYTHON_BIN="/usr/bin/python3.11"   # ← utilise le Python système dispo
-VENV_DIR="/data/services/Routine_2.0/venv"
+# Modifier cette variable si tu veux une autre version de Python
+PYTHON_BIN="python3.11"
+VENV_DIR="venv"
 
 echo "🔍 Vérification de la présence de $PYTHON_BIN ..."
 if ! command -v $PYTHON_BIN &> /dev/null; then
@@ -11,26 +10,18 @@ if ! command -v $PYTHON_BIN &> /dev/null; then
     exit 1
 fi
 
-echo "🧪 Création de l'environnement virtuel dans $VENV_DIR ..."
+echo "🧪 Création de l'environnement virtuel..."
 $PYTHON_BIN -m venv $VENV_DIR
 
-echo "⚙️ Activation du venv..."
-source "$VENV_DIR/bin/activate"
-
-# Vérifier si pip existe, sinon l'installer avec ensurepip
-if [ ! -x "$VENV_DIR/bin/pip" ]; then
-    echo "⚠️ pip introuvable dans le venv, tentative d'installation..."
-    $VENV_DIR/bin/python -m ensurepip --upgrade --default-pip
-    $VENV_DIR/bin/python -m pip install --upgrade pip setuptools wheel
-fi
+echo "⚙️ Activation de l'environnement virtuel..."
+source $VENV_DIR/bin/activate
 
 echo "📦 Installation des dépendances depuis requirements.txt..."
 if [ -f requirements.txt ]; then
-    $VENV_DIR/bin/pip install -r requirements.txt
+    pip install --upgrade pip
+    pip install -r requirements.txt
 else
     echo "❌ Fichier requirements.txt introuvable."
     deactivate
     exit 1
 fi
-
-echo "✅ Installation terminée dans $VENV_DIR"

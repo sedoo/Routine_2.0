@@ -21,7 +21,7 @@ function pwd() {
     }
 
     if (verifCookie == "NOK") {
-        var verifPWD = "http://" + window.location.host + "/" + prompt("Mot de passe :", "") + ".html?lien=" + lien;
+        var verifPWD = "http://" + window.location.host + "/routine-2-0/" + prompt("Mot de passe :", "") + ".html?lien=" + lien;
         window.location = verifPWD;
     }
 }

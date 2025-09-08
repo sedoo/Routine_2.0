@@ -3,13 +3,17 @@
 {% block head %}
         <script type="text/javascript">
             window.onload = function () {
-                console.log("coucou");
                 init_evenement();		// active le calendrier
                 pwd("CR_intervention.py");
                 if (navigator.userAgent.match(/Android/i)) {
                     document.getElementById("formulaire").innerHTML += '<input type="submit" name="valid" value="valider" class="boutons" />';
                 }
             }
+        </script>
+        <script>
+            window.ENV = {
+                PROFILE: "{{ profile }}"
+            };
         </script>
         <script type="text/javascript" src="{{url_for('static', filename='./js/majStation.js')}}"></script>
 {% endblock %}

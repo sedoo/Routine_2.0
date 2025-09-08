@@ -105,7 +105,7 @@ for sta in  lStations.liste:
 @app.route('/')
 @app.route('/index.html/')
 def listeStations():
-    return render_template('index.html', lStations = lStations, station = station, time = time)
+    return render_template('index.html', lStations = lStations, station = station, time = time, profile=profile)
 
 
 @app.route('/majStation.html', methods=['GET', 'POST'])
@@ -147,7 +147,7 @@ def majStation():
         dateDebut = request.args['debut']
         idEvent = request.args['idEvt']
         connStation = station[stationID].etatActuel["connStation"]
-        return render_template('./majStation.html', stationID = stationID, dateDebut = dateDebut, idEvent = idEvent, connStation = connStation)
+        return render_template('./majStation.html', stationID = stationID, dateDebut = dateDebut, idEvent = idEvent, connStation = connStation, profile=profile)
 
 
 ###############################################################################

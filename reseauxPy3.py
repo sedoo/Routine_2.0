@@ -195,7 +195,10 @@ class Evenement:
 
         for key, value in list(caracEvt.items()):
             newElement =  xmlfic.createElement(key)
-            u = value.decode('utf-8')
+            if isinstance(value, bytes):
+                u = value.decode('utf-8')
+            else:
+                u = value
             text = xmlfic.createTextNode(u)
             newElement.appendChild(text)
             newEvt.appendChild(newElement)
@@ -339,7 +342,7 @@ class Intervention:
         interventions.appendChild(newInt)
 
         # modification de la date du prochain entretien et du motif
-        if entretien['date'] is not '':
+        if entretien['date'] != '':
             dateEntretien = xmlfic.getElementsByTagName('entretien')[0]
             dateEntretien.setAttribute('date', entretien['date'])
             dateEntretien.setAttribute('motif', entretien['motif'])

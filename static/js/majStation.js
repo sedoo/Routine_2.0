@@ -3,12 +3,17 @@ $(function() {
     // lecture de l'ID de la station
     $stationID = $.urlParam('stationID');
     console.log("lecture de l'état de la station: " + $stationID);
+    let baseUrl;
+    if (window.ENV.PROFILE === "prod") {
+        baseUrl = "/routine-2-0/static/xml/";
+    } else {
+        baseUrl = "/static/xml/";
+    }
     //$("#etat.ok").attr('checked', 'checked');
-
     // extraction des donnees du fichier xml
     $.ajax( {
         type: 'GET',
-        url: "/routine-2-0/static/xml/" + $stationID + ".xml",
+        url: baseUrl + $stationID + ".xml",
         dataType: 'xml',
         success: function(xml) {
 

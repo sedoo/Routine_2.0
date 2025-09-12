@@ -72,7 +72,7 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_prefix=1)
 app.config["IMAGE_UPLOADS"] = "./static/Photos"
 
 #destinataires = ['sebastien.benahmed@irap.omp.eu', 'Matthieu.Sylvander@irap.omp.eu', 'Marie.Calvet@irap.omp.eu', 'fgrimaud@irap.omp.eu', 'Helene.pauchet@irap.omp.eu', 'jean.letort@irap.omp.eu']
-destinataires = ['sebastien.benahmed@irap.omp.eu']
+destinataires = ['sebastien.benahmed@irap.omp.eu', 'thomas.romuald@obs-mip.fr']
 
 def icone(sta, fic):
     # fonction qui transforme les images en icones
@@ -111,7 +111,7 @@ def listeStations():
 @app.route('/majStation.html', methods=['GET', 'POST'])
 def majStation():
     if request.method == 'POST':
-
+        print("@app.route('/majStation.html'  methode POST")
         ### Après validation
         # mise à jour du fichier xml
         lst_cle = ""
@@ -119,29 +119,39 @@ def majStation():
             lst_cle = "%s <br/> %s --- %s" % (lst_cle, cle, request.form[cle])
         Evenement().nouveau(request.form)
         
-        # envoi de mail
-        htmlMail = render_template('mail_majStation.html',
-            stationID = request.form['stationID'],
-            dateDebut = request.form['debut'],
-            etat = request.form['etat'],
-            typeEvt = request.form['typeEvt'],
-            description = request.form['description']
-        )
-        leMessage = MIMEMultipart ('alternative') # création d'un message
-        leMessage.attach(MIMEText(htmlMail, 'html', 'utf-8')) # ajout du contenu (texte plus images)
-        leMessage['From']    = "routine@irap.omp.eu"
-        leMessage['To']      = ','.join(destinataires)
-        leMessage['Subject'] = "PB nouveau probleme le %s a la station %s" % (request.form['debut'], request.form['stationID'])
+        try:
+            print("📧 Préparation du message...")
+            # envoi de mail
+            htmlMail = render_template('mail_majStation.html',
+                stationID = request.form['stationID'],
+                dateDebut = request.form['debut'],
+                etat = request.form['etat'],
+                typeEvt = request.form['typeEvt'],
+                description = request.form['description']
+            )
+            leMessage = MIMEMultipart ('alternative') # création d'un message
+            leMessage.attach(MIMEText(htmlMail, 'html', 'utf-8')) # ajout du contenu (texte plus images)
+            leMessage['From']    = "routine@irap.omp.eu"
+            leMessage['To']      = ','.join(destinataires)
+            leMessage['Subject'] = "PB nouveau probleme le %s a la station %s" % (request.form['debut'], request.form['stationID'])
 
-        #leServeurSMTP = smtplib.SMTP('smtp.irap.omp.eu') # envoi du messge
-        leServeurSMTP = smtplib.SMTP('smtp.orange.fr') # envoi du messge
-        leServeurSMTP.sendmail('sebastien.benahmed@irap.omp.eu',
-            destinataires,
-            leMessage.as_string())
-        leServeurSMTP.quit()
+            print("📧 Connexion au serveur SMTP...")
+            #leServeurSMTP = smtplib.SMTP('smtp.irap.omp.eu') # envoi du messge
+            leServeurSMTP = smtplib.SMTP('localhost', 25, timeout=10) # envoi du messge
+            print("📧 Connexion OK")
+            leServeurSMTP.sendmail('sebastien.benahmed@irap.omp.eu',
+                destinataires,
+                leMessage.as_string())
+            print("📧 Envoi terminé")
+            leServeurSMTP.quit()
+            print("📧 Connexion SMTP fermée")
+
+        except Exception as e:
+            print("❌ Erreur lors de l'envoi de mail :", e)
 
         return redirect(url_for('listeStations'))
     else:
+        print("@app.route('/majStation.html'  methode GET")
         ### avant le remplissage du formulaire
         stationID = request.args['stationID']
         dateDebut = request.args['debut']
@@ -244,7 +254,7 @@ def CR_intervention():
         leMessage['Subject'] = "CR de l'intervention de %s le %s pour %s" % (request.form['nomIntervenant'], request.form['date'], request.form['station'])
 
         #leServeurSMTP = smtplib.SMTP('smtp.irap.omp.eu') # envoi du messge
-        leServeurSMTP = smtplib.SMTP('smtp.orange.fr') # envoi du messge
+        leServeurSMTP = smtplib.SMTP('localhost', 25, timeout=10) # envoi du messge
         leServeurSMTP.sendmail('sebastien.benahmed@irap.omp.eu',
             destinataires,
             leMessage.as_string())

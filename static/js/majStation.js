@@ -5,7 +5,7 @@ $(function() {
     console.log("lecture de l'état de la station: " + $stationID);
     let baseUrl;
     if (window.ENV.PROFILE === "prod") {
-        baseUrl = "/routine-2-0/static/xml/";
+        baseUrl = "/" + window.ENV.APP_NAME + "/static/xml/";
     } else {
         baseUrl = "/static/xml/";
     }

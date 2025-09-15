@@ -11,7 +11,8 @@
         <link type="text/css" href="{{url_for('static', filename='./css/calendar.css')}}" rel="stylesheet" />
         <script>
             window.ENV = {
-                PROFILE: "{{ profile }}"
+                PROFILE: "{{ profile }}",
+                APP_NAME: "{{ app_name }}"
             };
         </script>
         <script type="text/javascript" src="{{url_for('static', filename='./js/index.js')}}"></script>

@@ -67,7 +67,7 @@ if profile == "prod":
     signal.signal(signal.SIGTERM, signal_handler)
 
 app = Flask(__name__)
-app.config['APPLICATION_ROOT'] = '/routine-2-0'
+app.config['APPLICATION_ROOT'] = '/' + config.APP_NAME
 CORS(app)
 
 log_path = f"{config.SERVICE_FOLDER}/logs/app.log"
@@ -116,7 +116,7 @@ for sta in  lStations.liste:
 @app.route('/')
 @app.route('/index.html/')
 def listeStations():
-    return render_template('index.html', lStations = lStations, station = station, time = time, profile=profile)
+    return render_template('index.html', lStations = lStations, station = station, time = time, profile=profile, app_name=config.APP_NAME)
 
 
 @app.route('/majStation.html', methods=['GET', 'POST'])
@@ -180,7 +180,8 @@ def majStation():
         dateDebut = request.args['debut']
         idEvent = request.args['idEvt']
         connStation = station[stationID].etatActuel["connStation"]
-        return render_template('./majStation.html', stationID = stationID, dateDebut = dateDebut, idEvent = idEvent, connStation = connStation, profile=profile)
+        return render_template('./majStation.html', stationID = stationID, dateDebut = dateDebut, 
+        idEvent = idEvent, connStation = connStation, profile=profile, app_name=config.APP_NAME)
 
 
 ###############################################################################
@@ -374,7 +375,7 @@ def maintenance():
 @app.route('/renass96.html')
 def pwd():
     #return render_template('pwd.html')
-    return render_template('renass96.html', profile=profile)
+    return render_template('renass96.html', profile=profile, app_name=config.APP_NAME)
 
 
 if __name__ == "__main__":

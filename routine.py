@@ -56,7 +56,7 @@ if profile == "prod":
     instance_ip = get_host_ip()
     eureka_client.init(
         eureka_server=config.EUREKA_SERVER,
-        app_name=config.APP_NAME,
+        app_name=config.PATH_NAME,
         instance_host=instance_ip,
         instance_port=port,
         should_register=True
@@ -67,7 +67,7 @@ if profile == "prod":
     signal.signal(signal.SIGTERM, signal_handler)
 
 app = Flask(__name__)
-app.config['APPLICATION_ROOT'] = '/' + config.APP_NAME
+app.config['APPLICATION_ROOT'] = '/' + config.PATH_NAME
 CORS(app)
 
 log_path = f"{config.SERVICE_FOLDER}/logs/app.log"
@@ -116,7 +116,7 @@ for sta in  lStations.liste:
 @app.route('/')
 @app.route('/index.html/')
 def listeStations():
-    return render_template('index.html', lStations = lStations, station = station, time = time, profile=profile, app_name=config.APP_NAME)
+    return render_template('index.html', lStations = lStations, station = station, time = time, profile=profile, path_name=config.PATH_NAME)
 
 
 @app.route('/majStation.html', methods=['GET', 'POST'])
@@ -181,7 +181,7 @@ def majStation():
         idEvent = request.args['idEvt']
         connStation = station[stationID].etatActuel["connStation"]
         return render_template('./majStation.html', stationID = stationID, dateDebut = dateDebut, 
-        idEvent = idEvent, connStation = connStation, profile=profile, app_name=config.APP_NAME)
+        idEvent = idEvent, connStation = connStation, profile=profile, path_name=config.PATH_NAME)
 
 
 ###############################################################################
@@ -375,7 +375,7 @@ def maintenance():
 @app.route('/renass96.html')
 def pwd():
     #return render_template('pwd.html')
-    return render_template('renass96.html', profile=profile, app_name=config.APP_NAME)
+    return render_template('renass96.html', profile=profile, path_name=config.PATH_NAME)
 
 
 if __name__ == "__main__":

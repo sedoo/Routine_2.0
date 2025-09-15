@@ -25,7 +25,7 @@ function pwd() {
     if (verifCookie == "NOK") {
         let baseUrl = "http://" + window.location.host + "/"
         if (window.ENV.PROFILE === "prod") {
-            baseUrl = "http://" + window.location.host + "/" + window.ENV.APP_NAME + "/";
+            baseUrl = "http://" + window.location.host + "/" + window.ENV.PATH_NAME + "/";
         }
         console.log(baseUrl)
         var verifPWD = baseUrl + prompt("Mot de passe :", "") + ".html?lien=" + lien;

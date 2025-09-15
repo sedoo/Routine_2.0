@@ -4,6 +4,11 @@
         <title></title>
         <link type="text/css" href="style.css" rel="stylesheet" />
         <link type="text/css" href="styleForm.css" rel="stylesheet" />
+        <script>
+            window.ENV = {
+                PROFILE: "{{ profile }}"
+            };
+        </script>
         <script type="text/javascript" src="{{url_for('static', filename='./js/pwd.js')}}"></script>
     </head>
     <body onload="retour()">

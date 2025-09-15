@@ -8,7 +8,9 @@ from flask_cors import CORS
 import re
 import os
 import sys
-import config
+from configuration import config
+from logger_config import setup_logging
+import logging
 import signal
 import atexit
 import socket
@@ -19,6 +21,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
+
 
 from PIL import Image
 import glob
@@ -67,6 +70,14 @@ app = Flask(__name__)
 app.config['APPLICATION_ROOT'] = '/routine-2-0'
 CORS(app)
 
+log_path = f"{config.SERVICE_FOLDER}/logs/app.log"
+setup_logging(log_path, debug=config.DEBUG)
+logger = logging.getLogger(__name__)
+
+logger.info("Test log.")
+logger.info(log_path)
+
+
 app.wsgi_app = ProxyFix(app.wsgi_app, x_prefix=1)
 
 app.config["IMAGE_UPLOADS"] = "./static/Photos"
@@ -111,7 +122,6 @@ def listeStations():
 @app.route('/majStation.html', methods=['GET', 'POST'])
 def majStation():
     if request.method == 'POST':
-        print("@app.route('/majStation.html'  methode POST")
         ### Après validation
         # mise à jour du fichier xml
         lst_cle = ""
@@ -119,45 +129,47 @@ def majStation():
             lst_cle = "%s <br/> %s --- %s" % (lst_cle, cle, request.form[cle])
         Evenement().nouveau(request.form)
         
+        htmlMail = render_template(
+            'mail_majStation.html',
+            stationID=request.form['stationID'],
+            dateDebut=request.form['debut'],
+            etat=request.form['etat'],
+            typeEvt=request.form['typeEvt'],
+            description=request.form['description']
+        )
+        leMessage = MIMEMultipart('alternative')  # création d'un message
+        leMessage.attach(MIMEText(htmlMail, 'html', 'utf-8'))  # ajout du contenu
+        leMessage['From'] = "routine@irap.omp.eu"
+        leMessage['To'] = ','.join(destinataires)
+        leMessage['Subject'] = "PB nouveau probleme le %s a la station %s" % (
+            request.form['debut'], request.form['stationID']
+        )
+
         if profile == "prod":
             try:
-                print("📧 Préparation du message...")
+                logger.info("📧 Préparation du message...")
                 # envoi de mail
-                htmlMail = render_template(
-                    'mail_majStation.html',
-                    stationID=request.form['stationID'],
-                    dateDebut=request.form['debut'],
-                    etat=request.form['etat'],
-                    typeEvt=request.form['typeEvt'],
-                    description=request.form['description']
-                )
-                leMessage = MIMEMultipart('alternative')  # création d'un message
-                leMessage.attach(MIMEText(htmlMail, 'html', 'utf-8'))  # ajout du contenu
-                leMessage['From'] = "routine@irap.omp.eu"
-                leMessage['To'] = ','.join(destinataires)
-                leMessage['Subject'] = "PB nouveau probleme le %s a la station %s" % (
-                    request.form['debut'], request.form['stationID']
-                )
 
-                print("📧 Connexion au serveur SMTP...")
+                logger.info("📧 Connexion au serveur SMTP...")
                 # leServeurSMTP = smtplib.SMTP('smtp.irap.omp.eu')
                 leServeurSMTP = smtplib.SMTP('localhost', 25, timeout=10)
-                print("📧 Connexion OK")
+                logger.info("📧 Connexion OK")
 
                 leServeurSMTP.sendmail(
                     'sebastien.benahmed@irap.omp.eu',
                     destinataires,
                     leMessage.as_string()
                 )
-                print("📧 Envoi terminé")
+                logger.info("📧 Envoi terminé")
 
                 leServeurSMTP.quit()
-                print("📧 Connexion SMTP fermée")
+                logger.info("📧 Connexion SMTP fermée")
 
             except Exception as e:
                 print("❌ Erreur lors de l'envoi de mail :", e)
         else:
-            print("✉️ Envoi de mail désactivé (PROFILE != prod)")
+            logger.info("✉️ Envoi de mail désactivé (PROFILE != prod)")
+            logger.info(leMessage.as_string())
 
 
         return redirect(url_for('listeStations'))
@@ -362,7 +374,7 @@ def maintenance():
 @app.route('/renass96.html')
 def pwd():
     #return render_template('pwd.html')
-    return render_template('renass96.html')
+    return render_template('renass96.html', profile=profile)
 
 
 if __name__ == "__main__":

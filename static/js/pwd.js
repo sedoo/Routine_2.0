@@ -1,5 +1,7 @@
 //function pwd(lien) {
 function pwd() {
+    console.log("ENV in pwd.js:", window.ENV);
+
     /////////////////////////////////////////////////////////
     // verifie la presence d'un cookie
     // si le cookie n'est pas présent, envoie vers la page mot de passe
@@ -21,7 +23,12 @@ function pwd() {
     }
 
     if (verifCookie == "NOK") {
-        var verifPWD = "http://" + window.location.host + "/routine-2-0/" + prompt("Mot de passe :", "") + ".html?lien=" + lien;
+        let baseUrl = "http://" + window.location.host + "/"
+        if (window.ENV.PROFILE === "prod") {
+            baseUrl = "http://" + window.location.host + "/routine-2-0/";
+        }
+        console.log(baseUrl)
+        var verifPWD = baseUrl + prompt("Mot de passe :", "") + ".html?lien=" + lien;
         window.location = verifPWD;
     }
 }

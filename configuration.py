@@ -7,7 +7,7 @@ class Config:
     HOST = "0.0.0.0"
     EUREKA_ENABLED = False
     EUREKA_SERVER = "http://localhost:8761/eureka"
-    APP_NAME = "Routine-2-0"
+    APP_NAME = "Routine_2.0"
 
     ARCHIVE_ROOT = os.getenv("ARCHIVE_FOLDER", "/data/archive")
     SERVICE_ROOT = os.getenv("SERVICE_ROOT", "/data/services")
@@ -26,6 +26,8 @@ class DevConfig(Config):
     PORT = 5000
     RELOADER = True
     EUREKA_ENABLED = False
+    SERVICE_ROOT = os.getenv("SERVICE_ROOT", "..")
+    
 
 
 class ProdConfig(Config):

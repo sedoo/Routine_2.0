@@ -7,3 +7,4 @@ app/migrations/
 .project
 Pipfile
 Pipfile.lock
+logs/

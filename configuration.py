@@ -6,7 +6,7 @@ class Config:
     RELOADER = False
     HOST = "0.0.0.0"
     EUREKA_ENABLED = False
-    EUREKA_SERVER = "http://localhost:8761/eureka"
+    EUREKA_SERVER = "http://gtwapi:8761/eureka"
     APP_NAME = "Routine_2.0"
 
     ARCHIVE_ROOT = os.getenv("ARCHIVE_FOLDER", "/data/archive")

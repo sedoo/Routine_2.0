@@ -119,35 +119,46 @@ def majStation():
             lst_cle = "%s <br/> %s --- %s" % (lst_cle, cle, request.form[cle])
         Evenement().nouveau(request.form)
         
-        try:
-            print("📧 Préparation du message...")
-            # envoi de mail
-            htmlMail = render_template('mail_majStation.html',
-                stationID = request.form['stationID'],
-                dateDebut = request.form['debut'],
-                etat = request.form['etat'],
-                typeEvt = request.form['typeEvt'],
-                description = request.form['description']
-            )
-            leMessage = MIMEMultipart ('alternative') # création d'un message
-            leMessage.attach(MIMEText(htmlMail, 'html', 'utf-8')) # ajout du contenu (texte plus images)
-            leMessage['From']    = "routine@irap.omp.eu"
-            leMessage['To']      = ','.join(destinataires)
-            leMessage['Subject'] = "PB nouveau probleme le %s a la station %s" % (request.form['debut'], request.form['stationID'])
+        if profile == "prod":
+            try:
+                print("📧 Préparation du message...")
+                # envoi de mail
+                htmlMail = render_template(
+                    'mail_majStation.html',
+                    stationID=request.form['stationID'],
+                    dateDebut=request.form['debut'],
+                    etat=request.form['etat'],
+                    typeEvt=request.form['typeEvt'],
+                    description=request.form['description']
+                )
+                leMessage = MIMEMultipart('alternative')  # création d'un message
+                leMessage.attach(MIMEText(htmlMail, 'html', 'utf-8'))  # ajout du contenu
+                leMessage['From'] = "routine@irap.omp.eu"
+                leMessage['To'] = ','.join(destinataires)
+                leMessage['Subject'] = "PB nouveau probleme le %s a la station %s" % (
+                    request.form['debut'], request.form['stationID']
+                )
 
-            print("📧 Connexion au serveur SMTP...")
-            #leServeurSMTP = smtplib.SMTP('smtp.irap.omp.eu') # envoi du messge
-            leServeurSMTP = smtplib.SMTP('localhost', 25, timeout=10) # envoi du messge
-            print("📧 Connexion OK")
-            leServeurSMTP.sendmail('sebastien.benahmed@irap.omp.eu',
-                destinataires,
-                leMessage.as_string())
-            print("📧 Envoi terminé")
-            leServeurSMTP.quit()
-            print("📧 Connexion SMTP fermée")
+                print("📧 Connexion au serveur SMTP...")
+                # leServeurSMTP = smtplib.SMTP('smtp.irap.omp.eu')
+                leServeurSMTP = smtplib.SMTP('localhost', 25, timeout=10)
+                print("📧 Connexion OK")
 
-        except Exception as e:
-            print("❌ Erreur lors de l'envoi de mail :", e)
+                leServeurSMTP.sendmail(
+                    'sebastien.benahmed@irap.omp.eu',
+                    destinataires,
+                    leMessage.as_string()
+                )
+                print("📧 Envoi terminé")
+
+                leServeurSMTP.quit()
+                print("📧 Connexion SMTP fermée")
+
+            except Exception as e:
+                print("❌ Erreur lors de l'envoi de mail :", e)
+        else:
+            print("✉️ Envoi de mail désactivé (PROFILE != prod)")
+
 
         return redirect(url_for('listeStations'))
     else:
